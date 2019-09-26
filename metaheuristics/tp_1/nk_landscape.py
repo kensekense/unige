@@ -40,7 +40,7 @@ def evaluate_fitness (seq, kVal, lookup):
     '''
     try:
         fitness = 0
-        for i in range(0,len(seq)): #use the lookup table to generate the fitness for the sequence
+        for i in range(0,len(seq)-kVal): #use the lookup table to generate the fitness for the sequence
             fitness += lookup[s_bits(seq[i:i+kVal+1])] #defined 'window' of bit evaluation according to kVal
         return fitness
 
@@ -57,14 +57,29 @@ def calculate_neighbors (point):
     for i in range(0,len(point)):
         bits = point[:] #copies point to bits by value
         bits[i] = int(not bits[i]) #inverts the bit at position i
-        neighbors.append(s_bits(bits))
+        neighbors.append(bits)
     return neighbors
 
-def deterministic_hill (point, neighbors):
+def deterministic_hill (point, neighbors, kVal, lookup):
     '''
-    given a point and a list of neighbors, return the next choice according to deterministic hill-climbing
+    given a point and a list of neighbors, return the next choice according to deterministic hill-climbing.
+    kVal is the K value.
+    lookup should be a dictionary that corresponds to the local fitness function fk.
     '''
+    start = point[:] #copy the starting point
+    while(not found_best):
+        start_fit = evaluate_fitness(start, kVal, lookup) #start at a random starting point, and define its fitness
+        max_fit = start_fit #maximum fitness starts at the starting fitness
+        for n in neighbors:
+            n_fit = evaluate_fitness(n, kVal, lookup) #evaluate the fitness of the neighbor
+            if n_fit >= max_fit:
+                max_fit = n_fit
+                choice = n[:] #choose the neighbor
+        #here
+        start = choice[:] #set new start as your best choice
+
     pass
+
 
 def probabilistic_hill (point, neighbors):
     '''
