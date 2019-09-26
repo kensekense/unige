@@ -1,0 +1,23 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix : <http://www.unige.ch/>.
+
+:models a :course ;
+  :name "Modélisation et simulation de phénomènes naturels"@fr ;
+  :name "Modeling and Simulation of Natural Phenomena"@en ;
+  :hours "4"^^xsd:integer ;
+  :professor :Chopard_Bastien, :Falcone_Jean-Luc, :Latt_Jonas ;
+  :exam :models-exam ;
+  :description "Introduction à des méthodes de modélisation et de simulations de phénomènes naturels et de systèmes complexes" ;
+  :topic :models-concepts .
+
+:models-exam: :exam-type "oral", "tp" .
+:models-concepts: :concept-description "Concepts de modélisation informatique de processus naturels",
+  "Les systèmes dynamiques",
+  "La dynamique moléculaire et méthode de Monte-Carlo",
+  "Les simulations à événements discrets Systèmes multi-agents",
+  "Les Automates Cellulaires",
+  "La méthode de Boltzmann sur réseau",
+  "Les réseaux complexes",
+  "Systèmes multi-agents" .
