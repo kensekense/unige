@@ -33,8 +33,24 @@ def l_bits(bit_s):
         l_bit.append(int(char))
     return l_bit
 
+def compare_bits(a, b):
+    '''
+    compares two bit sequences to see if they are equal
+    '''
+    try:
+        for i in range(0, len(a)):
+            if a[i] == b[i]:
+                continue
+            else:
+                return False
+        return True
+    except:
+        print("Error. Mismatched bit comparison.")
+        exit()
+
 def evaluate_fitness (seq, kVal, lookup):
     '''
+    takes a sequence of bits and returns the fitness (int).
     evaluates a sequence of bits according to the K value.
     lookup should be a dictionary that corresponds to the local fitness function fk.
     '''
@@ -60,32 +76,31 @@ def calculate_neighbors (point):
         neighbors.append(bits)
     return neighbors
 
-def deterministic_hill (point, neighbors, kVal, lookup):
+def deterministic_hill (point, kVal, lookup):
     '''
-    given a point and a list of neighbors, return the next choice according to deterministic hill-climbing.
+    given a point, return the point with the best fitness according to deterministic hill-climbing.
     kVal is the K value.
-    lookup should be a dictionary that corresponds to the local fitness function fk.
+    lookup is a dictionary that corresponds to the local fitness function fk.
     '''
-    start = point[:] #copy the starting point
-    while(not found_best):
-        start_fit = evaluate_fitness(start, kVal, lookup) #start at a random starting point, and define its fitness
-        max_fit = start_fit #maximum fitness starts at the starting fitness
-        for n in neighbors:
-            n_fit = evaluate_fitness(n, kVal, lookup) #evaluate the fitness of the neighbor
-            if n_fit >= max_fit:
-                max_fit = n_fit
-                choice = n[:] #choose the neighbor
-        #here
-        start = choice[:] #set new start as your best choice
-
-    pass
+    current = point[:] #sets current position to the point
+    neighbors = calculate_neighbors(current)
+    neighbor_fits = [evaluate_fitness(x, kVal, lookup) for x in neighbors] #creates a list of fits
+    best = neighbors[neighbor_fits.index(max(neighbor_fits))] #this is the best neighbor
+    if evaluate_fitness(current, kVal, lookup) >= evaluate_fitness(best, kVal, lookup): #if our fit is the best fit
+        return current
+    else:
+        print(best) #prints the current best for reference
+        return deterministic_hill(best, kVal, lookup) #iterate until best is current
 
 
-def probabilistic_hill (point, neighbors):
+def probabilistic_hill (point, kVal, lookup):
     '''
-    given a point and list of neighbors, return the the next choice according to probabilistic hill-climbing
+    given a point, return the point with the best fitness according to probabilistic hill-climbing.
     '''
     pass
 
 if __name__ == "__main__":
-    pass
+    a = start_location(21)
+    print(a)
+    best = deterministic_hill(a, 0, {"0":0, "1":1})
+    print(best)
