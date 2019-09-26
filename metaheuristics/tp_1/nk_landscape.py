@@ -33,21 +33,6 @@ def l_bits(bit_s):
         l_bit.append(int(char))
     return l_bit
 
-def compare_bits(a, b):
-    '''
-    compares two bit sequences to see if they are equal
-    '''
-    try:
-        for i in range(0, len(a)):
-            if a[i] == b[i]:
-                continue
-            else:
-                return False
-        return True
-    except:
-        print("Error. Mismatched bit comparison.")
-        exit()
-
 def evaluate_fitness (seq, kVal, lookup):
     '''
     takes a sequence of bits and returns the fitness (int).
