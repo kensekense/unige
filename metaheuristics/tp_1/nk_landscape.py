@@ -181,8 +181,8 @@ def run_trial(N, K, method):
         a = run_tp(N, K, method)
         trial[i] = a #store the solution
     hist = [0]*len(trial)
-    for j in range(0, len(trial)):
-        for d in range(j, len(trial)): #for comparing agaist the rest
+    for j in range(len(trial)):
+        for d in range(len(trial)): #for comparing agaist the rest
             hist[j] += calculate_hamming(trial[j], trial[d]) #accumulate the hamming distances
     res = {}
     for c in range (0, len(trial)):
