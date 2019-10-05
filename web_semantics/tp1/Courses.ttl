@@ -1,0 +1,57 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+
+@prefix : <http://cui.unige.ch/> . 
+
+
+# Description of SWT course
+
+:swt-course a :Course .
+:swt-course :name "Semantic web technologies" .
+:swt-course :name "Technologies du web sémantique" .
+
+:swt-course :teacher :gilles-falquet, :claudine-metral .
+
+:swt-course :localization :room-316 .
+
+:swt-course :hours-per-week 4 ;
+            :keyword "RDF", "RDFS", "SPARQL", "OWL";
+            :exam :swt-exam .
+    
+:swt-exam :exam-type "semester work", "written exam" . 
+
+:master-cui a :MasterProgram; :has-part _:xxx . 
+_:xxx :course :swt-course ; 
+      :is-optional "false"^^xsd:boolean ;
+      :credits 4 . 
+
+      
+# Description of HMI course       
+
+:hmi-course a :Course .
+:hmi-course :name "Interfaces personne-machine" .
+:hmi-course :name "Human-machine interfaces" .
+:hmi-course :teacher :gilles-falquet .
+:hmi-course :teacher :patrick-roth .
+:hmi-course :localization :room-101 ; :exam :hmi-exam.
+:hmi-exam :exam-type "written exam". 
+
+
+# Description of KOS course      
+
+:kos-course a :Course .
+:kos-course :name "Knowledge organization systems" .
+:kos-course :keyword "OWL" .
+:kos-course :teacher :gilles-falquet .
+:kos-course :teacher :claudine-metral .
+:kos-course :localization :room-301 .
+:kos-course :exam [:exam-type "semester work"; :deadline "2020-06-29"^^xsd:date] .
+
+:master-cui :has-part _:yyy . 
+_:yyy :course :kos-course ; 
+      :is-optional "true"^^xsd:boolean ;
+      :credits 4 . 
+
+
+
