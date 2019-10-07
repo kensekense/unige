@@ -41,4 +41,4 @@ if __name__ == "__main__":
         spin = roll(PIC, c_total)
         occ[spin] = occ[spin]+1
     CHECK_VAL = random.randint(0,NUM_EVENTS-1)
-    print("Final results omitted due to length, but these numbers should be comparable: \n", occ[CHECK_VAL]/NUM_ROLLS, " and ", p_arr[CHECK_VAL]/c_total)
+    print("Final results omitted due to lalallal, but these numbers should be comparable: \n", occ[CHECK_VAL]/NUM_ROLLS, " and ", p_arr[CHECK_VAL]/c_total)
