@@ -27,24 +27,33 @@ class QuadraticAssignment:
         self.W = np.array(self.document[self.N+1:]) #the rest should be W
 
         #generate initial solution
-        #TODO: scrambling the array brings up the issue with the connections, since every point is connected to every other point
-        #how can we know the distances without drawing the entire graph?
-        #because swapping two placements affects some connections, and not others
-        #maybe we can think about it as "placing" the distances between points
-        #if we're "placing" distances, then how do we get a preliminary distance chart? (this is the triangle)
-        #so we can store all the values in the triangle
-        #triangle is 2x for loop i,j with j = i+1
-        self.triangle = [] #for reference there should be (n+1)*n/2 values in triangle
+        self.placement = [None]*self.N
         for i in range(0, self.N):
-            for j in range(i+1, self.N):
-                self.triangle.append(self.D[i][j])
-        #this is fine because when we change connections, we can just change values according to rows and columns
-        #the ones that don't change will not be affected, as long as we originally scramble by placing distances
-        #we should be fine
-
+            self.placement[i] = i
+        random.shuffle(self.placement) #random initial state
+        for i in range(0, self.N):
+            self.placement[i] = (i, self.placement[i]) #put it in (location, facility) forme.
 
         #create empty tabu list (tabu list should be a matrix of NxN, initialized with 0s)
+        self.iteration = 0
+        self.tabu_list = np.zeros((self.N, self.N))
         #note that tabu list has a short and long term memory mechanism that we should separate
+
+    def calculate_fitness(self, N, D, W, configuration):
+        sum = 0
+        #triangle is 2x for loop i,j with j = i+1
+        for i in range(0, N):
+            for j in range(i+1, N):
+                sum += W[configuration[i][1]][configuration[j][1]]*D[configuration[i][0]][configuration[j][0]]
+        return sum*2
+
+    def partial_sum(self, N, D, W, swap):
+        partial = 0
+        for k in range(0,N):
+            if(k!=swap[0][0] and k!=swap[1][0]):
+                partial += (W[swap[1][1]][k]-W[swap[0][1]][k])*(D[swap[0][0]][k]-D[swap[1][0]][k])
+
+        return partial  * 2
 
     def generate_neighbor(self):
         '''
@@ -68,7 +77,13 @@ class QuadraticAssignment:
 if __name__ == "__main__":
 
     #read the .dat file here and fill the arrays
-
+    #default = [(0,0),(1,1),(2,2),(3,3),(4,4),(5,5),(6,6),(7,7),(8,8),(9,9),(10,10),(11,11)]
+    #test1 = [(0,1),(1,0),(2,2),(3,3),(4,4),(5,5),(6,6),(7,7),(8,8),(9,9),(10,10),(11,11)]
     a = QuadraticAssignment("1.dat")
     #print("{0} \n {1} \n {2}".format(a.N,a.D,a.W))
-    print("{0} \n {1}".format(a.triangle,len(a.triangle)))
+    #print(a.placement)
+    #print(a.tabu_list)
+    #print(a.calculate_fitness(a.N, a.D, a.W, a.placement))
+    #print(a.calculate_fitness(a.N, a.D, a.W, default))
+    #print(a.calculate_fitness(a.N, a.D, a.W, test1))
+    #print(a.partial_sum(a.N, a.D, a.W, [(0,0), (1,1)]))
