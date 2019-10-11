@@ -105,6 +105,7 @@ def evaluation(c_mat):
 	#TODO
 	'''
 	takes a confusion matrix in the form of a dictionary of dictionary
+	where pos/pos is true positive, pos/neg is false negative, neg/neg is true negative, and neg/pos is false positive
 	'''
 	print("========== \n")
 	print("Confusion Table 1: \n")
