@@ -82,6 +82,28 @@ class QuadraticAssignment:
                 if advantage < 0:
                     return pot_swap
 
+    def long_term_memory(self, N, iter, taboo):
+        '''
+        simulate the long-term memory of a tabu-list
+        '''
+        smallest = math.inf #so that anything will be smaller on the first run
+        second_smallest = math.inf
+        old_timer = [(0,0),(0,0)] #placeholder for the result
+
+        for loc in range(0, len(taboo)): #search the entire tabu list for smallest value
+            for fac in range(0, len(taboo)):
+                if( iter-taboo[loc][fac] >= (N*N) ): #if move has not been made last u iterations
+                    if taboo[loc][fac] < smallest:
+                        #set new smallest
+                        smallest = taboo[loc][fac]
+                        old_timer[0] = (loc,fac)
+                    if (taboo[loc][fac] < second_smallest) and (taboo[loc][fac] > smallest):
+                        #set new second_smallest
+                        second_smallest = taboo[loc][fac]
+                        old_timer[1] = (loc,fac)
+
+        return old_timer #the swap that we need to make according to long-term memory
+
     def tabu_search(self, N, D, W, iter, tenure, taboo, configuration):
         '''
         tabu search algorithm placeholder.
@@ -100,6 +122,11 @@ class QuadraticAssignment:
             #calculate the advantage we get from this swap
             advantage = self.partial_sum(N,D,W,pot_swap)'''
         pot_swap = self.suitable_selection(N,D,W, configuration)
+
+        #determine if long-term memory has a requst
+        request = self.long_term_memory(N, iter, taboo)
+        if(request != [(0,0),(0,0)]): #long-term memory has a request
+            pot_swap = request
 
         #choose the best non-tabu neighbor, first run is okay
         if(iter == 0 or (taboo[pot_swap[0][0]][pot_swap[1][1]] != taboo[pot_swap[1][0]][pot_swap[0][1]])): #if a valid placement
@@ -122,10 +149,11 @@ class QuadraticAssignment:
 
 if __name__ == "__main__":
 
+    print("Please uncomment the required section to run code.")
     #read the .dat file here and fill the arrays
-    default = [(0,0),(1,1),(2,2),(3,3),(4,4),(5,5),(6,6),(7,7),(8,8),(9,9),(10,10),(11,11)]
+    #default = [(0,0),(1,1),(2,2),(3,3),(4,4),(5,5),(6,6),(7,7),(8,8),(9,9),(10,10),(11,11)]
     #test1 = [(0,1),(1,0),(2,2),(3,3),(4,4),(5,5),(6,6),(7,7),(8,8),(9,9),(10,10),(11,11)]
-    a = QuadraticAssignment("1.dat", 15000) #core dumps after 15000 bc python
+    #a = QuadraticAssignment("1.dat", 15000) #core dumps after 15000 bc python
     #print("{0} \n {1} \n {2}".format(a.N,a.D,a.W))
     #print(a.placement)
     #print(a.tabu_list)
@@ -133,8 +161,37 @@ if __name__ == "__main__":
     #print(a.calculate_fitness(a.N, a.D, a.W, default))
     #print(a.calculate_fitness(a.N, a.D, a.W, test1))
     #print(a.partial_sum(a.N, a.D, a.W, [(0,0), (1,1)]))
-    print(a.placement, a.calculate_fitness(a.N, a.D, a.W, a.placement))
+    #print(a.placement, a.calculate_fitness(a.N, a.D, a.W, a.placement))
     #print(default, a.calculate_fitness(a.N, a.D, a.W, default))
-    result = a.tabu_search(a.N, a.D, a.W, a.iteration, 1, a.tabu_list, a.placement)
+    #result = a.tabu_search(a.N, a.D, a.W, a.iteration, 1, a.tabu_list, a.placement)
     #result = a.tabu_search(a.N, a.D, a.W, a.iteration, 0.5, a.tabu_list, default)
-    print(result, a.calculate_fitness(a.N, a.D, a.W, result))
+    #print(result, a.calculate_fitness(a.N, a.D, a.W, result))
+
+    #run 10 times for each tabu tenure 1, 0.5n, 0.9n
+    """tenure1_trial = []
+    ttenure = 1
+    for trial in range(0, 10):
+        tsearch = QuadraticAssignment("1.dat", 15000) #core dumps common after 15k bc python limitations
+        ogfit = tsearch.calculate_fitness(tsearch.N, tsearch.D, tsearch.W, tsearch.placement)
+        resfit = tsearch.calculate_fitness(tsearch.N, tsearch.D, tsearch.W, tsearch.tabu_search(tsearch.N, tsearch.D, tsearch.W, 0,ttenure, tsearch.tabu_list, tsearch.placement))
+        tenure1_trial.append((ogfit, resfit))"""
+
+    """tenure05_trial = []
+    ttenure = 6
+    for trial in range(0,10):
+        tsearch = QuadraticAssignment("1.dat", 15000) #core dumps common after 15k bc python limitations
+        ogfit = tsearch.calculate_fitness(tsearch.N, tsearch.D, tsearch.W, tsearch.placement)
+        resfit = tsearch.calculate_fitness(tsearch.N, tsearch.D, tsearch.W, tsearch.tabu_search(tsearch.N, tsearch.D, tsearch.W, 0,ttenure, tsearch.tabu_list, tsearch.placement))
+        tenure05_trial.append((ogfit, resfit))"""
+
+    """tenure09_trial = []
+    ttenure = 11
+    for trial in range(0,10):
+        tsearch = QuadraticAssignment("1.dat", 15000) #core dumps common after 15k bc python limitations
+        ogfit = tsearch.calculate_fitness(tsearch.N, tsearch.D, tsearch.W, tsearch.placement)
+        resfit = tsearch.calculate_fitness(tsearch.N, tsearch.D, tsearch.W, tsearch.tabu_search(tsearch.N, tsearch.D, tsearch.W, 0,ttenure, tsearch.tabu_list, tsearch.placement))
+        tenure09_trial.append((ogfit, resfit))"""
+
+    #print(tenure1_trial)
+    #print(tenure05_trial)
+    #print(tenure09_trial)
