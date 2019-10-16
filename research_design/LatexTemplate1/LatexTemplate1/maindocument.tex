@@ -1,0 +1,210 @@
+\documentclass[10pt, conference, compsocconf]{IEEEtran}
+% Add the compsocconf option for Computer Society conferences.
+%
+% If IEEEtran.cls has not been installed into the LaTeX system files,
+% manually specify the path to it like:
+% \documentclass[conference]{../sty/IEEEtran}
+\newcommand{\highlight}[1]{\colorbox{yellow}{#1}}
+
+
+
+
+% Some very useful LaTeX packages include:
+% (uncomment the ones you want to load)
+
+% *** MISC UTILITY PACKAGES ***
+%
+%\usepackage{ifpdf}
+
+
+% *** CITATION PACKAGES ***
+%
+%\usepackage{cite}
+
+
+% *** MATH PACKAGES ***
+%
+%\usepackage[cmex10]{amsmath}
+
+% *** SPECIALIZED LIST PACKAGES ***
+%
+%\usepackage{algorithmic}
+
+% *** ALIGNMENT PACKAGES ***
+%
+%\usepackage{array}
+
+% *** SUBFIGURE PACKAGES ***
+\usepackage[tight,footnotesize]{subfigure}
+
+% *** FLOAT PACKAGES ***
+%
+\usepackage{fixltx2e}
+
+
+
+
+\usepackage{stfloats}
+
+\usepackage{graphicx}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\newtheorem{definition}{Definition}
+
+
+\begin{document}
+%
+% paper title
+% can use linebreaks \\ within to get better formatting as desired
+\title{Title of the paper}
+
+
+
+
+% author names and affiliations
+% use a multiple column layout for up to two different
+% affiliations
+% 
+\author{Author Name \\
+Address, Affiliation \\
+% % Phone: 0041 22 379 00 76 \\
+% Fax: 0041 22 379 02 79 \\
+% WebPage: http://iss.unige.ch/?q=users/fernandez \\
+ \{name.surname@unige.ch\}}
+
+
+
+% make the title area
+\maketitle
+
+
+\begin{abstract}
+The abstract goes here. DO NOT USE SPECIAL CHARACTERS, SYMBOLS, OR MATH IN YOUR TITLE OR ABSTRACT.
+
+
+\end{abstract}
+
+
+\begin{IEEEkeywords}
+some keywords here; separated by semi-colon;
+
+
+\end{IEEEkeywords}
+
+
+\IEEEpeerreviewmaketitle
+
+
+%%%%% this is a comment %%%%%%%%%%%%%
+\section{Introduction}\label{sec:rintroduction}
+%%%%% this is a comment %%%%%%%%%%%%%
+
+This demo file is intended to serve as a ``starter file'' for  \LaTeX\ using
+IEEEtran.cls template.
+
+\subsection{How to insert and reference a figure}
+
+This is an example of how to insert a figure:
+
+Figure~\ref{fig:example} shows an example of figure:
+
+\begin{figure}[th]
+   \begin{center}
+       \includegraphics[width=5cm]{imgs/example.pdf}
+	\end{center}
+	\caption{This is the caption of the example figure}
+	\label{fig:example}
+\end{figure}
+
+The format of a figure can be anything from jpg, to tiff, to pdf and others.
+
+
+\subsection{Special fonts}
+Example of \textbf{bold}  and \textit{emphasis}, and \texttt{teletype} fonts.
+
+
+
+\subsection{Bullet points}
+
+This is how to make a bullet point list:
+
+\begin{itemize}
+
+\item This is my first item: ...
+\item This is my second item: ...
+
+\end{itemize}
+
+\subsection{How to make bibliographic reference}
+
+To make bibliographic references, you need to cite someone else work like this.
+To learn more about additional latex commands you can refer to~\cite{mittelbach2010latex}.
+
+
+\subsection{How to reference your sections}
+
+First, section~\ref{sec:relatedworks} reports on related work. Section~\ref{sec:model} discusses our artifact model and design, while section~\ref{sec:implementation }highlights implementation issues.
+Section~\ref{sec:evaluation}  details evaluation and validation. Finally, Section~\ref{sec:conclusion}  concludes the paper.
+
+
+%%%%% this is a comment %%%%%%%%%%%%%
+\section{Related Work}\label{sec:relatedworks}
+%%%%% this is a comment %%%%%%%%%%%%%
+Describe your related works here, organised under different sub-domains.
+
+\subsection{First sub-domain}
+
+\subsubsection{First sub-sub- domain}
+
+\subsubsection{Second sub-sub- domain}
+
+\subsection{Second sub-domain}
+
+
+
+%%%%% this is a comment %%%%%%%%%%%%%
+\section{Model}\label{sec:model}
+%%%%% this is a comment %%%%%%%%%%%%%
+
+This section describes your artifact at the conceptual abstract level.
+
+
+
+
+%%%%% this is a comment %%%%%%%%%%%%%
+\section{Implementation}\label{sec:implementation}
+%%%%% this is a comment %%%%%%%%%%%%%
+This section describes a concrete design and implementation of the artifact.
+
+
+
+%%%%% this is a comment %%%%%%%%%%%%%
+\section{Evaluation}\label{sec:evaluation}
+%%%%% this is a comment %%%%%%%%%%%%%
+Any evaluation work and its results is described in this section. 
+
+
+%%%%% this is a comment %%%%%%%%%%%%%
+\section{Conclusion}\label{sec:conclusion}
+%%%%% this is a comment %%%%%%%%%%%%%
+Summary of paper and future works.
+
+% conference papers do not normally have an appendix
+
+
+% use section* for acknowledgement
+\section*{Acknowledgment}
+The authors would like to thank...
+
+
+
+\bibliographystyle{IEEEtran} %%% this is the style of the bibliograpyh
+\bibliography{maindocument} %%% maindocument.bib is the file containing bibliographic entries
+
+
+% that's all folks
+\end{document}
+
+

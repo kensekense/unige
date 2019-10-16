@@ -1,0 +1,20 @@
+********************************** Files **********************************
+
+README                 - This file.
+
+IEEEtran.bst           - The standard IEEEtran BibTeX style file. For use
+                         with IEEE work.
+
+IEEEtranS.bst          - A version of IEEEtran.bst that sorts the entries.
+                         Some IEEE conferences/publications may use/allow
+                         sorted bibliographies.
+
+maindocument.bib        - An example BibTeX database that contains the
+                         references shown in the sample paper.
+
+maindocument.tex        - An example of Latex file for a sample paper
+
+maindocument.pdf        - pdf version of the paper
+
+imgs/example.pdf        - Images files used in the sample paper
+***************************************************************************
