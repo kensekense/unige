@@ -41,15 +41,16 @@ def replace_words (filename, outfile, freq):
         for line in fp:
             if(len(line)>1):
                 (word, tag) = line.split() #read the words separately
-            if(len(line)<1): #empty line
+                if freq[word] < 5: #strictly
+                    output_.append("_RARE_"+"\t"+tag+"\n") #switch to _RARE_
+                    continue
+                else:
+                    output_.append(word+"\t"+tag+"\n")
+                    continue
+            else: #empty line
                 output_.append("\n")
                 continue
-            if freq[word] < 5: #strictly
-                output_.append("_RARE_"+"\t"+tag+"\n") #switch to _RARE_
-                continue
-            else:
-                output_.append(word+"\t"+tag+"\n")
-                continue
+
 
     with open(outfile, "w") as wp:
         wp.writelines(output_)

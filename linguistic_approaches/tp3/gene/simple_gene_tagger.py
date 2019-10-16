@@ -14,7 +14,8 @@ def simple_gene_tagger(counts_file, dev_file):
 
             if(segment[1]=="WORDTAG"): #doing WORDTAG section
                 if(segment[3] == "GENE"):
-                    emissions_gene[segment[2]] = float(segment[0])
+                    emissions_gene[segment[2]] = float(segment[0]) #hash the word and the tag counts
+
                 elif(segment[3] == "NOGENE"):
                     emissions_nogene[segment[2]] = float(segment[0])
 
@@ -36,10 +37,10 @@ def simple_gene_tagger(counts_file, dev_file):
             line = line[0]
             if(len(line)>0):
 
-                if(line in emissions_gene and line in emissions_nogene):
+                if(line in emissions_gene and line in emissions_nogene): #in both, i.e: "a"
                     prob_gene = emissions_gene[line]/counts[line]
                     prob_nogene = emissions_nogene[line]/counts[line]
-                    if(prob_gene >= prob_nogene):
+                    if(max(prob_gene, prob_nogene) == prob_gene):
                         tags.append(line + " " + "GENE"+"\n") #proper tag
                     else:
                         tags.append(line + " " + "NOGENE"+"\n") #reverses the tag
@@ -51,7 +52,7 @@ def simple_gene_tagger(counts_file, dev_file):
                     tags.append(line + " " + "NOGENE"+"\n") #proper tag
 
                 else: #_RARE_ word (tm)
-                    #always output max and NOGENE > GENE
+                    #always output max and NOGENE > GENE for _RARE_
                     tags.append(line + " " + "NOGENE"+"\n")
             else:
                 tags.append("\n")
