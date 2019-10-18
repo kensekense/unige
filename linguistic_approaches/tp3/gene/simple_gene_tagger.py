@@ -13,17 +13,15 @@ def simple_gene_tagger(counts_file, dev_file):
             segment = line.split()
 
             if(segment[1]=="WORDTAG"): #doing WORDTAG section
-                if(segment[3] == "GENE"):
-                    emissions_gene[segment[2]] = float(segment[0]) #hash the word and the tag counts
 
-                elif(segment[3] == "NOGENE"):
-                    emissions_nogene[segment[2]] = float(segment[0])
+                if(segment[2] == "GENE"):
+                    emissions_gene[segment[3]] = float(segment[0]) #hash the word and the tag counts
+
+                elif(segment[2] == "NOGENE"):
+                    emissions_nogene[segment[3]] = float(segment[0])
 
             elif(segment[1]=="1-GRAM"): #doing 1-GRAM section
-                if segment[2] in counts:
-                    counts[segment[2]] += float(segment[0])
-                else:
-                    counts[segment[2]] = float(segment[0])
+                counts[segment[2]] = float(segment[0])
 
             else: #we're not doing anything beyond 1-GRAM
                 break
@@ -35,27 +33,55 @@ def simple_gene_tagger(counts_file, dev_file):
         for line in devfp:
             line = line.split("\n")
             line = line[0]
-            if(len(line)>0):
+            if(len(line)>0): #not an empty line
 
-                if(line in emissions_gene and line in emissions_nogene): #in both, i.e: "a"
-                    prob_gene = emissions_gene[line]/counts[line]
-                    prob_nogene = emissions_nogene[line]/counts[line]
-                    if(max(prob_gene, prob_nogene) == prob_gene):
-                        tags.append(line + " " + "GENE"+"\n") #proper tag
-                    else:
-                        tags.append(line + " " + "NOGENE"+"\n") #reverses the tag
+                #do the emission probability here
+                if(line in emissions_gene and line in emissions_nogene): #has both tags, find more likely
+                    gene_prob = emissions_gene[line]/counts["GENE"]
+                    nogene_prob = emissions_nogene[line]/counts["NOGENE"]
+
+                    choice = max(gene_prob, nogene_prob)
+
+                    if(choice == gene_prob):
+                        tags.append(line+" "+"GENE"+"\n")
+                    elif(choice == nogene_prob):
+                        tags.append(line+" "+"NOGENE"+"\n")
 
                 elif(line in emissions_gene):
-                    tags.append(line + " " + "GENE"+"\n") #proper tag
+                    gene_prob = emissions_gene[line]/counts["GENE"]
+                    nogene_prob = 0/counts["NOGENE"]
+
+                    choice = max(gene_prob, nogene_prob)
+
+                    if(choice == gene_prob):
+                        tags.append(line+" "+"GENE"+"\n")
+                    elif(choice == nogene_prob):
+                        tags.append(line+" "+"NOGENE"+"\n")
 
                 elif(line in emissions_nogene):
-                    tags.append(line + " " + "NOGENE"+"\n") #proper tag
+                    gene_prob = 0/counts["GENE"]
+                    nogene_prob = emissions_nogene[line]/counts["NOGENE"]
 
-                else: #_RARE_ word (tm)
-                    #always output max and NOGENE > GENE for _RARE_
-                    tags.append(line + " " + "NOGENE"+"\n")
+                    choice = max(gene_prob, nogene_prob)
+
+                    if(choice == gene_prob):
+                        tags.append(line+" "+"GENE"+"\n")
+                    elif(choice == nogene_prob):
+                        tags.append(line+" "+"NOGENE"+"\n")
+
+                else:#_RARE_ ALWAYS TAKES GENE
+                    gene_prob = emissions_gene["_RARE_"]/counts["GENE"]
+                    nogene_prob = emissions_nogene["_RARE_"]/counts["NOGENE"]
+
+                    choice = max(gene_prob, nogene_prob)
+
+                    if(choice == gene_prob):
+                        tags.append(line+" "+"GENE"+"\n")
+                    elif(choice == nogene_prob):
+                        tags.append(line+" "+"NOGENE"+"\n")
+
             else:
-                tags.append("\n")
+                tags.append("\n") #otherwise an empty line
 
     with open("gene.dev.p1.out", "w") as devp1out:
         devp1out.writelines(tags)
