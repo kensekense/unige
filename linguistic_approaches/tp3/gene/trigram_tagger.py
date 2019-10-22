@@ -6,61 +6,67 @@ import numpy as np
 import pandas as pd
 import math
 
-def viterbi(wordlist, tMAT, ):
+def viterbi(wordlist, tMAT, eMAT, initState):
     '''
     at each stage we are calculating the max(prob tagging gene+transition, prob tagging nogene+transition) along
     with other probabilities like **, *, and STOP.
     '''
 
-    PATH1 = np.empty((len(A), len(wordlist))) #best path so far
-    PATH2 = np.empty((len(A), len(wordlist))) #pointer to previous
+    PATH1 = np.empty((len(tMAT), len(wordlist))) #best path so far
+    PATH2 = np.empty((len(tMAT), len(wordlist))) #pointer to previous
 
     #init
-    PATH1[:, 0] = e_prob(wordlist[2]) #first word begins at index 2
+    PATH1[:, 0] = initState+eMAT[:,2] #first word begins at index 2
     PATH2[:, 0] = 0
 
     #calculate the probability at each step
     for i in range(1, len(wordlist)):
-        PATH1[:, i] = np.max(PATH1[:, i-1]+e_prob(wordlist[i])+transition(wordlist[i]), 0)
-        PATH2[:, i] = np.argmax(PATH1[:, i-1]+transition(wordlist[i]), 0)
+        PATH1[:, i] = np.max(PATH1[:, i-1]+tMAT.T+eMAT[np.newaxis,:,i], 0) #probability of previous path, transit prob, emission prob
+        PATH2[:, i] = np.argmax(PATH1[:, i-1]+tMAT.T, 0) #keep track of previous max for backtracking
 
     #backtracking
-    result = [None]*len(wordlist)
+    result = np.empty(len(wordlist), 'B')
     result[-1] = np.argmax(PATH1[:, len(wordlist)-1])
     for i in reversed(range(1, len(wordlist))):
         result[i-1] = PATH2[result[i], i]
 
     return result
 
-def e_prob(word, gene, nogene, gram):
-
-    #defining the emission probability according to assignment in log probabilities
-    e_gene = 0
-    e_nogene = 0
-    if word in gene and word in nogene:
-        e_gene = math.log2(gene[word]) - math.log2(gram["GENE"])
-        e_nogene = math.log2(nogene[word]) - math.log2(gram["NOGENE"])
-    elif word in gene:
-        e_gene = math.log2(gene[word]) - math.log2(gram["GENE"])
-        e_nogene = 0
-    elif word in nogene:
-        e_gene = 0
-        e_nogene = math.log2(nogene[word]) - math.log2(gram["NOGENE"])
-    else: #_RARE_ tag
-        e_gene = math.log2(gene["_RARE_"]) - math.log2(gram["GENE"])
-        e_nogene = math.log2(nogene["_RARE_"]) - math.log2(gram["NOGENE"])
-
-    choice = max(e_gene, e_nogene)
-
-    if choice == e_gene:
-        return ("GENE", choice)
-    else:
-        return ("NOGENE", choice)
-
-def transition_setup(word, bigram, trigram):
-
+def emission_setup(wordlist, gene, nogene, gram, bigram):
+    '''
+    creates the emission matrix
+    '''
+    eR = len(wordlist)
     tR = len(bigram)
-    tp_mat = np.zero((tR, tR))) #transition probability matrix is a tRxtR matrix where tR is the number of bigram states
+    e_mat = np.zeros((tR, eR))
+
+    for i in range(len(wordlist)):
+        #ignore '*' and 'STOP'
+        word = wordlist[i]
+        if(word != "*" and word != "STOP"):
+            if word in gene and word in nogene:
+                #split prob
+                e_mat[0,i] = math.log2(gene[word]/gram["GENE"])
+                e_mat[1,i] = math.log2(nogene[word]/gram["NOGENE"])
+            elif word in gene:
+                #single prob
+                e_mat[0,i] = math.log2(gene[word]/gram["GENE"])
+            elif word in nogene:
+                #single prob
+                e_mat[1,i] = math.log2(nogene[word]/gram["NOGENE"])
+            else:
+                #_RARE_
+                e_mat[0,i] = math.log2(gene["_RARE_"]/gram["GENE"])
+                e_mat[1,i] = math.log2(nogene["_RARE_"]/gram["NOGENE"])
+
+    return e_mat
+
+def transition_setup(bigram, trigram):
+    '''
+    creates the transition matrix
+    '''
+    tR = len(bigram)
+    tp_mat = np.zeros((tR, tR)) #transition probability matrix is a tRxtR matrix where tR is the number of bigram states
 
     #defined transition probability as FSA
     tp_mat[0,1] = math.log2(trigram["* * GENE"]/bigram["* *"])
@@ -126,7 +132,11 @@ def trigram_tagger(countsfile, devfile):
 
     wordlist.append("STOP") #append STOP tag at the end
 
-
+    #TODO do tagging here, set up initState, tMAT
+    emission_matrix = emission_setup(wordlist, gene_emission, nogene_emission, counts_1gram, counts_2gram)
+    transition_matrix = transition_setup(counts_2gram, counts_3gram)
+    v_result = viterbi(wordlist, transition_matrix, emission_matrix, 0)
+    print(v_result)
 
 if __name__ == "__main__":
     trigram_tagger("gene_rare.counts", "gene.dev")
