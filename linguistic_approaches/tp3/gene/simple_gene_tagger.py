@@ -83,8 +83,8 @@ def simple_gene_tagger(counts_file, dev_file):
             else:
                 tags.append("\n") #otherwise an empty line
 
-    with open("gene.dev.p1.out", "w") as devp1out:
+    with open("gene.test.p1.out", "w") as devp1out:
         devp1out.writelines(tags)
 
 if __name__ == "__main__":
-    simple_gene_tagger("gene_rare.counts", "gene.dev")
+    simple_gene_tagger("gene_rare.counts", "gene.test")
