@@ -5,7 +5,7 @@
 from mnist import MNIST
 import random
 import numpy as np
-from sklearn.neighbors import NearestNeigbhors
+from sklearn.neighbors import NearestNeighbors
 from sklearn.decomposition import PCA
 
 def load_MNIST_data():
@@ -20,8 +20,9 @@ def load_MNIST_data():
     images_train, labels_train = data.load_training()
 
     #TODO: do some action here
+    return images_train, labels_train
 
 
 if __name__ == "__main__":
 
-    load_MNIST_data()
+    trianing_set, training_labels = load_MNIST_data() #we can segment and reserve training set
