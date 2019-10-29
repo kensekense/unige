@@ -5,20 +5,15 @@
 import random
 import numpy as np
 
-def key_expansion(words):
+def key_expansion(bytes):
+    '''
+    the input should be 4 bytes (32 bits) of the original input key in a list
+    the yield should be the exapanded key (needed for each round of AES encryption) also in a list
+    all keys should be bits, but stored as ints in python and converted when necessary
+    '''
 
     #rc_i table given from the assignment is instantiated
-    rc_i = [None]
-    rc_i[1] = 0x01
-    rc_i[2] = 0x02
-    rc_i[3] = 0x04
-    rc_i[4] = 0x08
-    rc_i[5] = 0x10
-    rc_i[6] = 0x20
-    rc_i[7] = 0x40
-    rc_i[8] = 0x80
-    rc_i[9] = 0x1B
-    rc_i[10] = 0x36
+    rc_i = (None, 0x01, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x80, 0x1B, 0x36)
 
     #define N as the number of 32 words of the key
     if len(key) == 128:
@@ -31,12 +26,33 @@ def key_expansion(words):
         N = 8
         R = 15
 
-    #word represented as W, which is each word
-    W = list(words)
+    #key expansion proper?
+    expanded_keys = []
+    for i in range(0, R): #-1 is implied by the range?
 
-def byte_sub(byte):
+        #define recon_i for word i
+        rcon_i = format(rc_i[i],"#010b")[2:] + "000000000000000000000000"
+
+        #initial 4 keys are just the 4 32 bits of the word in standard 128 key
+        if i < N:
+            expanded_keys.append(expanded_keys.append(words[i])) #just add as keys
+
+        elif i >= N and i == 0 % N:
+            expanded_keys.append(expanded_keys[i-N] ^ SBOX(ROTATION(expanded_keys[i-1])) ^ int(rcon_i,2))
+
+        elif i>= N and N > 6 and i == 4 % N:
+            expanded_keys.append(expanded_keys[i-N] ^ SBOX(expanded_keys[i-1]))
+
+        else:
+            expanded_keys.append(expanded_keys[i-N] ^ expanded_keys[i-1])
+
+    return expanded_keys
+
+
+
+def SBOX(byte):
     '''
-    should take a byte (8bits) as an integer input,
+    should take a byte (8 bits) as an integer input,
     as we convert the integer and send back a replacement integer from the sbox
     '''
     #Sbox is given by the assignment, we convert to numpy array called sbox
@@ -68,32 +84,18 @@ def byte_sub(byte):
     row = int(byte[2:6],2) #[aaaa]
     col = int(byte[6:11],2) #[bbbb]
 
-    byte_rep = sbox[row][col]
+    byte_rep = sbox[row][col] #int replacement
 
     return byte_rep
 
-def shift_row(mat):
+def ROTATION(byte):
     '''
-    takes input mat, which should be a numpy array (matrix) in row order
+    takes input byte (8 bits) and performs a one byte left circular shift
     '''
+    byte = format(byte, "#010b")[2:] #takes the int and converts to shift
+    byte = byte[1:] + byte[:1] #shifts 1 to the left
 
-    for i in range(1, len(mat)): #do for each row
-        mat[i] = mat[i:] + mat[:i] #shifts by i
+    return int(byte, 2) #returns as int
 
-    return mat
-
-def poly_mult(byte1, byte2):
-    '''
-    takes two byte inputs and does the polynomial multiplication outlined in the assignment
-    '''
-    return 0
-
-def add_round_key(byte, round_key):
-    '''
-    takes the byte and XORs it with the round key
-    byte is taken as integer input
-    '''
-    byte_ret = byte^round_key #XOR
-    return byte_ret
 
 if __name__ == "__main__":
