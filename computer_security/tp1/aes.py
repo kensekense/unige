@@ -5,15 +5,15 @@
 import random
 import numpy as np
 
-def key_expansion(bytes):
+def key_expansion(words):
     '''
-    the input should be 4 bytes (32 bits) of the original input key in a list
+    the input should be 4 words (128 bits) of the original input key in a list
     the yield should be the exapanded key (needed for each round of AES encryption) also in a list
     all keys should be bits, but stored as ints in python and converted when necessary
     '''
 
     #rc_i table given from the assignment is instantiated
-    rc_i = (None, 0x01, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x80, 0x1B, 0x36)
+    rc_i = (0x00, 0x01, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x80, 0x1B, 0x36)
 
     #define N as the number of 32 words of the key
     if len(key) == 128:
@@ -28,26 +28,25 @@ def key_expansion(bytes):
 
     #key expansion proper?
     expanded_keys = []
-    for i in range(0, R): #-1 is implied by the range?
+    for i in range(0, R-1): #we want R-1 number of keys
 
         #define recon_i for word i
-        rcon_i = format(rc_i[i],"#010b")[2:] + "000000000000000000000000"
+        rcon_i = int(format(rc_i[i],"#010b")[2:] + "000000000000000000000000",2)
 
         #initial 4 keys are just the 4 32 bits of the word in standard 128 key
         if i < N:
             expanded_keys.append(expanded_keys.append(words[i])) #just add as keys
 
-        elif i >= N and i == 0 % N:
-            expanded_keys.append(expanded_keys[i-N] ^ SBOX(ROTATION(expanded_keys[i-1])) ^ int(rcon_i,2))
+        elif i >= N and i % N == 0 :
+            expanded_keys.append(expanded_keys[i-N] ^ SBOX(ROTATION(expanded_keys[i-1])) ^ rcon_i
 
-        elif i>= N and N > 6 and i == 4 % N:
+        elif i>= N and N > 6 and i % N == 4 :
             expanded_keys.append(expanded_keys[i-N] ^ SBOX(expanded_keys[i-1]))
 
         else:
             expanded_keys.append(expanded_keys[i-N] ^ expanded_keys[i-1])
 
     return expanded_keys
-
 
 
 def SBOX(byte):
@@ -96,6 +95,66 @@ def ROTATION(byte):
     byte = byte[1:] + byte[:1] #shifts 1 to the left
 
     return int(byte, 2) #returns as int
+
+def shift_row(mat):
+    '''
+    takes a matrix input and shifts the rows.
+    note that matrices are in row order for python.
+    '''
+    for i in range(0, len(mat)): #do for each row
+        mat[i] = np.roll(mat[i], -i) #does a left shift by how deep in the row you are
+
+    return mat
+
+def inv_shift_row(mat):
+    '''
+    inverts the shift row
+    '''
+    for i in range(0, len(mat)): #do for each row
+        mat[i] = np.roll(mat[i], i) #does a right shift by how deep in the row you are
+
+    return mat
+
+def mix_column(byte):
+
+    #defining multiplication in field 2^8
+    #understanding that multiplication is just a left-shift of one bit and a conditional XOR with 0x1B (00011011) if
+    #the leftmost bit is 1 (checked via x & 0x80) because 0x80 is 10000000
+    #we also have to keep it in the field, which is why we check with 0xFF
+    #taken from aes implementation found on github
+    mul_GF28 = lambda x: (((x << 1) ^ 0x1B) & 0xFF) if (x & 0x80) else (x << 1)
+
+    a = byte[0] ^ byte[1] ^ byte[2] ^ byte[3]
+    b = byte[0]
+    byte[0] ^= a ^ mul_GF28(byte[0] ^ byte[1])
+    byte[1] ^= a ^ mul_GF28(byte[1] ^ byte[2])
+    byte[2] ^= a ^ mul_GF28(byte[2] ^ byte[3])
+    byte[3] ^= a ^ mul_GF28(byte[3] ^ b)
+
+    return byte
+
+def mix_columns(mat):
+
+    for i in range(0, 4):
+        mat[i] = mix_column(mat[i])
+
+    return word
+
+def add_round_key(mat, key):
+    '''
+    XOR round key with word (32 bits)
+    '''
+    for i in range(0, 4):
+        for j in range(0, 4):
+            mat[i][j] ^= key[i][j]
+
+    return mat
+
+def encrypt(exp_keys, rounds):
+    '''
+    do AES encryption by inputting the expanded keys in list format (with each index holding a round key)
+    also specify the number of rounds
+    '''
 
 
 if __name__ == "__main__":
