@@ -101,10 +101,10 @@ def mix_columns_inv(mat):
     for i in range(0, 4): #for 4x4 matrix
         a = mul_GF28(mul_GF28(mat[i][0] ^ mat[i][2]))
         b = mul_GF28(mul_GF28(mat[i][1] ^ mat[i][3]))
-        mat[i][0] = a
-        mat[i][1] = b
-        mat[i][2] = a
-        mat[i][3] = b
+        mat[i][0] ^= a
+        mat[i][1] ^= b
+        mat[i][2] ^= a
+        mat[i][3] ^= b
 
     mix_columns(mat)
 
