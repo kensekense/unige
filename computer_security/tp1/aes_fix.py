@@ -1,3 +1,4 @@
+#following the implementation found on https://github.com/boppreh/aes/blob/master/aes.py
 #load the Sbox and Sbox_inv into our python file
 Sbox = (
             0x63, 0x7C, 0x77, 0x7B, 0xF2, 0x6B, 0x6F, 0xC5, 0x30, 0x01, 0x67, 0x2B, 0xFE, 0xD7, 0xAB, 0x76,
@@ -56,16 +57,20 @@ def sub_bytes_inv(mat):
             mat[i][j] = Sbox_inv[mat[i][j]] #Sbox_inv will return the replacement for each bit of the 4x4 mat
 
 def shift_rows(mat):
+    #shifting rows in a 4x4 will leave the first row untouched and the last 3 touched
+    #done by moving the column values one over (rolling and wrapping around)
     mat[0][1], mat[1][1], mat[2][1], mat[3][1] = mat[1][1], mat[2][1], mat[3][1], mat[0][1]
     mat[0][2], mat[1][2], mat[2][2], mat[3][2] = mat[2][2], mat[3][2], mat[0][2], mat[1][2]
     mat[0][3], mat[1][3], mat[2][3], mat[3][3] = mat[3][3], mat[0][3], mat[1][3], mat[2][3]
 
 def shift_rows_inv(mat):
+    #the inverse is just the reverse direction
     mat[0][1], mat[1][1], mat[2][1], mat[3][1] = mat[3][1], mat[0][1], mat[1][1], mat[2][1]
     mat[0][2], mat[1][2], mat[2][2], mat[3][2] = mat[2][2], mat[3][2], mat[0][2], mat[1][2]
     mat[0][3], mat[1][3], mat[2][3], mat[3][3] = mat[1][3], mat[2][3], mat[3][3], mat[0][3]
 
 def add_round_key(mat, key):
+    #adding round key is a XOR with the provided key
     for i in range(0, 4):
         for j in range(0, 4):
             mat[i][j] ^= key[i][j]
@@ -73,16 +78,15 @@ def add_round_key(mat, key):
 
 #defining multiplication in field 2^8
 #understanding that multiplication is just a left-shift of one bit and a conditional XOR with 0x1B (00011011) if
-#the leftmost bit is 1 (checked via x & 0x80) because 0x80 is 10000000
-#we also have to keep it in the field, which is why we check with 0xFF
-#taken from aes implementation found on github
+#the leftmost bit is 1 (checked via x &ing 0x80) because 0x80 is 10000000 so it's the leftmost bit as 1
+#we also have to keep it 8 bits since that's the size we want to work with, which is why with & with 0xFF, since 0xFF is all 8 bits of 1s
 mul_GF28 = lambda x: (((x << 1) ^ 0x1B) & 0xFF) if (x & 0x80) else (x << 1)
 
 def mix_column(col):
 
     a = col[0] ^ col[1] ^ col[2] ^ col[3]
     b = col[0]
-    col[0] ^= a ^ mul_GF28(col[0] ^ col[1]) #multiply each column value and add, like matrix multiplication
+    col[0] ^= a ^ mul_GF28(col[0] ^ col[1]) #multiply each column value and add, like matrix multiplication,
     col[1] ^= a ^ mul_GF28(col[1] ^ col[2])
     col[2] ^= a ^ mul_GF28(col[2] ^ col[3])
     col[3] ^= a ^ mul_GF28(col[3] ^ b)
@@ -94,14 +98,11 @@ def mix_columns(mat):
         mix_column(mat[i]) #do for each column
 
 def mix_columns_inv(mat):
-    '''
-    TODO: Need to comment this section
-    '''
 
     for i in range(0, 4): #for 4x4 matrix
-        a = mul_GF28(mul_GF28(mat[i][0] ^ mat[i][2]))
+        a = mul_GF28(mul_GF28(mat[i][0] ^ mat[i][2])) #it is essentially a wrap around since we are in a field
         b = mul_GF28(mul_GF28(mat[i][1] ^ mat[i][3]))
-        mat[i][0] ^= a
+        mat[i][0] ^= a #applying it twice and XOR'ing it with the column again
         mat[i][1] ^= b
         mat[i][2] ^= a
         mat[i][3] ^= b
@@ -117,6 +118,9 @@ def make_128bits(mat):
 def XOR_bytes(a, b):
     return bytes(i^j for i,j in zip(a,b))
 
+def make_split(text, size):
+    return [text[i:i+16] for i in range(0, len(text), size)] #make sizes blocks of 16
+
 #AES Proper
 def key_expansion(init_key):
 
@@ -128,10 +132,10 @@ def key_expansion(init_key):
     N = num_rounds[len(init_key)]
 
     #other initializations
-    iterations = len(init_key) // 4
+    iterations = len(init_key) // 4 #we split the rounds
     i = 1
 
-    while(len(key_col) < (N+1)*4):
+    while(len(key_col) < (N+1)*4): #while there is still key to go around
 
         word = list(key_col[-1]) #take the previous sub_key
 
@@ -197,6 +201,31 @@ def decrypt(ciphertext, my_keys, R):
 
     return make_128bits(cipher) #return as len 128 bit decrypted
 
+def CBC_encrypt(plaintext, IV, my_keys, R):
+    '''
+    XOR with an IV
+    '''
+    chunks = []
+    prev = IV
+
+    for plain_chunks in make_split(plaintext, 16):
+        #XOR with IV or previous plaintext
+        chunk = encrypt(XOR_bytes(plain_chunks, prev), my_keys, R)
+        chunks.append(chunk)
+        prev = chunk #set the new prev to be the last added plaintext
+
+    return b''.join(chunks) #return as bits
+
+def CBC_decrypt(ciphertext, IV, my_keys, R):
+
+    chunks = []
+    prev = IV
+
+    for cipher_chunk in make_split(ciphertext, 16):
+        chunks.append(XOR_bytes(prev, decrypt(cipher_chunk, my_keys, R))) #XOR with the decrypt at each step to undo XOR with each chunk
+        prev = cipher_chunk #set the new chunk
+
+    return b''.join(chunks) #return as bits
 
 if __name__ == "__main__":
 
@@ -213,5 +242,12 @@ if __name__ == "__main__":
     #test decryption
     decrypted_text = decrypt(encrypted_text, my_keys, N)
 
-    print(encrypted_text, "\n")
-    print(decrypted_text)
+    print(encrypted_text)
+    print(decrypted_text, "\n") #should output the plain_text
+
+    #test CBC
+    cbc_e_text = CBC_encrypt(plain_text, initial_key, my_keys, N) #using initial key as IV value, just for consistency not for security
+    cbc_d_text = CBC_decrypt(cbc_e_text, initial_key, my_keys, N)
+
+    print(cbc_e_text)
+    print(cbc_d_text) #should be the plain_text
