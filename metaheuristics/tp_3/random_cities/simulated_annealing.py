@@ -146,7 +146,7 @@ def simulated_annealing (data):
                         if fitnesses[iteration-2] == fitnesses[iteration-1]: #three temperature steps
                             freeze_condition = True
 
-    return config, calc_fitness(config, cities)-starting_e
+    return config, calc_fitness(config, cities)
 
 def greedy_algorithm (data):
 
@@ -176,7 +176,7 @@ def greedy_algorithm (data):
         current = config[best_index]
         path.append(config[best_index])
 
-    return path, calc_fitness(path, cities)-starting_e
+    return path, calc_fitness(path, cities)
 
 if __name__ == "__main__":
 
