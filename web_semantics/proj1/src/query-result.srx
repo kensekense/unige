@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sparql xmlns='http://www.w3.org/2005/sparql-results#'>
+	<head>
+		<variable name='c'/>
+		<variable name='t'/>
+	</head>
+	<results>
+		<result>
+			<binding name='c'>
+				<uri>http://www.topografix.com/GPX/1/1Refuge_Maison_Vieille_-_Refuge_Bertone</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='c'>
+				<uri>http://www.topografix.com/GPX/1/1trkpt1954</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='c'>
+				<uri>http://www.topografix.com/GPX/1/1trkpt1950</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='c'>
+				<uri>http://www.topografix.com/GPX/1/1trkpt1955</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='c'>
+				<uri>http://www.topografix.com/GPX/1/1trkpt1920</uri>
+			</binding>
+		</result>
+	</results>
+</sparql>

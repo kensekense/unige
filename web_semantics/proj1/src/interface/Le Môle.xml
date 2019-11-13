@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    version="XHTML+RDFa 1.0"
+    xml:lang="en"
+>
+
+
+<!-- header -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About: Le Môle</title>
+    <link rel="alternate" type="application/rdf+xml" 		href="http://dbpedia.org/data/Le_Môle.rdf" title="Structured Descriptor Document (RDF/XML format)" />
+    <link rel="alternate" type="text/n3" 			href="http://dbpedia.org/data/Le_Môle.n3" title="Structured Descriptor Document (N3 format)" />
+    <link rel="alternate" type="text/turtle" 			href="http://dbpedia.org/data/Le_Môle.ttl" title="Structured Descriptor Document (Turtle format)" />
+    <link rel="alternate" type="application/json+rdf" 		href="http://dbpedia.org/data/Le_Môle.jrdf" title="Structured Descriptor Document (RDF/JSON format)" />
+    <link rel="alternate" type="application/json" 		href="http://dbpedia.org/data/Le_Môle.json" title="Structured Descriptor Document (RDF/JSON format)" />
+    <link rel="alternate" type="application/atom+xml" 		href="http://dbpedia.org/data/Le_Môle.atom" title="OData (Atom+Feed format)" />
+    <link rel="alternate" type="text/plain" 			href="http://dbpedia.org/data/Le_Môle.ntriples" title="Structured Descriptor Document (N-Triples format)" />
+    <link rel="alternate" type="text/csv"   			href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLe_Môle%3E&amp;format=text%2Fcsv" title="Structured Descriptor Document (CSV format)" />
+    
+    <link rel="alternate" type="text/cxml"  			href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLe_Môle%3E&amp;format=text%2Fcxml" title="Structured Descriptor Document (CXML format)" />
+    
+    <link rel="alternate" type="application/microdata+json"	href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLe_Môle%3E&amp;format=application%2Fmicrodata%2Bjson" title="Structured Descriptor Document (Microdata/JSON format)" />
+    <link rel="alternate" type="text/html" 			href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLe_Môle%3E&amp;format=text%2Fhtml" title="Structured Descriptor Document (Microdata/HTML format)" />
+    <link rel="alternate" type="application/ld+json" 		href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLe_Môle%3E&amp;format=application%2Fjson-ld" title="Structured Descriptor Document (JSON-LD format)" />
+    <link rel="alternate" type="text/x-html-script-ld+json"	href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLe_Môle%3E&amp;format=text%2Fx-html-script-ld%2Bjson" title="Structured Descriptor Document (HTML with embedded JSON-LD)" />
+    <link rel="alternate" type="text/x-html-script-turtle"	href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLe_Môle%3E&amp;format=text%2Fx-html-script-turtle" title="Structured Descriptor Document (HTML with embedded Turtle)" />
+    <link rel="timegate" type="text/html" 			href="http://dbpedia.mementodepot.org/timegate/http://dbpedia.org/page/Le_M%C3%B4le" title="Time Machine" />
+    <link rel="foaf:primarytopic" 				href="http://dbpedia.org/resource/Le_Môle"/>
+    <link rev="describedby" 					href="http://dbpedia.org/resource/Le_Môle"/>
+    <link rel="stylesheet" type="text/css"			href="/statics/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" 			href="/statics/css/dbpedia.css" />
+</head>
+<body about="http://dbpedia.org/resource/Le_Môle">
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+	<div class="navbar-header">
+	    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dbp-navbar" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	    </button>
+	    <a class="navbar-brand" href="http://wiki.dbpedia.org/about" title="About DBpedia" style="color: #2c5078">
+	    <img class="img-responsive" src="/statics/images/dbpedia_logo_land_120.png" alt="About DBpedia" style="display: inline-block;  margin-top: -12px"/>
+	    </a>
+	</div>
+
+	<div class="collapse navbar-collapse" id="dbp-navbar">
+	    <ul class="nav navbar-nav navbar-right">
+		<li><a class="active" href="/fct/" title="Switch to /fct endpoint"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> Faceted Browser </a></li>
+		<li><a class="active" href="/sparql/" title="Switch to /sparql endpoint"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> Sparql Endpoint </a></li>
+	    </ul>
+	    <ul class="nav navbar-nav">
+	    <li class="dropdown">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Browse using <span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		<li><a href="/describe/?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FLe_Môle">OpenLink Faceted Browser</a></li>
+		<li><a href="http://linkeddata.uriburner.com/rdf-editor/#/editor?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FLe_Môle&amp;view=statements">OpenLink Structured Data Editor</a></li>
+		<li><a href="http://en.lodlive.it/?http%3A%2F%2Fdbpedia.org%2Fresource%2FLe_Môle">LodLive Browser</a></li>
+		<li><a href="http://lodmilla.sztaki.hu/lodmilla/?url=http%3A%2F%2Fdbpedia.org%2Fresource%2FLe_Môle">LODmilla Browser</a></li>
+		</ul>
+	    </li>
+	    <li class="dropdown">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Formats <span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		<li>&nbsp;RDF:</li>
+		    <li><a href="http://dbpedia.org/data/Le_Môle.ntriples">N-Triples</a></li>
+		    <li><a href="http://dbpedia.org/data/Le_Môle.n3">N3</a></li>
+		    <li><a href="http://dbpedia.org/data/Le_Môle.ttl">Turtle</a></li>
+		    <li><a href="http://dbpedia.org/data/Le_Môle.json">JSON</a></li>
+		    <li><a href="http://dbpedia.org/data/Le_Môle.rdf">XML</a></li>
+		<li class="divider"></li>
+		<li>&nbsp;OData:</li>
+		    <li><a href="http://dbpedia.org/data/Le_Môle.atom">Atom</a></li>
+		    <li><a href="http://dbpedia.org/data/Le_Môle.jsod">JSON</a></li>
+		<li class="divider"></li>
+		<li>&nbsp;Microdata:</li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLe_Môle%3E&amp;format=application%2Fmicrodata%2Bjson">JSON</a></li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLe_Môle%3E&amp;format=text%2Fhtml">HTML</a></li>
+		<li class="divider"></li>
+		<li>&nbsp;Embedded:</li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLe_Môle%3E&amp;format=text%2Fx-html-script-ld%2Bjson">JSON</a></li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLe_Môle%3E&amp;format=text%2Fx-html-script-turtle">Turtle</a></li>
+		<li class="divider"></li>
+		    
+		        <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLe_MÃ´le%3E&amp;format=text%2Fcxml">CXML</a></li>
+		    
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLe_MÃ´le%3E&amp;format=text%2Fcsv">CSV</a></li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLe_Môle%3E&amp;format=application%2Fjson-ld">JSON-LD</a></li>
+		</ul>
+	    </li>
+	    </ul>
+	</div>
+    </div>
+</div>
+
+<div class="container">
+<!-- page-header -->
+    <div class="page-header">
+	<!-- div class="pull-right">
+	    <a href="http://wiki.dbpedia.org/about" title="About DBpedia">
+	    <img class="img-responsive" src="/statics/images/dbpedia_logo_land_120.png" alt="About DBpedia"/>
+	    </a>
+	</div -->
+	<h1 id="title">About:
+	    <a href="http://dbpedia.org/resource/Le_Môle">Le Môle</a>
+	</h1>
+	<div class="page-resource-uri">
+	    An Entity of Type : <a href="http://dbpedia.org/ontology/NaturalPlace">natural place</a>,
+	    from Named Graph : <a href="http://dbpedia.org">http://dbpedia.org</a>,
+	    within Data Space : <a href="http://dbpedia.org">dbpedia.org</a>
+	</div>
+    </div>
+<!-- page-header -->
+<!-- row -->
+    <div class="row">
+	<div class="col-xs-12">
+	    <p class="lead">Le Môle is a mountain of the Chablais Alps in the Haute-Savoie department of France which dominates the area around the town of Bonneville. The communes of Ayze, La Tour, Saint-Jean-de-Tholome, Marignier, Saint-Jeoire-en-Faucigny, Viuz-en-Sallaz, Peillonnex, and Faucigny encircle it. It rises to 1,863 metres and affords an excellent 360-degree view of the surrounding region.</p>
+	</div>
+	<div class="col-xs-12">
+	    <!-- proptable -->
+	    <table class="description table table-striped">
+	    <tr>
+		<th class="col-xs-3">Property</th>
+		<th class="col-xs-9">Value</th>
+	    </tr>
+<tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/abstract"><small>dbo:</small>abstract</a>
+</td><td><ul>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="fr">Le Môle est une montagne de Haute-Savoie qui domine Bonneville et les communes d&#39;Ayze, La Tour, Saint-Jean-de-Tholome, Marignier, Saint-Jeoire-en-Faucigny, Viuz-en-Sallaz, Peillonnex et Faucigny qui l&#39;entourent, mais aussi les villes de Cluses au sud-est, de La Roche-sur-Foron au sud-ouest et Annemasse au nord-ouest. La montagne du Môle a la forme d&#39;un cône presque parfait : 7 km en longueur pour 5 km en largeur, avec une altitude de 1 863 m. C&#39;est une petite montagne pour la Haute-Savoie, mais elle a une grande importance géographique : elle sépare la vallée de l&#39;Arve, au sud et à l&#39;ouest, de la vallée du Giffre, au nord et au sud-est, et commande l&#39;entrée sud du bassin Genevois. Sa forme spécifique, que l&#39;on peut prendre pour un volcan suivant l&#39;angle de vue, constitue un excellent repère naturel pour les montagnards et les voyageurs sur des dizaines de kilomètres tout autour. Mary Shelley, dans son livre Frankenstein ou le Prométhée moderne, cite le Môle comme étant visible depuis Genève par son héros Victor Frankenstein qui était originaire de cette ville. Sur son flanc sud s&#39;épanouit le petit mais renommé vignoble d&#39;Ayze, au nord-ouest le plateau du Faucigny et au sud-est une dorsale, entaillée par la vallée du Giffre, qui rejoint le Grand Massif en passant par le col de Châtillon. La randonnée au sommet (4 heures de marche A/R, 12 km et 663 mètres de dénivelé depuis la commune de Saint-Jean-de-Tholome) permet sans trop de difficulté (c&#39;est une classique familiale) de découvrir un superbe panorama à 360° sur tous les paysages environnants (Jura, lac Léman, massif du Mont-Blanc, chaîne du Bargy et Salève) en embrassant presque l&#39;ensemble du département. Une route goudronnée permet, depuis Marignier, d&#39;accéder jusqu&#39;à une altitude de 1 300 m sur le versant oriental. La fin de l&#39;ascension est alors à faire par une arête plus raide, mais plus courte. En 1775 c&#39;est à partir du Môle que l&#39;Anglais Schuckburgh a évalué la hauteur du mont Blanc à 4 804 mètres d&#39;altitude.</span><small> (fr)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="de">Le Môle ist ein 1.863 Meter hoher Berg im französischen Département Haute-Savoie in der Region Auvergne-Rhône-Alpes. Er liegt zwischen dem Tal der Arve im Südwesten und dem Tal der Giffre im Norden und Osten. Der Berg ist 30 Kilometer von Genf entfernt und bildet vom Genfer See aus das Tor zu den Savoyer Alpen. Vom Gipfel aus sieht man das Juragebirge, den Genfer See, den Mont Blanc, die Chaîne du Bargy und den Salève.</span><small> (de)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="ru">Ле-Моль (фр. Le Môle) — гора в департаменте Верхняя Савойя во Франции, которая возвышается рядом с городом Боннвиллем и окружена коммунами Эз, Латур, Сен-Жан-де-Толом, Маринье, Сен-Жуа-ан-Фосиньи, Вью-ан-Салла, Пейонне, Фосиньи. Высота горы — 1863 м, благодаря чему хорошо видна во всём регионе. Хотя гора Ле-Моль в Верхней Савойи считается маленькой, она имеет важное географическое значение — отделяет долину реки Арв, которая протекает на юге и западе, от долины реки Жифф, протекающую на севере и юго-востоке, а также возвышается на южном подходе к Женевскому бассейну.</span><small> (ru)</small></span></li>
+	<li><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="en">Le Môle is a mountain of the Chablais Alps in the Haute-Savoie department of France which dominates the area around the town of Bonneville. The communes of Ayze, La Tour, Saint-Jean-de-Tholome, Marignier, Saint-Jeoire-en-Faucigny, Viuz-en-Sallaz, Peillonnex, and Faucigny encircle it. It rises to 1,863 metres and affords an excellent 360-degree view of the surrounding region. Though a small mountain by Alpine standards, it is of great geographic importance as it divides the vallée de l&#39;Arve to the south and the west from the vallée du Giffre to the north and southeast, and dominates the southern entrance to the Geneva basin. Mary Shelley, in her Frankenstein, or the Modern Prometheus, quotes Le Môle as being seen by Victor Frankenstein from Geneva, where he was born and lived before being a student in Germany.</span><small> (en)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/elevation"><small>dbo:</small>elevation</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:elevation" xmlns:dbo="http://dbpedia.org/ontology/">1863.000000</span><small> (xsd:double)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/locatedInArea"><small>dbo:</small>locatedInArea</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbo:locatedInArea" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Haute-Savoie"><small>dbr</small>:Haute-Savoie</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbo:locatedInArea" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/France"><small>dbr</small>:France</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/mountainRange"><small>dbo:</small>mountainRange</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbo:mountainRange" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Chablais_Alps"><small>dbr</small>:Chablais_Alps</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/prominence"><small>dbo:</small>prominence</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:prominence" xmlns:dbo="http://dbpedia.org/ontology/">1254.000000</span><small> (xsd:double)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/thumbnail"><small>dbo:</small>thumbnail</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbo:thumbnail" xmlns:dbo="http://dbpedia.org/ontology/" href="http://commons.wikimedia.org/wiki/Special:FilePath/Le_Môle_depuis_Cluses_en_hiver.JPG?width=300"><small>wiki-commons</small>:Special:FilePath/Le_Môle_depuis_Cluses_en_hiver.JPG?width=300</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageID"><small>dbo:</small>wikiPageID</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:wikiPageID" xmlns:dbo="http://dbpedia.org/ontology/">23890340</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageRevisionID"><small>dbo:</small>wikiPageRevisionID</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:wikiPageRevisionID" xmlns:dbo="http://dbpedia.org/ontology/">694046758</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/latD"><small>dbp:</small>latD</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:latD">46</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/latM"><small>dbp:</small>latM</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:latM">6</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/latNs"><small>dbp:</small>latNs</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:latNs">N</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/latS"><small>dbp:</small>latS</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:latS">24</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/longD"><small>dbp:</small>longD</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:longD">6</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/longEw"><small>dbp:</small>longEw</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:longEw">E</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/longM"><small>dbp:</small>longM</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:longM">27</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/longS"><small>dbp:</small>longS</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:longS">18</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/mapCaption"><small>dbp:</small>mapCaption</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:mapCaption">Location in the Alps</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/photo"><small>dbp:</small>photo</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:photo">Le Môle depuis Cluses en hiver.JPG</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/regionCode"><small>dbp:</small>regionCode</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:regionCode">FR</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://purl.org/dc/terms/subject"><small>dct:</small>subject</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Mountains_of_Haute-Savoie"><small>dbc</small>:Mountains_of_Haute-Savoie</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Mountains_of_the_Alps"><small>dbc</small>:Mountains_of_the_Alps</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://purl.org/linguistics/gold/hypernym">http://purl.org/linguistics/gold/hypernym</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="ns1:hypernym" xmlns:ns1="http://purl.org/linguistics/gold/" href="http://dbpedia.org/resource/Mountain"><small>dbr</small>:Mountain</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.georss.org/georss/point"><small>georss:</small>point</a>
+</td><td><ul>
+	<li><span class="literal"><span property="georss:point" xmlns:georss="http://www.georss.org/georss/">46.10666666666667 6.455</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"><small>rdf:</small>type</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.w3.org/2002/07/owl#Thing"><small>owl</small>:Thing</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Place"><small>dbo</small>:Place</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Location"><small>dbo</small>:Location</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.wikidata.org/entity/Q8502"><small>wikidata</small>:Q8502</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Mountain"><small>dbo</small>:Mountain</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/NaturalPlace"><small>dbo</small>:NaturalPlace</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"><small>geo</small>:SpatialThing</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://schema.org/Mountain"><small>schema</small>:Mountain</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://schema.org/Place"><small>schema</small>:Place</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/GeologicalFormation109287968"><small>yago</small>:GeologicalFormation109287968</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Mountain109359803"><small>yago</small>:Mountain109359803</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/NaturalElevation109366317"><small>yago</small>:NaturalElevation109366317</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Object100002684"><small>yago</small>:Object100002684</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/PhysicalEntity100001930"><small>yago</small>:PhysicalEntity100001930</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/YagoGeoEntity"><small>yago</small>:YagoGeoEntity</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity"><small>yago</small>:YagoPermanentlyLocatedEntity</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/WikicatMountainsOfHaute-Savoie"><small>yago</small>:WikicatMountainsOfHaute-Savoie</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2000/01/rdf-schema#comment"><small>rdfs:</small>comment</a>
+</td><td><ul>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="de">Le Môle ist ein 1.863 Meter hoher Berg im französischen Département Haute-Savoie in der Region Auvergne-Rhône-Alpes. Er liegt zwischen dem Tal der Arve im Südwesten und dem Tal der Giffre im Norden und Osten. Der Berg ist 30 Kilometer von Genf entfernt und bildet vom Genfer See aus das Tor zu den Savoyer Alpen. Vom Gipfel aus sieht man das Juragebirge, den Genfer See, den Mont Blanc, die Chaîne du Bargy und den Salève.</span><small> (de)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ru">Ле-Моль (фр. Le Môle) — гора в департаменте Верхняя Савойя во Франции, которая возвышается рядом с городом Боннвиллем и окружена коммунами Эз, Латур, Сен-Жан-де-Толом, Маринье, Сен-Жуа-ан-Фосиньи, Вью-ан-Салла, Пейонне, Фосиньи. Высота горы — 1863 м, благодаря чему хорошо видна во всём регионе. Хотя гора Ле-Моль в Верхней Савойи считается маленькой, она имеет важное географическое значение — отделяет долину реки Арв, которая протекает на юге и западе, от долины реки Жифф, протекающую на севере и юго-востоке, а также возвышается на южном подходе к Женевскому бассейну.</span><small> (ru)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="fr">Le Môle est une montagne de Haute-Savoie qui domine Bonneville et les communes d&#39;Ayze, La Tour, Saint-Jean-de-Tholome, Marignier, Saint-Jeoire-en-Faucigny, Viuz-en-Sallaz, Peillonnex et Faucigny qui l&#39;entourent, mais aussi les villes de Cluses au sud-est, de La Roche-sur-Foron au sud-ouest et Annemasse au nord-ouest. Sur son flanc sud s&#39;épanouit le petit mais renommé vignoble d&#39;Ayze, au nord-ouest le plateau du Faucigny et au sud-est une dorsale, entaillée par la vallée du Giffre, qui rejoint le Grand Massif en passant par le col de Châtillon.</span><small> (fr)</small></span></li>
+	<li><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Le Môle is a mountain of the Chablais Alps in the Haute-Savoie department of France which dominates the area around the town of Bonneville. The communes of Ayze, La Tour, Saint-Jean-de-Tholome, Marignier, Saint-Jeoire-en-Faucigny, Viuz-en-Sallaz, Peillonnex, and Faucigny encircle it. It rises to 1,863 metres and affords an excellent 360-degree view of the surrounding region.</span><small> (en)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/2000/01/rdf-schema#label"><small>rdfs:</small>label</a>
+</td><td><ul>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="de">Le Môle</span><small> (de)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="fr">Le Môle</span><small> (fr)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ru">Ле-Моль</span><small> (ru)</small></span></li>
+	<li><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Le Môle</span><small> (en)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2002/07/owl#sameAs"><small>owl:</small>sameAs</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://rdf.freebase.com/ns/m.076vfxw"><small>freebase</small>:Le Môle</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://dbpedia.org/resource/Le_Môle"><small>dbr</small>:Le Môle</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sws.geonames.org/3003315/"><small>geodata</small>:Le Môle</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://www.wikidata.org/entity/Q3224959"><small>wikidata</small>:Le Môle</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://de.dbpedia.org/resource/Le_Môle"><small>dbpedia-de</small>:Le Môle</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://fr.dbpedia.org/resource/Le_Môle"><small>dbpedia-fr</small>:Le Môle</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://wikidata.dbpedia.org/resource/Q3224959"><small>dbpedia-wikidata</small>:Le Môle</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://yago-knowledge.org/resource/Le_Môle"><small>yago-res</small>:Le Môle</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/2003/01/geo/wgs84_pos#geometry"><small>geo:</small>geometry</a>
+</td><td><ul>
+	<li><span class="literal"><span property="geo:geometry" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">POINT(6.4549999237061 46.106666564941)</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2003/01/geo/wgs84_pos#lat"><small>geo:</small>lat</a>
+</td><td><ul>
+	<li><span class="literal"><span property="geo:lat" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">46.106667</span><small> (xsd:float)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/2003/01/geo/wgs84_pos#long"><small>geo:</small>long</a>
+</td><td><ul>
+	<li><span class="literal"><span property="geo:long" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">6.455000</span><small> (xsd:float)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/ns/prov#wasDerivedFrom"><small>prov:</small>wasDerivedFrom</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="prov:wasDerivedFrom" xmlns:prov="http://www.w3.org/ns/prov#" href="http://en.wikipedia.org/wiki/Le_Môle?oldid=694046758"><small>wikipedia-en</small>:Le_Môle?oldid=694046758</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/depiction"><small>foaf:</small>depiction</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="foaf:depiction" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://commons.wikimedia.org/wiki/Special:FilePath/Le_Môle_depuis_Cluses_en_hiver.JPG"><small>wiki-commons</small>:Special:FilePath/Le_Môle_depuis_Cluses_en_hiver.JPG</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"><small>foaf:</small>isPrimaryTopicOf</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="foaf:isPrimaryTopicOf" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://en.wikipedia.org/wiki/Le_Môle"><small>wikipedia-en</small>:Le_Môle</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/name"><small>foaf:</small>name</a>
+</td><td><ul>
+	<li><span class="literal"><span property="foaf:name" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Le Môle</span><small> (en)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/wikiPageRedirects"><small>dbo:</small>wikiPageRedirects</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbo:wikiPageRedirects" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Le_Mole"><small>dbr</small>:Le_Mole</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://www.w3.org/2002/07/owl#sameAs"><small>owl:</small>sameAs</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://dbpedia.org/resource/Le_Môle"><small>dbr</small>:Le Môle</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://xmlns.com/foaf/0.1/primaryTopic"><small>foaf:</small>primaryTopic</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="foaf:primaryTopic" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://en.wikipedia.org/wiki/Le_Môle"><small>wikipedia-en</small>:Le_Môle</a></span></li>
+</ul></td></tr>
+      </table>
+    </div>
+<!-- row  -->
+</div>
+</div>
+<!-- footer -->
+<div class="footer">
+    <div class="container">
+	<a href="http://virtuoso.openlinksw.com" title="OpenLink Virtuoso"><img class="powered_by" src="/statics/images/virt_power_no_border.png" alt="Powered by OpenLink Virtuoso"/></a>&nbsp; &nbsp;
+	<a href="http://linkeddata.org/"><img alt="This material is Open Knowledge" src="/statics/images/LoDLogo.gif"/></a> &nbsp; &nbsp;
+	<a href="http://dbpedia.org/sparql"><img alt="W3C Semantic Web Technology" src="/statics/images/sw-sparql-blue.png"/></a> &nbsp;  &nbsp;
+	<a href="http://www.opendefinition.org/"><img alt="This material is Open Knowledge" src="/statics/images/od_80x15_red_green.png"/></a>&nbsp; &nbsp;
+	<span style="display:none;" about=""
+	    resource="http://www.w3.org/TR/rdfa-syntax"
+	    rel="dc:conformsTo" xmlns:dc="http://purl.org/dc/terms/">
+	    <a href="http://validator.w3.org/check?uri=referer">
+		<img src="http://www.w3.org/Icons/valid-xhtml-rdfa" alt="Valid XHTML + RDFa" height="27px" />
+	    </a>
+	</span>
+	<br />
+	<div class="text-muted">
+	    This content was extracted from <a href="http://en.wikipedia.org/wiki/Le_Môle">Wikipedia</a> and is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>
+
+	</div>
+    </div>
+</div>
+<!-- #footer -->
+<!--#content-->
+    <!--script type="text/javascript">
+     Place any Javascript code e.g. Google Analytics scripts
+    </script-->
+    
+    <script type="text/javascript" src="/statics/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/statics/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/statics/js/dbpedia.js"></script>
+</body>
+</html>

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    version="XHTML+RDFa 1.0"
+    xml:lang="en"
+>
+
+
+<!-- header -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About: Courmayeur</title>
+    <link rel="alternate" type="application/rdf+xml" 		href="http://dbpedia.org/data/Courmayeur.rdf" title="Structured Descriptor Document (RDF/XML format)" />
+    <link rel="alternate" type="text/n3" 			href="http://dbpedia.org/data/Courmayeur.n3" title="Structured Descriptor Document (N3 format)" />
+    <link rel="alternate" type="text/turtle" 			href="http://dbpedia.org/data/Courmayeur.ttl" title="Structured Descriptor Document (Turtle format)" />
+    <link rel="alternate" type="application/json+rdf" 		href="http://dbpedia.org/data/Courmayeur.jrdf" title="Structured Descriptor Document (RDF/JSON format)" />
+    <link rel="alternate" type="application/json" 		href="http://dbpedia.org/data/Courmayeur.json" title="Structured Descriptor Document (RDF/JSON format)" />
+    <link rel="alternate" type="application/atom+xml" 		href="http://dbpedia.org/data/Courmayeur.atom" title="OData (Atom+Feed format)" />
+    <link rel="alternate" type="text/plain" 			href="http://dbpedia.org/data/Courmayeur.ntriples" title="Structured Descriptor Document (N-Triples format)" />
+    <link rel="alternate" type="text/csv"   			href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCourmayeur%3E&amp;format=text%2Fcsv" title="Structured Descriptor Document (CSV format)" />
+    
+    <link rel="alternate" type="text/cxml"  			href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCourmayeur%3E&amp;format=text%2Fcxml" title="Structured Descriptor Document (CXML format)" />
+    
+    <link rel="alternate" type="application/microdata+json"	href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCourmayeur%3E&amp;format=application%2Fmicrodata%2Bjson" title="Structured Descriptor Document (Microdata/JSON format)" />
+    <link rel="alternate" type="text/html" 			href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCourmayeur%3E&amp;format=text%2Fhtml" title="Structured Descriptor Document (Microdata/HTML format)" />
+    <link rel="alternate" type="application/ld+json" 		href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCourmayeur%3E&amp;format=application%2Fjson-ld" title="Structured Descriptor Document (JSON-LD format)" />
+    <link rel="alternate" type="text/x-html-script-ld+json"	href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCourmayeur%3E&amp;format=text%2Fx-html-script-ld%2Bjson" title="Structured Descriptor Document (HTML with embedded JSON-LD)" />
+    <link rel="alternate" type="text/x-html-script-turtle"	href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCourmayeur%3E&amp;format=text%2Fx-html-script-turtle" title="Structured Descriptor Document (HTML with embedded Turtle)" />
+    <link rel="timegate" type="text/html" 			href="http://dbpedia.mementodepot.org/timegate/http://dbpedia.org/page/Courmayeur" title="Time Machine" />
+    <link rel="foaf:primarytopic" 				href="http://dbpedia.org/resource/Courmayeur"/>
+    <link rev="describedby" 					href="http://dbpedia.org/resource/Courmayeur"/>
+    <link rel="stylesheet" type="text/css"			href="/statics/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" 			href="/statics/css/dbpedia.css" />
+</head>
+<body about="http://dbpedia.org/resource/Courmayeur">
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+	<div class="navbar-header">
+	    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dbp-navbar" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	    </button>
+	    <a class="navbar-brand" href="http://wiki.dbpedia.org/about" title="About DBpedia" style="color: #2c5078">
+	    <img class="img-responsive" src="/statics/images/dbpedia_logo_land_120.png" alt="About DBpedia" style="display: inline-block;  margin-top: -12px"/>
+	    </a>
+	</div>
+
+	<div class="collapse navbar-collapse" id="dbp-navbar">
+	    <ul class="nav navbar-nav navbar-right">
+		<li><a class="active" href="/fct/" title="Switch to /fct endpoint"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> Faceted Browser </a></li>
+		<li><a class="active" href="/sparql/" title="Switch to /sparql endpoint"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> Sparql Endpoint </a></li>
+	    </ul>
+	    <ul class="nav navbar-nav">
+	    <li class="dropdown">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Browse using <span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		<li><a href="/describe/?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FCourmayeur">OpenLink Faceted Browser</a></li>
+		<li><a href="http://linkeddata.uriburner.com/rdf-editor/#/editor?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FCourmayeur&amp;view=statements">OpenLink Structured Data Editor</a></li>
+		<li><a href="http://en.lodlive.it/?http%3A%2F%2Fdbpedia.org%2Fresource%2FCourmayeur">LodLive Browser</a></li>
+		<li><a href="http://lodmilla.sztaki.hu/lodmilla/?url=http%3A%2F%2Fdbpedia.org%2Fresource%2FCourmayeur">LODmilla Browser</a></li>
+		</ul>
+	    </li>
+	    <li class="dropdown">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Formats <span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		<li>&nbsp;RDF:</li>
+		    <li><a href="http://dbpedia.org/data/Courmayeur.ntriples">N-Triples</a></li>
+		    <li><a href="http://dbpedia.org/data/Courmayeur.n3">N3</a></li>
+		    <li><a href="http://dbpedia.org/data/Courmayeur.ttl">Turtle</a></li>
+		    <li><a href="http://dbpedia.org/data/Courmayeur.json">JSON</a></li>
+		    <li><a href="http://dbpedia.org/data/Courmayeur.rdf">XML</a></li>
+		<li class="divider"></li>
+		<li>&nbsp;OData:</li>
+		    <li><a href="http://dbpedia.org/data/Courmayeur.atom">Atom</a></li>
+		    <li><a href="http://dbpedia.org/data/Courmayeur.jsod">JSON</a></li>
+		<li class="divider"></li>
+		<li>&nbsp;Microdata:</li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCourmayeur%3E&amp;format=application%2Fmicrodata%2Bjson">JSON</a></li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCourmayeur%3E&amp;format=text%2Fhtml">HTML</a></li>
+		<li class="divider"></li>
+		<li>&nbsp;Embedded:</li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCourmayeur%3E&amp;format=text%2Fx-html-script-ld%2Bjson">JSON</a></li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCourmayeur%3E&amp;format=text%2Fx-html-script-turtle">Turtle</a></li>
+		<li class="divider"></li>
+		    
+		        <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCourmayeur%3E&amp;format=text%2Fcxml">CXML</a></li>
+		    
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCourmayeur%3E&amp;format=text%2Fcsv">CSV</a></li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCourmayeur%3E&amp;format=application%2Fjson-ld">JSON-LD</a></li>
+		</ul>
+	    </li>
+	    </ul>
+	</div>
+    </div>
+</div>
+
+<div class="container">
+<!-- page-header -->
+    <div class="page-header">
+	<!-- div class="pull-right">
+	    <a href="http://wiki.dbpedia.org/about" title="About DBpedia">
+	    <img class="img-responsive" src="/statics/images/dbpedia_logo_land_120.png" alt="About DBpedia"/>
+	    </a>
+	</div -->
+	<h1 id="title">About:
+	    <a href="http://dbpedia.org/resource/Courmayeur">Courmayeur</a>
+	</h1>
+	<div class="page-resource-uri">
+	    An Entity of Type : <a href="http://dbpedia.org/ontology/PopulatedPlace">populated place</a>,
+	    from Named Graph : <a href="http://dbpedia.org">http://dbpedia.org</a>,
+	    within Data Space : <a href="http://dbpedia.org">dbpedia.org</a>
+	</div>
+    </div>
+<!-- page-header -->
+<!-- row -->
+    <div class="row">
+	<div class="col-xs-12">
+	    <p class="lead">Courmayeur is a town and comune in northern Italy, in the autonomous region of Aosta Valley. At an elevation of 1,224 m (4,016 ft) above sea level, it is located at the foot of the southern side of Mont Blanc, at 4,810 m (15,781 ft) the highest point in the Alps and western Europe (see Seven Summits), and is crossed by the Dora Baltea. Courmayeur shares administration of Mont Blanc with its neighboring commune of Saint-Gervais-les-Bains in France, and is consequently able to claim the title of highest commune in Italy. Courmayeur also shares access to the famous glacial ski run of the Vallée Blanche with another French town, Chamonix, which sits at the opposite, northern, side of the Mont Blanc massif.</p>
+	</div>
+	<div class="col-xs-12">
+	    <!-- proptable -->
+	    <table class="description table table-striped">
+	    <tr>
+		<th class="col-xs-3">Property</th>
+		<th class="col-xs-9">Value</th>
+	    </tr>
+<tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/PopulatedPlace/areaTotal"><small>dbo:</small>PopulatedPlace/areaTotal</a>
+</td><td><ul>
+	<li><span class="literal"><span property="ns0:areaTotal" xmlns:ns0="http://dbpedia.org/ontology/PopulatedPlace/">210.0</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/abstract"><small>dbo:</small>abstract</a>
+</td><td><ul>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="de">Courmayeur ist eine Ortschaft der autonomen Region Aostatal in den italienischen Alpen. Sie hat 2807 Einwohner (Stand 31. Dezember 2015) und eine Fläche von 210 km².</span><small> (de)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="es">Courmayeur (en dialecto valdostano Croméyeui) es un municipio italiano de 2.969 habitantes de la región autónoma del Valle de Aosta. Entre 1939 y 1946 el régimen fascista italianizó su nombre a Cormaiore. Famoso por su cercanía con Mont Blanc, forma parte de la Unité des communes valdôtaines Valdigne Mont-Blanc, siendo el municipio más occidental de la región.</span><small> (es)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="fr">Courmayeur est une commune du Nord-Ouest de la Vallée d&#39;Aoste, en Italie.</span><small> (fr)</small></span></li>
+	<li><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="en">Courmayeur is a town and comune in northern Italy, in the autonomous region of Aosta Valley. At an elevation of 1,224 m (4,016 ft) above sea level, it is located at the foot of the southern side of Mont Blanc, at 4,810 m (15,781 ft) the highest point in the Alps and western Europe (see Seven Summits), and is crossed by the Dora Baltea. Courmayeur shares administration of Mont Blanc with its neighboring commune of Saint-Gervais-les-Bains in France, and is consequently able to claim the title of highest commune in Italy. Courmayeur also shares access to the famous glacial ski run of the Vallée Blanche with another French town, Chamonix, which sits at the opposite, northern, side of the Mont Blanc massif.</span><small> (en)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="it">Courmayeur (Croméyeui in arpitano valdostano; Cormaiore dal 1939 al 1946) è un comune italiano di 2 805 abitanti dell&#39;alta Valdigne, in Valle d&#39;Aosta. Sul suo territorio comunale si trova la montagna più alta d&#39;Italia e dell&#39;Europa centrale, il Monte Bianco, ed è una rinomata località turistica invernale ed estiva delle Alpi.</span><small> (it)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="ja">クールマイユール（フランス語: Courmayeur）は、イタリア共和国ヴァッレ・ダオスタ州にある、人口約2800人の基礎自治体（コムーネ）。 西ヨーロッパ最高峰であるモンブランの南東麓にあり、イタリア有数の山岳リゾート地である。冬季は山岳スキー、夏季は登山や避暑でにぎわう。ヴァッレ・ダオスタ（アオスタ谷）の最上流部に位置する町で、モンブラントンネルのイタリア側出口があり、アルプスを越える交通の大動脈を担っている。</span><small> (ja)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="nl">Courmayeur is een plaats met bijbehorende gemeente in de Italiaanse provincie Valle d&#39;Aosta (regio Valle d&#39;Aosta).</span><small> (nl)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="pl">Courmayeur – miejscowość i gmina we Włoszech, w regionie Dolina Aosty. Jest położona u stóp masywu Mont Blanc (wł. Monte Bianco). W pobliżu znajduje się Tunel Mont Blanc łączący Włochy i Francję oraz kolej linowa La Palud – Punta Helbronner, której górna stacja jest połączona kolejką panoramiczną z Aiguille du Midi. Według danych na styczeń 2009 gminę zamieszkiwało 2970 osób przy gęstości zaludnienia 14,2 os./km².</span><small> (pl)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="pt">Courmayeur (pronúncia italiana [kurmaˈjɛr] ou [kurmaˈjør]) é uma comuna italiana da região do Vale de Aosta com cerca de 2.798 habitantes, que se estende por uma área de 210 km², e tem uma densidade populacional de 13 hab/km².</span><small> (pt)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="ru">Курмайёр (фр. Courmayeur, франкопров. Croméyeui) — город и коммуна на севере Италии, в области Валле-д&#39;Аоста, расположенный у подножия высшей точки Альп — Монблана. Покровителем населённого пункта считается святой Великомученик Пантелеимон. Расстояние до Рима — 620 км, до административного центра области Валле д&#39;Аоста Аосты — 28 км.</span><small> (ru)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="zh">库尔马耶乌尔（法语：Courmayeur），是意大利瓦莱达奥斯塔的一个市镇。总面积209.82平方公里，人口2923人，人口密度13.9人/平方公里（2009年）。ISTAT代码为007022。</span><small> (zh)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/areaCode"><small>dbo:</small>areaCode</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:areaCode" xmlns:dbo="http://dbpedia.org/ontology/">0165</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/areaTotal"><small>dbo:</small>areaTotal</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:areaTotal" xmlns:dbo="http://dbpedia.org/ontology/">210000000.000000</span><small> (xsd:double)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/country"><small>dbo:</small>country</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbo:country" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Italy"><small>dbr</small>:Italy</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/leaderParty"><small>dbo:</small>leaderParty</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbo:leaderParty" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Independent_politician"><small>dbr</small>:Independent_politician</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/maximumElevation"><small>dbo:</small>maximumElevation</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:maximumElevation" xmlns:dbo="http://dbpedia.org/ontology/">4810.000000</span><small> (xsd:double)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/minimumElevation"><small>dbo:</small>minimumElevation</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:minimumElevation" xmlns:dbo="http://dbpedia.org/ontology/">1224.000000</span><small> (xsd:double)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/populationTotal"><small>dbo:</small>populationTotal</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:populationTotal" xmlns:dbo="http://dbpedia.org/ontology/">2870</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/postalCode"><small>dbo:</small>postalCode</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:postalCode" xmlns:dbo="http://dbpedia.org/ontology/">11013</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/region"><small>dbo:</small>region</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbo:region" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Aosta_Valley"><small>dbr</small>:Aosta_Valley</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/thumbnail"><small>dbo:</small>thumbnail</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbo:thumbnail" xmlns:dbo="http://dbpedia.org/ontology/" href="http://commons.wikimedia.org/wiki/Special:FilePath/Courmayeur_001.JPG?width=300"><small>wiki-commons</small>:Special:FilePath/Courmayeur_001.JPG?width=300</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageExternalLink"><small>dbo:</small>wikiPageExternalLink</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbo:wikiPageExternalLink nofollow" xmlns:dbo="http://dbpedia.org/ontology/" href="http://www.comune.courmayeur.ao.it">http://www.comune.courmayeur.ao.it</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbo:wikiPageExternalLink nofollow" xmlns:dbo="http://dbpedia.org/ontology/" href="http://www.noirfest.com/index.asp?lang=eng">http://www.noirfest.com/index.asp?lang=eng</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbo:wikiPageExternalLink nofollow" xmlns:dbo="http://dbpedia.org/ontology/" href="http://www.sciclubcourmayeur.com/SKIHOME/HOME.html">http://www.sciclubcourmayeur.com/SKIHOME/HOME.html</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageID"><small>dbo:</small>wikiPageID</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:wikiPageID" xmlns:dbo="http://dbpedia.org/ontology/">1823502</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageRevisionID"><small>dbo:</small>wikiPageRevisionID</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:wikiPageRevisionID" xmlns:dbo="http://dbpedia.org/ontology/">743042638</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/coordinatesDisplay"><small>dbp:</small>coordinatesDisplay</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:coordinatesDisplay">title</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/day"><small>dbp:</small>day</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:day">--07-27</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/frazioni"><small>dbp:</small>frazioni</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:frazioni">Dolonne, Entrèves, La Palud, Villair Dessous, Villair Dessus, Larzey, Entrelevie, La Villette, La Saxe</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/imageCaption"><small>dbp:</small>imageCaption</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:imageCaption">Courmayeur from the Torino Hut in August 2009</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/imageShield"><small>dbp:</small>imageShield</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:imageShield">Blason ville It Courmayeur .svg</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/imageSkyline"><small>dbp:</small>imageSkyline</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:imageSkyline">Courmayeur 001.JPG</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/latd"><small>dbp:</small>latd</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:latd">45</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/latm"><small>dbp:</small>latm</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:latm">47</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/latns"><small>dbp:</small>latns</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:latns">N</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/longd"><small>dbp:</small>longd</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:longd">6</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/longew"><small>dbp:</small>longew</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:longew">E</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/longm"><small>dbp:</small>longm</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:longm">58</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/mayor"><small>dbp:</small>mayor</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:mayor">Fabrizia Derriard</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/populationAsOf"><small>dbp:</small>populationAsOf</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:populationAsOf">2010</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/populationDemonym"><small>dbp:</small>populationDemonym</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:populationDemonym">Courmayeurins</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/province"><small>dbp:</small>province</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:province">none</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/saint"><small>dbp:</small>saint</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:saint">St. Pantaleo</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/shieldSize"><small>dbp:</small>shieldSize</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:shieldSize">75</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/wordnet_type"><small>dbp:</small>wordnet_type</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbp:wordnet_type nofollow" href="http://www.w3.org/2006/03/wn/wn20/instances/synset-city-noun-3">http://www.w3.org/2006/03/wn/wn20/instances/synset-city-noun-3</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://purl.org/dc/terms/subject"><small>dct:</small>subject</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Ski_areas_and_resorts_in_Italy"><small>dbc</small>:Ski_areas_and_resorts_in_Italy</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Courmayeur"><small>dbc</small>:Courmayeur</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://purl.org/linguistics/gold/hypernym">http://purl.org/linguistics/gold/hypernym</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="ns2:hypernym" xmlns:ns2="http://purl.org/linguistics/gold/" href="http://dbpedia.org/resource/Town"><small>dbr</small>:Town</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.georss.org/georss/point"><small>georss:</small>point</a>
+</td><td><ul>
+	<li><span class="literal"><span property="georss:point" xmlns:georss="http://www.georss.org/georss/">45.78333333333333 6.966666666666667</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"><small>rdf:</small>type</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.w3.org/2002/07/owl#Thing"><small>owl</small>:Thing</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Place"><small>dbo</small>:Place</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Location"><small>dbo</small>:Location</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.wikidata.org/entity/Q486972"><small>wikidata</small>:Q486972</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/PopulatedPlace"><small>dbo</small>:PopulatedPlace</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Settlement"><small>dbo</small>:Settlement</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"><small>geo</small>:SpatialThing</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://schema.org/Place"><small>schema</small>:Place</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/WikicatSkiAreasAndResortsInItaly"><small>yago</small>:WikicatSkiAreasAndResortsInItaly</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/WikicatSpaTownsInItaly"><small>yago</small>:WikicatSpaTownsInItaly</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/AdministrativeDistrict108491826"><small>yago</small>:AdministrativeDistrict108491826</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Area108497294"><small>yago</small>:Area108497294</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/City108524735"><small>yago</small>:City108524735</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/District108552138"><small>yago</small>:District108552138</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/GeographicalArea108574314"><small>yago</small>:GeographicalArea108574314</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Location100027167"><small>yago</small>:Location100027167</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Municipality108626283"><small>yago</small>:Municipality108626283</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Object100002684"><small>yago</small>:Object100002684</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/PhysicalEntity100001930"><small>yago</small>:PhysicalEntity100001930</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Region108630985"><small>yago</small>:Region108630985</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Town108665504"><small>yago</small>:Town108665504</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/UrbanArea108675967"><small>yago</small>:UrbanArea108675967</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/YagoGeoEntity"><small>yago</small>:YagoGeoEntity</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/YagoLegalActorGeo"><small>yago</small>:YagoLegalActorGeo</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity"><small>yago</small>:YagoPermanentlyLocatedEntity</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/WikicatCitiesAndTownsInAostaValley"><small>yago</small>:WikicatCitiesAndTownsInAostaValley</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/2000/01/rdf-schema#comment"><small>rdfs:</small>comment</a>
+</td><td><ul>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="de">Courmayeur ist eine Ortschaft der autonomen Region Aostatal in den italienischen Alpen. Sie hat 2807 Einwohner (Stand 31. Dezember 2015) und eine Fläche von 210 km².</span><small> (de)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="es">Courmayeur (en dialecto valdostano Croméyeui) es un municipio italiano de 2.969 habitantes de la región autónoma del Valle de Aosta. Entre 1939 y 1946 el régimen fascista italianizó su nombre a Cormaiore. Famoso por su cercanía con Mont Blanc, forma parte de la Unité des communes valdôtaines Valdigne Mont-Blanc, siendo el municipio más occidental de la región.</span><small> (es)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="fr">Courmayeur est une commune du Nord-Ouest de la Vallée d&#39;Aoste, en Italie.</span><small> (fr)</small></span></li>
+	<li><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Courmayeur is a town and comune in northern Italy, in the autonomous region of Aosta Valley. At an elevation of 1,224 m (4,016 ft) above sea level, it is located at the foot of the southern side of Mont Blanc, at 4,810 m (15,781 ft) the highest point in the Alps and western Europe (see Seven Summits), and is crossed by the Dora Baltea. Courmayeur shares administration of Mont Blanc with its neighboring commune of Saint-Gervais-les-Bains in France, and is consequently able to claim the title of highest commune in Italy. Courmayeur also shares access to the famous glacial ski run of the Vallée Blanche with another French town, Chamonix, which sits at the opposite, northern, side of the Mont Blanc massif.</span><small> (en)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="it">Courmayeur (Croméyeui in arpitano valdostano; Cormaiore dal 1939 al 1946) è un comune italiano di 2 805 abitanti dell&#39;alta Valdigne, in Valle d&#39;Aosta. Sul suo territorio comunale si trova la montagna più alta d&#39;Italia e dell&#39;Europa centrale, il Monte Bianco, ed è una rinomata località turistica invernale ed estiva delle Alpi.</span><small> (it)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ja">クールマイユール（フランス語: Courmayeur）は、イタリア共和国ヴァッレ・ダオスタ州にある、人口約2800人の基礎自治体（コムーネ）。 西ヨーロッパ最高峰であるモンブランの南東麓にあり、イタリア有数の山岳リゾート地である。冬季は山岳スキー、夏季は登山や避暑でにぎわう。ヴァッレ・ダオスタ（アオスタ谷）の最上流部に位置する町で、モンブラントンネルのイタリア側出口があり、アルプスを越える交通の大動脈を担っている。</span><small> (ja)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="nl">Courmayeur is een plaats met bijbehorende gemeente in de Italiaanse provincie Valle d&#39;Aosta (regio Valle d&#39;Aosta).</span><small> (nl)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pl">Courmayeur – miejscowość i gmina we Włoszech, w regionie Dolina Aosty. Jest położona u stóp masywu Mont Blanc (wł. Monte Bianco). W pobliżu znajduje się Tunel Mont Blanc łączący Włochy i Francję oraz kolej linowa La Palud – Punta Helbronner, której górna stacja jest połączona kolejką panoramiczną z Aiguille du Midi. Według danych na styczeń 2009 gminę zamieszkiwało 2970 osób przy gęstości zaludnienia 14,2 os./km².</span><small> (pl)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pt">Courmayeur (pronúncia italiana [kurmaˈjɛr] ou [kurmaˈjør]) é uma comuna italiana da região do Vale de Aosta com cerca de 2.798 habitantes, que se estende por uma área de 210 km², e tem uma densidade populacional de 13 hab/km².</span><small> (pt)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ru">Курмайёр (фр. Courmayeur, франкопров. Croméyeui) — город и коммуна на севере Италии, в области Валле-д&#39;Аоста, расположенный у подножия высшей точки Альп — Монблана. Покровителем населённого пункта считается святой Великомученик Пантелеимон. Расстояние до Рима — 620 км, до административного центра области Валле д&#39;Аоста Аосты — 28 км.</span><small> (ru)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="zh">库尔马耶乌尔（法语：Courmayeur），是意大利瓦莱达奥斯塔的一个市镇。总面积209.82平方公里，人口2923人，人口密度13.9人/平方公里（2009年）。ISTAT代码为007022。</span><small> (zh)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2000/01/rdf-schema#label"><small>rdfs:</small>label</a>
+</td><td><ul>
+	<li><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Courmayeur</span><small> (en)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="de">Courmayeur</span><small> (de)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="es">Courmayeur</span><small> (es)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="fr">Courmayeur</span><small> (fr)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="it">Courmayeur</span><small> (it)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ja">クールマイユール</span><small> (ja)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="nl">Courmayeur</span><small> (nl)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pl">Courmayeur</span><small> (pl)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pt">Courmayeur</span><small> (pt)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ru">Курмайёр</span><small> (ru)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="zh">库尔马耶乌尔</span><small> (zh)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/2002/07/owl#sameAs"><small>owl:</small>sameAs</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://www.wikidata.org/entity/Q34993"><small>wikidata</small>:Courmayeur</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://de.dbpedia.org/resource/Courmayeur"><small>dbpedia-de</small>:Courmayeur</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://es.dbpedia.org/resource/Courmayeur"><small>dbpedia-es</small>:Courmayeur</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://eu.dbpedia.org/resource/Courmayeur"><small>dbpedia-eu</small>:Courmayeur</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://fr.dbpedia.org/resource/Courmayeur"><small>dbpedia-fr</small>:Courmayeur</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://id.dbpedia.org/resource/Courmayeur"><small>dbpedia-id</small>:Courmayeur</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://it.dbpedia.org/resource/Courmayeur"><small>dbpedia-it</small>:Courmayeur</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ja.dbpedia.org/resource/クールマイユール"><small>dbpedia-ja</small>:Courmayeur</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ko.dbpedia.org/resource/쿠르마외르"><small>dbpedia-ko</small>:Courmayeur</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://nl.dbpedia.org/resource/Courmayeur"><small>dbpedia-nl</small>:Courmayeur</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://pl.dbpedia.org/resource/Courmayeur"><small>dbpedia-pl</small>:Courmayeur</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://pt.dbpedia.org/resource/Courmayeur"><small>dbpedia-pt</small>:Courmayeur</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://wikidata.dbpedia.org/resource/Q34993"><small>dbpedia-wikidata</small>:Courmayeur</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sws.geonames.org/3177872/"><small>geodata</small>:Courmayeur</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://linkedgeodata.org/triplify/node559501834"><small>lgdt</small>:Courmayeur</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://rdf.freebase.com/ns/m.05zstg"><small>freebase</small>:Courmayeur</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://yago-knowledge.org/resource/Courmayeur"><small>yago-res</small>:Courmayeur</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://d-nb.info/gnd/4494735-5">http://d-nb.info/gnd/4494735-5</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2003/01/geo/wgs84_pos#geometry"><small>geo:</small>geometry</a>
+</td><td><ul>
+	<li><span class="literal"><span property="geo:geometry" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">POINT(6.9666666984558 45.783332824707)</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/2003/01/geo/wgs84_pos#lat"><small>geo:</small>lat</a>
+</td><td><ul>
+	<li><span class="literal"><span property="geo:lat" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">45.783333</span><small> (xsd:float)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2003/01/geo/wgs84_pos#long"><small>geo:</small>long</a>
+</td><td><ul>
+	<li><span class="literal"><span property="geo:long" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">6.966667</span><small> (xsd:float)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/ns/prov#wasDerivedFrom"><small>prov:</small>wasDerivedFrom</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="prov:wasDerivedFrom" xmlns:prov="http://www.w3.org/ns/prov#" href="http://en.wikipedia.org/wiki/Courmayeur?oldid=743042638"><small>wikipedia-en</small>:Courmayeur?oldid=743042638</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/depiction"><small>foaf:</small>depiction</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="foaf:depiction" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://commons.wikimedia.org/wiki/Special:FilePath/Courmayeur_001.JPG"><small>wiki-commons</small>:Special:FilePath/Courmayeur_001.JPG</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/homepage"><small>foaf:</small>homepage</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="foaf:homepage nofollow" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://www.comune.courmayeur.ao.it">http://www.comune.courmayeur.ao.it</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"><small>foaf:</small>isPrimaryTopicOf</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="foaf:isPrimaryTopicOf" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://en.wikipedia.org/wiki/Courmayeur"><small>wikipedia-en</small>:Courmayeur</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/name"><small>foaf:</small>name</a>
+</td><td><ul>
+	<li><span class="literal"><span property="foaf:name" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Courmayeur</span><small> (en)</small></span></li>
+	<li><span class="literal"><span property="foaf:name" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Commune de Courmayeur</span><small> (en)</small></span></li>
+	<li><span class="literal"><span property="foaf:name" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Comune di Courmayeur</span><small> (en)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/birthPlace"><small>dbo:</small>birthPlace</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbo:birthPlace" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Émile_Rey"><small>dbr</small>:Émile_Rey</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbo:birthPlace" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Richard_Pramotton"><small>dbr</small>:Richard_Pramotton</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbo:birthPlace" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Davide_Giordano"><small>dbr</small>:Davide_Giordano</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/city"><small>dbo:</small>city</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbo:city" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/HC_Lions_Courmaosta"><small>dbr</small>:HC_Lions_Courmaosta</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/deathPlace"><small>dbo:</small>deathPlace</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbo:deathPlace" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Henrik_Sillem"><small>dbr</small>:Henrik_Sillem</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbo:deathPlace" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Pierlucio_Tinazzi"><small>dbr</small>:Pierlucio_Tinazzi</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbo:deathPlace" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Pietro_Grocco"><small>dbr</small>:Pietro_Grocco</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/locatedInArea"><small>dbo:</small>locatedInArea</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbo:locatedInArea" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Mont_Maudit"><small>dbr</small>:Mont_Maudit</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/location"><small>dbo:</small>location</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbo:location" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Grivel_(company)"><small>dbr</small>:Grivel_(company)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbo:location" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Courmayeur_Noir_Film_Festival"><small>dbr</small>:Courmayeur_Noir_Film_Festival</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/neighboringMunicipality"><small>dbo:</small>neighboringMunicipality</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbo:neighboringMunicipality" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Orsières"><small>dbr</small>:Orsières</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/residence"><small>dbo:</small>residence</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbo:residence" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Maurizio_Margaglio"><small>dbr</small>:Maurizio_Margaglio</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/routeEndLocation"><small>dbo:</small>routeEndLocation</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbo:routeEndLocation" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Mont_Blanc_Tunnel"><small>dbr</small>:Mont_Blanc_Tunnel</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/wikiPageRedirects"><small>dbo:</small>wikiPageRedirects</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbo:wikiPageRedirects" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Cormaiore"><small>dbr</small>:Cormaiore</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbo:wikiPageRedirects" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Entréves"><small>dbr</small>:Entréves</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/property/city"><small>dbp:</small>city</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbp:city" href="http://dbpedia.org/resource/Valle_d&#39;Aosta_Open"><small>dbr</small>:Valle_d&#39;Aosta_Open</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/property/currenttraininglocations"><small>dbp:</small>currenttraininglocations</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbp:currenttraininglocations" href="http://dbpedia.org/resource/Guia_Maria_Tagliapietra"><small>dbr</small>:Guia_Maria_Tagliapietra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbp:currenttraininglocations" href="http://dbpedia.org/resource/Carol_Bressanutti"><small>dbr</small>:Carol_Bressanutti</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/property/formertraininglocations"><small>dbp:</small>formertraininglocations</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbp:formertraininglocations" href="http://dbpedia.org/resource/Samuel_Contesti"><small>dbr</small>:Samuel_Contesti</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/property/location"><small>dbp:</small>location</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbp:location" href="http://dbpedia.org/resource/2012_Italian_Figure_Skating_Championships"><small>dbr</small>:2012_Italian_Figure_Skating_Championships</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://xmlns.com/foaf/0.1/primaryTopic"><small>foaf:</small>primaryTopic</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="foaf:primaryTopic" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://en.wikipedia.org/wiki/Courmayeur"><small>wikipedia-en</small>:Courmayeur</a></span></li>
+</ul></td></tr>
+      </table>
+    </div>
+<!-- row  -->
+</div>
+</div>
+<!-- footer -->
+<div class="footer">
+    <div class="container">
+	<a href="http://virtuoso.openlinksw.com" title="OpenLink Virtuoso"><img class="powered_by" src="/statics/images/virt_power_no_border.png" alt="Powered by OpenLink Virtuoso"/></a>&nbsp; &nbsp;
+	<a href="http://linkeddata.org/"><img alt="This material is Open Knowledge" src="/statics/images/LoDLogo.gif"/></a> &nbsp; &nbsp;
+	<a href="http://dbpedia.org/sparql"><img alt="W3C Semantic Web Technology" src="/statics/images/sw-sparql-blue.png"/></a> &nbsp;  &nbsp;
+	<a href="http://www.opendefinition.org/"><img alt="This material is Open Knowledge" src="/statics/images/od_80x15_red_green.png"/></a>&nbsp; &nbsp;
+	<span style="display:none;" about=""
+	    resource="http://www.w3.org/TR/rdfa-syntax"
+	    rel="dc:conformsTo" xmlns:dc="http://purl.org/dc/terms/">
+	    <a href="http://validator.w3.org/check?uri=referer">
+		<img src="http://www.w3.org/Icons/valid-xhtml-rdfa" alt="Valid XHTML + RDFa" height="27px" />
+	    </a>
+	</span>
+	<br />
+	<div class="text-muted">
+	    This content was extracted from <a href="http://en.wikipedia.org/wiki/Courmayeur">Wikipedia</a> and is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>
+
+	</div>
+    </div>
+</div>
+<!-- #footer -->
+<!--#content-->
+    <!--script type="text/javascript">
+     Place any Javascript code e.g. Google Analytics scripts
+    </script-->
+    
+    <script type="text/javascript" src="/statics/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/statics/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/statics/js/dbpedia.js"></script>
+</body>
+</html>

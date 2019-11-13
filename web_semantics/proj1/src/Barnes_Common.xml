@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    version="XHTML+RDFa 1.0"
+    xml:lang="en"
+>
+
+
+<!-- header -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About: Barnes Common</title>
+    <link rel="alternate" type="application/rdf+xml" 		href="http://dbpedia.org/data/Barnes_Common.rdf" title="Structured Descriptor Document (RDF/XML format)" />
+    <link rel="alternate" type="text/n3" 			href="http://dbpedia.org/data/Barnes_Common.n3" title="Structured Descriptor Document (N3 format)" />
+    <link rel="alternate" type="text/turtle" 			href="http://dbpedia.org/data/Barnes_Common.ttl" title="Structured Descriptor Document (Turtle format)" />
+    <link rel="alternate" type="application/json+rdf" 		href="http://dbpedia.org/data/Barnes_Common.jrdf" title="Structured Descriptor Document (RDF/JSON format)" />
+    <link rel="alternate" type="application/json" 		href="http://dbpedia.org/data/Barnes_Common.json" title="Structured Descriptor Document (RDF/JSON format)" />
+    <link rel="alternate" type="application/atom+xml" 		href="http://dbpedia.org/data/Barnes_Common.atom" title="OData (Atom+Feed format)" />
+    <link rel="alternate" type="text/plain" 			href="http://dbpedia.org/data/Barnes_Common.ntriples" title="Structured Descriptor Document (N-Triples format)" />
+    <link rel="alternate" type="text/csv"   			href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FBarnes_Common%3E&amp;format=text%2Fcsv" title="Structured Descriptor Document (CSV format)" />
+    
+    <link rel="alternate" type="text/cxml"  			href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FBarnes_Common%3E&amp;format=text%2Fcxml" title="Structured Descriptor Document (CXML format)" />
+    
+    <link rel="alternate" type="application/microdata+json"	href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FBarnes_Common%3E&amp;format=application%2Fmicrodata%2Bjson" title="Structured Descriptor Document (Microdata/JSON format)" />
+    <link rel="alternate" type="text/html" 			href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FBarnes_Common%3E&amp;format=text%2Fhtml" title="Structured Descriptor Document (Microdata/HTML format)" />
+    <link rel="alternate" type="application/ld+json" 		href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FBarnes_Common%3E&amp;format=application%2Fjson-ld" title="Structured Descriptor Document (JSON-LD format)" />
+    <link rel="alternate" type="text/x-html-script-ld+json"	href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FBarnes_Common%3E&amp;format=text%2Fx-html-script-ld%2Bjson" title="Structured Descriptor Document (HTML with embedded JSON-LD)" />
+    <link rel="alternate" type="text/x-html-script-turtle"	href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FBarnes_Common%3E&amp;format=text%2Fx-html-script-turtle" title="Structured Descriptor Document (HTML with embedded Turtle)" />
+    <link rel="timegate" type="text/html" 			href="http://dbpedia.mementodepot.org/timegate/http://dbpedia.org/page/Barnes_Common" title="Time Machine" />
+    <link rel="foaf:primarytopic" 				href="http://dbpedia.org/resource/Barnes_Common"/>
+    <link rev="describedby" 					href="http://dbpedia.org/resource/Barnes_Common"/>
+    <link rel="stylesheet" type="text/css"			href="/statics/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" 			href="/statics/css/dbpedia.css" />
+</head>
+<body about="http://dbpedia.org/resource/Barnes_Common">
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+	<div class="navbar-header">
+	    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dbp-navbar" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	    </button>
+	    <a class="navbar-brand" href="http://wiki.dbpedia.org/about" title="About DBpedia" style="color: #2c5078">
+	    <img class="img-responsive" src="/statics/images/dbpedia_logo_land_120.png" alt="About DBpedia" style="display: inline-block;  margin-top: -12px"/>
+	    </a>
+	</div>
+
+	<div class="collapse navbar-collapse" id="dbp-navbar">
+	    <ul class="nav navbar-nav navbar-right">
+		<li><a class="active" href="/fct/" title="Switch to /fct endpoint"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> Faceted Browser </a></li>
+		<li><a class="active" href="/sparql/" title="Switch to /sparql endpoint"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> Sparql Endpoint </a></li>
+	    </ul>
+	    <ul class="nav navbar-nav">
+	    <li class="dropdown">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Browse using <span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		<li><a href="/describe/?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FBarnes_Common">OpenLink Faceted Browser</a></li>
+		<li><a href="http://linkeddata.uriburner.com/rdf-editor/#/editor?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FBarnes_Common&amp;view=statements">OpenLink Structured Data Editor</a></li>
+		<li><a href="http://en.lodlive.it/?http%3A%2F%2Fdbpedia.org%2Fresource%2FBarnes_Common">LodLive Browser</a></li>
+		<li><a href="http://lodmilla.sztaki.hu/lodmilla/?url=http%3A%2F%2Fdbpedia.org%2Fresource%2FBarnes_Common">LODmilla Browser</a></li>
+		</ul>
+	    </li>
+	    <li class="dropdown">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Formats <span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		<li>&nbsp;RDF:</li>
+		    <li><a href="http://dbpedia.org/data/Barnes_Common.ntriples">N-Triples</a></li>
+		    <li><a href="http://dbpedia.org/data/Barnes_Common.n3">N3</a></li>
+		    <li><a href="http://dbpedia.org/data/Barnes_Common.ttl">Turtle</a></li>
+		    <li><a href="http://dbpedia.org/data/Barnes_Common.json">JSON</a></li>
+		    <li><a href="http://dbpedia.org/data/Barnes_Common.rdf">XML</a></li>
+		<li class="divider"></li>
+		<li>&nbsp;OData:</li>
+		    <li><a href="http://dbpedia.org/data/Barnes_Common.atom">Atom</a></li>
+		    <li><a href="http://dbpedia.org/data/Barnes_Common.jsod">JSON</a></li>
+		<li class="divider"></li>
+		<li>&nbsp;Microdata:</li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FBarnes_Common%3E&amp;format=application%2Fmicrodata%2Bjson">JSON</a></li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FBarnes_Common%3E&amp;format=text%2Fhtml">HTML</a></li>
+		<li class="divider"></li>
+		<li>&nbsp;Embedded:</li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FBarnes_Common%3E&amp;format=text%2Fx-html-script-ld%2Bjson">JSON</a></li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FBarnes_Common%3E&amp;format=text%2Fx-html-script-turtle">Turtle</a></li>
+		<li class="divider"></li>
+		    
+		        <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FBarnes_Common%3E&amp;format=text%2Fcxml">CXML</a></li>
+		    
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FBarnes_Common%3E&amp;format=text%2Fcsv">CSV</a></li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FBarnes_Common%3E&amp;format=application%2Fjson-ld">JSON-LD</a></li>
+		</ul>
+	    </li>
+	    </ul>
+	</div>
+    </div>
+</div>
+
+<div class="container">
+<!-- page-header -->
+    <div class="page-header">
+	<!-- div class="pull-right">
+	    <a href="http://wiki.dbpedia.org/about" title="About DBpedia">
+	    <img class="img-responsive" src="/statics/images/dbpedia_logo_land_120.png" alt="About DBpedia"/>
+	    </a>
+	</div -->
+	<h1 id="title">About:
+	    <a href="http://dbpedia.org/resource/Barnes_Common">Barnes Common</a>
+	</h1>
+	<div class="page-resource-uri">
+	    An Entity of Type : <a href="http://dbpedia.org/resource/Common_land">Common land</a>,
+	    from Named Graph : <a href="http://dbpedia.org">http://dbpedia.org</a>,
+	    within Data Space : <a href="http://dbpedia.org">dbpedia.org</a>
+	</div>
+    </div>
+<!-- page-header -->
+<!-- row -->
+    <div class="row">
+	<div class="col-xs-12">
+	    <p class="lead">Barnes Common is common land in the south east of Barnes, London, England, adjoining Putney Lower Common to the east and bounded to the south by the Upper Richmond Road. Along with Barnes Green, it is one of the largest areas of common land in London with 49.55 hectares (122.4 acres) of protected commons. It is also a Local Nature Reserve. Its facilities include a full-size football pitch and a nature trail.</p>
+	</div>
+	<div class="col-xs-12">
+	    <!-- proptable -->
+	    <table class="description table table-striped">
+	    <tr>
+		<th class="col-xs-3">Property</th>
+		<th class="col-xs-9">Value</th>
+	    </tr>
+<tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/abstract"><small>dbo:</small>abstract</a>
+</td><td><ul>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="fr">Barnes Common est un pré communal au sud-est de Barnes (Royaume-Uni) adjoint au Putney Lower Common à l&#39;est et limité au sud par la South Circular Road. Avec Barnes Green, il s&#39;agit d&#39;un des plus grands bien communal-espace vert de Londres avec 49,55 hectares de zones protégées. Il s&#39;agit aussi d&#39;une réserve naturelle locale. Il dispose d&#39;un terrain de football et d&#39;un sentier naturel. Le pré abrité des plantes à fleurs, des fruticées et des herbes grasses. Le terrain appartient au doyen et au chapitre de la Cathédrale Saint-Paul de Londres, le gérant par le biais des commissaires d&#39;église, et gérer par le borough londonien de Richmond upon Thames, avec les conseils et l&#39;assistance des Amis de Barnes Common (Friends of Barnes Common).</span><small> (fr)</small></span></li>
+	<li><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="en">Barnes Common is common land in the south east of Barnes, London, England, adjoining Putney Lower Common to the east and bounded to the south by the Upper Richmond Road. Along with Barnes Green, it is one of the largest areas of common land in London with 49.55 hectares (122.4 acres) of protected commons. It is also a Local Nature Reserve. Its facilities include a full-size football pitch and a nature trail. The Common is made up of mixed broadleaf woodland, scrubland and acid grassland and is generally flat. It is owned by the Dean and Chapter of St Paul’s Cathedral, acting through the Church Commissioners, and managed by the London Borough of Richmond upon Thames, advised and assisted by the Friends of Barnes Common.</span><small> (en)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/location"><small>dbo:</small>location</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbo:location" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Barnes,_London"><small>dbr</small>:Barnes,_London</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/thumbnail"><small>dbo:</small>thumbnail</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbo:thumbnail" xmlns:dbo="http://dbpedia.org/ontology/" href="http://commons.wikimedia.org/wiki/Special:FilePath/Broom_on_Barnes_Common_-_geograph.org.uk_-_789503.jpg?width=300"><small>wiki-commons</small>:Special:FilePath/Broom_on_Barnes_Common_-_geograph.org.uk_-_789503.jpg?width=300</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/type"><small>dbo:</small>type</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbo:type" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Common_land"><small>dbr</small>:Common_land</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageExternalLink"><small>dbo:</small>wikiPageExternalLink</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbo:wikiPageExternalLink nofollow" xmlns:dbo="http://dbpedia.org/ontology/" href="http://barnescommon.org.uk/">http://barnescommon.org.uk/</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbo:wikiPageExternalLink nofollow" xmlns:dbo="http://dbpedia.org/ontology/" href="http://www.richmond.gov.uk/barnes_common_management_plan_2009_to_2014-2.pdf/">http://www.richmond.gov.uk/barnes_common_management_plan_2009_to_2014-2.pdf/</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbo:wikiPageExternalLink nofollow" xmlns:dbo="http://dbpedia.org/ontology/" href="http://magic.defra.gov.uk/MagicMap.aspx?startTopic=Designations&amp;activelayer=lnrIndex&amp;query=REF_CODE%3D%271008758%27">http://magic.defra.gov.uk/MagicMap.aspx?startTopic=Designations&amp;activelayer=lnrIndex&amp;query=REF_CODE%3D%271008758%27</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageID"><small>dbo:</small>wikiPageID</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:wikiPageID" xmlns:dbo="http://dbpedia.org/ontology/">26587260</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageRevisionID"><small>dbo:</small>wikiPageRevisionID</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:wikiPageRevisionID" xmlns:dbo="http://dbpedia.org/ontology/">713067806</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/affiliations"><small>dbp:</small>affiliations</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:affiliations">affiliated to Barnes Community Association and associated with the South West London Environment Network</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/headquarters"><small>dbp:</small>headquarters</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:headquarters">Barnes Common, Barnes, London SW13 0HT</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/mainOrgan"><small>dbp:</small>mainOrgan</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:mainOrgan">On the Common</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/name"><small>dbp:</small>name</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:name">Barnes Common</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/numStaff"><small>dbp:</small>numStaff</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:numStaff">none</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/open"><small>dbp:</small>open</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:open">All year</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/photo"><small>dbp:</small>photo</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:photo">Broom on Barnes Common - geograph.org.uk - 789503.jpg</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/photoCaption"><small>dbp:</small>photoCaption</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:photoCaption">Broom on Barnes Common</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/photoWidth"><small>dbp:</small>photoWidth</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:photoWidth">250</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/size"><small>dbp:</small>size</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:size">60</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/status"><small>dbp:</small>status</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbp:status" href="http://dbpedia.org/resource/Local_Nature_Reserve"><small>dbr</small>:Local_Nature_Reserve</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://purl.org/dc/terms/subject"><small>dct:</small>subject</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Parks_and_open_spaces_in_Richmond_upon_Thames"><small>dbc</small>:Parks_and_open_spaces_in_Richmond_upon_Thames</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Common_land_in_London"><small>dbc</small>:Common_land_in_London</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Local_nature_reserves_in_Greater_London"><small>dbc</small>:Local_nature_reserves_in_Greater_London</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Barnes,_London"><small>dbc</small>:Barnes,_London</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://purl.org/linguistics/gold/hypernym">http://purl.org/linguistics/gold/hypernym</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="ns1:hypernym" xmlns:ns1="http://purl.org/linguistics/gold/" href="http://dbpedia.org/resource/Land"><small>dbr</small>:Land</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.georss.org/georss/point"><small>georss:</small>point</a>
+</td><td><ul>
+	<li><span class="literal"><span property="georss:point" xmlns:georss="http://www.georss.org/georss/">51.470154 -0.237007</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"><small>rdf:</small>type</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.w3.org/2002/07/owl#Thing"><small>owl</small>:Thing</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Place"><small>dbo</small>:Place</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Location"><small>dbo</small>:Location</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Park"><small>dbo</small>:Park</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/PopulatedPlace"><small>dbo</small>:PopulatedPlace</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"><small>geo</small>:SpatialThing</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://schema.org/Park"><small>schema</small>:Park</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://schema.org/Place"><small>schema</small>:Place</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/GeographicalArea108574314"><small>yago</small>:GeographicalArea108574314</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Location100027167"><small>yago</small>:Location100027167</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Object100002684"><small>yago</small>:Object100002684</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Park108615149"><small>yago</small>:Park108615149</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/PhysicalEntity100001930"><small>yago</small>:PhysicalEntity100001930</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Region108630985"><small>yago</small>:Region108630985</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Tract108673395"><small>yago</small>:Tract108673395</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/YagoGeoEntity"><small>yago</small>:YagoGeoEntity</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/YagoLegalActorGeo"><small>yago</small>:YagoLegalActorGeo</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity"><small>yago</small>:YagoPermanentlyLocatedEntity</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/WikicatParksAndOpenSpacesInRichmondUponThames"><small>yago</small>:WikicatParksAndOpenSpacesInRichmondUponThames</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/2000/01/rdf-schema#comment"><small>rdfs:</small>comment</a>
+</td><td><ul>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="fr">Barnes Common est un pré communal au sud-est de Barnes (Royaume-Uni) adjoint au Putney Lower Common à l&#39;est et limité au sud par la South Circular Road. Avec Barnes Green, il s&#39;agit d&#39;un des plus grands bien communal-espace vert de Londres avec 49,55 hectares de zones protégées. Il s&#39;agit aussi d&#39;une réserve naturelle locale. Il dispose d&#39;un terrain de football et d&#39;un sentier naturel.</span><small> (fr)</small></span></li>
+	<li><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Barnes Common is common land in the south east of Barnes, London, England, adjoining Putney Lower Common to the east and bounded to the south by the Upper Richmond Road. Along with Barnes Green, it is one of the largest areas of common land in London with 49.55 hectares (122.4 acres) of protected commons. It is also a Local Nature Reserve. Its facilities include a full-size football pitch and a nature trail.</span><small> (en)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2000/01/rdf-schema#label"><small>rdfs:</small>label</a>
+</td><td><ul>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="fr">Barnes Common</span><small> (fr)</small></span></li>
+	<li><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Barnes Common</span><small> (en)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/2002/07/owl#sameAs"><small>owl:</small>sameAs</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://www.wikidata.org/entity/Q4861519"><small>wikidata</small>:Barnes Common</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://fr.dbpedia.org/resource/Barnes_Common"><small>dbpedia-fr</small>:Barnes Common</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://wikidata.dbpedia.org/resource/Q4861519"><small>dbpedia-wikidata</small>:Barnes Common</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://rdf.freebase.com/ns/m.0qfrc1t"><small>freebase</small>:Barnes Common</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://yago-knowledge.org/resource/Barnes_Common"><small>yago-res</small>:Barnes Common</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2003/01/geo/wgs84_pos#geometry"><small>geo:</small>geometry</a>
+</td><td><ul>
+	<li><span class="literal"><span property="geo:geometry" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">POINT(-0.23700700700283 51.470153808594)</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/2003/01/geo/wgs84_pos#lat"><small>geo:</small>lat</a>
+</td><td><ul>
+	<li><span class="literal"><span property="geo:lat" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">51.470154</span><small> (xsd:float)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2003/01/geo/wgs84_pos#long"><small>geo:</small>long</a>
+</td><td><ul>
+	<li><span class="literal"><span property="geo:long" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-0.237007</span><small> (xsd:float)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/ns/prov#wasDerivedFrom"><small>prov:</small>wasDerivedFrom</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="prov:wasDerivedFrom" xmlns:prov="http://www.w3.org/ns/prov#" href="http://en.wikipedia.org/wiki/Barnes_Common?oldid=713067806"><small>wikipedia-en</small>:Barnes_Common?oldid=713067806</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/depiction"><small>foaf:</small>depiction</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="foaf:depiction" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://commons.wikimedia.org/wiki/Special:FilePath/Broom_on_Barnes_Common_-_geograph.org.uk_-_789503.jpg"><small>wiki-commons</small>:Special:FilePath/Broom_on_Barnes_Common_-_geograph.org.uk_-_789503.jpg</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"><small>foaf:</small>isPrimaryTopicOf</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="foaf:isPrimaryTopicOf" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://en.wikipedia.org/wiki/Barnes_Common"><small>wikipedia-en</small>:Barnes_Common</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/wikiPageRedirects"><small>dbo:</small>wikiPageRedirects</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbo:wikiPageRedirects" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Friends_of_Barnes_Common"><small>dbr</small>:Friends_of_Barnes_Common</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://xmlns.com/foaf/0.1/primaryTopic"><small>foaf:</small>primaryTopic</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="foaf:primaryTopic" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://en.wikipedia.org/wiki/Barnes_Common"><small>wikipedia-en</small>:Barnes_Common</a></span></li>
+</ul></td></tr>
+      </table>
+    </div>
+<!-- row  -->
+</div>
+</div>
+<!-- footer -->
+<div class="footer">
+    <div class="container">
+	<a href="http://virtuoso.openlinksw.com" title="OpenLink Virtuoso"><img class="powered_by" src="/statics/images/virt_power_no_border.png" alt="Powered by OpenLink Virtuoso"/></a>&nbsp; &nbsp;
+	<a href="http://linkeddata.org/"><img alt="This material is Open Knowledge" src="/statics/images/LoDLogo.gif"/></a> &nbsp; &nbsp;
+	<a href="http://dbpedia.org/sparql"><img alt="W3C Semantic Web Technology" src="/statics/images/sw-sparql-blue.png"/></a> &nbsp;  &nbsp;
+	<a href="http://www.opendefinition.org/"><img alt="This material is Open Knowledge" src="/statics/images/od_80x15_red_green.png"/></a>&nbsp; &nbsp;
+	<span style="display:none;" about=""
+	    resource="http://www.w3.org/TR/rdfa-syntax"
+	    rel="dc:conformsTo" xmlns:dc="http://purl.org/dc/terms/">
+	    <a href="http://validator.w3.org/check?uri=referer">
+		<img src="http://www.w3.org/Icons/valid-xhtml-rdfa" alt="Valid XHTML + RDFa" height="27px" />
+	    </a>
+	</span>
+	<br />
+	<div class="text-muted">
+	    This content was extracted from <a href="http://en.wikipedia.org/wiki/Barnes_Common">Wikipedia</a> and is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>
+
+	</div>
+    </div>
+</div>
+<!-- #footer -->
+<!--#content-->
+    <!--script type="text/javascript">
+     Place any Javascript code e.g. Google Analytics scripts
+    </script-->
+    
+    <script type="text/javascript" src="/statics/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/statics/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/statics/js/dbpedia.js"></script>
+</body>
+</html>

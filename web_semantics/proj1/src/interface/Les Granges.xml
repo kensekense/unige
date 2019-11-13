@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    version="XHTML+RDFa 1.0"
+    xml:lang="en"
+>
+
+
+<!-- header -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About: Les Granges</title>
+    <link rel="alternate" type="application/rdf+xml" 		href="http://dbpedia.org/data/Les_Granges.rdf" title="Structured Descriptor Document (RDF/XML format)" />
+    <link rel="alternate" type="text/n3" 			href="http://dbpedia.org/data/Les_Granges.n3" title="Structured Descriptor Document (N3 format)" />
+    <link rel="alternate" type="text/turtle" 			href="http://dbpedia.org/data/Les_Granges.ttl" title="Structured Descriptor Document (Turtle format)" />
+    <link rel="alternate" type="application/json+rdf" 		href="http://dbpedia.org/data/Les_Granges.jrdf" title="Structured Descriptor Document (RDF/JSON format)" />
+    <link rel="alternate" type="application/json" 		href="http://dbpedia.org/data/Les_Granges.json" title="Structured Descriptor Document (RDF/JSON format)" />
+    <link rel="alternate" type="application/atom+xml" 		href="http://dbpedia.org/data/Les_Granges.atom" title="OData (Atom+Feed format)" />
+    <link rel="alternate" type="text/plain" 			href="http://dbpedia.org/data/Les_Granges.ntriples" title="Structured Descriptor Document (N-Triples format)" />
+    <link rel="alternate" type="text/csv"   			href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLes_Granges%3E&amp;format=text%2Fcsv" title="Structured Descriptor Document (CSV format)" />
+    
+    <link rel="alternate" type="text/cxml"  			href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLes_Granges%3E&amp;format=text%2Fcxml" title="Structured Descriptor Document (CXML format)" />
+    
+    <link rel="alternate" type="application/microdata+json"	href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLes_Granges%3E&amp;format=application%2Fmicrodata%2Bjson" title="Structured Descriptor Document (Microdata/JSON format)" />
+    <link rel="alternate" type="text/html" 			href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLes_Granges%3E&amp;format=text%2Fhtml" title="Structured Descriptor Document (Microdata/HTML format)" />
+    <link rel="alternate" type="application/ld+json" 		href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLes_Granges%3E&amp;format=application%2Fjson-ld" title="Structured Descriptor Document (JSON-LD format)" />
+    <link rel="alternate" type="text/x-html-script-ld+json"	href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLes_Granges%3E&amp;format=text%2Fx-html-script-ld%2Bjson" title="Structured Descriptor Document (HTML with embedded JSON-LD)" />
+    <link rel="alternate" type="text/x-html-script-turtle"	href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLes_Granges%3E&amp;format=text%2Fx-html-script-turtle" title="Structured Descriptor Document (HTML with embedded Turtle)" />
+    <link rel="timegate" type="text/html" 			href="http://dbpedia.mementodepot.org/timegate/http://dbpedia.org/page/Les_Granges" title="Time Machine" />
+    <link rel="foaf:primarytopic" 				href="http://dbpedia.org/resource/Les_Granges"/>
+    <link rev="describedby" 					href="http://dbpedia.org/resource/Les_Granges"/>
+    <link rel="stylesheet" type="text/css"			href="/statics/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" 			href="/statics/css/dbpedia.css" />
+</head>
+<body about="http://dbpedia.org/resource/Les_Granges">
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+	<div class="navbar-header">
+	    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dbp-navbar" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	    </button>
+	    <a class="navbar-brand" href="http://wiki.dbpedia.org/about" title="About DBpedia" style="color: #2c5078">
+	    <img class="img-responsive" src="/statics/images/dbpedia_logo_land_120.png" alt="About DBpedia" style="display: inline-block;  margin-top: -12px"/>
+	    </a>
+	</div>
+
+	<div class="collapse navbar-collapse" id="dbp-navbar">
+	    <ul class="nav navbar-nav navbar-right">
+		<li><a class="active" href="/fct/" title="Switch to /fct endpoint"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> Faceted Browser </a></li>
+		<li><a class="active" href="/sparql/" title="Switch to /sparql endpoint"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> Sparql Endpoint </a></li>
+	    </ul>
+	    <ul class="nav navbar-nav">
+	    <li class="dropdown">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Browse using <span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		<li><a href="/describe/?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FLes_Granges">OpenLink Faceted Browser</a></li>
+		<li><a href="http://linkeddata.uriburner.com/rdf-editor/#/editor?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FLes_Granges&amp;view=statements">OpenLink Structured Data Editor</a></li>
+		<li><a href="http://en.lodlive.it/?http%3A%2F%2Fdbpedia.org%2Fresource%2FLes_Granges">LodLive Browser</a></li>
+		<li><a href="http://lodmilla.sztaki.hu/lodmilla/?url=http%3A%2F%2Fdbpedia.org%2Fresource%2FLes_Granges">LODmilla Browser</a></li>
+		</ul>
+	    </li>
+	    <li class="dropdown">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Formats <span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		<li>&nbsp;RDF:</li>
+		    <li><a href="http://dbpedia.org/data/Les_Granges.ntriples">N-Triples</a></li>
+		    <li><a href="http://dbpedia.org/data/Les_Granges.n3">N3</a></li>
+		    <li><a href="http://dbpedia.org/data/Les_Granges.ttl">Turtle</a></li>
+		    <li><a href="http://dbpedia.org/data/Les_Granges.json">JSON</a></li>
+		    <li><a href="http://dbpedia.org/data/Les_Granges.rdf">XML</a></li>
+		<li class="divider"></li>
+		<li>&nbsp;OData:</li>
+		    <li><a href="http://dbpedia.org/data/Les_Granges.atom">Atom</a></li>
+		    <li><a href="http://dbpedia.org/data/Les_Granges.jsod">JSON</a></li>
+		<li class="divider"></li>
+		<li>&nbsp;Microdata:</li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLes_Granges%3E&amp;format=application%2Fmicrodata%2Bjson">JSON</a></li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLes_Granges%3E&amp;format=text%2Fhtml">HTML</a></li>
+		<li class="divider"></li>
+		<li>&nbsp;Embedded:</li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLes_Granges%3E&amp;format=text%2Fx-html-script-ld%2Bjson">JSON</a></li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLes_Granges%3E&amp;format=text%2Fx-html-script-turtle">Turtle</a></li>
+		<li class="divider"></li>
+		    
+		        <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLes_Granges%3E&amp;format=text%2Fcxml">CXML</a></li>
+		    
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLes_Granges%3E&amp;format=text%2Fcsv">CSV</a></li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLes_Granges%3E&amp;format=application%2Fjson-ld">JSON-LD</a></li>
+		</ul>
+	    </li>
+	    </ul>
+	</div>
+    </div>
+</div>
+
+<div class="container">
+<!-- page-header -->
+    <div class="page-header">
+	<!-- div class="pull-right">
+	    <a href="http://wiki.dbpedia.org/about" title="About DBpedia">
+	    <img class="img-responsive" src="/statics/images/dbpedia_logo_land_120.png" alt="About DBpedia"/>
+	    </a>
+	</div -->
+	<h1 id="title">About:
+	    <a href="http://dbpedia.org/resource/Les_Granges">Les Granges</a>
+	</h1>
+	<div class="page-resource-uri">
+	    An Entity of Type : <a href="http://dbpedia.org/ontology/PopulatedPlace">populated place</a>,
+	    from Named Graph : <a href="http://dbpedia.org">http://dbpedia.org</a>,
+	    within Data Space : <a href="http://dbpedia.org">dbpedia.org</a>
+	</div>
+    </div>
+<!-- page-header -->
+<!-- row -->
+    <div class="row">
+	<div class="col-xs-12">
+	    <p class="lead">Les Granges  is a commune in the Aube department in north-central France.</p>
+	</div>
+	<div class="col-xs-12">
+	    <!-- proptable -->
+	    <table class="description table table-striped">
+	    <tr>
+		<th class="col-xs-3">Property</th>
+		<th class="col-xs-9">Value</th>
+	    </tr>
+<tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/PopulatedPlace/area"><small>dbo:</small>PopulatedPlace/area</a>
+</td><td><ul>
+	<li><span class="literal"><span property="ns0:area" xmlns:ns0="http://dbpedia.org/ontology/PopulatedPlace/">1.61</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/abstract"><small>dbo:</small>abstract</a>
+</td><td><ul>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="fr">Les Granges est une commune française, située dans le département de l&#39;Aube en région Grand Est.</span><small> (fr)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="es">Les Granges  es una población y comuna francesa, en la región de Champaña-Ardenas, departamento de Aube, en el distrito de Troyes y cantón de Chaource.</span><small> (es)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="it">Les Granges è un comune francese di 81 abitanti situato nel dipartimento dell&#39;Aube nella regione della Champagne-Ardenne.</span><small> (it)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="nl">Les Granges is een gemeente in het Franse departement Aube (regio Champagne-Ardennen) en telt 80 inwoners (2009). De plaats maakt deel uit van het arrondissement Troyes.</span><small> (nl)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="pl">Granges – miejscowość i gmina we Francji, w regionie Alzacja-Szampania-Ardeny-Lotaryngia, w departamencie Aube. Według danych na rok 1990 gminę zamieszkiwało 71 osób, a gęstość zaludnienia wynosiła 44 osób/km².</span><small> (pl)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="pt">Les Granges é uma comuna francesa na região administrativa da Champanha-Ardenas, no departamento de Aube. Estende-se por uma área de 1,61 km². Em 2010 a comuna tinha 81 habitantes (densidade: 50,3 hab./km²).</span><small> (pt)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="zh">莱斯格朗热（法语：Les Granges）是法国奥布省的一个市镇，属于特鲁瓦区（Troyes）绍尔克县（Chaource）。该市镇2009年时的人口为80人。</span><small> (zh)</small></span></li>
+	<li><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="en">Les Granges  is a commune in the Aube department in north-central France.</span><small> (en)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="ru">Ле-Гранж (фр. Les Granges) — коммуна во Франции, находится в регионе Шампань — Арденны. Департамент — Об. Входит в состав кантона Шаурс. Округ коммуны — Труа. Код INSEE коммуны — 10168. Коммуна расположена приблизительно в 155 км к юго-востоку от Парижа, в 105 км южнее Шалон-ан-Шампани, в 27 км к югу от Труа.</span><small> (ru)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/area"><small>dbo:</small>area</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:area" xmlns:dbo="http://dbpedia.org/ontology/">1610000.000000</span><small> (xsd:double)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/country"><small>dbo:</small>country</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbo:country" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/France"><small>dbr</small>:France</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/elevation"><small>dbo:</small>elevation</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:elevation" xmlns:dbo="http://dbpedia.org/ontology/">136.000000</span><small> (xsd:double)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/inseeCode"><small>dbo:</small>inseeCode</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:inseeCode" xmlns:dbo="http://dbpedia.org/ontology/">10168</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/populationTotal"><small>dbo:</small>populationTotal</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:populationTotal" xmlns:dbo="http://dbpedia.org/ontology/">80</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/postalCode"><small>dbo:</small>postalCode</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:postalCode" xmlns:dbo="http://dbpedia.org/ontology/">10210</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageExternalLink"><small>dbo:</small>wikiPageExternalLink</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbo:wikiPageExternalLink nofollow" xmlns:dbo="http://dbpedia.org/ontology/" href="https://web.archive.org/web/20071124142010/http:/www.insee.fr/en/home/home_page.asp">https://web.archive.org/web/20071124142010/http:/www.insee.fr/en/home/home_page.asp</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageID"><small>dbo:</small>wikiPageID</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:wikiPageID" xmlns:dbo="http://dbpedia.org/ontology/">15432678</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageRevisionID"><small>dbo:</small>wikiPageRevisionID</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:wikiPageRevisionID" xmlns:dbo="http://dbpedia.org/ontology/">730702775</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/arrondissement"><small>dbp:</small>arrondissement</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:arrondissement">Troyes</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/canton"><small>dbp:</small>canton</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:canton">Chaource</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/intercommunality"><small>dbp:</small>intercommunality</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:intercommunality">Chaourçois</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/latitude"><small>dbp:</small>latitude</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:latitude">48.058900</span><small> (xsd:double)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/longitude"><small>dbp:</small>longitude</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:longitude">4.054200</span><small> (xsd:double)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/mayor"><small>dbp:</small>mayor</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:mayor">Bruno Vial</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/populationDate"><small>dbp:</small>populationDate</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:populationDate">2013</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/term"><small>dbp:</small>term</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:term">2014</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://purl.org/dc/terms/subject"><small>dct:</small>subject</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Communes_of_Aube"><small>dbc</small>:Communes_of_Aube</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://purl.org/linguistics/gold/hypernym">http://purl.org/linguistics/gold/hypernym</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="ns2:hypernym" xmlns:ns2="http://purl.org/linguistics/gold/" href="http://dbpedia.org/resource/Commune"><small>dbr</small>:Commune</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.georss.org/georss/point"><small>georss:</small>point</a>
+</td><td><ul>
+	<li><span class="literal"><span property="georss:point" xmlns:georss="http://www.georss.org/georss/">48.0589 4.0542</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"><small>rdf:</small>type</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.w3.org/2002/07/owl#Thing"><small>owl</small>:Thing</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Place"><small>dbo</small>:Place</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Location"><small>dbo</small>:Location</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.wikidata.org/entity/Q486972"><small>wikidata</small>:Q486972</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/PopulatedPlace"><small>dbo</small>:PopulatedPlace</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Settlement"><small>dbo</small>:Settlement</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"><small>geo</small>:SpatialThing</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://schema.org/Place"><small>schema</small>:Place</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/AdministrativeDistrict108491826"><small>yago</small>:AdministrativeDistrict108491826</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Commune108541609"><small>yago</small>:Commune108541609</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/District108552138"><small>yago</small>:District108552138</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Location100027167"><small>yago</small>:Location100027167</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Object100002684"><small>yago</small>:Object100002684</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/PhysicalEntity100001930"><small>yago</small>:PhysicalEntity100001930</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Region108630985"><small>yago</small>:Region108630985</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/YagoGeoEntity"><small>yago</small>:YagoGeoEntity</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/YagoLegalActorGeo"><small>yago</small>:YagoLegalActorGeo</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity"><small>yago</small>:YagoPermanentlyLocatedEntity</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/WikicatCommunesOfAube"><small>yago</small>:WikicatCommunesOfAube</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2000/01/rdf-schema#comment"><small>rdfs:</small>comment</a>
+</td><td><ul>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="fr">Les Granges est une commune française, située dans le département de l&#39;Aube en région Grand Est.</span><small> (fr)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="es">Les Granges  es una población y comuna francesa, en la región de Champaña-Ardenas, departamento de Aube, en el distrito de Troyes y cantón de Chaource.</span><small> (es)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="it">Les Granges è un comune francese di 81 abitanti situato nel dipartimento dell&#39;Aube nella regione della Champagne-Ardenne.</span><small> (it)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="nl">Les Granges is een gemeente in het Franse departement Aube (regio Champagne-Ardennen) en telt 80 inwoners (2009). De plaats maakt deel uit van het arrondissement Troyes.</span><small> (nl)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pl">Granges – miejscowość i gmina we Francji, w regionie Alzacja-Szampania-Ardeny-Lotaryngia, w departamencie Aube. Według danych na rok 1990 gminę zamieszkiwało 71 osób, a gęstość zaludnienia wynosiła 44 osób/km².</span><small> (pl)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pt">Les Granges é uma comuna francesa na região administrativa da Champanha-Ardenas, no departamento de Aube. Estende-se por uma área de 1,61 km². Em 2010 a comuna tinha 81 habitantes (densidade: 50,3 hab./km²).</span><small> (pt)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="zh">莱斯格朗热（法语：Les Granges）是法国奥布省的一个市镇，属于特鲁瓦区（Troyes）绍尔克县（Chaource）。该市镇2009年时的人口为80人。</span><small> (zh)</small></span></li>
+	<li><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Les Granges  is a commune in the Aube department in north-central France.</span><small> (en)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ru">Ле-Гранж (фр. Les Granges) — коммуна во Франции, находится в регионе Шампань — Арденны. Департамент — Об. Входит в состав кантона Шаурс. Округ коммуны — Труа. Код INSEE коммуны — 10168. Коммуна расположена приблизительно в 155 км к юго-востоку от Парижа, в 105 км южнее Шалон-ан-Шампани, в 27 км к югу от Труа.</span><small> (ru)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/2000/01/rdf-schema#label"><small>rdfs:</small>label</a>
+</td><td><ul>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="es">Les Granges</span><small> (es)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="fr">Les Granges</span><small> (fr)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="it">Les Granges (Aube)</span><small> (it)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="nl">Les Granges (Aube)</span><small> (nl)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pl">Les Granges</span><small> (pl)</small></span></li>
+	<li><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Les Granges</span><small> (en)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pt">Les Granges</span><small> (pt)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ru">Ле-Гранж</span><small> (ru)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="zh">莱斯格朗热</span><small> (zh)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2002/07/owl#sameAs"><small>owl:</small>sameAs</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://es.dbpedia.org/resource/Les_Granges"><small>dbpedia-es</small>:Les Granges</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://eu.dbpedia.org/resource/Les_Granges"><small>dbpedia-eu</small>:Les Granges</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://fr.dbpedia.org/resource/Les_Granges"><small>dbpedia-fr</small>:Les Granges</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://nl.dbpedia.org/resource/Les_Granges_(Aube)"><small>dbpedia-nl</small>:Les Granges</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://pl.dbpedia.org/resource/Les_Granges"><small>dbpedia-pl</small>:Les Granges</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://pt.dbpedia.org/resource/Les_Granges"><small>dbpedia-pt</small>:Les Granges</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://wikidata.dbpedia.org/resource/Q661054"><small>dbpedia-wikidata</small>:Les Granges</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://www.wikidata.org/entity/Q661054"><small>wikidata</small>:Les Granges</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://it.dbpedia.org/resource/Les_Granges_(Aube)"><small>dbpedia-it</small>:Les Granges</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sws.geonames.org/6615826/"><small>geodata</small>:Les Granges</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://rdf.freebase.com/ns/m.03m8s9h"><small>freebase</small>:Les Granges</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://yago-knowledge.org/resource/Les_Granges"><small>yago-res</small>:Les Granges</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/2003/01/geo/wgs84_pos#geometry"><small>geo:</small>geometry</a>
+</td><td><ul>
+	<li><span class="literal"><span property="geo:geometry" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">POINT(4.0542001724243 48.058898925781)</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2003/01/geo/wgs84_pos#lat"><small>geo:</small>lat</a>
+</td><td><ul>
+	<li><span class="literal"><span property="geo:lat" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">48.058899</span><small> (xsd:float)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/2003/01/geo/wgs84_pos#long"><small>geo:</small>long</a>
+</td><td><ul>
+	<li><span class="literal"><span property="geo:long" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">4.054200</span><small> (xsd:float)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/ns/prov#wasDerivedFrom"><small>prov:</small>wasDerivedFrom</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="prov:wasDerivedFrom" xmlns:prov="http://www.w3.org/ns/prov#" href="http://en.wikipedia.org/wiki/Les_Granges?oldid=730702775"><small>wikipedia-en</small>:Les_Granges?oldid=730702775</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"><small>foaf:</small>isPrimaryTopicOf</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="foaf:isPrimaryTopicOf" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://en.wikipedia.org/wiki/Les_Granges"><small>wikipedia-en</small>:Les_Granges</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/name"><small>foaf:</small>name</a>
+</td><td><ul>
+	<li><span class="literal"><span property="foaf:name" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Les Granges</span><small> (en)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://xmlns.com/foaf/0.1/primaryTopic"><small>foaf:</small>primaryTopic</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="foaf:primaryTopic" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://en.wikipedia.org/wiki/Les_Granges"><small>wikipedia-en</small>:Les_Granges</a></span></li>
+</ul></td></tr>
+      </table>
+    </div>
+<!-- row  -->
+</div>
+</div>
+<!-- footer -->
+<div class="footer">
+    <div class="container">
+	<a href="http://virtuoso.openlinksw.com" title="OpenLink Virtuoso"><img class="powered_by" src="/statics/images/virt_power_no_border.png" alt="Powered by OpenLink Virtuoso"/></a>&nbsp; &nbsp;
+	<a href="http://linkeddata.org/"><img alt="This material is Open Knowledge" src="/statics/images/LoDLogo.gif"/></a> &nbsp; &nbsp;
+	<a href="http://dbpedia.org/sparql"><img alt="W3C Semantic Web Technology" src="/statics/images/sw-sparql-blue.png"/></a> &nbsp;  &nbsp;
+	<a href="http://www.opendefinition.org/"><img alt="This material is Open Knowledge" src="/statics/images/od_80x15_red_green.png"/></a>&nbsp; &nbsp;
+	<span style="display:none;" about=""
+	    resource="http://www.w3.org/TR/rdfa-syntax"
+	    rel="dc:conformsTo" xmlns:dc="http://purl.org/dc/terms/">
+	    <a href="http://validator.w3.org/check?uri=referer">
+		<img src="http://www.w3.org/Icons/valid-xhtml-rdfa" alt="Valid XHTML + RDFa" height="27px" />
+	    </a>
+	</span>
+	<br />
+	<div class="text-muted">
+	    This content was extracted from <a href="http://en.wikipedia.org/wiki/Les_Granges">Wikipedia</a> and is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>
+
+	</div>
+    </div>
+</div>
+<!-- #footer -->
+<!--#content-->
+    <!--script type="text/javascript">
+     Place any Javascript code e.g. Google Analytics scripts
+    </script-->
+    
+    <script type="text/javascript" src="/statics/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/statics/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/statics/js/dbpedia.js"></script>
+</body>
+</html>

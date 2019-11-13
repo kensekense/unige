@@ -1,0 +1,2319 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@prefix : <http://www.topografix.com/GPX/1/1> .
+@prefix osm: <https://www.openstreetmap.org/export> .
+@prefix dbpedia: <http://dbpedia.org/ontology/> .
+@prefix wikidata: <https://www.wikidata.org/wiki/> .
+@prefix wikipedia: <https://en.wikipedia.org/wiki/> .
+
+:trkLeMontCharvinenboucle a :GPXtrack .
+
+:trkLeMontCharvinenboucle :hasname "Le Mont Charvin en boucle"^^xsd:string .
+
+:trkLeMontCharvinenboucle :haswpt :wpt1395, :wpt1508, :wpt1887, :wpt2081, :wpt2117, :wpt1396 .
+
+:trkLeMontCharvinenboucle :hastrkpt :trkpt1395, :trkpt1409, :trkpt1418, :trkpt1424, :trkpt1425, :trkpt1447, :trkpt1450, :trkpt1454, :trkpt1458, :trkpt1463, :trkpt1470, :trkpt1479, :trkpt1484, :trkpt1497, :trkpt1502, :trkpt1508, :trkpt1513, :trkpt1518, :trkpt1519, :trkpt1520, :trkpt1522, :trkpt1514, :trkpt1516, :trkpt1540, :trkpt1546, :trkpt1545, :trkpt1543, :trkpt1549, :trkpt1550, :trkpt1552, :trkpt1556, :trkpt1561, :trkpt1566, :trkpt1579, :trkpt1585, :trkpt1592, :trkpt1603, :trkpt1609, :trkpt1615, :trkpt1628, :trkpt1632, :trkpt1636, :trkpt1634, :trkpt1639, :trkpt1641, :trkpt1644, :trkpt1643, :trkpt1646, :trkpt1648, :trkpt1656, :trkpt1666, :trkpt1672, :trkpt1711, :trkpt1717, :trkpt1721, :trkpt1732, :trkpt1735, :trkpt1753, :trkpt1759, :trkpt1762, :trkpt1790, :trkpt1808, :trkpt1822, :trkpt1847, :trkpt1863, :trkpt1873, :trkpt1875, :trkpt1882, :trkpt1884, :trkpt1887, :trkpt1901, :trkpt1911, :trkpt1926, :trkpt1931, :trkpt1943, :trkpt1946, :trkpt1944, :trkpt1942, :trkpt1952, :trkpt1974, :trkpt2034, :trkpt2044, :trkpt2051, :trkpt2056, :trkpt2062, :trkpt2065, :trkpt2071, :trkpt2080, :trkpt2082, :trkpt2081, :trkpt2079, :trkpt2074, :trkpt2068, :trkpt2066, :trkpt2069, :trkpt2038, :trkpt2025, :trkpt2020, :trkpt2026, :trkpt2021, :trkpt2015, :trkpt2012, :trkpt2008, :trkpt2007, :trkpt2004, :trkpt2005, :trkpt2006, :trkpt2009, :trkpt2010, :trkpt2017, :trkpt2018, :trkpt2022, :trkpt2023, :trkpt2024, :trkpt2030, :trkpt2031, :trkpt2032, :trkpt2036, :trkpt2040, :trkpt2043, :trkpt2045, :trkpt2039, :trkpt2046, :trkpt2047, :trkpt2050, :trkpt2052, :trkpt2057, :trkpt2060, :trkpt2063, :trkpt2073, :trkpt2077, :trkpt2083, :trkpt2096, :trkpt2102, :trkpt2106, :trkpt2108, :trkpt2117, :trkpt2123, :trkpt2122, :trkpt2135, :trkpt2139, :trkpt2153, :trkpt2166, :trkpt2177, :trkpt2183, :trkpt2190, :trkpt2197, :trkpt2210, :trkpt2225, :trkpt2285, :trkpt2315, :trkpt2326, :trkpt2331, :trkpt2343, :trkpt2350, :trkpt2364, :trkpt2384, :trkpt2383, :trkpt2380, :trkpt2354, :trkpt2284, :trkpt2279, :trkpt2310, :trkpt2261, :trkpt2287, :trkpt2249, :trkpt2265, :trkpt2236, :trkpt2245, :trkpt2231, :trkpt2226, :trkpt2223, :trkpt2218, :trkpt2209, :trkpt2203, :trkpt2199, :trkpt2191, :trkpt2188, :trkpt2167, :trkpt2154, :trkpt2151, :trkpt2142, :trkpt2134, :trkpt2127, :trkpt2119, :trkpt2115, :trkpt2086, :trkpt2078, :trkpt2033, :trkpt1994, :trkpt1987, :trkpt1976, :trkpt1969, :trkpt1964, :trkpt1965, :trkpt1956, :trkpt1949, :trkpt1921, :trkpt1904, :trkpt1908, :trkpt1897, :trkpt1899, :trkpt1898, :trkpt1909, :trkpt1903, :trkpt1888, :trkpt1883, :trkpt1880, :trkpt1868, :trkpt1836, :trkpt1826, :trkpt1816, :trkpt1791, :trkpt1758, :trkpt1722, :trkpt1719, :trkpt1674, :trkpt1657, :trkpt1647, :trkpt1640, :trkpt1635, :trkpt1631, :trkpt1611, :trkpt1606, :trkpt1586, :trkpt1587, :trkpt1580, :trkpt1577, :trkpt1557, :trkpt1551, :trkpt1544, :trkpt1542, :trkpt1539, :trkpt1509, :trkpt1521, :trkpt1515, :trkpt1523, :trkpt1517, :trkpt1483, :trkpt1462, :trkpt1455, :trkpt1449, :trkpt1446, :trkpt1423, :trkpt1415, :trkpt1396 .
+
+:trkLeMontCharvinenboucle :hassurroundingnds osm:nd4169838717, osm:nd1501509634, osm:nd1501410817, osm:nd1501410820, osm:nd1501410822, osm:nd4169843437, osm:nd1501410325, osm:nd866408323, osm:nd1501410816, osm:nd1501410327, osm:nd1501410818, osm:nd4169843435, osm:nd1501410313, osm:nd1501410821, osm:nd4169843436, osm:nd1501410309, osm:nd4169843434 .
+
+:trkLeMontCharvinenboucle :hassurroundingways osm:way416154093, osm:way136858534, osm:way136858330 .
+
+:trkLeMontCharvinenboucle :hassurroundingrlts osm:none .
+
+:wpt1395 :haslat "45.79798"^^xsd:float ;
+         :haslon "6.38742"^^xsd:float ;
+         :hasele "1395"^^xsd:integer ;
+         :hastime "2019-10-23T13:44:50+02:00"^^xsd:dateTime ;
+         :hasname "Parking les Chandoches (Bouchet Mont Charvin)"^^xsd:string .
+
+:wpt1508 :haslat "45.801638"^^xsd:float ;
+         :haslon "6.394211"^^xsd:float ;
+         :hasele "1508"^^xsd:integer ;
+         :hastime "2019-10-23T13:47:05+02:00"^^xsd:dateTime ;
+         :hasname "Près du Chalet des Praz"^^xsd:string .
+
+:wpt1887 :haslat "45.80496"^^xsd:float ;
+         :haslon "6.410504"^^xsd:float ;
+         :hasele "1887"^^xsd:integer ;
+         :hastime "2019-10-23T13:51:20+02:00"^^xsd:dateTime ;
+         :hasname "Carrefour de la boucle"^^xsd:string .
+
+:wpt2081 :haslat "45.806647"^^xsd:float ;
+         :haslon "6.415213"^^xsd:float ;
+         :hasele "2081"^^xsd:integer ;
+         :hastime "2019-10-23T13:53:15+02:00"^^xsd:dateTime ;
+         :hasname "Col des Porthets"^^xsd:string .
+
+:wpt2117 :haslat "45.80521"^^xsd:float ;
+         :haslon "6.4242"^^xsd:float ;
+         :hasele "2117"^^xsd:integer ;
+         :hastime "2019-10-23T13:58:55+02:00"^^xsd:dateTime ;
+         :hasname "Début des passages câblés"^^xsd:string .
+
+:wpt1396 :haslat "45.797963"^^xsd:float ;
+         :haslon "6.387475"^^xsd:float ;
+         :hasele "1396"^^xsd:integer ;
+         :hastime "2019-10-23T14:10:50+02:00"^^xsd:dateTime ;
+         :hasname "Parking les Chandoches"^^xsd:string .
+
+:trkpt1395 :haslat "45.79798"^^xsd:float ;
+           :haslon "6.38742"^^xsd:float ;
+           :hasele "1395"^^xsd:integer ;
+           :hastime "2019-10-23T13:44:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd866408323, osm:nd4169838717, osm:nd4169843434, osm:nd4169843435, osm:nd4169843436, osm:nd4169843437 ;
+           :hassurroundingways osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1409 :haslat "45.797876"^^xsd:float ;
+           :haslon "6.388224"^^xsd:float ;
+           :hasele "1409"^^xsd:integer ;
+           :hastime "2019-10-23T13:44:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd866408323, osm:nd4169838717, osm:nd4169843434, osm:nd4169843435, osm:nd4169843436, osm:nd4169843437 ;
+           :hassurroundingways osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1418 :haslat "45.797711"^^xsd:float ;
+           :haslon "6.388868"^^xsd:float ;
+           :hasele "1418"^^xsd:integer ;
+           :hastime "2019-10-23T13:45:00+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd866408323, osm:nd4169838717, osm:nd4169843434, osm:nd4169843435, osm:nd4169843436, osm:nd4169843437 ;
+           :hassurroundingways osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1424 :haslat "45.797674"^^xsd:float ;
+           :haslon "6.389383"^^xsd:float ;
+           :hasele "1424"^^xsd:integer ;
+           :hastime "2019-10-23T13:45:05+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd866408323, osm:nd4169838717, osm:nd4169843434, osm:nd4169843435, osm:nd4169843436, osm:nd4169843437 ;
+           :hassurroundingways osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1425 :haslat "45.797402"^^xsd:float ;
+           :haslon "6.389578"^^xsd:float ;
+           :hasele "1425"^^xsd:integer ;
+           :hastime "2019-10-23T14:10:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd866408323, osm:nd4169838717, osm:nd4169843434, osm:nd4169843435, osm:nd4169843436, osm:nd4169843437 ;
+           :hassurroundingways osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1447 :haslat "45.797068"^^xsd:float ;
+           :haslon "6.391142"^^xsd:float ;
+           :hasele "1447"^^xsd:integer ;
+           :hastime "2019-10-23T13:45:15+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd866408323, osm:nd4169838717, osm:nd4169843434, osm:nd4169843435, osm:nd4169843436, osm:nd4169843437 ;
+           :hassurroundingways osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1450 :haslat "45.797143"^^xsd:float ;
+           :haslon "6.391357"^^xsd:float ;
+           :hasele "1450"^^xsd:integer ;
+           :hastime "2019-10-23T13:45:20+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd866408323, osm:nd4169838717, osm:nd4169843434, osm:nd4169843435, osm:nd4169843436, osm:nd4169843437 ;
+           :hassurroundingways osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1454 :haslat "45.797068"^^xsd:float ;
+           :haslon "6.391636"^^xsd:float ;
+           :hasele "1454"^^xsd:integer ;
+           :hastime "2019-10-23T13:45:25+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd866408323, osm:nd4169838717, osm:nd4169843434, osm:nd4169843435, osm:nd4169843436, osm:nd4169843437 ;
+           :hassurroundingways osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1458 :haslat "45.797387"^^xsd:float ;
+           :haslon "6.392142"^^xsd:float ;
+           :hasele "1458"^^xsd:integer ;
+           :hastime "2019-10-23T14:10:15+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd866408323, osm:nd4169838717, osm:nd4169843434, osm:nd4169843435, osm:nd4169843436, osm:nd4169843437 ;
+           :hassurroundingways osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1463 :haslat "45.797883"^^xsd:float ;
+           :haslon "6.392451"^^xsd:float ;
+           :hasele "1463"^^xsd:integer ;
+           :hastime "2019-10-23T13:45:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd866408323, osm:nd4169838717, osm:nd4169843434, osm:nd4169843435, osm:nd4169843436 ;
+           :hassurroundingways osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1470 :haslat "45.798127"^^xsd:float ;
+           :haslon "6.392925"^^xsd:float ;
+           :hasele "1470"^^xsd:integer ;
+           :hastime "2019-10-23T14:10:05+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1479 :haslat "45.798182"^^xsd:float ;
+           :haslon "6.393621"^^xsd:float ;
+           :hasele "1479"^^xsd:integer ;
+           :hastime "2019-10-23T13:45:45+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1484 :haslat "45.798167"^^xsd:float ;
+           :haslon "6.394082"^^xsd:float ;
+           :hasele "1484"^^xsd:integer ;
+           :hastime "2019-10-23T13:45:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1497 :haslat "45.798354"^^xsd:float ;
+           :haslon "6.395187"^^xsd:float ;
+           :hasele "1497"^^xsd:integer ;
+           :hastime "2019-10-23T13:45:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1502 :haslat "45.798352"^^xsd:float ;
+           :haslon "6.3955"^^xsd:float ;
+           :hasele "1502"^^xsd:integer ;
+           :hastime "2019-10-23T14:09:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1508 :haslat "45.801638"^^xsd:float ;
+           :haslon "6.394211"^^xsd:float ;
+           :hasele "1508"^^xsd:integer ;
+           :hastime "2019-10-23T13:47:05+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1513 :haslat "45.79896"^^xsd:float ;
+           :haslon "6.395563"^^xsd:float ;
+           :hasele "1513"^^xsd:integer ;
+           :hastime "2019-10-23T13:46:10+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1518 :haslat "45.801227"^^xsd:float ;
+           :haslon "6.394958"^^xsd:float ;
+           :hasele "1518"^^xsd:integer ;
+           :hastime "2019-10-23T14:09:20+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1519 :haslat "45.799431"^^xsd:float ;
+           :haslon "6.395498"^^xsd:float ;
+           :hasele "1519"^^xsd:integer ;
+           :hastime "2019-10-23T13:46:20+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1520 :haslat "45.799556"^^xsd:float ;
+           :haslon "6.395446"^^xsd:float ;
+           :hasele "1520"^^xsd:integer ;
+           :hastime "2019-10-23T14:09:40+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1522 :haslat "45.800105"^^xsd:float ;
+           :haslon "6.395337"^^xsd:float ;
+           :hasele "1522"^^xsd:integer ;
+           :hastime "2019-10-23T13:46:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1514 :haslat "45.800838"^^xsd:float ;
+           :haslon "6.395037"^^xsd:float ;
+           :hasele "1514"^^xsd:integer ;
+           :hastime "2019-10-23T13:46:40+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1516 :haslat "45.800995"^^xsd:float ;
+           :haslon "6.395016"^^xsd:float ;
+           :hasele "1516"^^xsd:integer ;
+           :hastime "2019-10-23T13:46:45+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1540 :haslat "45.802049"^^xsd:float ;
+           :haslon "6.395177"^^xsd:float ;
+           :hasele "1540"^^xsd:integer ;
+           :hastime "2019-10-23T13:47:10+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327, osm:nd1501410816, osm:nd1501410817, osm:nd1501410818, osm:nd1501410820, osm:nd1501410821, osm:nd1501410822, osm:nd1501509634 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858534, osm:way136858534, osm:way136858534, osm:way136858534, osm:way136858534, osm:way136858534, osm:way136858534 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1546 :haslat "45.801855"^^xsd:float ;
+           :haslon "6.395859"^^xsd:float ;
+           :hasele "1546"^^xsd:integer ;
+           :hastime "2019-10-23T14:08:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327, osm:nd1501410816, osm:nd1501410817, osm:nd1501410818, osm:nd1501410820, osm:nd1501410821, osm:nd1501410822, osm:nd1501509634 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858534, osm:way136858534, osm:way136858534, osm:way136858534, osm:way136858534, osm:way136858534, osm:way136858534 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1545 :haslat "45.80172"^^xsd:float ;
+           :haslon "6.396067"^^xsd:float ;
+           :hasele "1545"^^xsd:integer ;
+           :hastime "2019-10-23T13:47:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327, osm:nd1501509634 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1543 :haslat "45.80172"^^xsd:float ;
+           :haslon "6.395949"^^xsd:float ;
+           :hasele "1543"^^xsd:integer ;
+           :hastime "2019-10-23T13:47:30+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327, osm:nd1501509634 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1549 :haslat "45.801788"^^xsd:float ;
+           :haslon "6.396206"^^xsd:float ;
+           :hasele "1549"^^xsd:integer ;
+           :hastime "2019-10-23T13:47:40+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327, osm:nd1501410816, osm:nd1501410817, osm:nd1501410818, osm:nd1501509634 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858534, osm:way136858534, osm:way136858534 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1550 :haslat "45.801795"^^xsd:float ;
+           :haslon "6.396224"^^xsd:float ;
+           :hasele "1550"^^xsd:integer ;
+           :hastime "2019-10-23T14:08:40+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327, osm:nd1501410816, osm:nd1501410817, osm:nd1501410818, osm:nd1501410820, osm:nd1501509634 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858534, osm:way136858534, osm:way136858534, osm:way136858534 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1552 :haslat "45.801608"^^xsd:float ;
+           :haslon "6.396689"^^xsd:float ;
+           :hasele "1552"^^xsd:integer ;
+           :hastime "2019-10-23T13:47:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1556 :haslat "45.80169"^^xsd:float ;
+           :haslon "6.396893"^^xsd:float ;
+           :hasele "1556"^^xsd:integer ;
+           :hastime "2019-10-23T13:47:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327, osm:nd1501509634 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1561 :haslat "45.801616"^^xsd:float ;
+           :haslon "6.397354"^^xsd:float ;
+           :hasele "1561"^^xsd:integer ;
+           :hastime "2019-10-23T13:48:00+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1566 :haslat "45.801586"^^xsd:float ;
+           :haslon "6.397748"^^xsd:float ;
+           :hasele "1566"^^xsd:integer ;
+           :hastime "2019-10-23T14:08:25+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1579 :haslat "45.801743"^^xsd:float ;
+           :haslon "6.398352"^^xsd:float ;
+           :hasele "1579"^^xsd:integer ;
+           :hastime "2019-10-23T13:48:15+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1585 :haslat "45.801832"^^xsd:float ;
+           :haslon "6.398567"^^xsd:float ;
+           :hasele "1585"^^xsd:integer ;
+           :hastime "2019-10-23T13:48:20+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1592 :haslat "45.801593"^^xsd:float ;
+           :haslon "6.399125"^^xsd:float ;
+           :hasele "1592"^^xsd:integer ;
+           :hastime "2019-10-23T13:48:25+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1603 :haslat "45.801443"^^xsd:float ;
+           :haslon "6.399844"^^xsd:float ;
+           :hasele "1603"^^xsd:integer ;
+           :hastime "2019-10-23T13:48:30+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1609 :haslat "45.801451"^^xsd:float ;
+           :haslon "6.400283"^^xsd:float ;
+           :hasele "1609"^^xsd:integer ;
+           :hastime "2019-10-23T13:48:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1615 :haslat "45.801346"^^xsd:float ;
+           :haslon "6.400713"^^xsd:float ;
+           :hasele "1615"^^xsd:integer ;
+           :hastime "2019-10-23T13:48:40+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1628 :haslat "45.801197"^^xsd:float ;
+           :haslon "6.401603"^^xsd:float ;
+           :hasele "1628"^^xsd:integer ;
+           :hastime "2019-10-23T13:48:45+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1632 :haslat "45.801197"^^xsd:float ;
+           :haslon "6.401796"^^xsd:float ;
+           :hasele "1632"^^xsd:integer ;
+           :hastime "2019-10-23T13:48:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1636 :haslat "45.801571"^^xsd:float ;
+           :haslon "6.401946"^^xsd:float ;
+           :hasele "1636"^^xsd:integer ;
+           :hastime "2019-10-23T13:48:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1634 :haslat "45.802752"^^xsd:float ;
+           :haslon "6.401024"^^xsd:float ;
+           :hasele "1634"^^xsd:integer ;
+           :hastime "2019-10-23T13:49:00+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1639 :haslat "45.803246"^^xsd:float ;
+           :haslon "6.400687"^^xsd:float ;
+           :hasele "1639"^^xsd:integer ;
+           :hastime "2019-10-23T14:07:40+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1641 :haslat "45.803455"^^xsd:float ;
+           :haslon "6.400423"^^xsd:float ;
+           :hasele "1641"^^xsd:integer ;
+           :hastime "2019-10-23T13:49:10+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1644 :haslat "45.80368"^^xsd:float ;
+           :haslon "6.400366"^^xsd:float ;
+           :hasele "1644"^^xsd:integer ;
+           :hastime "2019-10-23T14:07:30+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1643 :haslat "45.803785"^^xsd:float ;
+           :haslon "6.399936"^^xsd:float ;
+           :hasele "1643"^^xsd:integer ;
+           :hastime "2019-10-23T14:07:25+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1646 :haslat "45.804338"^^xsd:float ;
+           :haslon "6.399314"^^xsd:float ;
+           :hasele "1646"^^xsd:integer ;
+           :hastime "2019-10-23T14:07:20+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1648 :haslat "45.804398"^^xsd:float ;
+           :haslon "6.3995"^^xsd:float ;
+           :hasele "1648"^^xsd:integer ;
+           :hastime "2019-10-23T13:49:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1656 :haslat "45.804824"^^xsd:float ;
+           :haslon "6.400144"^^xsd:float ;
+           :hasele "1656"^^xsd:integer ;
+           :hastime "2019-10-23T13:49:40+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1666 :haslat "45.805086"^^xsd:float ;
+           :haslon "6.401013"^^xsd:float ;
+           :hasele "1666"^^xsd:integer ;
+           :hastime "2019-10-23T13:49:45+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1672 :haslat "45.805284"^^xsd:float ;
+           :haslon "6.401576"^^xsd:float ;
+           :hasele "1672"^^xsd:integer ;
+           :hastime "2019-10-23T13:49:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1711 :haslat "45.805508"^^xsd:float ;
+           :haslon "6.403658"^^xsd:float ;
+           :hasele "1711"^^xsd:integer ;
+           :hastime "2019-10-23T13:49:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1717 :haslat "45.805553"^^xsd:float ;
+           :haslon "6.403851"^^xsd:float ;
+           :hasele "1717"^^xsd:integer ;
+           :hastime "2019-10-23T13:50:00+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1721 :haslat "45.805314"^^xsd:float ;
+           :haslon "6.404065"^^xsd:float ;
+           :hasele "1721"^^xsd:integer ;
+           :hastime "2019-10-23T13:50:05+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1732 :haslat "45.805134"^^xsd:float ;
+           :haslon "6.40458"^^xsd:float ;
+           :hasele "1732"^^xsd:integer ;
+           :hastime "2019-10-23T13:50:10+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1735 :haslat "45.804877"^^xsd:float ;
+           :haslon "6.405"^^xsd:float ;
+           :hasele "1735"^^xsd:integer ;
+           :hastime "2019-10-23T14:06:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1753 :haslat "45.804865"^^xsd:float ;
+           :haslon "6.405761"^^xsd:float ;
+           :hasele "1753"^^xsd:integer ;
+           :hastime "2019-10-23T13:50:20+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1759 :haslat "45.80485"^^xsd:float ;
+           :haslon "6.406082"^^xsd:float ;
+           :hasele "1759"^^xsd:integer ;
+           :hastime "2019-10-23T13:50:25+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1762 :haslat "45.804787"^^xsd:float ;
+           :haslon "6.406309"^^xsd:float ;
+           :hasele "1762"^^xsd:integer ;
+           :hastime "2019-10-23T14:06:40+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1790 :haslat "45.804685"^^xsd:float ;
+           :haslon "6.407649"^^xsd:float ;
+           :hasele "1790"^^xsd:integer ;
+           :hastime "2019-10-23T13:50:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1808 :haslat "45.804685"^^xsd:float ;
+           :haslon "6.408314"^^xsd:float ;
+           :hasele "1808"^^xsd:integer ;
+           :hastime "2019-10-23T13:50:40+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1822 :haslat "45.804685"^^xsd:float ;
+           :haslon "6.4087"^^xsd:float ;
+           :hasele "1822"^^xsd:integer ;
+           :hastime "2019-10-23T13:50:45+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1847 :haslat "45.804984"^^xsd:float ;
+           :haslon "6.40928"^^xsd:float ;
+           :hasele "1847"^^xsd:integer ;
+           :hastime "2019-10-23T13:50:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1863 :haslat "45.805104"^^xsd:float ;
+           :haslon "6.409666"^^xsd:float ;
+           :hasele "1863"^^xsd:integer ;
+           :hastime "2019-10-23T13:50:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1873 :haslat "45.805164"^^xsd:float ;
+           :haslon "6.409945"^^xsd:float ;
+           :hasele "1873"^^xsd:integer ;
+           :hastime "2019-10-23T13:51:00+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1875 :haslat "45.805149"^^xsd:float ;
+           :haslon "6.410031"^^xsd:float ;
+           :hasele "1875"^^xsd:integer ;
+           :hastime "2019-10-23T13:51:05+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1882 :haslat "45.805138"^^xsd:float ;
+           :haslon "6.410251"^^xsd:float ;
+           :hasele "1882"^^xsd:integer ;
+           :hastime "2019-10-23T13:51:10+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1884 :haslat "45.804966"^^xsd:float ;
+           :haslon "6.410401"^^xsd:float ;
+           :hasele "1884"^^xsd:integer ;
+           :hastime "2019-10-23T13:51:15+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1887 :haslat "45.804791"^^xsd:float ;
+           :haslon "6.410499"^^xsd:float ;
+           :hasele "1887"^^xsd:integer ;
+           :hastime "2019-10-23T14:05:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1901 :haslat "45.804926"^^xsd:float ;
+           :haslon "6.410885"^^xsd:float ;
+           :hasele "1901"^^xsd:integer ;
+           :hastime "2019-10-23T14:05:45+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1911 :haslat "45.803565"^^xsd:float ;
+           :haslon "6.410885"^^xsd:float ;
+           :hasele "1911"^^xsd:integer ;
+           :hastime "2019-10-23T14:04:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1926 :haslat "45.805248"^^xsd:float ;
+           :haslon "6.411415"^^xsd:float ;
+           :hasele "1926"^^xsd:integer ;
+           :hastime "2019-10-23T13:51:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1931 :haslat "45.80545"^^xsd:float ;
+           :haslon "6.41149"^^xsd:float ;
+           :hasele "1931"^^xsd:integer ;
+           :hastime "2019-10-23T13:51:40+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1943 :haslat "45.805727"^^xsd:float ;
+           :haslon "6.411736"^^xsd:float ;
+           :hasele "1943"^^xsd:integer ;
+           :hastime "2019-10-23T13:51:45+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1946 :haslat "45.80643"^^xsd:float ;
+           :haslon "6.411297"^^xsd:float ;
+           :hasele "1946"^^xsd:integer ;
+           :hastime "2019-10-23T13:52:05+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1944 :haslat "45.806041"^^xsd:float ;
+           :haslon "6.411597"^^xsd:float ;
+           :hasele "1944"^^xsd:integer ;
+           :hastime "2019-10-23T13:51:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1942 :haslat "45.806505"^^xsd:float ;
+           :haslon "6.411028"^^xsd:float ;
+           :hasele "1942"^^xsd:integer ;
+           :hastime "2019-10-23T13:52:10+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1952 :haslat "45.806669"^^xsd:float ;
+           :haslon "6.4112"^^xsd:float ;
+           :hasele "1952"^^xsd:integer ;
+           :hastime "2019-10-23T13:52:15+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1974 :haslat "45.806819"^^xsd:float ;
+           :haslon "6.411973"^^xsd:float ;
+           :hasele "1974"^^xsd:integer ;
+           :hastime "2019-10-23T13:52:20+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2034 :haslat "45.803423"^^xsd:float ;
+           :haslon "6.413203"^^xsd:float ;
+           :hasele "2034"^^xsd:integer ;
+           :hastime "2019-10-23T14:03:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2044 :haslat "45.807497"^^xsd:float ;
+           :haslon "6.422153"^^xsd:float ;
+           :hasele "2044"^^xsd:integer ;
+           :hastime "2019-10-23T13:57:10+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2051 :haslat "45.806781"^^xsd:float ;
+           :haslon "6.413818"^^xsd:float ;
+           :hasele "2051"^^xsd:integer ;
+           :hastime "2019-10-23T13:52:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2056 :haslat "45.803333"^^xsd:float ;
+           :haslon "6.413632"^^xsd:float ;
+           :hasele "2056"^^xsd:integer ;
+           :hastime "2019-10-23T14:03:45+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2062 :haslat "45.806639"^^xsd:float ;
+           :haslon "6.41414"^^xsd:float ;
+           :hasele "2062"^^xsd:integer ;
+           :hastime "2019-10-23T13:52:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2065 :haslat "45.806572"^^xsd:float ;
+           :haslon "6.414279"^^xsd:float ;
+           :hasele "2065"^^xsd:integer ;
+           :hastime "2019-10-23T13:52:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2071 :haslat "45.806579"^^xsd:float ;
+           :haslon "6.414537"^^xsd:float ;
+           :hasele "2071"^^xsd:integer ;
+           :hastime "2019-10-23T13:53:00+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2080 :haslat "45.806714"^^xsd:float ;
+           :haslon "6.415213"^^xsd:float ;
+           :hasele "2080"^^xsd:integer ;
+           :hastime "2019-10-23T13:53:20+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2082 :haslat "45.806624"^^xsd:float ;
+           :haslon "6.415105"^^xsd:float ;
+           :hasele "2082"^^xsd:integer ;
+           :hastime "2019-10-23T13:53:10+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2081 :haslat "45.803243"^^xsd:float ;
+           :haslon "6.414136"^^xsd:float ;
+           :hasele "2081"^^xsd:integer ;
+           :hastime "2019-10-23T14:03:30+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2079 :haslat "45.806751"^^xsd:float ;
+           :haslon "6.415298"^^xsd:float ;
+           :hasele "2079"^^xsd:integer ;
+           :hastime "2019-10-23T13:53:25+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2074 :haslat "45.807013"^^xsd:float ;
+           :haslon "6.415245"^^xsd:float ;
+           :hasele "2074"^^xsd:integer ;
+           :hastime "2019-10-23T13:53:30+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2068 :haslat "45.806824"^^xsd:float ;
+           :haslon "6.423746"^^xsd:float ;
+           :hasele "2068"^^xsd:integer ;
+           :hastime "2019-10-23T13:58:05+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2066 :haslat "45.803243"^^xsd:float ;
+           :haslon "6.413846"^^xsd:float ;
+           :hasele "2066"^^xsd:integer ;
+           :hastime "2019-10-23T14:03:40+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2069 :haslat "45.806969"^^xsd:float ;
+           :haslon "6.415678"^^xsd:float ;
+           :hasele "2069"^^xsd:integer ;
+           :hastime "2019-10-23T13:53:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2038 :haslat "45.807358"^^xsd:float ;
+           :haslon "6.417336"^^xsd:float ;
+           :hasele "2038"^^xsd:integer ;
+           :hastime "2019-10-23T13:53:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2025 :haslat "45.808802"^^xsd:float ;
+           :haslon "6.42108"^^xsd:float ;
+           :hasele "2025"^^xsd:integer ;
+           :hastime "2019-10-23T13:56:20+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2020 :haslat "45.808379"^^xsd:float ;
+           :haslon "6.422341"^^xsd:float ;
+           :hasele "2020"^^xsd:integer ;
+           :hastime "2019-10-23T13:56:00+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2026 :haslat "45.808084"^^xsd:float ;
+           :haslon "6.41894"^^xsd:float ;
+           :hasele "2026"^^xsd:integer ;
+           :hastime "2019-10-23T13:54:15+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2021 :haslat "45.808611"^^xsd:float ;
+           :haslon "6.422218"^^xsd:float ;
+           :hasele "2021"^^xsd:integer ;
+           :hastime "2019-10-23T13:55:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2015 :haslat "45.809389"^^xsd:float ;
+           :haslon "6.42122"^^xsd:float ;
+           :hasele "2015"^^xsd:integer ;
+           :hastime "2019-10-23T13:55:15+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2012 :haslat "45.809505"^^xsd:float ;
+           :haslon "6.421139"^^xsd:float ;
+           :hasele "2012"^^xsd:integer ;
+           :hastime "2019-10-23T13:55:10+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2008 :haslat "45.809183"^^xsd:float ;
+           :haslon "6.420302"^^xsd:float ;
+           :hasele "2008"^^xsd:integer ;
+           :hastime "2019-10-23T13:54:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2007 :haslat "45.809224"^^xsd:float ;
+           :haslon "6.420351"^^xsd:float ;
+           :hasele "2007"^^xsd:integer ;
+           :hastime "2019-10-23T13:54:40+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2004 :haslat "45.809299"^^xsd:float ;
+           :haslon "6.420292"^^xsd:float ;
+           :hasele "2004"^^xsd:integer ;
+           :hastime "2019-10-23T13:54:45+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2005 :haslat "45.809378"^^xsd:float ;
+           :haslon "6.420496"^^xsd:float ;
+           :hasele "2005"^^xsd:integer ;
+           :hastime "2019-10-23T13:54:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2006 :haslat "45.809471"^^xsd:float ;
+           :haslon "6.420646"^^xsd:float ;
+           :hasele "2006"^^xsd:integer ;
+           :hastime "2019-10-23T13:54:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2009 :haslat "45.809505"^^xsd:float ;
+           :haslon "6.420817"^^xsd:float ;
+           :hasele "2009"^^xsd:integer ;
+           :hastime "2019-10-23T13:55:00+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2010 :haslat "45.809523"^^xsd:float ;
+           :haslon "6.421"^^xsd:float ;
+           :hasele "2010"^^xsd:integer ;
+           :hastime "2019-10-23T13:55:05+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2017 :haslat "45.809292"^^xsd:float ;
+           :haslon "6.4213"^^xsd:float ;
+           :hasele "2017"^^xsd:integer ;
+           :hastime "2019-10-23T13:55:20+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2018 :haslat "45.809329"^^xsd:float ;
+           :haslon "6.421515"^^xsd:float ;
+           :hasele "2018"^^xsd:integer ;
+           :hastime "2019-10-23T13:55:25+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2022 :haslat "45.808585"^^xsd:float ;
+           :haslon "6.421981"^^xsd:float ;
+           :hasele "2022"^^xsd:integer ;
+           :hastime "2019-10-23T13:56:05+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2023 :haslat "45.808813"^^xsd:float ;
+           :haslon "6.421445"^^xsd:float ;
+           :hasele "2023"^^xsd:integer ;
+           :hastime "2019-10-23T13:56:15+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2024 :haslat "45.808828"^^xsd:float ;
+           :haslon "6.420774"^^xsd:float ;
+           :hasele "2024"^^xsd:integer ;
+           :hastime "2019-10-23T13:56:25+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2030 :haslat "45.808357"^^xsd:float ;
+           :haslon "6.421204"^^xsd:float ;
+           :hasele "2030"^^xsd:integer ;
+           :hastime "2019-10-23T13:56:40+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2031 :haslat "45.808398"^^xsd:float ;
+           :haslon "6.42108"^^xsd:float ;
+           :hasele "2031"^^xsd:integer ;
+           :hastime "2019-10-23T13:56:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2032 :haslat "45.808233"^^xsd:float ;
+           :haslon "6.421348"^^xsd:float ;
+           :hasele "2032"^^xsd:integer ;
+           :hastime "2019-10-23T13:56:45+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2036 :haslat "45.808084"^^xsd:float ;
+           :haslon "6.42145"^^xsd:float ;
+           :hasele "2036"^^xsd:integer ;
+           :hastime "2019-10-23T13:56:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2040 :haslat "45.807964"^^xsd:float ;
+           :haslon "6.421445"^^xsd:float ;
+           :hasele "2040"^^xsd:integer ;
+           :hastime "2019-10-23T13:56:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2043 :haslat "45.807355"^^xsd:float ;
+           :haslon "6.422684"^^xsd:float ;
+           :hasele "2043"^^xsd:integer ;
+           :hastime "2019-10-23T13:57:25+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2045 :haslat "45.807594"^^xsd:float ;
+           :haslon "6.421944"^^xsd:float ;
+           :hasele "2045"^^xsd:integer ;
+           :hastime "2019-10-23T13:57:05+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2039 :haslat "45.807482"^^xsd:float ;
+           :haslon "6.422491"^^xsd:float ;
+           :hasele "2039"^^xsd:integer ;
+           :hastime "2019-10-23T13:57:15+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2046 :haslat "45.807295"^^xsd:float ;
+           :haslon "6.422738"^^xsd:float ;
+           :hasele "2046"^^xsd:integer ;
+           :hastime "2019-10-23T13:57:30+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2047 :haslat "45.80728"^^xsd:float ;
+           :haslon "6.423044"^^xsd:float ;
+           :hasele "2047"^^xsd:integer ;
+           :hastime "2019-10-23T13:57:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2050 :haslat "45.807198"^^xsd:float ;
+           :haslon "6.423092"^^xsd:float ;
+           :hasele "2050"^^xsd:integer ;
+           :hastime "2019-10-23T13:57:40+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2052 :haslat "45.807168"^^xsd:float ;
+           :haslon "6.423403"^^xsd:float ;
+           :hasele "2052"^^xsd:integer ;
+           :hastime "2019-10-23T13:57:45+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2057 :haslat "45.807044"^^xsd:float ;
+           :haslon "6.423451"^^xsd:float ;
+           :hasele "2057"^^xsd:integer ;
+           :hastime "2019-10-23T13:57:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2060 :haslat "45.806984"^^xsd:float ;
+           :haslon "6.423532"^^xsd:float ;
+           :hasele "2060"^^xsd:integer ;
+           :hastime "2019-10-23T13:57:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2063 :haslat "45.806898"^^xsd:float ;
+           :haslon "6.423591"^^xsd:float ;
+           :hasele "2063"^^xsd:integer ;
+           :hastime "2019-10-23T13:58:00+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2073 :haslat "45.806767"^^xsd:float ;
+           :haslon "6.424004"^^xsd:float ;
+           :hasele "2073"^^xsd:integer ;
+           :hastime "2019-10-23T13:58:10+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2077 :haslat "45.806741"^^xsd:float ;
+           :haslon "6.424192"^^xsd:float ;
+           :hasele "2077"^^xsd:integer ;
+           :hastime "2019-10-23T13:58:15+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2083 :haslat "45.806678"^^xsd:float ;
+           :haslon "6.42431"^^xsd:float ;
+           :hasele "2083"^^xsd:integer ;
+           :hastime "2019-10-23T13:58:20+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2096 :haslat "45.806394"^^xsd:float ;
+           :haslon "6.424508"^^xsd:float ;
+           :hasele "2096"^^xsd:integer ;
+           :hastime "2019-10-23T13:58:25+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2102 :haslat "45.805563"^^xsd:float ;
+           :haslon "6.424149"^^xsd:float ;
+           :hasele "2102"^^xsd:integer ;
+           :hastime "2019-10-23T13:58:45+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2106 :haslat "45.803138"^^xsd:float ;
+           :haslon "6.414662"^^xsd:float ;
+           :hasele "2106"^^xsd:integer ;
+           :hastime "2019-10-23T14:03:20+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2108 :haslat "45.805395"^^xsd:float ;
+           :haslon "6.424074"^^xsd:float ;
+           :hasele "2108"^^xsd:integer ;
+           :hastime "2019-10-23T13:58:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2117 :haslat "45.80521"^^xsd:float ;
+           :haslon "6.4242"^^xsd:float ;
+           :hasele "2117"^^xsd:integer ;
+           :hastime "2019-10-23T13:58:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2123 :haslat "45.805195"^^xsd:float ;
+           :haslon "6.424318"^^xsd:float ;
+           :hasele "2123"^^xsd:integer ;
+           :hastime "2019-10-23T13:59:00+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2122 :haslat "45.805091"^^xsd:float ;
+           :haslon "6.42421"^^xsd:float ;
+           :hasele "2122"^^xsd:integer ;
+           :hastime "2019-10-23T13:59:05+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2135 :haslat "45.804866"^^xsd:float ;
+           :haslon "6.424264"^^xsd:float ;
+           :hasele "2135"^^xsd:integer ;
+           :hastime "2019-10-23T13:59:10+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2139 :haslat "45.803251"^^xsd:float ;
+           :haslon "6.41523"^^xsd:float ;
+           :hasele "2139"^^xsd:integer ;
+           :hastime "2019-10-23T14:02:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2153 :haslat "45.804694"^^xsd:float ;
+           :haslon "6.424457"^^xsd:float ;
+           :hasele "2153"^^xsd:integer ;
+           :hastime "2019-10-23T13:59:20+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2166 :haslat "45.804567"^^xsd:float ;
+           :haslon "6.424629"^^xsd:float ;
+           :hasele "2166"^^xsd:integer ;
+           :hastime "2019-10-23T13:59:25+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2177 :haslat "45.803572"^^xsd:float ;
+           :haslon "6.415853"^^xsd:float ;
+           :hasele "2177"^^xsd:integer ;
+           :hastime "2019-10-23T14:02:25+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2183 :haslat "45.80423"^^xsd:float ;
+           :haslon "6.424597"^^xsd:float ;
+           :hasele "2183"^^xsd:integer ;
+           :hastime "2019-10-23T13:59:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2190 :haslat "45.80426"^^xsd:float ;
+           :haslon "6.424886"^^xsd:float ;
+           :hasele "2190"^^xsd:integer ;
+           :hastime "2019-10-23T13:59:40+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2197 :haslat "45.804111"^^xsd:float ;
+           :haslon "6.424908"^^xsd:float ;
+           :hasele "2197"^^xsd:integer ;
+           :hastime "2019-10-23T13:59:45+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2210 :haslat "45.803812"^^xsd:float ;
+           :haslon "6.424886"^^xsd:float ;
+           :hasele "2210"^^xsd:integer ;
+           :hastime "2019-10-23T13:59:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2225 :haslat "45.803497"^^xsd:float ;
+           :haslon "6.42494"^^xsd:float ;
+           :hasele "2225"^^xsd:integer ;
+           :hastime "2019-10-23T13:59:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2285 :haslat "45.802473"^^xsd:float ;
+           :haslon "6.423792"^^xsd:float ;
+           :hasele "2285"^^xsd:integer ;
+           :hastime "2019-10-23T14:00:00+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2315 :haslat "45.802248"^^xsd:float ;
+           :haslon "6.422805"^^xsd:float ;
+           :hasele "2315"^^xsd:integer ;
+           :hastime "2019-10-23T14:00:05+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2326 :haslat "45.802159"^^xsd:float ;
+           :haslon "6.422494"^^xsd:float ;
+           :hasele "2326"^^xsd:integer ;
+           :hastime "2019-10-23T14:00:10+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2331 :haslat "45.802174"^^xsd:float ;
+           :haslon "6.422333"^^xsd:float ;
+           :hasele "2331"^^xsd:integer ;
+           :hastime "2019-10-23T14:00:15+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2343 :haslat "45.802114"^^xsd:float ;
+           :haslon "6.421893"^^xsd:float ;
+           :hasele "2343"^^xsd:integer ;
+           :hastime "2019-10-23T14:00:20+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2350 :haslat "45.802204"^^xsd:float ;
+           :haslon "6.421668"^^xsd:float ;
+           :hasele "2350"^^xsd:integer ;
+           :hastime "2019-10-23T14:00:25+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2364 :haslat "45.802211"^^xsd:float ;
+           :haslon "6.421131"^^xsd:float ;
+           :hasele "2364"^^xsd:integer ;
+           :hastime "2019-10-23T14:00:30+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2384 :haslat "45.802323"^^xsd:float ;
+           :haslon "6.420166"^^xsd:float ;
+           :hasele "2384"^^xsd:integer ;
+           :hastime "2019-10-23T14:00:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2383 :haslat "45.802592"^^xsd:float ;
+           :haslon "6.419844"^^xsd:float ;
+           :hasele "2383"^^xsd:integer ;
+           :hastime "2019-10-23T14:00:40+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2380 :haslat "45.8026"^^xsd:float ;
+           :haslon "6.419747"^^xsd:float ;
+           :hasele "2380"^^xsd:integer ;
+           :hastime "2019-10-23T14:00:45+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2354 :haslat "45.803266"^^xsd:float ;
+           :haslon "6.419318"^^xsd:float ;
+           :hasele "2354"^^xsd:integer ;
+           :hastime "2019-10-23T14:00:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2284 :haslat "45.804679"^^xsd:float ;
+           :haslon "6.418256"^^xsd:float ;
+           :hasele "2284"^^xsd:integer ;
+           :hastime "2019-10-23T14:00:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2279 :haslat "45.804717"^^xsd:float ;
+           :haslon "6.418181"^^xsd:float ;
+           :hasele "2279"^^xsd:integer ;
+           :hastime "2019-10-23T14:01:00+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2310 :haslat "45.804163"^^xsd:float ;
+           :haslon "6.418256"^^xsd:float ;
+           :hasele "2310"^^xsd:integer ;
+           :hastime "2019-10-23T14:01:05+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2261 :haslat "45.804619"^^xsd:float ;
+           :haslon "6.417623"^^xsd:float ;
+           :hasele "2261"^^xsd:integer ;
+           :hastime "2019-10-23T14:01:10+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2287 :haslat "45.804073"^^xsd:float ;
+           :haslon "6.417784"^^xsd:float ;
+           :hasele "2287"^^xsd:integer ;
+           :hastime "2019-10-23T14:01:15+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2249 :haslat "45.80435"^^xsd:float ;
+           :haslon "6.417215"^^xsd:float ;
+           :hasele "2249"^^xsd:integer ;
+           :hastime "2019-10-23T14:01:20+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2265 :haslat "45.803931"^^xsd:float ;
+           :haslon "6.417365"^^xsd:float ;
+           :hasele "2265"^^xsd:integer ;
+           :hastime "2019-10-23T14:01:25+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2236 :haslat "45.804133"^^xsd:float ;
+           :haslon "6.416883"^^xsd:float ;
+           :hasele "2236"^^xsd:integer ;
+           :hastime "2019-10-23T14:01:30+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2245 :haslat "45.803415"^^xsd:float ;
+           :haslon "6.417033"^^xsd:float ;
+           :hasele "2245"^^xsd:integer ;
+           :hastime "2019-10-23T14:01:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2231 :haslat "45.803303"^^xsd:float ;
+           :haslon "6.416818"^^xsd:float ;
+           :hasele "2231"^^xsd:integer ;
+           :hastime "2019-10-23T14:01:40+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2226 :haslat "45.803385"^^xsd:float ;
+           :haslon "6.416732"^^xsd:float ;
+           :hasele "2226"^^xsd:integer ;
+           :hastime "2019-10-23T14:01:45+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2223 :haslat "45.803378"^^xsd:float ;
+           :haslon "6.416689"^^xsd:float ;
+           :hasele "2223"^^xsd:integer ;
+           :hastime "2019-10-23T14:01:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2218 :haslat "45.803236"^^xsd:float ;
+           :haslon "6.416625"^^xsd:float ;
+           :hasele "2218"^^xsd:integer ;
+           :hastime "2019-10-23T14:01:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2209 :haslat "45.80334"^^xsd:float ;
+           :haslon "6.416432"^^xsd:float ;
+           :hasele "2209"^^xsd:integer ;
+           :hastime "2019-10-23T14:02:00+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2203 :haslat "45.803221"^^xsd:float ;
+           :haslon "6.416357"^^xsd:float ;
+           :hasele "2203"^^xsd:integer ;
+           :hastime "2019-10-23T14:02:05+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2199 :haslat "45.803355"^^xsd:float ;
+           :haslon "6.41625"^^xsd:float ;
+           :hasele "2199"^^xsd:integer ;
+           :hastime "2019-10-23T14:02:10+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2191 :haslat "45.803393"^^xsd:float ;
+           :haslon "6.41611"^^xsd:float ;
+           :hasele "2191"^^xsd:integer ;
+           :hastime "2019-10-23T14:02:15+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2188 :haslat "45.803557"^^xsd:float ;
+           :haslon "6.416056"^^xsd:float ;
+           :hasele "2188"^^xsd:integer ;
+           :hastime "2019-10-23T14:02:20+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2167 :haslat "45.803363"^^xsd:float ;
+           :haslon "6.415692"^^xsd:float ;
+           :hasele "2167"^^xsd:integer ;
+           :hastime "2019-10-23T14:02:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2154 :haslat "45.803408"^^xsd:float ;
+           :haslon "6.415466"^^xsd:float ;
+           :hasele "2154"^^xsd:integer ;
+           :hastime "2019-10-23T14:02:40+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2151 :haslat "45.803288"^^xsd:float ;
+           :haslon "6.415434"^^xsd:float ;
+           :hasele "2151"^^xsd:integer ;
+           :hastime "2019-10-23T14:02:45+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2142 :haslat "45.803221"^^xsd:float ;
+           :haslon "6.415295"^^xsd:float ;
+           :hasele "2142"^^xsd:integer ;
+           :hastime "2019-10-23T14:02:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2134 :haslat "45.803213"^^xsd:float ;
+           :haslon "6.415155"^^xsd:float ;
+           :hasele "2134"^^xsd:integer ;
+           :hastime "2019-10-23T14:03:00+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2127 :haslat "45.803273"^^xsd:float ;
+           :haslon "6.415027"^^xsd:float ;
+           :hasele "2127"^^xsd:integer ;
+           :hastime "2019-10-23T14:03:05+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2119 :haslat "45.803183"^^xsd:float ;
+           :haslon "6.414898"^^xsd:float ;
+           :hasele "2119"^^xsd:integer ;
+           :hastime "2019-10-23T14:03:10+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2115 :haslat "45.803228"^^xsd:float ;
+           :haslon "6.414812"^^xsd:float ;
+           :hasele "2115"^^xsd:integer ;
+           :hastime "2019-10-23T14:03:15+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2086 :haslat "45.803273"^^xsd:float ;
+           :haslon "6.414243"^^xsd:float ;
+           :hasele "2086"^^xsd:integer ;
+           :hastime "2019-10-23T14:03:25+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2078 :haslat "45.803281"^^xsd:float ;
+           :haslon "6.414072"^^xsd:float ;
+           :hasele "2078"^^xsd:integer ;
+           :hastime "2019-10-23T14:03:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt2033 :haslat "45.80352"^^xsd:float ;
+           :haslon "6.413203"^^xsd:float ;
+           :hasele "2033"^^xsd:integer ;
+           :hastime "2019-10-23T14:03:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1994 :haslat "45.803857"^^xsd:float ;
+           :haslon "6.41243"^^xsd:float ;
+           :hasele "1994"^^xsd:integer ;
+           :hastime "2019-10-23T14:04:00+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1987 :haslat "45.803804"^^xsd:float ;
+           :haslon "6.412301"^^xsd:float ;
+           :hasele "1987"^^xsd:integer ;
+           :hastime "2019-10-23T14:04:05+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1976 :haslat "45.803916"^^xsd:float ;
+           :haslon "6.41213"^^xsd:float ;
+           :hasele "1976"^^xsd:integer ;
+           :hastime "2019-10-23T14:04:10+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1969 :haslat "45.803916"^^xsd:float ;
+           :haslon "6.412022"^^xsd:float ;
+           :hasele "1969"^^xsd:integer ;
+           :hastime "2019-10-23T14:04:15+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1964 :haslat "45.803976"^^xsd:float ;
+           :haslon "6.411937"^^xsd:float ;
+           :hasele "1964"^^xsd:integer ;
+           :hastime "2019-10-23T14:04:20+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1965 :haslat "45.803886"^^xsd:float ;
+           :haslon "6.411937"^^xsd:float ;
+           :hasele "1965"^^xsd:integer ;
+           :hastime "2019-10-23T14:04:25+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1956 :haslat "45.803961"^^xsd:float ;
+           :haslon "6.411797"^^xsd:float ;
+           :hasele "1956"^^xsd:integer ;
+           :hastime "2019-10-23T14:04:30+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1949 :haslat "45.80364"^^xsd:float ;
+           :haslon "6.411572"^^xsd:float ;
+           :hasele "1949"^^xsd:integer ;
+           :hastime "2019-10-23T14:04:40+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1921 :haslat "45.803512"^^xsd:float ;
+           :haslon "6.411046"^^xsd:float ;
+           :hasele "1921"^^xsd:integer ;
+           :hastime "2019-10-23T14:04:45+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1904 :haslat "45.803819"^^xsd:float ;
+           :haslon "6.410799"^^xsd:float ;
+           :hasele "1904"^^xsd:integer ;
+           :hastime "2019-10-23T14:05:05+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1908 :haslat "45.804604"^^xsd:float ;
+           :haslon "6.410992"^^xsd:float ;
+           :hasele "1908"^^xsd:integer ;
+           :hastime "2019-10-23T14:05:30+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1897 :haslat "45.804148"^^xsd:float ;
+           :haslon "6.410703"^^xsd:float ;
+           :hasele "1897"^^xsd:integer ;
+           :hastime "2019-10-23T14:05:15+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1899 :haslat "45.804223"^^xsd:float ;
+           :haslon "6.410756"^^xsd:float ;
+           :hasele "1899"^^xsd:integer ;
+           :hastime "2019-10-23T14:05:20+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1898 :haslat "45.80438"^^xsd:float ;
+           :haslon "6.410756"^^xsd:float ;
+           :hasele "1898"^^xsd:integer ;
+           :hastime "2019-10-23T14:05:25+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1909 :haslat "45.804791"^^xsd:float ;
+           :haslon "6.411035"^^xsd:float ;
+           :hasele "1909"^^xsd:integer ;
+           :hastime "2019-10-23T14:05:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1903 :haslat "45.804859"^^xsd:float ;
+           :haslon "6.410917"^^xsd:float ;
+           :hasele "1903"^^xsd:integer ;
+           :hastime "2019-10-23T14:05:40+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1888 :haslat "45.804963"^^xsd:float ;
+           :haslon "6.41051"^^xsd:float ;
+           :hasele "1888"^^xsd:integer ;
+           :hastime "2019-10-23T14:05:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1883 :haslat "45.804948"^^xsd:float ;
+           :haslon "6.410359"^^xsd:float ;
+           :hasele "1883"^^xsd:integer ;
+           :hastime "2019-10-23T14:06:00+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1880 :haslat "45.805091"^^xsd:float ;
+           :haslon "6.41022"^^xsd:float ;
+           :hasele "1880"^^xsd:integer ;
+           :hastime "2019-10-23T14:06:05+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1868 :haslat "45.805165"^^xsd:float ;
+           :haslon "6.409791"^^xsd:float ;
+           :hasele "1868"^^xsd:integer ;
+           :hastime "2019-10-23T14:06:15+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1836 :haslat "45.804866"^^xsd:float ;
+           :haslon "6.409008"^^xsd:float ;
+           :hasele "1836"^^xsd:integer ;
+           :hastime "2019-10-23T14:06:20+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1826 :haslat "45.804784"^^xsd:float ;
+           :haslon "6.408761"^^xsd:float ;
+           :hasele "1826"^^xsd:integer ;
+           :hastime "2019-10-23T14:06:25+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1816 :haslat "45.804679"^^xsd:float ;
+           :haslon "6.408546"^^xsd:float ;
+           :hasele "1816"^^xsd:integer ;
+           :hastime "2019-10-23T14:06:30+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1791 :haslat "45.804657"^^xsd:float ;
+           :haslon "6.407688"^^xsd:float ;
+           :hasele "1791"^^xsd:integer ;
+           :hastime "2019-10-23T14:06:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1758 :haslat "45.804817"^^xsd:float ;
+           :haslon "6.406073"^^xsd:float ;
+           :hasele "1758"^^xsd:integer ;
+           :hastime "2019-10-23T14:06:45+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1722 :haslat "45.805296"^^xsd:float ;
+           :haslon "6.404121"^^xsd:float ;
+           :hasele "1722"^^xsd:integer ;
+           :hastime "2019-10-23T14:06:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1719 :haslat "45.805535"^^xsd:float ;
+           :haslon "6.403928"^^xsd:float ;
+           :hasele "1719"^^xsd:integer ;
+           :hastime "2019-10-23T14:07:00+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1674 :haslat "45.805326"^^xsd:float ;
+           :haslon "6.401717"^^xsd:float ;
+           :hasele "1674"^^xsd:integer ;
+           :hastime "2019-10-23T14:07:05+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1657 :haslat "45.804862"^^xsd:float ;
+           :haslon "6.400237"^^xsd:float ;
+           :hasele "1657"^^xsd:integer ;
+           :hastime "2019-10-23T14:07:10+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1647 :haslat "45.804338"^^xsd:float ;
+           :haslon "6.399486"^^xsd:float ;
+           :hasele "1647"^^xsd:integer ;
+           :hastime "2019-10-23T14:07:15+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1640 :haslat "45.803381"^^xsd:float ;
+           :haslon "6.400451"^^xsd:float ;
+           :hasele "1640"^^xsd:integer ;
+           :hastime "2019-10-23T14:07:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1635 :haslat "45.801571"^^xsd:float ;
+           :haslon "6.401889"^^xsd:float ;
+           :hasele "1635"^^xsd:integer ;
+           :hastime "2019-10-23T14:07:45+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1631 :haslat "45.801167"^^xsd:float ;
+           :haslon "6.401739"^^xsd:float ;
+           :hasele "1631"^^xsd:integer ;
+           :hastime "2019-10-23T14:07:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1611 :haslat "45.801406"^^xsd:float ;
+           :haslon "6.40043"^^xsd:float ;
+           :hasele "1611"^^xsd:integer ;
+           :hastime "2019-10-23T14:07:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1606 :haslat "45.801481"^^xsd:float ;
+           :haslon "6.400065"^^xsd:float ;
+           :hasele "1606"^^xsd:integer ;
+           :hastime "2019-10-23T14:08:00+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1586 :haslat "45.801646"^^xsd:float ;
+           :haslon "6.398799"^^xsd:float ;
+           :hasele "1586"^^xsd:integer ;
+           :hastime "2019-10-23T14:08:05+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1587 :haslat "45.801915"^^xsd:float ;
+           :haslon "6.398563"^^xsd:float ;
+           :hasele "1587"^^xsd:integer ;
+           :hastime "2019-10-23T14:08:10+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1580 :haslat "45.801736"^^xsd:float ;
+           :haslon "6.398413"^^xsd:float ;
+           :hasele "1580"^^xsd:integer ;
+           :hastime "2019-10-23T14:08:15+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1577 :haslat "45.80178"^^xsd:float ;
+           :haslon "6.398177"^^xsd:float ;
+           :hasele "1577"^^xsd:integer ;
+           :hastime "2019-10-23T14:08:20+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1557 :haslat "45.801706"^^xsd:float ;
+           :haslon "6.396932"^^xsd:float ;
+           :hasele "1557"^^xsd:integer ;
+           :hastime "2019-10-23T14:08:30+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327, osm:nd1501509634 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1551 :haslat "45.801616"^^xsd:float ;
+           :haslon "6.396653"^^xsd:float ;
+           :hasele "1551"^^xsd:integer ;
+           :hastime "2019-10-23T14:08:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1544 :haslat "45.80199"^^xsd:float ;
+           :haslon "6.395495"^^xsd:float ;
+           :hasele "1544"^^xsd:integer ;
+           :hastime "2019-10-23T14:09:00+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327, osm:nd1501410816, osm:nd1501410817, osm:nd1501410818, osm:nd1501410820, osm:nd1501410821, osm:nd1501410822, osm:nd1501509634 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858534, osm:way136858534, osm:way136858534, osm:way136858534, osm:way136858534, osm:way136858534, osm:way136858534 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1542 :haslat "45.801855"^^xsd:float ;
+           :haslon "6.395623"^^xsd:float ;
+           :hasele "1542"^^xsd:integer ;
+           :hastime "2019-10-23T14:08:55+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327, osm:nd1501410816, osm:nd1501410817, osm:nd1501410818, osm:nd1501410820, osm:nd1501410821, osm:nd1501410822, osm:nd1501509634 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858534, osm:way136858534, osm:way136858534, osm:way136858534, osm:way136858534, osm:way136858534, osm:way136858534 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1539 :haslat "45.80202"^^xsd:float ;
+           :haslon "6.395151"^^xsd:float ;
+           :hasele "1539"^^xsd:integer ;
+           :hastime "2019-10-23T14:09:05+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327, osm:nd1501410816, osm:nd1501410817, osm:nd1501410818, osm:nd1501410820, osm:nd1501410821, osm:nd1501410822, osm:nd1501509634 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858534, osm:way136858534, osm:way136858534, osm:way136858534, osm:way136858534, osm:way136858534, osm:way136858534 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1509 :haslat "45.798643"^^xsd:float ;
+           :haslon "6.395629"^^xsd:float ;
+           :hasele "1509"^^xsd:integer ;
+           :hastime "2019-10-23T14:09:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1521 :haslat "45.801197"^^xsd:float ;
+           :haslon "6.395151"^^xsd:float ;
+           :hasele "1521"^^xsd:integer ;
+           :hastime "2019-10-23T14:09:25+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1515 :haslat "45.800898"^^xsd:float ;
+           :haslon "6.395044"^^xsd:float ;
+           :hasele "1515"^^xsd:integer ;
+           :hastime "2019-10-23T14:09:30+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1523 :haslat "45.800027"^^xsd:float ;
+           :haslon "6.395371"^^xsd:float ;
+           :hasele "1523"^^xsd:integer ;
+           :hastime "2019-10-23T14:09:35+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1501410309, osm:nd1501410313, osm:nd1501410325, osm:nd1501410327 ;
+           :hassurroundingways osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330, osm:way136858330 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1517 :haslat "45.799189"^^xsd:float ;
+           :haslon "6.395554"^^xsd:float ;
+           :hasele "1517"^^xsd:integer ;
+           :hastime "2019-10-23T14:09:45+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1483 :haslat "45.798172"^^xsd:float ;
+           :haslon "6.394019"^^xsd:float ;
+           :hasele "1483"^^xsd:integer ;
+           :hastime "2019-10-23T14:10:00+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1462 :haslat "45.797828"^^xsd:float ;
+           :haslon "6.392421"^^xsd:float ;
+           :hasele "1462"^^xsd:integer ;
+           :hastime "2019-10-23T14:10:10+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd866408323, osm:nd4169838717, osm:nd4169843434, osm:nd4169843435, osm:nd4169843436, osm:nd4169843437 ;
+           :hassurroundingways osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1455 :haslat "45.797087"^^xsd:float ;
+           :haslon "6.391691"^^xsd:float ;
+           :hasele "1455"^^xsd:integer ;
+           :hastime "2019-10-23T14:10:20+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd866408323, osm:nd4169838717, osm:nd4169843434, osm:nd4169843435, osm:nd4169843436, osm:nd4169843437 ;
+           :hassurroundingways osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1449 :haslat "45.797125"^^xsd:float ;
+           :haslon "6.391305"^^xsd:float ;
+           :hasele "1449"^^xsd:integer ;
+           :hastime "2019-10-23T14:10:25+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd866408323, osm:nd4169838717, osm:nd4169843434, osm:nd4169843435, osm:nd4169843436, osm:nd4169843437 ;
+           :hassurroundingways osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1446 :haslat "45.797095"^^xsd:float ;
+           :haslon "6.391048"^^xsd:float ;
+           :hasele "1446"^^xsd:integer ;
+           :hastime "2019-10-23T14:10:30+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd866408323, osm:nd4169838717, osm:nd4169843434, osm:nd4169843435, osm:nd4169843436, osm:nd4169843437 ;
+           :hassurroundingways osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1423 :haslat "45.797701"^^xsd:float ;
+           :haslon "6.38932"^^xsd:float ;
+           :hasele "1423"^^xsd:integer ;
+           :hastime "2019-10-23T14:10:40+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd866408323, osm:nd4169838717, osm:nd4169843434, osm:nd4169843435, osm:nd4169843436, osm:nd4169843437 ;
+           :hassurroundingways osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1415 :haslat "45.797761"^^xsd:float ;
+           :haslon "6.388666"^^xsd:float ;
+           :hasele "1415"^^xsd:integer ;
+           :hastime "2019-10-23T14:10:45+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd866408323, osm:nd4169838717, osm:nd4169843434, osm:nd4169843435, osm:nd4169843436, osm:nd4169843437 ;
+           :hassurroundingways osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1396 :haslat "45.797963"^^xsd:float ;
+           :haslon "6.387475"^^xsd:float ;
+           :hasele "1396"^^xsd:integer ;
+           :hastime "2019-10-23T14:10:50+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd866408323, osm:nd4169838717, osm:nd4169843434, osm:nd4169843435, osm:nd4169843436, osm:nd4169843437 ;
+           :hassurroundingways osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093, osm:way416154093 ;
+           :hassurroundingrlts osm:none .
+
+osm:nd4169838717 osm:haslat "45.7979475"^^xsd:float ;
+                 osm:haslon "6.3878325"^^xsd:float ;
+                 osm:hasid "4169838717"^^xsd:number ;
+                 osm:hasts "2016-05-06T14:22:45Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way416153441, osm:way416154093 ;
+                 osm:intherlt osm:none .
+
+osm:nd1501509634 osm:haslat "45.8066759"^^xsd:float ;
+                 osm:haslon "6.3925429"^^xsd:float ;
+                 osm:hasid "1501509634"^^xsd:number ;
+                 osm:hasts "2011-11-13T15:14:45Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:parking ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:none ;
+                 osm:intherlt osm:none .
+
+osm:nd1501410817 osm:haslat "45.8067600"^^xsd:float ;
+                 osm:haslon "6.3920290"^^xsd:float ;
+                 osm:hasid "1501410817"^^xsd:number ;
+                 osm:hasts "2011-11-13T14:08:00Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way136858534 ;
+                 osm:intherlt osm:none .
+
+osm:nd1501410820 osm:haslat "45.8067940"^^xsd:float ;
+                 osm:haslon "6.3920540"^^xsd:float ;
+                 osm:hasid "1501410820"^^xsd:number ;
+                 osm:hasts "2011-11-13T14:08:00Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way136858534 ;
+                 osm:intherlt osm:none .
+
+osm:nd1501410822 osm:haslat "45.8068200"^^xsd:float ;
+                 osm:haslon "6.3920560"^^xsd:float ;
+                 osm:hasid "1501410822"^^xsd:number ;
+                 osm:hasts "2011-11-13T14:08:00Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way136858534, osm:way136858534 ;
+                 osm:intherlt osm:none .
+
+osm:nd4169843437 osm:haslat "45.7979459"^^xsd:float ;
+                 osm:haslon "6.3874287"^^xsd:float ;
+                 osm:hasid "4169843437"^^xsd:number ;
+                 osm:hasts "2018-07-06T15:25:05Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way416154093 ;
+                 osm:intherlt osm:none .
+
+osm:nd1501410325 osm:haslat "45.8047930"^^xsd:float ;
+                 osm:haslon "6.3996220"^^xsd:float ;
+                 osm:hasid "1501410325"^^xsd:number ;
+                 osm:hasts "2011-11-13T14:07:47Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way136858330 ;
+                 osm:intherlt osm:none .
+
+osm:nd866408323 osm:haslat "45.7980567"^^xsd:float ;
+                osm:haslon "6.3875121"^^xsd:float ;
+                osm:hasid "866408323"^^xsd:number ;
+                osm:hasts "2016-05-06T14:26:39Z"^^xsd:dateTime ;
+                osm:hasname "none"^^xsd:string ;
+                osm:isinterested osm:yes ;
+                osm:tourism dbpedia:none ;
+                osm:amenity dbpedia:none ;
+                osm:leisure dbpedia:none ;
+                osm:website "none"^^xsd:string ;
+                osm:wikidata wikidata:none ;
+                osm:wikipedia wikipedia:none ;
+                osm:ontheway osm:way136864642, osm:way303283031, osm:way416154093, osm:way416154093, osm:way438551505 ;
+                osm:intherlt osm:none .
+
+osm:nd1501410816 osm:haslat "45.8067230"^^xsd:float ;
+                 osm:haslon "6.3921100"^^xsd:float ;
+                 osm:hasid "1501410816"^^xsd:number ;
+                 osm:hasts "2011-11-13T14:08:00Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way136858534 ;
+                 osm:intherlt osm:none .
+
+osm:nd1501410327 osm:haslat "45.8047960"^^xsd:float ;
+                 osm:haslon "6.3996980"^^xsd:float ;
+                 osm:hasid "1501410327"^^xsd:number ;
+                 osm:hasts "2011-11-13T14:07:47Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way136858330 ;
+                 osm:intherlt osm:none .
+
+osm:nd1501410818 osm:haslat "45.8067780"^^xsd:float ;
+                 osm:haslon "6.3921600"^^xsd:float ;
+                 osm:hasid "1501410818"^^xsd:number ;
+                 osm:hasts "2011-11-13T14:08:00Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way136858534 ;
+                 osm:intherlt osm:none .
+
+osm:nd4169843435 osm:haslat "45.7979902"^^xsd:float ;
+                 osm:haslon "6.3878571"^^xsd:float ;
+                 osm:hasid "4169843435"^^xsd:number ;
+                 osm:hasts "2016-05-06T14:26:39Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way416154093 ;
+                 osm:intherlt osm:none .
+
+osm:nd1501410313 osm:haslat "45.8047500"^^xsd:float ;
+                 osm:haslon "6.3997010"^^xsd:float ;
+                 osm:hasid "1501410313"^^xsd:number ;
+                 osm:hasts "2011-11-13T14:07:46Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way136858330 ;
+                 osm:intherlt osm:none .
+
+osm:nd1501410821 osm:haslat "45.8068000"^^xsd:float ;
+                 osm:haslon "6.3920380"^^xsd:float ;
+                 osm:hasid "1501410821"^^xsd:number ;
+                 osm:hasts "2011-11-13T14:08:00Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way136858534 ;
+                 osm:intherlt osm:none .
+
+osm:nd4169843436 osm:haslat "45.7979206"^^xsd:float ;
+                 osm:haslon "6.3878046"^^xsd:float ;
+                 osm:hasid "4169843436"^^xsd:number ;
+                 osm:hasts "2016-05-06T14:26:39Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way416154093 ;
+                 osm:intherlt osm:none .
+
+osm:nd1501410309 osm:haslat "45.8047450"^^xsd:float ;
+                 osm:haslon "6.3996230"^^xsd:float ;
+                 osm:hasid "1501410309"^^xsd:number ;
+                 osm:hasts "2011-11-13T14:07:46Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way136858330, osm:way136858330 ;
+                 osm:intherlt osm:none .
+
+osm:nd4169843434 osm:haslat "45.7980752"^^xsd:float ;
+                 osm:haslon "6.3875797"^^xsd:float ;
+                 osm:hasid "4169843434"^^xsd:number ;
+                 osm:hasts "2016-05-06T14:26:39Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way303283031, osm:way416154093 ;
+                 osm:intherlt osm:none .
+
+osm:way416154093 osm:hasid "416154093"^^xsd:number ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:parking ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:hasnd osm:nd866408323, osm:nd4169843434, osm:nd4169843435, osm:nd4169838717, osm:nd4169843436, osm:nd4169843437, osm:nd866408323 ;
+                 osm:intherlt osm:none .
+
+osm:way136858534 osm:hasid "136858534"^^xsd:number ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:restaurant ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:hasnd osm:nd1501410822, osm:nd1501410821, osm:nd1501410820, osm:nd1501410817, osm:nd1501410816, osm:nd1501410818, osm:nd1501410822 ;
+                 osm:intherlt osm:none .
+
+osm:way136858330 osm:hasid "136858330"^^xsd:number ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:cafe ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:hasnd osm:nd1501410309, osm:nd1501410313, osm:nd1501410327, osm:nd1501410325, osm:nd1501410309 ;
+                 osm:intherlt osm:none .
+

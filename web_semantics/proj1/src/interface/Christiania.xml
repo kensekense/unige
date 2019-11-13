@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    version="XHTML+RDFa 1.0"
+    xml:lang="en"
+>
+
+
+<!-- header -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About: Freetown Christiania</title>
+    <link rel="alternate" type="application/rdf+xml" 		href="http://dbpedia.org/data/Freetown_Christiania.rdf" title="Structured Descriptor Document (RDF/XML format)" />
+    <link rel="alternate" type="text/n3" 			href="http://dbpedia.org/data/Freetown_Christiania.n3" title="Structured Descriptor Document (N3 format)" />
+    <link rel="alternate" type="text/turtle" 			href="http://dbpedia.org/data/Freetown_Christiania.ttl" title="Structured Descriptor Document (Turtle format)" />
+    <link rel="alternate" type="application/json+rdf" 		href="http://dbpedia.org/data/Freetown_Christiania.jrdf" title="Structured Descriptor Document (RDF/JSON format)" />
+    <link rel="alternate" type="application/json" 		href="http://dbpedia.org/data/Freetown_Christiania.json" title="Structured Descriptor Document (RDF/JSON format)" />
+    <link rel="alternate" type="application/atom+xml" 		href="http://dbpedia.org/data/Freetown_Christiania.atom" title="OData (Atom+Feed format)" />
+    <link rel="alternate" type="text/plain" 			href="http://dbpedia.org/data/Freetown_Christiania.ntriples" title="Structured Descriptor Document (N-Triples format)" />
+    <link rel="alternate" type="text/csv"   			href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FFreetown_Christiania%3E&amp;format=text%2Fcsv" title="Structured Descriptor Document (CSV format)" />
+    
+    <link rel="alternate" type="text/cxml"  			href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FFreetown_Christiania%3E&amp;format=text%2Fcxml" title="Structured Descriptor Document (CXML format)" />
+    
+    <link rel="alternate" type="application/microdata+json"	href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FFreetown_Christiania%3E&amp;format=application%2Fmicrodata%2Bjson" title="Structured Descriptor Document (Microdata/JSON format)" />
+    <link rel="alternate" type="text/html" 			href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FFreetown_Christiania%3E&amp;format=text%2Fhtml" title="Structured Descriptor Document (Microdata/HTML format)" />
+    <link rel="alternate" type="application/ld+json" 		href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FFreetown_Christiania%3E&amp;format=application%2Fjson-ld" title="Structured Descriptor Document (JSON-LD format)" />
+    <link rel="alternate" type="text/x-html-script-ld+json"	href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FFreetown_Christiania%3E&amp;format=text%2Fx-html-script-ld%2Bjson" title="Structured Descriptor Document (HTML with embedded JSON-LD)" />
+    <link rel="alternate" type="text/x-html-script-turtle"	href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FFreetown_Christiania%3E&amp;format=text%2Fx-html-script-turtle" title="Structured Descriptor Document (HTML with embedded Turtle)" />
+    <link rel="timegate" type="text/html" 			href="http://dbpedia.mementodepot.org/timegate/http://dbpedia.org/page/Freetown_Christiania" title="Time Machine" />
+    <link rel="foaf:primarytopic" 				href="http://dbpedia.org/resource/Freetown_Christiania"/>
+    <link rev="describedby" 					href="http://dbpedia.org/resource/Freetown_Christiania"/>
+    <link rel="stylesheet" type="text/css"			href="/statics/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" 			href="/statics/css/dbpedia.css" />
+</head>
+<body about="http://dbpedia.org/resource/Freetown_Christiania">
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+	<div class="navbar-header">
+	    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dbp-navbar" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	    </button>
+	    <a class="navbar-brand" href="http://wiki.dbpedia.org/about" title="About DBpedia" style="color: #2c5078">
+	    <img class="img-responsive" src="/statics/images/dbpedia_logo_land_120.png" alt="About DBpedia" style="display: inline-block;  margin-top: -12px"/>
+	    </a>
+	</div>
+
+	<div class="collapse navbar-collapse" id="dbp-navbar">
+	    <ul class="nav navbar-nav navbar-right">
+		<li><a class="active" href="/fct/" title="Switch to /fct endpoint"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> Faceted Browser </a></li>
+		<li><a class="active" href="/sparql/" title="Switch to /sparql endpoint"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> Sparql Endpoint </a></li>
+	    </ul>
+	    <ul class="nav navbar-nav">
+	    <li class="dropdown">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Browse using <span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		<li><a href="/describe/?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FFreetown_Christiania">OpenLink Faceted Browser</a></li>
+		<li><a href="http://linkeddata.uriburner.com/rdf-editor/#/editor?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FFreetown_Christiania&amp;view=statements">OpenLink Structured Data Editor</a></li>
+		<li><a href="http://en.lodlive.it/?http%3A%2F%2Fdbpedia.org%2Fresource%2FFreetown_Christiania">LodLive Browser</a></li>
+		<li><a href="http://lodmilla.sztaki.hu/lodmilla/?url=http%3A%2F%2Fdbpedia.org%2Fresource%2FFreetown_Christiania">LODmilla Browser</a></li>
+		</ul>
+	    </li>
+	    <li class="dropdown">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Formats <span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		<li>&nbsp;RDF:</li>
+		    <li><a href="http://dbpedia.org/data/Freetown_Christiania.ntriples">N-Triples</a></li>
+		    <li><a href="http://dbpedia.org/data/Freetown_Christiania.n3">N3</a></li>
+		    <li><a href="http://dbpedia.org/data/Freetown_Christiania.ttl">Turtle</a></li>
+		    <li><a href="http://dbpedia.org/data/Freetown_Christiania.json">JSON</a></li>
+		    <li><a href="http://dbpedia.org/data/Freetown_Christiania.rdf">XML</a></li>
+		<li class="divider"></li>
+		<li>&nbsp;OData:</li>
+		    <li><a href="http://dbpedia.org/data/Freetown_Christiania.atom">Atom</a></li>
+		    <li><a href="http://dbpedia.org/data/Freetown_Christiania.jsod">JSON</a></li>
+		<li class="divider"></li>
+		<li>&nbsp;Microdata:</li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FFreetown_Christiania%3E&amp;format=application%2Fmicrodata%2Bjson">JSON</a></li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FFreetown_Christiania%3E&amp;format=text%2Fhtml">HTML</a></li>
+		<li class="divider"></li>
+		<li>&nbsp;Embedded:</li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FFreetown_Christiania%3E&amp;format=text%2Fx-html-script-ld%2Bjson">JSON</a></li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FFreetown_Christiania%3E&amp;format=text%2Fx-html-script-turtle">Turtle</a></li>
+		<li class="divider"></li>
+		    
+		        <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FFreetown_Christiania%3E&amp;format=text%2Fcxml">CXML</a></li>
+		    
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FFreetown_Christiania%3E&amp;format=text%2Fcsv">CSV</a></li>
+		    <li><a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FFreetown_Christiania%3E&amp;format=application%2Fjson-ld">JSON-LD</a></li>
+		</ul>
+	    </li>
+	    </ul>
+	</div>
+    </div>
+</div>
+
+<div class="container">
+<!-- page-header -->
+    <div class="page-header">
+	<!-- div class="pull-right">
+	    <a href="http://wiki.dbpedia.org/about" title="About DBpedia">
+	    <img class="img-responsive" src="/statics/images/dbpedia_logo_land_120.png" alt="About DBpedia"/>
+	    </a>
+	</div -->
+	<h1 id="title">About:
+	    <a href="http://dbpedia.org/resource/Freetown_Christiania">Freetown Christiania</a>
+	</h1>
+	<div class="page-resource-uri">
+	    An Entity of Type : <a href="http://dbpedia.org/ontology/PopulatedPlace">populated place</a>,
+	    from Named Graph : <a href="http://dbpedia.org">http://dbpedia.org</a>,
+	    within Data Space : <a href="http://dbpedia.org">dbpedia.org</a>
+	</div>
+    </div>
+<!-- page-header -->
+<!-- row -->
+    <div class="row">
+	<div class="col-xs-12">
+	    <p class="lead">Christiania, also known as Freetown Christiania (Danish: Fristaden Christiania or Staden), is a self-proclaimed autonomous neighborhood of about 850 residents, covering 34 hectares (84 acres) in the borough of Christianshavn in the Danish capital Copenhagen. It was temporarily abandoned by residents in April 2011 while discussions continued with the Danish government about its future, but is now open again.</p>
+	</div>
+	<div class="col-xs-12">
+	    <!-- proptable -->
+	    <table class="description table table-striped">
+	    <tr>
+		<th class="col-xs-3">Property</th>
+		<th class="col-xs-9">Value</th>
+	    </tr>
+<tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/PopulatedPlace/areaTotal"><small>dbo:</small>PopulatedPlace/areaTotal</a>
+</td><td><ul>
+	<li><span class="literal"><span property="ns0:areaTotal" xmlns:ns0="http://dbpedia.org/ontology/PopulatedPlace/">0.33669845434368</span></span></li>
+	<li><span class="literal"><span property="ns1:areaTotal" xmlns:ns1="http://dbpedia.org/ontology/PopulatedPlace/">0.34</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/abstract"><small>dbo:</small>abstract</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="en">Christiania, also known as Freetown Christiania (Danish: Fristaden Christiania or Staden), is a self-proclaimed autonomous neighborhood of about 850 residents, covering 34 hectares (84 acres) in the borough of Christianshavn in the Danish capital Copenhagen. It was temporarily abandoned by residents in April 2011 while discussions continued with the Danish government about its future, but is now open again. Christiania has been a source of controversy since its creation in a squatted military area in 1971. Its cannabis trade was tolerated by authorities until 2004. In the years following 2004, measures for normalizing the legal status of the community led to conflicts, police raids and negotiations.</span><small> (en)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="ar">25بك المحتوى هنا ينقصه الاستشهاد بمصادر. يرجى إيراد مصادر موثوق بها. أي معلومات غير موثقة يمكن التشكيك بها وإزالتها. (أغسطس 2015) كريستيانيا، المشهورة بكريستيانيا البلدة الحرة عبارة عن حي استقل بنفسه عن مملكة الدنمارك تحتوي على 850 مقيم ليغطوا 34 هكتاراً في بلدة كريستيانهافن في العاصمة الدنماركية كوبنهاغن. السلطات المدنية في كوبنهاغن أعتبرت كريستيانيا كميونة كبيرة، ولكن المساحة لها حالة فريدة تنظم عن طريق قوانين خاصة، القانون الكريستياني لعام 1989 الذي ينقل أجزاء من الإشراف على المساحة من بلدية كوبنهاغن للدولة. أغلقها سكانها أبريل عام 2011، بينما توالت النقاشات مع الحكومة الدنماركية لمستقبلها، والآن فتحوها مجدداً. كانت كرستيانيا مصدر جدل منذ إنشائها في ثكنات عسكرية عام 1971. تجارتها للمخدرات كانت تتسامح فيها السلطات حتى عام 2004، ومنذ ذلك الوقت تعديل حالة البلدة الشرعية أصبحت مصدر خلافات وصراعات، وما زالت المفاوضات قائمة.</span><small> (ar)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="de">Die Freistadt Christiania (dänisch Fristad Christiania, auch Freies Christiania oder kurz Christiania) ist eine alternative Wohnsiedlung in der dänischen Hauptstadt Kopenhagen, die seit 1971 besteht. Aus Sicht der dänischen Behörden handelt es sich um eine staatlich geduldete autonome Gemeinde.</span><small> (de)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="es">La Ciudad libre de Christiania (Danés: Fristaden Christiania) es un barrio parcialmente autogobernado de unos 850 residentes. Cubre un área de 34 hectáreas en el barrio de Christianshavn (puerto de Christian), en la capital de Dinamarca, Copenhague. Christiania se estableció con un estatus semilegal de comunidad de vecinos que se autoproclama independiente del Estado danés.</span><small> (es)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="fr">Christiania (Fristaden Christiania) est un quartier de Copenhague au Danemark, autoproclamé « ville libre de Christiania », fonctionnant comme une communauté intentionnelle autogérée, fondée en septembre 1971 sur le terrain de la caserne de Bådsmandsstræde par un groupe de squatters, de chômeurs et de hippies. Ce quartier est une rare expérience historique libertaire toujours en activité en Europe du Nord. Christiania a créé son propre drapeau, comportant trois points jaunes sur fond orange, ou inversement, représentant les points des trois « i » de Christiania. Il aurait été créé par Viktor Essmann, également créateur du nom de la communauté, choisi en référence à « Christianshavn » (le port de Christian IV). En 2003, la cité comptait près de 1 000 habitants sur 34 hectares, possédait sa propre monnaie et toutes sortes d&#39;activités culturelles et sportives, ainsi qu&#39;un vaste espace agricole. Le quartier a été l&#39;objet de multiples controverses. La vente du cannabis y est toujours pratiquée à l&#39;air libre. Son statut légal est également la cause de conflits et de négociations. La vente et consommation de drogues dures quant à elles sont interdites et punies par le bannissement temporaire dans un premier temps puis définitif s&#39;il y a récidive.</span><small> (fr)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="it">Il template {{Coord}} ha riscontrato degli errori (istruzioni):Modulo:Wikidata:398: attempt to index field &#39;wikibase&#39; (a nil value) Christiania, nota anche come Città Libera di Christiania (in danese: Fristaden Christiania), è un quartiere parzialmente autogovernato della città di Copenaghen, Danimarca, che ha conseguito uno status semi-legale come comunità indipendente.</span><small> (it)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="nl">De Vrijstad Christiania (Deens: Fristaden Christiania), meestal kortweg Christiania genoemd, is een zelfverklaarde semi-onafhankelijke enclave in de Deense hoofdstad Kopenhagen. Christiania werd gesticht in 1970, toen een groep hippies in het Kopenhaagse stadsdeel Christianshavn de verlaten militaire kazerne Bådsmandsstrædes Kaserne kraakte. In het begin probeerde de Deense regering de krakers te verwijderen, maar vanaf het einde van de jaren zeventig werd Christiania als een &quot;sociaal experiment&quot; getolereerd. Echter bleven er controversen bestaan over het niet betalen van water en stroom, de drugshandel en ontbrekende horeca- en bouwvergunningen. Deze geschillen zijn inmiddels min of meer opgelost, maar de gebouwen op Christiania voldoen nog niet aan openbare bouw- en ruimtevoorschriften. Dit is de kern van de tegenwoordige botsingen met de Deense staat. Sommige huizen zijn direct op het beschermde wal- en vestingsgebied gebouwd, en volgens het plan van het rijk moet een deel van deze huizen weg en de historische wal hersteld worden. De Deense regering wil dat op een deel van het gebied privé- of huurwoningen kunnen worden gebouwd, echter in een stijl en vorm die de experimentele sfeer en sociale karakter van Christiania respecteren. Dit wordt door de bewoners afgewezen daar ze de collectieve eigendom willen behouden. De vrijstad is toegankelijk via verschillende toegangspoorten, en privé-auto&#39;s zijn op het terrein niet toegestaan. De bekendste &#39;straat&#39; in Christiania is Pusher Street waar tot 2004 vrijelijk in softdrugs werd gehandeld. Harddrugs zijn er verboden. De buurt kent een vorm van zelfbestuur. Behalve Christiania-centrum met overwegend gekraakte bestaande bebouwing, kent de vrijstad ook een stukje bos van ongeveer een kilometer lengte, waarin enkele huisjes en boerderijtjes te vinden zijn, die veelal door de bewoners zelf zijn gebouwd uit gerecycleerd materiaal. Christiania heeft een eigen school en enkele kruidenierswinkeltjes, een postkantoor voor lokale post, een bibliotheek, een &#39;stedelijk museum&#39; en een eigen vuilnisdienst. In het centrum van Christiania zijn verschillende kroegjes en restaurantjes te vinden. Sinds 1995 bestaat een overeenkomst tussen de bewoners en het Deense Ministerie van Defensie, dat nog steeds eigenaar van het gebied is. De bewoners betalen nu ook belasting en een soort huur aan de gemeente Kopenhagen, hoewel deze vrij laag is. In 2002 werden de hasjkraampjes in Pusher Street in camouflagenetten gehuld, als ironisch antwoord op verzoeken van de regering om minder openlijk in softdrugs te handelen. Op 4 januari 2004 werden de kraampjes in een demonstratieve actie door de bewoners afgebroken. Ze wilden naar eigen zeggen de liberaal-conservatieve regering in Denemarken geen voorwendsel geven om Christiania binnen te vallen. Op 16 maart 2004 werden de hasjhandelaars door een grootse politie-inval uit Christiania verwijderd. Een periode met veel onrust volgde. Volgens de critici van de actie was het resultaat dat de hasjhandel nu over de hele stad werd verspreid. Anderen zeggen echter dat dit al jaren het geval was. In 2005 waren er schietpartijen tussen strijdende groepen van drugshandelaren, en op 24 april 2005 werd een man doodgeschoten en drie anderen verwond. In een bepaald gedeelte van Christiania is het wegens de drugshandel verboden om foto&#39;s te nemen. Ook foto&#39;s van de bordjes waarop dit is aangegeven, mogen niet gemaakt worden. Er zijn foto&#39;s te koop bij de diverse kraampjes. Enkele keren per maand valt de politie Christiania binnen om softdrugs te verwijderen, met wisselend succes. In mei 2009 verloor de Vrijstad Christiania een rechtszaak waarin ze probeerden te bewijzen dat ze eigendom van het gebied hadden verkregen omdat ze het langer dan 20 jaar in gebruik hadden gehad.</span><small> (nl)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="ja">クリスチャニア (デンマーク語: Christiania) は、デンマークの首都コペンハーゲンにある、850人の住人と34ヘクタールの土地をもつ地区である。自治を自称する。1971年に軍の所有地に建国されて以来、たびたび論争の中心となってきた。この地区内では、2004年まで大麻が合法であった。</span><small> (ja)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="pl">Christiania (znana także jako Wolne Miasto Christiania) – częściowo samostanowiące się osiedle w dzielnicy Kopenhagi Christianshavn. Duńskie władze nadały jej mieszkańcom legalny status niezależnej społeczności. Miejsce zasłynęło na świecie jako prężny ośrodek ruchu hippisowskiego i szeroko rozumianej kultury alternatywnej. Fragment nieoficjalnej deklaracji Wolnego Miasta Christiania z 24 września 1971: Celem projektu jest stworzenie samostanowiącej się społeczności, gdzie każda jednostka jest odpowiedzialna za siebie, będąc jednocześnie integralną częścią naszej wspólnoty. Jej członkowie zamierzają w tym celu osiągnąć ekonomiczną niezależność. Równie ważnym zamiarem jest utwierdzanie w przekonaniu, że ogólnie pojęta nierówność międzyludzka może zostać poprzez naszą działalność zażegnana.</span><small> (pl)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="pt">Christiania, também conhecida como Cidade Livre de Christiania (em dinamarquês: Fristaden Christiania) é uma comunidade independente e autogestionada localizada na cidade de Copenhaga, Dinamarca, com cerca de 850 habitantes, cobrindo uma área de 34 hectares, no bairro de Christianshavn na capital dinamarquesa Copenhague. As Autoridades publicas consideram Christiania como uma grande comuna, uma área de um status único na medida em que é regulada por uma lei especial, a Lei de Christiania, a lei de 1989, que transfere partes da supervisão da área do município de Copenhague para o estado. Christiania tem sido uma fonte de controvérsia desde sua criação, numa área militar em 1971. O comércio de cannabis foi tolerado pelas autoridades até 2004. Desde então, as medidas para normalizar o estatuto jurídico da comunidade levaram a conflitos, e as negociações estão em andamento. A antiga área recém abandonada de bases militares de Badsmandsstraedes Kaserne, localizada nas proximidades de Christianshavn, um subúrbio da capital dinamarquesa, foi ocupada em 1971 por alguns milhares de hippies, anarquistas, artistas e músicos, como uma forma de protesto ao governo da Dinamarca. Naquela época, muitas pessoas provenientes de diversas grandes cidades dinamarquesas sentiam-se traídas pelo governo, acreditando haver certo descaso quanto ao sistema habitacional por parte dos políticos e seus representantes. Os primeiros ocupantes da área que mais tarde viria a ser nomeada de Christiania tinham como ideal comum a rejeição a certos valores morais e convenções sociais e, principalmente, aos ideais capitalistas que assolaram a Europa no contexto pós-Segunda Guerra Mundial. Os habitantes de Christiania também queriam um espaço verde e aberto, para que pudessem criar seus filhos longe do crescente tumulto de Copenhaga. O espírito da comunidade de Christiania foi logo permeado por valores anarquistas e do movimento hippie, num contraste com a idéia original de ocupar a área como um mecanismo de defesa e refúgio. Tentativas judicialmente legais feitas por órgãos estatais para a retirada dos habitantes de Christiania (tidos como &quot;indesejáveis perturbadores da paz e da ordem&quot; pelos outros moradores de Christianshavn e Copenhaga) fracassaram devido ao enorme número de pessoas e à enormidade da área ocupada. Seus moradores passaram então a tratar Christiania como uma „Experiência Social“, até que o uso e o destino das terras fosse finalmente decidido. Em contrapartida, os ocupantes consentiram em arcar com as despesas de água e energia eléctrica. Os actuais moradores de Christiania referem-se a si próprios como moradores de uma cidade livre, administrativamente independentes das autoridades nacionais. Moradores ainda mais formais tratam Christiania como uma Comunidade Autónoma. Christiania oferece uma infinidade de atracções artísticas e intensa vida cultural. A arquitectura individualista e pitoresca, bem como a planta da comunidade são as expressões e marcas de um estilo de vida alternativo lá representado. Todos os tipos de serviços passaram a ser introduzidos e oferecidos à população ao longo dos anos: desde a recolha de lixo e limpeza das ruas, até serviços de correio e escola. Não há contratos de aluguéis nem propriedades de imóveis, de modo que cada um mantém uma relação muito pessoal com a casa a qual habita. A solução de conflitos e problemas comunitários é feita democraticamente e baseada em consenso geral, de modo que cada indivíduo possui responsabilidade na manutenção da ordem no âmbito da comunidade. Não existe polícia, portanto reuniões e encontros de caráter diverso são organizados com o objectivo de se tomar decisões em favor da comunidade e de se propor intervenções quando se fizer necessário, podendo um membro receber como „Penalidade Máxima“ a exclusão permanente da comunidade. Não obstante, parte dos habitantes não pertencem integralmente à comunidade, e muitos trabalham inclusive além das fronteiras de Christiania, pagando impostos regularmente ao governo dinamarquês – e, ao mesmo tempo, parte à administração da cidade livre. Carros e as chamadas &quot;drogas pesadas&quot; tiveram que ser proibidos em Christiania, devido ao cerco e difamação inferidos pelo governo dinamarquês. Já o consumo de drogas tidas como &quot;leves&quot; passou a ser tolerado dentro dos limites da comunidade há cerca de trinta anos pelo governo dinamarquês. Entretanto, em 16 de Março de 2003, autoridades evacuaram a rua Pusher Street, que se tornou conhecida como ponto de venda de maconha – uma atracção turística –, e prenderam mais de 50 negociadores da erva.</span><small> (pt)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="ru">Христиания (Свободный город Христиания, Вольный город Христиания) — частично самоуправляемое, неофициальное «государство внутри государства», расположившееся в районе Кристиансхаун Копенгагена, столицы Дании. Жители Христиании провозглашают своей целью «создать самоуправляемое общество, в котором каждый индивид ответственен за благополучие всей общины. Общество должно быть экономически самодостаточным, и быть непреклонным в убеждении, что физиологическое и физическое разрушение может быть предотвращено».</span><small> (ru)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbo:abstract" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="zh">克里斯欽，常被稱作克里斯欽自由城（丹麥語：Fristaden Christiania），是一個位於丹麥哥本哈根的一處自我宣稱自治的小區域，實行無政府主義的公社。自由城目前有自治委員會，居民大多為嬉皮、自由藝術家、草根運動人士、搖滾樂手等自由派風格強烈的居民。與哥本哈根大城市風景不同，自由城內較像是鄉村，建築物也都被藝術家繪畫成帶有強烈波西米亞風格。 克里斯欽是後嬉皮時代最著名的運動之一，創立於1971年，擁有自己的貨幣系統、郵局、衛生所、學校，也不受丹麥禁止室內吸菸與大麻禁令影響。但長期以來與丹麥政府關係緊張，包括土地問題、免稅以及毒品充斥，2011年初自由城與丹麥政府間的訴訟被法院宣告敗訴，但後來經過多次協商，丹麥政府同意自由城買下土地（7620萬丹麥克朗），目前為止雖然雙方統治權仍有爭議，但克里斯欽至少仍保有原來的自治。 克里斯欽不承認其為歐盟領土，因此出口的標語為「你將進入歐盟區」。</span><small> (zh)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/areaTotal"><small>dbo:</small>areaTotal</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:areaTotal" xmlns:dbo="http://dbpedia.org/ontology/">336698.454344</span><small> (xsd:double)</small></span></li>
+	<li><span class="literal"><span property="dbo:areaTotal" xmlns:dbo="http://dbpedia.org/ontology/">340000.000000</span><small> (xsd:double)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/currency"><small>dbo:</small>currency</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbo:currency" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Danish_Krone"><small>dbr</small>:Danish_Krone</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/flag"><small>dbo:</small>flag</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:flag" xmlns:dbo="http://dbpedia.org/ontology/">Flag of Christiania.svg</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/governmentType"><small>dbo:</small>governmentType</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbo:governmentType" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Anarchism"><small>dbr</small>:Anarchism</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/language"><small>dbo:</small>language</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbo:language" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Danish_language"><small>dbr</small>:Danish_language</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/longName"><small>dbo:</small>longName</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:longName" xmlns:dbo="http://dbpedia.org/ontology/" xml:lang="en">Freetown Christiania</span><small> (en)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/officialLanguage"><small>dbo:</small>officialLanguage</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbo:officialLanguage" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Danish_language"><small>dbr</small>:Danish_language</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/thumbnail"><small>dbo:</small>thumbnail</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbo:thumbnail" xmlns:dbo="http://dbpedia.org/ontology/" href="http://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Christiania.svg?width=300"><small>wiki-commons</small>:Special:FilePath/Flag_of_Christiania.svg?width=300</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/timeZone"><small>dbo:</small>timeZone</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbo:timeZone" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/UTC+1"><small>dbr</small>:UTC+1</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageExternalLink"><small>dbo:</small>wikiPageExternalLink</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbo:wikiPageExternalLink nofollow" xmlns:dbo="http://dbpedia.org/ontology/" href="http://www.christiania.org">http://www.christiania.org</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbo:wikiPageExternalLink nofollow" xmlns:dbo="http://dbpedia.org/ontology/" href="http://hesomagazine.com/photographic/christiania-interview-with-charlotte-ostervang/">http://hesomagazine.com/photographic/christiania-interview-with-charlotte-ostervang/</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbo:wikiPageExternalLink nofollow" xmlns:dbo="http://dbpedia.org/ontology/" href="http://christianiacoinbog.wordpress.com">http://christianiacoinbog.wordpress.com</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbo:wikiPageExternalLink nofollow" xmlns:dbo="http://dbpedia.org/ontology/" href="http://www.bevarchristiania.dk">http://www.bevarchristiania.dk</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbo:wikiPageExternalLink nofollow" xmlns:dbo="http://dbpedia.org/ontology/" href="http://www.ses.dk/en/Christiania.aspx">http://www.ses.dk/en/Christiania.aspx</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageID"><small>dbo:</small>wikiPageID</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:wikiPageID" xmlns:dbo="http://dbpedia.org/ontology/">253228</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageRevisionID"><small>dbo:</small>wikiPageRevisionID</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbo:wikiPageRevisionID" xmlns:dbo="http://dbpedia.org/ontology/">744265079</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/establishedDate"><small>dbp:</small>establishedDate</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:establishedDate">1971</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/establishedEvent"><small>dbp:</small>establishedEvent</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:establishedEvent">Declared</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/imageMap"><small>dbp:</small>imageMap</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:imageMap">Christiania .png</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/latd"><small>dbp:</small>latd</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:latd">55</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/latm"><small>dbp:</small>latm</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:latm">40</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/latns"><small>dbp:</small>latns</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:latns">N</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/lats"><small>dbp:</small>lats</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:lats">24.920000</span><small> (xsd:double)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/loctext"><small>dbp:</small>loctext</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbp:loctext" href="http://dbpedia.org/resource/Copenhagen"><small>dbr</small>:Copenhagen</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbp:loctext" href="http://dbpedia.org/resource/Denmark"><small>dbr</small>:Denmark</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/longd"><small>dbp:</small>longd</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:longd">12</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/longew"><small>dbp:</small>longew</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:longew">E</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/longm"><small>dbp:</small>longm</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:longm">35</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/longs"><small>dbp:</small>longs</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:longs">58.960000</span><small> (xsd:double)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/nationalAnthem"><small>dbp:</small>nationalAnthem</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:nationalAnthem">I kan ikke slå os ihjel</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/nummembers"><small>dbp:</small>nummembers</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbp:nummembers">1000</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://purl.org/dc/terms/subject"><small>dct:</small>subject</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Danish_culture"><small>dbc</small>:Danish_culture</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Ecovillages"><small>dbc</small>:Ecovillages</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Geography_of_Copenhagen"><small>dbc</small>:Geography_of_Copenhagen</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Danish_architecture"><small>dbc</small>:Danish_architecture</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Anarchist_communities"><small>dbc</small>:Anarchist_communities</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Cooperative_federations"><small>dbc</small>:Cooperative_federations</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Populated_places_established_in_1971"><small>dbc</small>:Populated_places_established_in_1971</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Secessionist_towns_and_cities"><small>dbc</small>:Secessionist_towns_and_cities</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Car-free_zones"><small>dbc</small>:Car-free_zones</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Hippie_movement"><small>dbc</small>:Hippie_movement</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Intentional_communities"><small>dbc</small>:Intentional_communities</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Utopian_communities"><small>dbc</small>:Utopian_communities</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Parks_in_Copenhagen"><small>dbc</small>:Parks_in_Copenhagen</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Anarchism_in_Denmark"><small>dbc</small>:Anarchism_in_Denmark</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Anarchist_organizations_in_Denmark"><small>dbc</small>:Anarchist_organizations_in_Denmark</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Counterculture_communities"><small>dbc</small>:Counterculture_communities</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Drugs_in_Denmark"><small>dbc</small>:Drugs_in_Denmark</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Separatism_in_Denmark"><small>dbc</small>:Separatism_in_Denmark</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Shanty_towns_in_Europe"><small>dbc</small>:Shanty_towns_in_Europe</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Squats_in_Denmark"><small>dbc</small>:Squats_in_Denmark</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Cannabis_culture"><small>dbc</small>:Cannabis_culture</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Visitor_attractions_in_Copenhagen"><small>dbc</small>:Visitor_attractions_in_Copenhagen</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Micronations_in_Denmark"><small>dbc</small>:Micronations_in_Denmark</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dct:subject" xmlns:dct="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Neighbourhoods_in_Denmark"><small>dbc</small>:Neighbourhoods_in_Denmark</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://purl.org/linguistics/gold/hypernym">http://purl.org/linguistics/gold/hypernym</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="ns3:hypernym" xmlns:ns3="http://purl.org/linguistics/gold/" href="http://dbpedia.org/resource/Neighborhood"><small>dbr</small>:Neighborhood</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.georss.org/georss/point"><small>georss:</small>point</a>
+</td><td><ul>
+	<li><span class="literal"><span property="georss:point" xmlns:georss="http://www.georss.org/georss/">55.666666666666664 12.583333333333334</span></span></li>
+	<li><span class="literal"><span property="georss:point" xmlns:georss="http://www.georss.org/georss/">55.67358888888889 12.59971111111111</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"><small>rdf:</small>type</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.w3.org/2002/07/owl#Thing"><small>owl</small>:Thing</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Place"><small>dbo</small>:Place</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Location"><small>dbo</small>:Location</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.wikidata.org/entity/Q6256"><small>wikidata</small>:Q6256</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Country"><small>dbo</small>:Country</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/PopulatedPlace"><small>dbo</small>:PopulatedPlace</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Settlement"><small>dbo</small>:Settlement</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"><small>geo</small>:SpatialThing</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://schema.org/Country"><small>schema</small>:Country</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://schema.org/Place"><small>schema</small>:Place</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/WikicatSecessionistTownsAndCities"><small>yago</small>:WikicatSecessionistTownsAndCities</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/WikicatShantyTownsInEurope"><small>yago</small>:WikicatShantyTownsInEurope</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/AdministrativeDistrict108491826"><small>yago</small>:AdministrativeDistrict108491826</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Area108497294"><small>yago</small>:Area108497294</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Country108544813"><small>yago</small>:Country108544813</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/District108552138"><small>yago</small>:District108552138</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/GeographicalArea108574314"><small>yago</small>:GeographicalArea108574314</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Location100027167"><small>yago</small>:Location100027167</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Municipality108626283"><small>yago</small>:Municipality108626283</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Object100002684"><small>yago</small>:Object100002684</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Park108615149"><small>yago</small>:Park108615149</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/PhysicalEntity100001930"><small>yago</small>:PhysicalEntity100001930</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Point108620061"><small>yago</small>:Point108620061</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Region108630985"><small>yago</small>:Region108630985</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Section108648322"><small>yago</small>:Section108648322</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Site108651247"><small>yago</small>:Site108651247</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/TopographicPoint108664443"><small>yago</small>:TopographicPoint108664443</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Town108665504"><small>yago</small>:Town108665504</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Tract108673395"><small>yago</small>:Tract108673395</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/UrbanArea108675967"><small>yago</small>:UrbanArea108675967</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Vicinity108641113"><small>yago</small>:Vicinity108641113</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/YagoGeoEntity"><small>yago</small>:YagoGeoEntity</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/YagoLegalActorGeo"><small>yago</small>:YagoLegalActorGeo</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity"><small>yago</small>:YagoPermanentlyLocatedEntity</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Zone108688247"><small>yago</small>:Zone108688247</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/WikicatCar-freeZones"><small>yago</small>:WikicatCar-freeZones</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/WikicatNeighbourhoodsInDenmark"><small>yago</small>:WikicatNeighbourhoodsInDenmark</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/WikicatParksInCopenhagen"><small>yago</small>:WikicatParksInCopenhagen</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/WikicatPopulatedPlacesEstablishedIn1971"><small>yago</small>:WikicatPopulatedPlacesEstablishedIn1971</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/2000/01/rdf-schema#comment"><small>rdfs:</small>comment</a>
+</td><td><ul>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="de">Die Freistadt Christiania (dänisch Fristad Christiania, auch Freies Christiania oder kurz Christiania) ist eine alternative Wohnsiedlung in der dänischen Hauptstadt Kopenhagen, die seit 1971 besteht. Aus Sicht der dänischen Behörden handelt es sich um eine staatlich geduldete autonome Gemeinde.</span><small> (de)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="es">La Ciudad libre de Christiania (Danés: Fristaden Christiania) es un barrio parcialmente autogobernado de unos 850 residentes. Cubre un área de 34 hectáreas en el barrio de Christianshavn (puerto de Christian), en la capital de Dinamarca, Copenhague. Christiania se estableció con un estatus semilegal de comunidad de vecinos que se autoproclama independiente del Estado danés.</span><small> (es)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="it">Il template {{Coord}} ha riscontrato degli errori (istruzioni):Modulo:Wikidata:398: attempt to index field &#39;wikibase&#39; (a nil value) Christiania, nota anche come Città Libera di Christiania (in danese: Fristaden Christiania), è un quartiere parzialmente autogovernato della città di Copenaghen, Danimarca, che ha conseguito uno status semi-legale come comunità indipendente.</span><small> (it)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ja">クリスチャニア (デンマーク語: Christiania) は、デンマークの首都コペンハーゲンにある、850人の住人と34ヘクタールの土地をもつ地区である。自治を自称する。1971年に軍の所有地に建国されて以来、たびたび論争の中心となってきた。この地区内では、2004年まで大麻が合法であった。</span><small> (ja)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ru">Христиания (Свободный город Христиания, Вольный город Христиания) — частично самоуправляемое, неофициальное «государство внутри государства», расположившееся в районе Кристиансхаун Копенгагена, столицы Дании. Жители Христиании провозглашают своей целью «создать самоуправляемое общество, в котором каждый индивид ответственен за благополучие всей общины. Общество должно быть экономически самодостаточным, и быть непреклонным в убеждении, что физиологическое и физическое разрушение может быть предотвращено».</span><small> (ru)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="zh">克里斯欽，常被稱作克里斯欽自由城（丹麥語：Fristaden Christiania），是一個位於丹麥哥本哈根的一處自我宣稱自治的小區域，實行無政府主義的公社。自由城目前有自治委員會，居民大多為嬉皮、自由藝術家、草根運動人士、搖滾樂手等自由派風格強烈的居民。與哥本哈根大城市風景不同，自由城內較像是鄉村，建築物也都被藝術家繪畫成帶有強烈波西米亞風格。 克里斯欽是後嬉皮時代最著名的運動之一，創立於1971年，擁有自己的貨幣系統、郵局、衛生所、學校，也不受丹麥禁止室內吸菸與大麻禁令影響。但長期以來與丹麥政府關係緊張，包括土地問題、免稅以及毒品充斥，2011年初自由城與丹麥政府間的訴訟被法院宣告敗訴，但後來經過多次協商，丹麥政府同意自由城買下土地（7620萬丹麥克朗），目前為止雖然雙方統治權仍有爭議，但克里斯欽至少仍保有原來的自治。 克里斯欽不承認其為歐盟領土，因此出口的標語為「你將進入歐盟區」。</span><small> (zh)</small></span></li>
+	<li><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Christiania, also known as Freetown Christiania (Danish: Fristaden Christiania or Staden), is a self-proclaimed autonomous neighborhood of about 850 residents, covering 34 hectares (84 acres) in the borough of Christianshavn in the Danish capital Copenhagen. It was temporarily abandoned by residents in April 2011 while discussions continued with the Danish government about its future, but is now open again.</span><small> (en)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ar">25بك المحتوى هنا ينقصه الاستشهاد بمصادر. يرجى إيراد مصادر موثوق بها. أي معلومات غير موثقة يمكن التشكيك بها وإزالتها. (أغسطس 2015) كريستيانيا، المشهورة بكريستيانيا البلدة الحرة عبارة عن حي استقل بنفسه عن مملكة الدنمارك تحتوي على 850 مقيم ليغطوا 34 هكتاراً في بلدة كريستيانهافن في العاصمة الدنماركية كوبنهاغن. السلطات المدنية في كوبنهاغن أعتبرت كريستيانيا كميونة كبيرة، ولكن المساحة لها حالة فريدة تنظم عن طريق قوانين خاصة، القانون الكريستياني لعام 1989 الذي ينقل أجزاء من الإشراف على المساحة من بلدية كوبنهاغن للدولة. أغلقها سكانها أبريل عام 2011، بينما توالت النقاشات مع الحكومة الدنماركية لمستقبلها، والآن فتحوها مجدداً.</span><small> (ar)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="fr">Christiania (Fristaden Christiania) est un quartier de Copenhague au Danemark, autoproclamé « ville libre de Christiania », fonctionnant comme une communauté intentionnelle autogérée, fondée en septembre 1971 sur le terrain de la caserne de Bådsmandsstræde par un groupe de squatters, de chômeurs et de hippies. Ce quartier est une rare expérience historique libertaire toujours en activité en Europe du Nord. En 2003, la cité comptait près de 1 000 habitants sur 34 hectares, possédait sa propre monnaie et toutes sortes d&#39;activités culturelles et sportives, ainsi qu&#39;un vaste espace agricole.</span><small> (fr)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="nl">De Vrijstad Christiania (Deens: Fristaden Christiania), meestal kortweg Christiania genoemd, is een zelfverklaarde semi-onafhankelijke enclave in de Deense hoofdstad Kopenhagen. Christiania werd gesticht in 1970, toen een groep hippies in het Kopenhaagse stadsdeel Christianshavn de verlaten militaire kazerne Bådsmandsstrædes Kaserne kraakte. Sinds 1995 bestaat een overeenkomst tussen de bewoners en het Deense Ministerie van Defensie, dat nog steeds eigenaar van het gebied is. De bewoners betalen nu ook belasting en een soort huur aan de gemeente Kopenhagen, hoewel deze vrij laag is.</span><small> (nl)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pl">Christiania (znana także jako Wolne Miasto Christiania) – częściowo samostanowiące się osiedle w dzielnicy Kopenhagi Christianshavn. Duńskie władze nadały jej mieszkańcom legalny status niezależnej społeczności. Miejsce zasłynęło na świecie jako prężny ośrodek ruchu hippisowskiego i szeroko rozumianej kultury alternatywnej. Fragment nieoficjalnej deklaracji Wolnego Miasta Christiania z 24 września 1971:</span><small> (pl)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pt">Christiania, também conhecida como Cidade Livre de Christiania (em dinamarquês: Fristaden Christiania) é uma comunidade independente e autogestionada localizada na cidade de Copenhaga, Dinamarca, com cerca de 850 habitantes, cobrindo uma área de 34 hectares, no bairro de Christianshavn na capital dinamarquesa Copenhague. O espírito da comunidade de Christiania foi logo permeado por valores anarquistas e do movimento hippie, num contraste com a idéia original de ocupar a área como um mecanismo de defesa e refúgio.</span><small> (pt)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2000/01/rdf-schema#label"><small>rdfs:</small>label</a>
+</td><td><ul>
+	<li><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Freetown Christiania</span><small> (en)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ar">كريستيانيا البلدة الحرة</span><small> (ar)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="de">Freistadt Christiania</span><small> (de)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="es">Ciudad libre de Christiania</span><small> (es)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="fr">Christiania (Danemark)</span><small> (fr)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="it">Christiania</span><small> (it)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ja">クリスチャニア (コペンハーゲン)</span><small> (ja)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="nl">Vrijstad Christiania</span><small> (nl)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pl">Christiania (dzielnica Kopenhagi)</span><small> (pl)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pt">Christiania</span><small> (pt)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ru">Свободный город Христиания</span><small> (ru)</small></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="zh">克里斯欽自由城</span><small> (zh)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/2002/07/owl#sameAs"><small>owl:</small>sameAs</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://cs.dbpedia.org/resource/Christiánie"><small>dbpedia-cs</small>:Freetown Christiania</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://de.dbpedia.org/resource/Freistadt_Christiania"><small>dbpedia-de</small>:Freetown Christiania</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://el.dbpedia.org/resource/Κριστιάνια"><small>dbpedia-el</small>:Freetown Christiania</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://es.dbpedia.org/resource/Ciudad_libre_de_Christiania"><small>dbpedia-es</small>:Freetown Christiania</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://eu.dbpedia.org/resource/Christiania_hiri_librea"><small>dbpedia-eu</small>:Freetown Christiania</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://fr.dbpedia.org/resource/Christiania_(Danemark)"><small>dbpedia-fr</small>:Freetown Christiania</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://it.dbpedia.org/resource/Christiania"><small>dbpedia-it</small>:Freetown Christiania</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ja.dbpedia.org/resource/クリスチャニア_(コペンハーゲン)"><small>dbpedia-ja</small>:Freetown Christiania</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ko.dbpedia.org/resource/프리타운_크리스티아니아"><small>dbpedia-ko</small>:Freetown Christiania</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://pl.dbpedia.org/resource/Christiania_(dzielnica_Kopenhagi)"><small>dbpedia-pl</small>:Freetown Christiania</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://pt.dbpedia.org/resource/Christiania"><small>dbpedia-pt</small>:Freetown Christiania</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://www.wikidata.org/entity/Q202206"><small>wikidata</small>:Freetown Christiania</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://nl.dbpedia.org/resource/Vrijstad_Christiania"><small>dbpedia-nl</small>:Freetown Christiania</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://wikidata.dbpedia.org/resource/Q202206"><small>dbpedia-wikidata</small>:Freetown Christiania</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sws.geonames.org/2623186/"><small>geodata</small>:Freetown Christiania</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://rdf.freebase.com/ns/m.01lksx"><small>freebase</small>:Freetown Christiania</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://yago-knowledge.org/resource/Freetown_Christiania"><small>yago-res</small>:Freetown Christiania</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://d-nb.info/gnd/4096769-4">http://d-nb.info/gnd/4096769-4</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2003/01/geo/wgs84_pos#geometry"><small>geo:</small>geometry</a>
+</td><td><ul>
+	<li><span class="literal"><span property="geo:geometry" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">POINT(12.583333015442 55.666667938232)</span></span></li>
+	<li><span class="literal"><span property="geo:geometry" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">POINT(12.583333015442 55.673587799072)</span></span></li>
+	<li><span class="literal"><span property="geo:geometry" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">POINT(12.599711418152 55.666667938232)</span></span></li>
+	<li><span class="literal"><span property="geo:geometry" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">POINT(12.599711418152 55.673587799072)</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/2003/01/geo/wgs84_pos#lat"><small>geo:</small>lat</a>
+</td><td><ul>
+	<li><span class="literal"><span property="geo:lat" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">55.666668</span><small> (xsd:float)</small></span></li>
+	<li><span class="literal"><span property="geo:lat" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">55.673588</span><small> (xsd:float)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2003/01/geo/wgs84_pos#long"><small>geo:</small>long</a>
+</td><td><ul>
+	<li><span class="literal"><span property="geo:long" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">12.583333</span><small> (xsd:float)</small></span></li>
+	<li><span class="literal"><span property="geo:long" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">12.599711</span><small> (xsd:float)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/ns/prov#wasDerivedFrom"><small>prov:</small>wasDerivedFrom</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="prov:wasDerivedFrom" xmlns:prov="http://www.w3.org/ns/prov#" href="http://en.wikipedia.org/wiki/Freetown_Christiania?oldid=744265079"><small>wikipedia-en</small>:Freetown_Christiania?oldid=744265079</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/depiction"><small>foaf:</small>depiction</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="foaf:depiction" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Christiania.svg"><small>wiki-commons</small>:Special:FilePath/Flag_of_Christiania.svg</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/homepage"><small>foaf:</small>homepage</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="foaf:homepage nofollow" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://www.christiania.org">http://www.christiania.org</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"><small>foaf:</small>isPrimaryTopicOf</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="foaf:isPrimaryTopicOf" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://en.wikipedia.org/wiki/Freetown_Christiania"><small>wikipedia-en</small>:Freetown_Christiania</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/name"><small>foaf:</small>name</a>
+</td><td><ul>
+	<li><span class="literal"><span property="foaf:name" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Christiania</span><small> (en)</small></span></li>
+	<li><span class="literal"><span property="foaf:name" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Fristaden Christiania</span><small> (en)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/birthPlace"><small>dbo:</small>birthPlace</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbo:birthPlace" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Thomas_Johannessen_Heftye"><small>dbr</small>:Thomas_Johannessen_Heftye</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbo:birthPlace" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Wafande"><small>dbr</small>:Wafande</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbo:birthPlace" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Christopher_de_Paus"><small>dbr</small>:Christopher_de_Paus</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbo:birthPlace" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Gustav_Wentzel"><small>dbr</small>:Gustav_Wentzel</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/deathPlace"><small>dbo:</small>deathPlace</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbo:deathPlace" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Frederik_Wilhelm_Stabell"><small>dbr</small>:Frederik_Wilhelm_Stabell</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbo:deathPlace" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Johan_Gørbitz"><small>dbr</small>:Johan_Gørbitz</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/maintainedBy"><small>dbo:</small>maintainedBy</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbo:maintainedBy" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Dyssebroen"><small>dbr</small>:Dyssebroen</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/wikiPageDisambiguates"><small>dbo:</small>wikiPageDisambiguates</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbo:wikiPageDisambiguates" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Christiania"><small>dbr</small>:Christiania</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbo:wikiPageDisambiguates" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Freetown_(disambiguation)"><small>dbr</small>:Freetown_(disambiguation)</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/wikiPageRedirects"><small>dbo:</small>wikiPageRedirects</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbo:wikiPageRedirects" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Christania"><small>dbr</small>:Christania</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbo:wikiPageRedirects" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Free_City_of_Christiania"><small>dbr</small>:Free_City_of_Christiania</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbo:wikiPageRedirects" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Free_State_of_Christiania"><small>dbr</small>:Free_State_of_Christiania</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbo:wikiPageRedirects" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Fristaden"><small>dbr</small>:Fristaden</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbo:wikiPageRedirects" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Freetown_Christiana"><small>dbr</small>:Freetown_Christiana</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbo:wikiPageRedirects" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/2016_Copenhagen_shooting"><small>dbr</small>:2016_Copenhagen_shooting</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbo:wikiPageRedirects" xmlns:dbo="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Christiania_Law_of_1989"><small>dbr</small>:Christiania_Law_of_1989</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://xmlns.com/foaf/0.1/primaryTopic"><small>foaf:</small>primaryTopic</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="foaf:primaryTopic" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://en.wikipedia.org/wiki/Freetown_Christiania"><small>wikipedia-en</small>:Freetown_Christiania</a></span></li>
+</ul></td></tr>
+      </table>
+    </div>
+<!-- row  -->
+</div>
+</div>
+<!-- footer -->
+<div class="footer">
+    <div class="container">
+	<a href="http://virtuoso.openlinksw.com" title="OpenLink Virtuoso"><img class="powered_by" src="/statics/images/virt_power_no_border.png" alt="Powered by OpenLink Virtuoso"/></a>&nbsp; &nbsp;
+	<a href="http://linkeddata.org/"><img alt="This material is Open Knowledge" src="/statics/images/LoDLogo.gif"/></a> &nbsp; &nbsp;
+	<a href="http://dbpedia.org/sparql"><img alt="W3C Semantic Web Technology" src="/statics/images/sw-sparql-blue.png"/></a> &nbsp;  &nbsp;
+	<a href="http://www.opendefinition.org/"><img alt="This material is Open Knowledge" src="/statics/images/od_80x15_red_green.png"/></a>&nbsp; &nbsp;
+	<span style="display:none;" about=""
+	    resource="http://www.w3.org/TR/rdfa-syntax"
+	    rel="dc:conformsTo" xmlns:dc="http://purl.org/dc/terms/">
+	    <a href="http://validator.w3.org/check?uri=referer">
+		<img src="http://www.w3.org/Icons/valid-xhtml-rdfa" alt="Valid XHTML + RDFa" height="27px" />
+	    </a>
+	</span>
+	<br />
+	<div class="text-muted">
+	    This content was extracted from <a href="http://en.wikipedia.org/wiki/Freetown_Christiania">Wikipedia</a> and is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>
+
+	</div>
+    </div>
+</div>
+<!-- #footer -->
+<!--#content-->
+    <!--script type="text/javascript">
+     Place any Javascript code e.g. Google Analytics scripts
+    </script-->
+    
+    <script type="text/javascript" src="/statics/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/statics/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/statics/js/dbpedia.js"></script>
+</body>
+</html>

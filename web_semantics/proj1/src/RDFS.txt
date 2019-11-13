@@ -1,0 +1,57 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@prefix : <http://www.topografix.com/GPX/1/1> .
+@prefix osm: <https://www.openstreetmap.org/export> .
+@prefix dbpedia: <http://dbpedia.org/ontology/> .
+@prefix wikidata: <https://www.wikidata.org/wiki/> .
+@prefix wikipedia: <https://en.wikipedia.org/wiki/> .
+
+:trk a rdfs:Class .
+:wpt a rdfs:Class ; rdfs:subClassOf :trk .
+:trkpt a rdf:Class ; rdfs:subClassOf :trk .
+osm:nd a rdfs:Class .
+osm:way a rdfs:Class .
+osm:rlt a rdf:Class .
+
+:hasname a rdf:Property; rdfs:domain :trk, :wpt; rdfs:range :name .
+:haswpt a rdf:Property; rdfs:domain :trk; rdfs:range :wpt .
+:hastrkpt a rdf:Property; rdfs:domain :trk; rdfs:range :trkpt .
+:hassurroundingnds a rdf:Property; rdfs:domain :trk, :trkpt; rdfs:range osm:nd .
+:hassurroundingways a rdf:Property; rdfs:domain :trk, :trkpt; rdfs:range osm:way .
+:hassurroundingrlts a rdf:Property; rdfs:domain :trk, :trkpt; rdfs:range osm:rlt .
+:haslat a rdf:Property; rdfs:domain :wpt, :trkpt; rdfs:range :lat .
+:haslon a rdf:Property; rdfs:domain :wpt, :trkpt; rdfs:range :lon .
+:hasele a rdf:Property; rdfs:domain :wpt, :trkpt; rdfs:range :ele .
+:hastime a rdf:Property; rdfs:domain :wpt, :trkpt; rdfs:range :time .
+
+:name rdf:type xsd:string .
+:lat rdf:type xsd:float .
+:lon rdf:type xsd:float .
+:ele rdf:type xsd:integer .
+:time rdf:type xsd:dateTime .
+
+osm:haslat a rdf:Property; rdfs:domain osm:nd; rdfs:range osm:lat . 
+osm:haslon a rdf:Property; rdfs:domain osm:nd; rdfs:range osm:lon .
+osm:hasid a rdf:Property; rdfs:domain osm:nd, osm:way, osm:rlt; rdfs:range osm:id .
+osm:hasts a rdf:Property; rdfs:domain osm:nd; rdfs:range osm:ts .
+osm:hasname a rdf:Property; rdfs:domain osm:nd, osm:way, osm:rlt; rdfs:range osm:name .
+osm:isinterested a rdf:Property; rdfs:domain osm:nd, osm:way, osm:rlt; rdfs:range osm:yesorno .
+osm:tourism a rdf:Property; rdfs:domain osm:nd, osm:way; rdfs:range dbpedia:place .
+osm:amenity a rdf:Property; rdfs:domain osm:nd, osm:way; rdfs:range dbpedia:place .
+osm:leisure a rdf:Property; rdfs:domain osm:nd, osm:way; rdfs:range dbpedia:place .
+osm:website a rdf:Property; rdfs:domain osm:nd, osm:way, osm:rlt; rdfs:range osm:url .
+osm:wikidata a rdf:Property; rdfs:domain osm:nd, osm:way, osm:rlt; rdfs:range wikidata:id .
+osm:wikipedia a rdf:Property; rdfs:domain osm:nd, osm:way, osm:rlt; rdfs:range wikipedia:title .
+osm:ontheway a rdf:Property; rdfs:domain osm:nd; rdfs:range osm:way .
+osm:intherlt a rdf:Property; rdfs:domain osm:nd, osm:way, osm:rlt; rdfs:range osm:rlt .
+osm:hasnd a rdf:Property; rdfs:domain osm:way, osm:rlt; rdfs:range osm:nd .
+osm:hasway a rdf:Property; rdfs:domain osm:rlt; rdfs:range osm:way .
+osm:ishikingroute a rdf:Property; rdfs:domain osm:rlt; rdfs:range osm:yesorno .
+
+osm:lat rdf:type xsd:float .
+osm:lon rdf:type xsd:float .
+osm:id rdf:type xsd:number .
+osm:ts rdf:type xsd:dateTime .
+osm:name rdf:type xsd:string .

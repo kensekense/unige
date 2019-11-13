@@ -1,0 +1,1596 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@prefix : <http://www.topografix.com/GPX/1/1>. 
+
+:Le_Mont_Charvin_en_boucle a :GPXtrack .
+
+:Le_Mont_Charvin_en_boucle :haswpt :wpt1395, :wpt1508, :wpt1887, :wpt2081, :wpt2117, :wpt1396 .
+
+:Le_Mont_Charvin_en_boucle :hastrkpt :trkpt1395, :trkpt1409, :trkpt1418, :trkpt1424, :trkpt1425, :trkpt1447, :trkpt1450, :trkpt1454, :trkpt1458, :trkpt1463, :trkpt1470, :trkpt1479, :trkpt1484, :trkpt1497, :trkpt1502, :trkpt1508, :trkpt1513, :trkpt1518, :trkpt1519, :trkpt1520, :trkpt1522, :trkpt1514, :trkpt1516, :trkpt1540, :trkpt1546, :trkpt1545, :trkpt1543, :trkpt1549, :trkpt1550, :trkpt1552, :trkpt1556, :trkpt1561, :trkpt1566, :trkpt1579, :trkpt1585, :trkpt1592, :trkpt1603, :trkpt1609, :trkpt1615, :trkpt1628, :trkpt1632, :trkpt1636, :trkpt1634, :trkpt1639, :trkpt1641, :trkpt1644, :trkpt1643, :trkpt1646, :trkpt1648, :trkpt1656, :trkpt1666, :trkpt1672, :trkpt1711, :trkpt1717, :trkpt1721, :trkpt1732, :trkpt1735, :trkpt1753, :trkpt1759, :trkpt1762, :trkpt1790, :trkpt1808, :trkpt1822, :trkpt1847, :trkpt1863, :trkpt1873, :trkpt1875, :trkpt1882, :trkpt1884, :trkpt1887, :trkpt1901, :trkpt1911, :trkpt1926, :trkpt1931, :trkpt1943, :trkpt1946, :trkpt1944, :trkpt1942, :trkpt1952, :trkpt1974, :trkpt2034, :trkpt2044, :trkpt2051, :trkpt2056, :trkpt2062, :trkpt2065, :trkpt2071, :trkpt2080, :trkpt2082, :trkpt2081, :trkpt2079, :trkpt2074, :trkpt2068, :trkpt2066, :trkpt2069, :trkpt2038, :trkpt2025, :trkpt2020, :trkpt2026, :trkpt2021, :trkpt2015, :trkpt2012, :trkpt2008, :trkpt2007, :trkpt2004, :trkpt2005, :trkpt2006, :trkpt2009, :trkpt2010, :trkpt2017, :trkpt2018, :trkpt2022, :trkpt2023, :trkpt2024, :trkpt2030, :trkpt2031, :trkpt2032, :trkpt2036, :trkpt2040, :trkpt2043, :trkpt2045, :trkpt2039, :trkpt2046, :trkpt2047, :trkpt2050, :trkpt2052, :trkpt2057, :trkpt2060, :trkpt2063, :trkpt2073, :trkpt2077, :trkpt2083, :trkpt2096, :trkpt2102, :trkpt2106, :trkpt2108, :trkpt2117, :trkpt2123, :trkpt2122, :trkpt2135, :trkpt2139, :trkpt2153, :trkpt2166, :trkpt2177, :trkpt2183, :trkpt2190, :trkpt2197, :trkpt2210, :trkpt2225, :trkpt2285, :trkpt2315, :trkpt2326, :trkpt2331, :trkpt2343, :trkpt2350, :trkpt2364, :trkpt2384, :trkpt2383, :trkpt2380, :trkpt2354, :trkpt2284, :trkpt2279, :trkpt2310, :trkpt2261, :trkpt2287, :trkpt2249, :trkpt2265, :trkpt2236, :trkpt2245, :trkpt2231, :trkpt2226, :trkpt2223, :trkpt2218, :trkpt2209, :trkpt2203, :trkpt2199, :trkpt2191, :trkpt2188, :trkpt2167, :trkpt2154, :trkpt2151, :trkpt2142, :trkpt2134, :trkpt2127, :trkpt2119, :trkpt2115, :trkpt2086, :trkpt2078, :trkpt2033, :trkpt1994, :trkpt1987, :trkpt1976, :trkpt1969, :trkpt1964, :trkpt1965, :trkpt1956, :trkpt1949, :trkpt1921, :trkpt1904, :trkpt1908, :trkpt1897, :trkpt1899, :trkpt1898, :trkpt1909, :trkpt1903, :trkpt1888, :trkpt1883, :trkpt1880, :trkpt1868, :trkpt1836, :trkpt1826, :trkpt1816, :trkpt1791, :trkpt1758, :trkpt1722, :trkpt1719, :trkpt1674, :trkpt1657, :trkpt1647, :trkpt1640, :trkpt1635, :trkpt1631, :trkpt1611, :trkpt1606, :trkpt1586, :trkpt1587, :trkpt1580, :trkpt1577, :trkpt1557, :trkpt1551, :trkpt1544, :trkpt1542, :trkpt1539, :trkpt1509, :trkpt1521, :trkpt1515, :trkpt1523, :trkpt1517, :trkpt1483, :trkpt1462, :trkpt1455, :trkpt1449, :trkpt1446, :trkpt1423, :trkpt1415, :trkpt1396 .
+
+:Le_Mont_Charvin_en_boucle :hassurround :nd866408323, :nd4169843434, :nd4169843437, :nd1501410818, :nd1501410327, :nd1501410325, :nd6740242176, :nd1501410816, :nd3620380062, :nd510165500, :nd4169843435, :nd1353700277, :nd510165538, :nd3076387820, :nd5000338825, :nd1501410817, :nd866408045, :nd1501410822, :nd1501410313, :nd3620380063, :nd1501410821, :nd1501410820, :nd5000338824, :nd1501410309, :nd3076387819, :nd5000338845, :nd4169838717, :nd4169843436, :nd1501509634 .
+
+:wpt1395 :hasloc (:45.79798 :6.38742) ;
+         :hasele :1395 ;
+         :hastime :2019-10-23T13_44_50p02_00 ;
+         :hasname :Parking_les_Chandoches_(Bouchet_Mont_Charvin) .
+
+:wpt1508 :hasloc (:45.801638 :6.394211) ;
+         :hasele :1508 ;
+         :hastime :2019-10-23T13_47_05p02_00 ;
+         :hasname :Près_du_Chalet_des_Praz .
+
+:wpt1887 :hasloc (:45.80496 :6.410504) ;
+         :hasele :1887 ;
+         :hastime :2019-10-23T13_51_20p02_00 ;
+         :hasname :Carrefour_de_la_boucle .
+
+:wpt2081 :hasloc (:45.806647 :6.415213) ;
+         :hasele :2081 ;
+         :hastime :2019-10-23T13_53_15p02_00 ;
+         :hasname :Col_des_Porthets .
+
+:wpt2117 :hasloc (:45.80521 :6.4242) ;
+         :hasele :2117 ;
+         :hastime :2019-10-23T13_58_55p02_00 ;
+         :hasname :Début_des_passages_câblés .
+
+:wpt1396 :hasloc (:45.797963 :6.387475) ;
+         :hasele :1396 ;
+         :hastime :2019-10-23T14_10_50p02_00 ;
+         :hasname :Parking_les_Chandoches .
+
+:trkpt1395 :hasloc (:45.79798 :6.38742) ;
+           :hasele :1395 ;
+           :hastime :2019-10-23T13_44_50p02_00 ;
+           :hassurround :nd866408323, :nd4169838717, :nd4169843434, :nd4169843435, :nd4169843436, :nd4169843437, :nd5000338845 .
+
+:trkpt1409 :hasloc (:45.797876 :6.388224) ;
+           :hasele :1409 ;
+           :hastime :2019-10-23T13_44_55p02_00 ;
+           :hassurround :nd866408323, :nd4169838717, :nd4169843434, :nd4169843435, :nd4169843436, :nd4169843437, :nd5000338845 .
+
+:trkpt1418 :hasloc (:45.797711 :6.388868) ;
+           :hasele :1418 ;
+           :hastime :2019-10-23T13_45_00p02_00 ;
+           :hassurround :nd866408323, :nd4169838717, :nd4169843434, :nd4169843435, :nd4169843436, :nd4169843437, :nd5000338845 .
+
+:trkpt1424 :hasloc (:45.797674 :6.389383) ;
+           :hasele :1424 ;
+           :hastime :2019-10-23T13_45_05p02_00 ;
+           :hassurround :nd866408323, :nd4169838717, :nd4169843434, :nd4169843435, :nd4169843436, :nd4169843437, :nd5000338845 .
+
+:trkpt1425 :hasloc (:45.797402 :6.389578) ;
+           :hasele :1425 ;
+           :hastime :2019-10-23T14_10_35p02_00 ;
+           :hassurround :nd866408323, :nd4169838717, :nd4169843434, :nd4169843435, :nd4169843436, :nd4169843437, :nd5000338845 .
+
+:trkpt1447 :hasloc (:45.797068 :6.391142) ;
+           :hasele :1447 ;
+           :hastime :2019-10-23T13_45_15p02_00 ;
+           :hassurround :nd866408323, :nd4169838717, :nd4169843434, :nd4169843435, :nd4169843436, :nd4169843437, :nd5000338825, :nd5000338845 .
+
+:trkpt1450 :hasloc (:45.797143 :6.391357) ;
+           :hasele :1450 ;
+           :hastime :2019-10-23T13_45_20p02_00 ;
+           :hassurround :nd866408323, :nd4169838717, :nd4169843434, :nd4169843435, :nd4169843436, :nd4169843437, :nd5000338825, :nd5000338845 .
+
+:trkpt1454 :hasloc (:45.797068 :6.391636) ;
+           :hasele :1454 ;
+           :hastime :2019-10-23T13_45_25p02_00 ;
+           :hassurround :nd866408323, :nd4169838717, :nd4169843434, :nd4169843435, :nd4169843436, :nd4169843437, :nd5000338825, :nd5000338845 .
+
+:trkpt1458 :hasloc (:45.797387 :6.392142) ;
+           :hasele :1458 ;
+           :hastime :2019-10-23T14_10_15p02_00 ;
+           :hassurround :nd866408323, :nd4169838717, :nd4169843434, :nd4169843435, :nd4169843436, :nd4169843437, :nd5000338825, :nd5000338845 .
+
+:trkpt1463 :hasloc (:45.797883 :6.392451) ;
+           :hasele :1463 ;
+           :hastime :2019-10-23T13_45_35p02_00 ;
+           :hassurround :nd866408323, :nd4169838717, :nd4169843434, :nd4169843435, :nd4169843436, :nd5000338825, :nd5000338845 .
+
+:trkpt1470 :hasloc (:45.798127 :6.392925) ;
+           :hasele :1470 ;
+           :hastime :2019-10-23T14_10_05p02_00 ;
+           :hassurround :nd5000338825 .
+
+:trkpt1479 :hasloc (:45.798182 :6.393621) ;
+           :hasele :1479 ;
+           :hastime :2019-10-23T13_45_45p02_00 ;
+           :hassurround :nd5000338825 .
+
+:trkpt1484 :hasloc (:45.798167 :6.394082) ;
+           :hasele :1484 ;
+           :hastime :2019-10-23T13_45_50p02_00 ;
+           :hassurround :nd5000338825 .
+
+:trkpt1497 :hasloc (:45.798354 :6.395187) ;
+           :hasele :1497 ;
+           :hastime :2019-10-23T13_45_55p02_00 ;
+           :hassurround :nd5000338825 .
+
+:trkpt1502 :hasloc (:45.798352 :6.3955) ;
+           :hasele :1502 ;
+           :hastime :2019-10-23T14_09_55p02_00 ;
+           :hassurround :nd5000338825 .
+
+:trkpt1508 :hasloc (:45.801638 :6.394211) ;
+           :hasele :1508 ;
+           :hastime :2019-10-23T13_47_05p02_00 ;
+           :hassurround :nd5000338824, :nd5000338825 .
+
+:trkpt1513 :hasloc (:45.79896 :6.395563) ;
+           :hasele :1513 ;
+           :hastime :2019-10-23T13_46_10p02_00 ;
+           :hassurround :nd5000338825 .
+
+:trkpt1518 :hasloc (:45.801227 :6.394958) ;
+           :hasele :1518 ;
+           :hastime :2019-10-23T14_09_20p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338824, :nd5000338825 .
+
+:trkpt1519 :hasloc (:45.799431 :6.395498) ;
+           :hasele :1519 ;
+           :hastime :2019-10-23T13_46_20p02_00 ;
+           :hassurround :nd5000338825 .
+
+:trkpt1520 :hasloc (:45.799556 :6.395446) ;
+           :hasele :1520 ;
+           :hastime :2019-10-23T14_09_40p02_00 ;
+           :hassurround :nd866408045, :nd5000338825 .
+
+:trkpt1522 :hasloc (:45.800105 :6.395337) ;
+           :hasele :1522 ;
+           :hastime :2019-10-23T13_46_35p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338825 .
+
+:trkpt1514 :hasloc (:45.800838 :6.395037) ;
+           :hasele :1514 ;
+           :hastime :2019-10-23T13_46_40p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338824, :nd5000338825 .
+
+:trkpt1516 :hasloc (:45.800995 :6.395016) ;
+           :hasele :1516 ;
+           :hastime :2019-10-23T13_46_45p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338824, :nd5000338825 .
+
+:trkpt1540 :hasloc (:45.802049 :6.395177) ;
+           :hasele :1540 ;
+           :hastime :2019-10-23T13_47_10p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd1501410816, :nd1501410817, :nd1501410818, :nd1501410820, :nd1501410821, :nd1501410822, :nd1501509634, :nd3076387820, :nd5000338824, :nd5000338825 .
+
+:trkpt1546 :hasloc (:45.801855 :6.395859) ;
+           :hasele :1546 ;
+           :hastime :2019-10-23T14_08_50p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd1501410816, :nd1501410817, :nd1501410818, :nd1501410820, :nd1501410821, :nd1501410822, :nd1501509634, :nd3076387820, :nd5000338824, :nd5000338825 .
+
+:trkpt1545 :hasloc (:45.80172 :6.396067) ;
+           :hasele :1545 ;
+           :hastime :2019-10-23T13_47_35p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd1501509634, :nd5000338824, :nd5000338825 .
+
+:trkpt1543 :hasloc (:45.80172 :6.395949) ;
+           :hasele :1543 ;
+           :hastime :2019-10-23T13_47_30p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd1501509634, :nd5000338824, :nd5000338825 .
+
+:trkpt1549 :hasloc (:45.801788 :6.396206) ;
+           :hasele :1549 ;
+           :hastime :2019-10-23T13_47_40p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd1501410816, :nd1501410817, :nd1501410818, :nd1501509634, :nd5000338824, :nd5000338825 .
+
+:trkpt1550 :hasloc (:45.801795 :6.396224) ;
+           :hasele :1550 ;
+           :hastime :2019-10-23T14_08_40p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd1501410816, :nd1501410817, :nd1501410818, :nd1501410820, :nd1501509634, :nd5000338824, :nd5000338825 .
+
+:trkpt1552 :hasloc (:45.801608 :6.396689) ;
+           :hasele :1552 ;
+           :hastime :2019-10-23T13_47_50p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338824, :nd5000338825 .
+
+:trkpt1556 :hasloc (:45.80169 :6.396893) ;
+           :hasele :1556 ;
+           :hastime :2019-10-23T13_47_55p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd1501509634, :nd5000338825 .
+
+:trkpt1561 :hasloc (:45.801616 :6.397354) ;
+           :hasele :1561 ;
+           :hastime :2019-10-23T13_48_00p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338825 .
+
+:trkpt1566 :hasloc (:45.801586 :6.397748) ;
+           :hasele :1566 ;
+           :hastime :2019-10-23T14_08_25p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338825 .
+
+:trkpt1579 :hasloc (:45.801743 :6.398352) ;
+           :hasele :1579 ;
+           :hastime :2019-10-23T13_48_15p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338825 .
+
+:trkpt1585 :hasloc (:45.801832 :6.398567) ;
+           :hasele :1585 ;
+           :hastime :2019-10-23T13_48_20p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338825 .
+
+:trkpt1592 :hasloc (:45.801593 :6.399125) ;
+           :hasele :1592 ;
+           :hastime :2019-10-23T13_48_25p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338825 .
+
+:trkpt1603 :hasloc (:45.801443 :6.399844) ;
+           :hasele :1603 ;
+           :hastime :2019-10-23T13_48_30p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338825 .
+
+:trkpt1609 :hasloc (:45.801451 :6.400283) ;
+           :hasele :1609 ;
+           :hastime :2019-10-23T13_48_35p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1615 :hasloc (:45.801346 :6.400713) ;
+           :hasele :1615 ;
+           :hastime :2019-10-23T13_48_40p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1628 :hasloc (:45.801197 :6.401603) ;
+           :hasele :1628 ;
+           :hastime :2019-10-23T13_48_45p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1632 :hasloc (:45.801197 :6.401796) ;
+           :hasele :1632 ;
+           :hastime :2019-10-23T13_48_50p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1636 :hasloc (:45.801571 :6.401946) ;
+           :hasele :1636 ;
+           :hastime :2019-10-23T13_48_55p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1634 :hasloc (:45.802752 :6.401024) ;
+           :hasele :1634 ;
+           :hastime :2019-10-23T13_49_00p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1639 :hasloc (:45.803246 :6.400687) ;
+           :hasele :1639 ;
+           :hastime :2019-10-23T14_07_40p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1641 :hasloc (:45.803455 :6.400423) ;
+           :hasele :1641 ;
+           :hastime :2019-10-23T13_49_10p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1644 :hasloc (:45.80368 :6.400366) ;
+           :hasele :1644 ;
+           :hastime :2019-10-23T14_07_30p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1643 :hasloc (:45.803785 :6.399936) ;
+           :hasele :1643 ;
+           :hastime :2019-10-23T14_07_25p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338825 .
+
+:trkpt1646 :hasloc (:45.804338 :6.399314) ;
+           :hasele :1646 ;
+           :hastime :2019-10-23T14_07_20p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338825 .
+
+:trkpt1648 :hasloc (:45.804398 :6.3995) ;
+           :hasele :1648 ;
+           :hastime :2019-10-23T13_49_35p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338825 .
+
+:trkpt1656 :hasloc (:45.804824 :6.400144) ;
+           :hasele :1656 ;
+           :hastime :2019-10-23T13_49_40p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1666 :hasloc (:45.805086 :6.401013) ;
+           :hasele :1666 ;
+           :hastime :2019-10-23T13_49_45p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1672 :hasloc (:45.805284 :6.401576) ;
+           :hasele :1672 ;
+           :hastime :2019-10-23T13_49_50p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1711 :hasloc (:45.805508 :6.403658) ;
+           :hasele :1711 ;
+           :hastime :2019-10-23T13_49_55p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1717 :hasloc (:45.805553 :6.403851) ;
+           :hasele :1717 ;
+           :hastime :2019-10-23T13_50_00p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1721 :hasloc (:45.805314 :6.404065) ;
+           :hasele :1721 ;
+           :hastime :2019-10-23T13_50_05p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1732 :hasloc (:45.805134 :6.40458) ;
+           :hasele :1732 ;
+           :hastime :2019-10-23T13_50_10p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1735 :hasloc (:45.804877 :6.405) ;
+           :hasele :1735 ;
+           :hastime :2019-10-23T14_06_50p02_00 ;
+           :hassurround :none  .
+
+:trkpt1753 :hasloc (:45.804865 :6.405761) ;
+           :hasele :1753 ;
+           :hastime :2019-10-23T13_50_20p02_00 ;
+           :hassurround :nd3620380063 .
+
+:trkpt1759 :hasloc (:45.80485 :6.406082) ;
+           :hasele :1759 ;
+           :hastime :2019-10-23T13_50_25p02_00 ;
+           :hassurround :nd3620380063 .
+
+:trkpt1762 :hasloc (:45.804787 :6.406309) ;
+           :hasele :1762 ;
+           :hastime :2019-10-23T14_06_40p02_00 ;
+           :hassurround :nd3620380063 .
+
+:trkpt1790 :hasloc (:45.804685 :6.407649) ;
+           :hasele :1790 ;
+           :hastime :2019-10-23T13_50_35p02_00 ;
+           :hassurround :nd3620380063 .
+
+:trkpt1808 :hasloc (:45.804685 :6.408314) ;
+           :hasele :1808 ;
+           :hastime :2019-10-23T13_50_40p02_00 ;
+           :hassurround :nd3620380063 .
+
+:trkpt1822 :hasloc (:45.804685 :6.4087) ;
+           :hasele :1822 ;
+           :hastime :2019-10-23T13_50_45p02_00 ;
+           :hassurround :nd3620380063 .
+
+:trkpt1847 :hasloc (:45.804984 :6.40928) ;
+           :hasele :1847 ;
+           :hastime :2019-10-23T13_50_50p02_00 ;
+           :hassurround :nd3620380063 .
+
+:trkpt1863 :hasloc (:45.805104 :6.409666) ;
+           :hasele :1863 ;
+           :hastime :2019-10-23T13_50_55p02_00 ;
+           :hassurround :nd3620380063 .
+
+:trkpt1873 :hasloc (:45.805164 :6.409945) ;
+           :hasele :1873 ;
+           :hastime :2019-10-23T13_51_00p02_00 ;
+           :hassurround :nd3620380063 .
+
+:trkpt1875 :hasloc (:45.805149 :6.410031) ;
+           :hasele :1875 ;
+           :hastime :2019-10-23T13_51_05p02_00 ;
+           :hassurround :nd3620380063 .
+
+:trkpt1882 :hasloc (:45.805138 :6.410251) ;
+           :hasele :1882 ;
+           :hastime :2019-10-23T13_51_10p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1884 :hasloc (:45.804966 :6.410401) ;
+           :hasele :1884 ;
+           :hastime :2019-10-23T13_51_15p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1887 :hasloc (:45.804791 :6.410499) ;
+           :hasele :1887 ;
+           :hastime :2019-10-23T14_05_50p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1901 :hasloc (:45.804926 :6.410885) ;
+           :hasele :1901 ;
+           :hastime :2019-10-23T14_05_45p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1911 :hasloc (:45.803565 :6.410885) ;
+           :hasele :1911 ;
+           :hastime :2019-10-23T14_04_50p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1926 :hasloc (:45.805248 :6.411415) ;
+           :hasele :1926 ;
+           :hastime :2019-10-23T13_51_35p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1931 :hasloc (:45.80545 :6.41149) ;
+           :hasele :1931 ;
+           :hastime :2019-10-23T13_51_40p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1943 :hasloc (:45.805727 :6.411736) ;
+           :hasele :1943 ;
+           :hastime :2019-10-23T13_51_45p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1946 :hasloc (:45.80643 :6.411297) ;
+           :hasele :1946 ;
+           :hastime :2019-10-23T13_52_05p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1944 :hasloc (:45.806041 :6.411597) ;
+           :hasele :1944 ;
+           :hastime :2019-10-23T13_51_55p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1942 :hasloc (:45.806505 :6.411028) ;
+           :hasele :1942 ;
+           :hastime :2019-10-23T13_52_10p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1952 :hasloc (:45.806669 :6.4112) ;
+           :hasele :1952 ;
+           :hastime :2019-10-23T13_52_15p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1974 :hasloc (:45.806819 :6.411973) ;
+           :hasele :1974 ;
+           :hastime :2019-10-23T13_52_20p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt2034 :hasloc (:45.803423 :6.413203) ;
+           :hasele :2034 ;
+           :hastime :2019-10-23T14_03_55p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt2044 :hasloc (:45.807497 :6.422153) ;
+           :hasele :2044 ;
+           :hastime :2019-10-23T13_57_10p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819 .
+
+:trkpt2051 :hasloc (:45.806781 :6.413818) ;
+           :hasele :2051 ;
+           :hastime :2019-10-23T13_52_35p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt2056 :hasloc (:45.803333 :6.413632) ;
+           :hasele :2056 ;
+           :hastime :2019-10-23T14_03_45p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt2062 :hasloc (:45.806639 :6.41414) ;
+           :hasele :2062 ;
+           :hastime :2019-10-23T13_52_50p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt2065 :hasloc (:45.806572 :6.414279) ;
+           :hasele :2065 ;
+           :hastime :2019-10-23T13_52_55p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt2071 :hasloc (:45.806579 :6.414537) ;
+           :hasele :2071 ;
+           :hastime :2019-10-23T13_53_00p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt2080 :hasloc (:45.806714 :6.415213) ;
+           :hasele :2080 ;
+           :hastime :2019-10-23T13_53_20p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063, :nd6740242176 .
+
+:trkpt2082 :hasloc (:45.806624 :6.415105) ;
+           :hasele :2082 ;
+           :hastime :2019-10-23T13_53_10p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt2081 :hasloc (:45.803243 :6.414136) ;
+           :hasele :2081 ;
+           :hastime :2019-10-23T14_03_30p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt2079 :hasloc (:45.806751 :6.415298) ;
+           :hasele :2079 ;
+           :hastime :2019-10-23T13_53_25p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063, :nd6740242176 .
+
+:trkpt2074 :hasloc (:45.807013 :6.415245) ;
+           :hasele :2074 ;
+           :hastime :2019-10-23T13_53_30p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063, :nd6740242176 .
+
+:trkpt2068 :hasloc (:45.806824 :6.423746) ;
+           :hasele :2068 ;
+           :hastime :2019-10-23T13_58_05p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2066 :hasloc (:45.803243 :6.413846) ;
+           :hasele :2066 ;
+           :hastime :2019-10-23T14_03_40p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt2069 :hasloc (:45.806969 :6.415678) ;
+           :hasele :2069 ;
+           :hastime :2019-10-23T13_53_50p02_00 ;
+           :hassurround :nd510165538, :nd3620380062, :nd6740242176 .
+
+:trkpt2038 :hasloc (:45.807358 :6.417336) ;
+           :hasele :2038 ;
+           :hastime :2019-10-23T13_53_55p02_00 ;
+           :hassurround :nd510165538, :nd3076387819, :nd3620380062, :nd6740242176 .
+
+:trkpt2025 :hasloc (:45.808802 :6.42108) ;
+           :hasele :2025 ;
+           :hastime :2019-10-23T13_56_20p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2020 :hasloc (:45.808379 :6.422341) ;
+           :hasele :2020 ;
+           :hastime :2019-10-23T13_56_00p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2026 :hasloc (:45.808084 :6.41894) ;
+           :hasele :2026 ;
+           :hastime :2019-10-23T13_54_15p02_00 ;
+           :hassurround :nd510165538, :nd3076387819, :nd3620380062 .
+
+:trkpt2021 :hasloc (:45.808611 :6.422218) ;
+           :hasele :2021 ;
+           :hastime :2019-10-23T13_55_50p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2015 :hasloc (:45.809389 :6.42122) ;
+           :hasele :2015 ;
+           :hastime :2019-10-23T13_55_15p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2012 :hasloc (:45.809505 :6.421139) ;
+           :hasele :2012 ;
+           :hastime :2019-10-23T13_55_10p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2008 :hasloc (:45.809183 :6.420302) ;
+           :hasele :2008 ;
+           :hastime :2019-10-23T13_54_35p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2007 :hasloc (:45.809224 :6.420351) ;
+           :hasele :2007 ;
+           :hastime :2019-10-23T13_54_40p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2004 :hasloc (:45.809299 :6.420292) ;
+           :hasele :2004 ;
+           :hastime :2019-10-23T13_54_45p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2005 :hasloc (:45.809378 :6.420496) ;
+           :hasele :2005 ;
+           :hastime :2019-10-23T13_54_50p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2006 :hasloc (:45.809471 :6.420646) ;
+           :hasele :2006 ;
+           :hastime :2019-10-23T13_54_55p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2009 :hasloc (:45.809505 :6.420817) ;
+           :hasele :2009 ;
+           :hastime :2019-10-23T13_55_00p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2010 :hasloc (:45.809523 :6.421) ;
+           :hasele :2010 ;
+           :hastime :2019-10-23T13_55_05p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2017 :hasloc (:45.809292 :6.4213) ;
+           :hasele :2017 ;
+           :hastime :2019-10-23T13_55_20p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2018 :hasloc (:45.809329 :6.421515) ;
+           :hasele :2018 ;
+           :hastime :2019-10-23T13_55_25p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2022 :hasloc (:45.808585 :6.421981) ;
+           :hasele :2022 ;
+           :hastime :2019-10-23T13_56_05p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2023 :hasloc (:45.808813 :6.421445) ;
+           :hasele :2023 ;
+           :hastime :2019-10-23T13_56_15p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2024 :hasloc (:45.808828 :6.420774) ;
+           :hasele :2024 ;
+           :hastime :2019-10-23T13_56_25p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2030 :hasloc (:45.808357 :6.421204) ;
+           :hasele :2030 ;
+           :hastime :2019-10-23T13_56_40p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2031 :hasloc (:45.808398 :6.42108) ;
+           :hasele :2031 ;
+           :hastime :2019-10-23T13_56_35p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2032 :hasloc (:45.808233 :6.421348) ;
+           :hasele :2032 ;
+           :hastime :2019-10-23T13_56_45p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2036 :hasloc (:45.808084 :6.42145) ;
+           :hasele :2036 ;
+           :hastime :2019-10-23T13_56_50p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2040 :hasloc (:45.807964 :6.421445) ;
+           :hasele :2040 ;
+           :hastime :2019-10-23T13_56_55p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd3076387819 .
+
+:trkpt2043 :hasloc (:45.807355 :6.422684) ;
+           :hasele :2043 ;
+           :hastime :2019-10-23T13_57_25p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2045 :hasloc (:45.807594 :6.421944) ;
+           :hasele :2045 ;
+           :hastime :2019-10-23T13_57_05p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819 .
+
+:trkpt2039 :hasloc (:45.807482 :6.422491) ;
+           :hasele :2039 ;
+           :hastime :2019-10-23T13_57_15p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819 .
+
+:trkpt2046 :hasloc (:45.807295 :6.422738) ;
+           :hasele :2046 ;
+           :hastime :2019-10-23T13_57_30p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2047 :hasloc (:45.80728 :6.423044) ;
+           :hasele :2047 ;
+           :hastime :2019-10-23T13_57_35p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2050 :hasloc (:45.807198 :6.423092) ;
+           :hasele :2050 ;
+           :hastime :2019-10-23T13_57_40p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2052 :hasloc (:45.807168 :6.423403) ;
+           :hasele :2052 ;
+           :hastime :2019-10-23T13_57_45p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2057 :hasloc (:45.807044 :6.423451) ;
+           :hasele :2057 ;
+           :hastime :2019-10-23T13_57_50p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2060 :hasloc (:45.806984 :6.423532) ;
+           :hasele :2060 ;
+           :hastime :2019-10-23T13_57_55p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2063 :hasloc (:45.806898 :6.423591) ;
+           :hasele :2063 ;
+           :hastime :2019-10-23T13_58_00p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2073 :hasloc (:45.806767 :6.424004) ;
+           :hasele :2073 ;
+           :hastime :2019-10-23T13_58_10p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2077 :hasloc (:45.806741 :6.424192) ;
+           :hasele :2077 ;
+           :hastime :2019-10-23T13_58_15p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2083 :hasloc (:45.806678 :6.42431) ;
+           :hasele :2083 ;
+           :hastime :2019-10-23T13_58_20p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2096 :hasloc (:45.806394 :6.424508) ;
+           :hasele :2096 ;
+           :hastime :2019-10-23T13_58_25p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2102 :hasloc (:45.805563 :6.424149) ;
+           :hasele :2102 ;
+           :hastime :2019-10-23T13_58_45p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2106 :hasloc (:45.803138 :6.414662) ;
+           :hasele :2106 ;
+           :hastime :2019-10-23T14_03_20p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt2108 :hasloc (:45.805395 :6.424074) ;
+           :hasele :2108 ;
+           :hastime :2019-10-23T13_58_50p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2117 :hasloc (:45.80521 :6.4242) ;
+           :hasele :2117 ;
+           :hastime :2019-10-23T13_58_55p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2123 :hasloc (:45.805195 :6.424318) ;
+           :hasele :2123 ;
+           :hastime :2019-10-23T13_59_00p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2122 :hasloc (:45.805091 :6.42421) ;
+           :hasele :2122 ;
+           :hastime :2019-10-23T13_59_05p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2135 :hasloc (:45.804866 :6.424264) ;
+           :hasele :2135 ;
+           :hastime :2019-10-23T13_59_10p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2139 :hasloc (:45.803251 :6.41523) ;
+           :hasele :2139 ;
+           :hastime :2019-10-23T14_02_55p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063, :nd6740242176 .
+
+:trkpt2153 :hasloc (:45.804694 :6.424457) ;
+           :hasele :2153 ;
+           :hastime :2019-10-23T13_59_20p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2166 :hasloc (:45.804567 :6.424629) ;
+           :hasele :2166 ;
+           :hastime :2019-10-23T13_59_25p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2177 :hasloc (:45.803572 :6.415853) ;
+           :hasele :2177 ;
+           :hastime :2019-10-23T14_02_25p02_00 ;
+           :hassurround :nd3620380062, :nd6740242176 .
+
+:trkpt2183 :hasloc (:45.80423 :6.424597) ;
+           :hasele :2183 ;
+           :hastime :2019-10-23T13_59_35p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2190 :hasloc (:45.80426 :6.424886) ;
+           :hasele :2190 ;
+           :hastime :2019-10-23T13_59_40p02_00 ;
+           :hassurround :nd510165500, :nd510165538, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2197 :hasloc (:45.804111 :6.424908) ;
+           :hasele :2197 ;
+           :hastime :2019-10-23T13_59_45p02_00 ;
+           :hassurround :nd510165500, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2210 :hasloc (:45.803812 :6.424886) ;
+           :hasele :2210 ;
+           :hastime :2019-10-23T13_59_50p02_00 ;
+           :hassurround :nd510165500, :nd1353700277, :nd3076387819, :nd6740242176 .
+
+:trkpt2225 :hasloc (:45.803497 :6.42494) ;
+           :hasele :2225 ;
+           :hastime :2019-10-23T13_59_55p02_00 ;
+           :hassurround :nd510165500, :nd1353700277, :nd6740242176 .
+
+:trkpt2285 :hasloc (:45.802473 :6.423792) ;
+           :hasele :2285 ;
+           :hastime :2019-10-23T14_00_00p02_00 ;
+           :hassurround :nd510165500, :nd1353700277, :nd6740242176 .
+
+:trkpt2315 :hasloc (:45.802248 :6.422805) ;
+           :hasele :2315 ;
+           :hastime :2019-10-23T14_00_05p02_00 ;
+           :hassurround :nd510165500, :nd1353700277, :nd6740242176 .
+
+:trkpt2326 :hasloc (:45.802159 :6.422494) ;
+           :hasele :2326 ;
+           :hastime :2019-10-23T14_00_10p02_00 ;
+           :hassurround :nd510165500, :nd1353700277, :nd6740242176 .
+
+:trkpt2331 :hasloc (:45.802174 :6.422333) ;
+           :hasele :2331 ;
+           :hastime :2019-10-23T14_00_15p02_00 ;
+           :hassurround :nd510165500, :nd1353700277, :nd6740242176 .
+
+:trkpt2343 :hasloc (:45.802114 :6.421893) ;
+           :hasele :2343 ;
+           :hastime :2019-10-23T14_00_20p02_00 ;
+           :hassurround :nd510165500, :nd1353700277, :nd6740242176 .
+
+:trkpt2350 :hasloc (:45.802204 :6.421668) ;
+           :hasele :2350 ;
+           :hastime :2019-10-23T14_00_25p02_00 ;
+           :hassurround :nd510165500, :nd6740242176 .
+
+:trkpt2364 :hasloc (:45.802211 :6.421131) ;
+           :hasele :2364 ;
+           :hastime :2019-10-23T14_00_30p02_00 ;
+           :hassurround :nd510165500, :nd6740242176 .
+
+:trkpt2384 :hasloc (:45.802323 :6.420166) ;
+           :hasele :2384 ;
+           :hastime :2019-10-23T14_00_35p02_00 ;
+           :hassurround :nd510165500, :nd6740242176 .
+
+:trkpt2383 :hasloc (:45.802592 :6.419844) ;
+           :hasele :2383 ;
+           :hastime :2019-10-23T14_00_40p02_00 ;
+           :hassurround :nd3620380062, :nd6740242176 .
+
+:trkpt2380 :hasloc (:45.8026 :6.419747) ;
+           :hasele :2380 ;
+           :hastime :2019-10-23T14_00_45p02_00 ;
+           :hassurround :nd3620380062, :nd6740242176 .
+
+:trkpt2354 :hasloc (:45.803266 :6.419318) ;
+           :hasele :2354 ;
+           :hastime :2019-10-23T14_00_50p02_00 ;
+           :hassurround :nd3620380062, :nd6740242176 .
+
+:trkpt2284 :hasloc (:45.804679 :6.418256) ;
+           :hasele :2284 ;
+           :hastime :2019-10-23T14_00_55p02_00 ;
+           :hassurround :nd510165538, :nd3076387819, :nd3620380062, :nd6740242176 .
+
+:trkpt2279 :hasloc (:45.804717 :6.418181) ;
+           :hasele :2279 ;
+           :hastime :2019-10-23T14_01_00p02_00 ;
+           :hassurround :nd510165538, :nd3076387819, :nd3620380062, :nd6740242176 .
+
+:trkpt2310 :hasloc (:45.804163 :6.418256) ;
+           :hasele :2310 ;
+           :hastime :2019-10-23T14_01_05p02_00 ;
+           :hassurround :nd510165538, :nd3076387819, :nd3620380062, :nd6740242176 .
+
+:trkpt2261 :hasloc (:45.804619 :6.417623) ;
+           :hasele :2261 ;
+           :hastime :2019-10-23T14_01_10p02_00 ;
+           :hassurround :nd510165538, :nd3076387819, :nd3620380062, :nd6740242176 .
+
+:trkpt2287 :hasloc (:45.804073 :6.417784) ;
+           :hasele :2287 ;
+           :hastime :2019-10-23T14_01_15p02_00 ;
+           :hassurround :nd3076387819, :nd3620380062, :nd6740242176 .
+
+:trkpt2249 :hasloc (:45.80435 :6.417215) ;
+           :hasele :2249 ;
+           :hastime :2019-10-23T14_01_20p02_00 ;
+           :hassurround :nd510165538, :nd3076387819, :nd3620380062, :nd6740242176 .
+
+:trkpt2265 :hasloc (:45.803931 :6.417365) ;
+           :hasele :2265 ;
+           :hastime :2019-10-23T14_01_25p02_00 ;
+           :hassurround :nd3076387819, :nd3620380062, :nd6740242176 .
+
+:trkpt2236 :hasloc (:45.804133 :6.416883) ;
+           :hasele :2236 ;
+           :hastime :2019-10-23T14_01_30p02_00 ;
+           :hassurround :nd510165538, :nd3076387819, :nd3620380062, :nd6740242176 .
+
+:trkpt2245 :hasloc (:45.803415 :6.417033) ;
+           :hasele :2245 ;
+           :hastime :2019-10-23T14_01_35p02_00 ;
+           :hassurround :nd3620380062, :nd6740242176 .
+
+:trkpt2231 :hasloc (:45.803303 :6.416818) ;
+           :hasele :2231 ;
+           :hastime :2019-10-23T14_01_40p02_00 ;
+           :hassurround :nd3620380062, :nd6740242176 .
+
+:trkpt2226 :hasloc (:45.803385 :6.416732) ;
+           :hasele :2226 ;
+           :hastime :2019-10-23T14_01_45p02_00 ;
+           :hassurround :nd3620380062, :nd6740242176 .
+
+:trkpt2223 :hasloc (:45.803378 :6.416689) ;
+           :hasele :2223 ;
+           :hastime :2019-10-23T14_01_50p02_00 ;
+           :hassurround :nd3620380062, :nd6740242176 .
+
+:trkpt2218 :hasloc (:45.803236 :6.416625) ;
+           :hasele :2218 ;
+           :hastime :2019-10-23T14_01_55p02_00 ;
+           :hassurround :nd3620380062, :nd6740242176 .
+
+:trkpt2209 :hasloc (:45.80334 :6.416432) ;
+           :hasele :2209 ;
+           :hastime :2019-10-23T14_02_00p02_00 ;
+           :hassurround :nd3620380062, :nd6740242176 .
+
+:trkpt2203 :hasloc (:45.803221 :6.416357) ;
+           :hasele :2203 ;
+           :hastime :2019-10-23T14_02_05p02_00 ;
+           :hassurround :nd3620380062, :nd6740242176 .
+
+:trkpt2199 :hasloc (:45.803355 :6.41625) ;
+           :hasele :2199 ;
+           :hastime :2019-10-23T14_02_10p02_00 ;
+           :hassurround :nd3620380062, :nd6740242176 .
+
+:trkpt2191 :hasloc (:45.803393 :6.41611) ;
+           :hasele :2191 ;
+           :hastime :2019-10-23T14_02_15p02_00 ;
+           :hassurround :nd3620380062, :nd6740242176 .
+
+:trkpt2188 :hasloc (:45.803557 :6.416056) ;
+           :hasele :2188 ;
+           :hastime :2019-10-23T14_02_20p02_00 ;
+           :hassurround :nd3620380062, :nd6740242176 .
+
+:trkpt2167 :hasloc (:45.803363 :6.415692) ;
+           :hasele :2167 ;
+           :hastime :2019-10-23T14_02_35p02_00 ;
+           :hassurround :nd3620380062, :nd6740242176 .
+
+:trkpt2154 :hasloc (:45.803408 :6.415466) ;
+           :hasele :2154 ;
+           :hastime :2019-10-23T14_02_40p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063, :nd6740242176 .
+
+:trkpt2151 :hasloc (:45.803288 :6.415434) ;
+           :hasele :2151 ;
+           :hastime :2019-10-23T14_02_45p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063, :nd6740242176 .
+
+:trkpt2142 :hasloc (:45.803221 :6.415295) ;
+           :hasele :2142 ;
+           :hastime :2019-10-23T14_02_50p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063, :nd6740242176 .
+
+:trkpt2134 :hasloc (:45.803213 :6.415155) ;
+           :hasele :2134 ;
+           :hastime :2019-10-23T14_03_00p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt2127 :hasloc (:45.803273 :6.415027) ;
+           :hasele :2127 ;
+           :hastime :2019-10-23T14_03_05p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt2119 :hasloc (:45.803183 :6.414898) ;
+           :hasele :2119 ;
+           :hastime :2019-10-23T14_03_10p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt2115 :hasloc (:45.803228 :6.414812) ;
+           :hasele :2115 ;
+           :hastime :2019-10-23T14_03_15p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt2086 :hasloc (:45.803273 :6.414243) ;
+           :hasele :2086 ;
+           :hastime :2019-10-23T14_03_25p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt2078 :hasloc (:45.803281 :6.414072) ;
+           :hasele :2078 ;
+           :hastime :2019-10-23T14_03_35p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt2033 :hasloc (:45.80352 :6.413203) ;
+           :hasele :2033 ;
+           :hastime :2019-10-23T14_03_50p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1994 :hasloc (:45.803857 :6.41243) ;
+           :hasele :1994 ;
+           :hastime :2019-10-23T14_04_00p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1987 :hasloc (:45.803804 :6.412301) ;
+           :hasele :1987 ;
+           :hastime :2019-10-23T14_04_05p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1976 :hasloc (:45.803916 :6.41213) ;
+           :hasele :1976 ;
+           :hastime :2019-10-23T14_04_10p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1969 :hasloc (:45.803916 :6.412022) ;
+           :hasele :1969 ;
+           :hastime :2019-10-23T14_04_15p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1964 :hasloc (:45.803976 :6.411937) ;
+           :hasele :1964 ;
+           :hastime :2019-10-23T14_04_20p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1965 :hasloc (:45.803886 :6.411937) ;
+           :hasele :1965 ;
+           :hastime :2019-10-23T14_04_25p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1956 :hasloc (:45.803961 :6.411797) ;
+           :hasele :1956 ;
+           :hastime :2019-10-23T14_04_30p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1949 :hasloc (:45.80364 :6.411572) ;
+           :hasele :1949 ;
+           :hastime :2019-10-23T14_04_40p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1921 :hasloc (:45.803512 :6.411046) ;
+           :hasele :1921 ;
+           :hastime :2019-10-23T14_04_45p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1904 :hasloc (:45.803819 :6.410799) ;
+           :hasele :1904 ;
+           :hastime :2019-10-23T14_05_05p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1908 :hasloc (:45.804604 :6.410992) ;
+           :hasele :1908 ;
+           :hastime :2019-10-23T14_05_30p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1897 :hasloc (:45.804148 :6.410703) ;
+           :hasele :1897 ;
+           :hastime :2019-10-23T14_05_15p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1899 :hasloc (:45.804223 :6.410756) ;
+           :hasele :1899 ;
+           :hastime :2019-10-23T14_05_20p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1898 :hasloc (:45.80438 :6.410756) ;
+           :hasele :1898 ;
+           :hastime :2019-10-23T14_05_25p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1909 :hasloc (:45.804791 :6.411035) ;
+           :hasele :1909 ;
+           :hastime :2019-10-23T14_05_35p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1903 :hasloc (:45.804859 :6.410917) ;
+           :hasele :1903 ;
+           :hastime :2019-10-23T14_05_40p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1888 :hasloc (:45.804963 :6.41051) ;
+           :hasele :1888 ;
+           :hastime :2019-10-23T14_05_55p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1883 :hasloc (:45.804948 :6.410359) ;
+           :hasele :1883 ;
+           :hastime :2019-10-23T14_06_00p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1880 :hasloc (:45.805091 :6.41022) ;
+           :hasele :1880 ;
+           :hastime :2019-10-23T14_06_05p02_00 ;
+           :hassurround :nd3620380062, :nd3620380063 .
+
+:trkpt1868 :hasloc (:45.805165 :6.409791) ;
+           :hasele :1868 ;
+           :hastime :2019-10-23T14_06_15p02_00 ;
+           :hassurround :nd3620380063 .
+
+:trkpt1836 :hasloc (:45.804866 :6.409008) ;
+           :hasele :1836 ;
+           :hastime :2019-10-23T14_06_20p02_00 ;
+           :hassurround :nd3620380063 .
+
+:trkpt1826 :hasloc (:45.804784 :6.408761) ;
+           :hasele :1826 ;
+           :hastime :2019-10-23T14_06_25p02_00 ;
+           :hassurround :nd3620380063 .
+
+:trkpt1816 :hasloc (:45.804679 :6.408546) ;
+           :hasele :1816 ;
+           :hastime :2019-10-23T14_06_30p02_00 ;
+           :hassurround :nd3620380063 .
+
+:trkpt1791 :hasloc (:45.804657 :6.407688) ;
+           :hasele :1791 ;
+           :hastime :2019-10-23T14_06_35p02_00 ;
+           :hassurround :nd3620380063 .
+
+:trkpt1758 :hasloc (:45.804817 :6.406073) ;
+           :hasele :1758 ;
+           :hastime :2019-10-23T14_06_45p02_00 ;
+           :hassurround :nd3620380063 .
+
+:trkpt1722 :hasloc (:45.805296 :6.404121) ;
+           :hasele :1722 ;
+           :hastime :2019-10-23T14_06_55p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1719 :hasloc (:45.805535 :6.403928) ;
+           :hasele :1719 ;
+           :hastime :2019-10-23T14_07_00p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1674 :hasloc (:45.805326 :6.401717) ;
+           :hasele :1674 ;
+           :hastime :2019-10-23T14_07_05p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1657 :hasloc (:45.804862 :6.400237) ;
+           :hasele :1657 ;
+           :hastime :2019-10-23T14_07_10p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1647 :hasloc (:45.804338 :6.399486) ;
+           :hasele :1647 ;
+           :hastime :2019-10-23T14_07_15p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338825 .
+
+:trkpt1640 :hasloc (:45.803381 :6.400451) ;
+           :hasele :1640 ;
+           :hastime :2019-10-23T14_07_35p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1635 :hasloc (:45.801571 :6.401889) ;
+           :hasele :1635 ;
+           :hastime :2019-10-23T14_07_45p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1631 :hasloc (:45.801167 :6.401739) ;
+           :hasele :1631 ;
+           :hastime :2019-10-23T14_07_50p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1611 :hasloc (:45.801406 :6.40043) ;
+           :hasele :1611 ;
+           :hastime :2019-10-23T14_07_55p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1606 :hasloc (:45.801481 :6.400065) ;
+           :hasele :1606 ;
+           :hastime :2019-10-23T14_08_00p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327 .
+
+:trkpt1586 :hasloc (:45.801646 :6.398799) ;
+           :hasele :1586 ;
+           :hastime :2019-10-23T14_08_05p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338825 .
+
+:trkpt1587 :hasloc (:45.801915 :6.398563) ;
+           :hasele :1587 ;
+           :hastime :2019-10-23T14_08_10p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338825 .
+
+:trkpt1580 :hasloc (:45.801736 :6.398413) ;
+           :hasele :1580 ;
+           :hastime :2019-10-23T14_08_15p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338825 .
+
+:trkpt1577 :hasloc (:45.80178 :6.398177) ;
+           :hasele :1577 ;
+           :hastime :2019-10-23T14_08_20p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338825 .
+
+:trkpt1557 :hasloc (:45.801706 :6.396932) ;
+           :hasele :1557 ;
+           :hastime :2019-10-23T14_08_30p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd1501509634, :nd5000338825 .
+
+:trkpt1551 :hasloc (:45.801616 :6.396653) ;
+           :hasele :1551 ;
+           :hastime :2019-10-23T14_08_35p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338824, :nd5000338825 .
+
+:trkpt1544 :hasloc (:45.80199 :6.395495) ;
+           :hasele :1544 ;
+           :hastime :2019-10-23T14_09_00p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd1501410816, :nd1501410817, :nd1501410818, :nd1501410820, :nd1501410821, :nd1501410822, :nd1501509634, :nd3076387820, :nd5000338824, :nd5000338825 .
+
+:trkpt1542 :hasloc (:45.801855 :6.395623) ;
+           :hasele :1542 ;
+           :hastime :2019-10-23T14_08_55p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd1501410816, :nd1501410817, :nd1501410818, :nd1501410820, :nd1501410821, :nd1501410822, :nd1501509634, :nd3076387820, :nd5000338824, :nd5000338825 .
+
+:trkpt1539 :hasloc (:45.80202 :6.395151) ;
+           :hasele :1539 ;
+           :hastime :2019-10-23T14_09_05p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd1501410816, :nd1501410817, :nd1501410818, :nd1501410820, :nd1501410821, :nd1501410822, :nd1501509634, :nd3076387820, :nd5000338824, :nd5000338825 .
+
+:trkpt1509 :hasloc (:45.798643 :6.395629) ;
+           :hasele :1509 ;
+           :hastime :2019-10-23T14_09_50p02_00 ;
+           :hassurround :nd5000338825 .
+
+:trkpt1521 :hasloc (:45.801197 :6.395151) ;
+           :hasele :1521 ;
+           :hastime :2019-10-23T14_09_25p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338824, :nd5000338825 .
+
+:trkpt1515 :hasloc (:45.800898 :6.395044) ;
+           :hasele :1515 ;
+           :hastime :2019-10-23T14_09_30p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338824, :nd5000338825 .
+
+:trkpt1523 :hasloc (:45.800027 :6.395371) ;
+           :hasele :1523 ;
+           :hastime :2019-10-23T14_09_35p02_00 ;
+           :hassurround :nd866408045, :nd1501410309, :nd1501410313, :nd1501410325, :nd1501410327, :nd5000338825 .
+
+:trkpt1517 :hasloc (:45.799189 :6.395554) ;
+           :hasele :1517 ;
+           :hastime :2019-10-23T14_09_45p02_00 ;
+           :hassurround :nd5000338825 .
+
+:trkpt1483 :hasloc (:45.798172 :6.394019) ;
+           :hasele :1483 ;
+           :hastime :2019-10-23T14_10_00p02_00 ;
+           :hassurround :nd5000338825 .
+
+:trkpt1462 :hasloc (:45.797828 :6.392421) ;
+           :hasele :1462 ;
+           :hastime :2019-10-23T14_10_10p02_00 ;
+           :hassurround :nd866408323, :nd4169838717, :nd4169843434, :nd4169843435, :nd4169843436, :nd4169843437, :nd5000338825, :nd5000338845 .
+
+:trkpt1455 :hasloc (:45.797087 :6.391691) ;
+           :hasele :1455 ;
+           :hastime :2019-10-23T14_10_20p02_00 ;
+           :hassurround :nd866408323, :nd4169838717, :nd4169843434, :nd4169843435, :nd4169843436, :nd4169843437, :nd5000338825, :nd5000338845 .
+
+:trkpt1449 :hasloc (:45.797125 :6.391305) ;
+           :hasele :1449 ;
+           :hastime :2019-10-23T14_10_25p02_00 ;
+           :hassurround :nd866408323, :nd4169838717, :nd4169843434, :nd4169843435, :nd4169843436, :nd4169843437, :nd5000338825, :nd5000338845 .
+
+:trkpt1446 :hasloc (:45.797095 :6.391048) ;
+           :hasele :1446 ;
+           :hastime :2019-10-23T14_10_30p02_00 ;
+           :hassurround :nd866408323, :nd4169838717, :nd4169843434, :nd4169843435, :nd4169843436, :nd4169843437, :nd5000338825, :nd5000338845 .
+
+:trkpt1423 :hasloc (:45.797701 :6.38932) ;
+           :hasele :1423 ;
+           :hastime :2019-10-23T14_10_40p02_00 ;
+           :hassurround :nd866408323, :nd4169838717, :nd4169843434, :nd4169843435, :nd4169843436, :nd4169843437, :nd5000338845 .
+
+:trkpt1415 :hasloc (:45.797761 :6.388666) ;
+           :hasele :1415 ;
+           :hastime :2019-10-23T14_10_45p02_00 ;
+           :hassurround :nd866408323, :nd4169838717, :nd4169843434, :nd4169843435, :nd4169843436, :nd4169843437, :nd5000338845 .
+
+:trkpt1396 :hasloc (:45.797963 :6.387475) ;
+           :hasele :1396 ;
+           :hastime :2019-10-23T14_10_50p02_00 ;
+           :hassurround :nd866408323, :nd4169838717, :nd4169843434, :nd4169843435, :nd4169843436, :nd4169843437, :nd5000338845 .
+
+:nd866408323 :hasloc (:45.7980567 :6.3875121) ;
+             :hasid :866408323 ;
+             :hasts :2016-05-06T14_26_39Z ;
+             :hasname :none ;
+             :isinterested :yes ;
+             :ontheway :way136864642, :way303283031, :way416154093, :way416154093, :way438551505 ;
+             :intherlt :none  .
+
+:nd4169843434 :hasloc (:45.7980752 :6.3875797) ;
+              :hasid :4169843434 ;
+              :hasts :2016-05-06T14_26_39Z ;
+              :hasname :none ;
+              :isinterested :yes ;
+              :ontheway :way303283031, :way416154093 ;
+              :intherlt :none  .
+
+:nd4169843437 :hasloc (:45.7979459 :6.3874287) ;
+              :hasid :4169843437 ;
+              :hasts :2018-07-06T15_25_05Z ;
+              :hasname :none ;
+              :isinterested :yes ;
+              :ontheway :way416154093 ;
+              :intherlt :none  .
+
+:nd1501410818 :hasloc (:45.8067780 :6.3921600) ;
+              :hasid :1501410818 ;
+              :hasts :2011-11-13T14_08_00Z ;
+              :hasname :none ;
+              :isinterested :yes ;
+              :ontheway :way136858534 ;
+              :intherlt :none  .
+
+:nd1501410327 :hasloc (:45.8047960 :6.3996980) ;
+              :hasid :1501410327 ;
+              :hasts :2011-11-13T14_07_47Z ;
+              :hasname :none ;
+              :isinterested :yes ;
+              :ontheway :way136858330 ;
+              :intherlt :none  .
+
+:nd1501410325 :hasloc (:45.8047930 :6.3996220) ;
+              :hasid :1501410325 ;
+              :hasts :2011-11-13T14_07_47Z ;
+              :hasname :none ;
+              :isinterested :yes ;
+              :ontheway :way136858330 ;
+              :intherlt :none  .
+
+:nd6740242176 :hasloc (:45.8023778 :6.4202003) ;
+              :hasid :6740242176 ;
+              :hasts :2019-08-23T21_47_15Z ;
+              :hasname :none ;
+              :isinterested :yes ;
+              :ontheway :none  ;
+              :intherlt :none  .
+
+:nd1501410816 :hasloc (:45.8067230 :6.3921100) ;
+              :hasid :1501410816 ;
+              :hasts :2011-11-13T14_08_00Z ;
+              :hasname :none ;
+              :isinterested :yes ;
+              :ontheway :way136858534 ;
+              :intherlt :none  .
+
+:nd3620380062 :hasloc (:45.8066366 :6.4150805) ;
+              :hasid :3620380062 ;
+              :hasts :2015-06-26T16_13_57Z ;
+              :hasname :Col_des_Porthets ;
+              :isinterested :yes ;
+              :ontheway :none  ;
+              :intherlt :none  .
+
+:nd510165500 :hasloc (:45.8060646 :6.4250006) ;
+             :hasid :510165500 ;
+             :hasts :2018-07-22T09_39_19Z ;
+             :hasname :Arête_du_Pas_de_lOurs ;
+             :isinterested :yes ;
+             :ontheway :way120807133, :way303283032, :way726952113 ;
+             :intherlt :none  .
+
+:nd4169843435 :hasloc (:45.7979902 :6.3878571) ;
+              :hasid :4169843435 ;
+              :hasts :2016-05-06T14_26_39Z ;
+              :hasname :none ;
+              :isinterested :yes ;
+              :ontheway :way416154093 ;
+              :intherlt :none  .
+
+:nd1353700277 :hasloc (:45.8029545 :6.4266853) ;
+              :hasid :1353700277 ;
+              :hasts :2016-10-23T22_47_03Z ;
+              :hasname :Le_Pas_de_lOurs ;
+              :isinterested :yes ;
+              :ontheway :way120807135 ;
+              :intherlt :none  .
+
+:nd510165538 :hasloc (:45.8091198 :6.4204320) ;
+             :hasid :510165538 ;
+             :hasts :2014-09-14T08_56_32Z ;
+             :hasname :Pas_du_Lac ;
+             :isinterested :yes ;
+             :ontheway :way41573637, :way303283034, :way726948347 ;
+             :intherlt :none  .
+
+:nd3076387820 :hasloc (:45.8068319 :6.3925760) ;
+              :hasid :3076387820 ;
+              :hasts :2017-07-28T16_54_02Z ;
+              :hasname :Les_Fontanettes ;
+              :isinterested :yes ;
+              :ontheway :none  ;
+              :intherlt :none  .
+
+:nd5000338825 :hasloc (:45.8013858 :6.3949818) ;
+              :hasid :5000338825 ;
+              :hasts :2017-07-28T16_54_01Z ;
+              :hasname :La_Praz ;
+              :isinterested :yes ;
+              :ontheway :none  ;
+              :intherlt :none  .
+
+:nd1501410817 :hasloc (:45.8067600 :6.3920290) ;
+              :hasid :1501410817 ;
+              :hasts :2011-11-13T14_08_00Z ;
+              :hasname :none ;
+              :isinterested :yes ;
+              :ontheway :way136858534 ;
+              :intherlt :none  .
+
+:nd866408045 :hasloc (:45.8045233 :6.3996719) ;
+             :hasid :866408045 ;
+             :hasts :2015-06-26T16_14_03Z ;
+             :hasname :LAulp_de_Marlens ;
+             :isinterested :yes ;
+             :ontheway :way303283031, :way303283033 ;
+             :intherlt :none  .
+
+:nd1501410822 :hasloc (:45.8068200 :6.3920560) ;
+              :hasid :1501410822 ;
+              :hasts :2011-11-13T14_08_00Z ;
+              :hasname :none ;
+              :isinterested :yes ;
+              :ontheway :way136858534, :way136858534 ;
+              :intherlt :none  .
+
+:nd1501410313 :hasloc (:45.8047500 :6.3997010) ;
+              :hasid :1501410313 ;
+              :hasts :2011-11-13T14_07_46Z ;
+              :hasname :none ;
+              :isinterested :yes ;
+              :ontheway :way136858330 ;
+              :intherlt :none  .
+
+:nd3620380063 :hasloc (:45.8049140 :6.4105760) ;
+              :hasid :3620380063 ;
+              :hasts :2017-07-28T16_54_02Z ;
+              :hasname :Pied_de_la_Combe ;
+              :isinterested :yes ;
+              :ontheway :none  ;
+              :intherlt :none  .
+
+:nd1501410821 :hasloc (:45.8068000 :6.3920380) ;
+              :hasid :1501410821 ;
+              :hasts :2011-11-13T14_08_00Z ;
+              :hasname :none ;
+              :isinterested :yes ;
+              :ontheway :way136858534 ;
+              :intherlt :none  .
+
+:nd1501410820 :hasloc (:45.8067940 :6.3920540) ;
+              :hasid :1501410820 ;
+              :hasts :2011-11-13T14_08_00Z ;
+              :hasname :none ;
+              :isinterested :yes ;
+              :ontheway :way136858534 ;
+              :intherlt :none  .
+
+:nd5000338824 :hasloc (:45.8052108 :6.3917434) ;
+              :hasid :5000338824 ;
+              :hasts :2017-07-28T16_54_00Z ;
+              :hasname :Les_Fontanettes_(Sud) ;
+              :isinterested :yes ;
+              :ontheway :none  ;
+              :intherlt :none  .
+
+:nd1501410309 :hasloc (:45.8047450 :6.3996230) ;
+              :hasid :1501410309 ;
+              :hasts :2011-11-13T14_07_46Z ;
+              :hasname :none ;
+              :isinterested :yes ;
+              :ontheway :way136858330, :way136858330 ;
+              :intherlt :none  .
+
+:nd3076387819 :hasloc (:45.8086982 :6.4208460) ;
+              :hasid :3076387819 ;
+              :hasts :2014-09-14T08_56_30Z ;
+              :hasname :Lac_du_Charvin ;
+              :isinterested :yes ;
+              :ontheway :way726948347 ;
+              :intherlt :none  .
+
+:nd5000338845 :hasloc (:45.7980862 :6.3875781) ;
+              :hasid :5000338845 ;
+              :hasts :2017-07-28T16_54_01Z ;
+              :hasname :Les_Sardoches_(Parking) ;
+              :isinterested :yes ;
+              :ontheway :none  ;
+              :intherlt :none  .
+
+:nd4169838717 :hasloc (:45.7979475 :6.3878325) ;
+              :hasid :4169838717 ;
+              :hasts :2016-05-06T14_22_45Z ;
+              :hasname :none ;
+              :isinterested :yes ;
+              :ontheway :way416153441, :way416154093 ;
+              :intherlt :none  .
+
+:nd4169843436 :hasloc (:45.7979206 :6.3878046) ;
+              :hasid :4169843436 ;
+              :hasts :2016-05-06T14_26_39Z ;
+              :hasname :none ;
+              :isinterested :yes ;
+              :ontheway :way416154093 ;
+              :intherlt :none  .
+
+:nd1501509634 :hasloc (:45.8066759 :6.3925429) ;
+              :hasid :1501509634 ;
+              :hasts :2011-11-13T15_14_45Z ;
+              :hasname :none ;
+              :isinterested :yes ;
+              :ontheway :none  ;
+              :intherlt :none  .
+
+:way438551505 :hasid :438551505 ;
+              :hasname :none ;
+              :isinterested :no ;
+              :hasnd :nd1499364074, :nd1499364066, :nd1499364065, :nd1499364063, :nd1499364062, :nd1499364060, :nd1499364058, :nd1499364057, :nd1499364054, :nd1499364046, :nd1499364044, :nd1499364043, :nd1499364041, :nd1499364039, :nd1499364037, :nd1499364035, :nd1499364024, :nd1499364023, :nd1499364022, :nd1499364021, :nd1499364019, :nd1499364017, :nd1499364016, :nd1499364014, :nd1499364002, :nd1499364001, :nd1499364000, :nd1499363999, :nd1499363998, :nd1499363997, :nd1499363996, :nd1499363983, :nd1499363980, :nd1499363977, :nd1499363976, :nd1499363975, :nd1499363974, :nd1499363973, :nd1499363972, :nd1499363962, :nd1499363959, :nd1499363957, :nd1499363954, :nd1499363952, :nd1499363950, :nd1499363949, :nd1499363948, :nd1499363938, :nd1499363936, :nd1499363933, :nd1499363932, :nd1499363930, :nd1499363928, :nd1499363927, :nd1499363917, :nd1499363914, :nd1499363912, :nd1499363911, :nd1499363909, :nd1499363907, :nd1499363905, :nd1499363903, :nd1499363898, :nd1499363896, :nd1499363894, :nd1499363892, :nd1499363890, :nd1499363888, :nd1499363885, :nd1499363873, :nd1499363870, :nd1499363862, :nd1499363860, :nd1499363855, :nd1499363854, :nd1499363846, :nd1499363844, :nd1499363848, :nd1499363856, :nd1499363866, :nd1499363877, :nd1499363881, :nd1499363883, :nd1499363879, :nd1499363875, :nd1499363872, :nd1499363864, :nd1499363858, :nd1499363842, :nd1499363841, :nd1499363840, :nd1499363839, :nd1499363833, :nd1499363829, :nd1499363828, :nd1499363827, :nd1499363826, :nd1499363825, :nd1499363824, :nd1499363823, :nd1499363822, :nd1499363821, :nd1499363820, :nd1499363819, :nd1499363818, :nd1499363817, :nd1499363816, :nd1499363815, :nd1499363814, :nd1499363813, :nd1499363812, :nd1499363811, :nd1499363810, :nd1499363809, :nd1499363808, :nd1499363807, :nd1499363806, :nd1499363805, :nd1499363802, :nd1499363801, :nd1499363803, :nd1499363804, :nd1499363800, :nd1499363799, :nd1499363798, :nd1499363797, :nd1499363796, :nd1499363795, :nd1499363794, :nd1499363793, :nd1499363792, :nd1499363791, :nd1499363790, :nd1499363789, :nd1499363788, :nd1499363787, :nd1499363786, :nd1499363785, :nd1499363784, :nd1499363783, :nd1499363782, :nd1499363781, :nd866408323 ;
+              :intherlt :none  .
+
+:way120807133 :hasid :120807133 ;
+              :hasname :none ;
+              :isinterested :no ;
+              :hasnd :nd510165500, :nd5776612211, :nd5776612207, :nd5776612210, :nd5776612209, :nd5776612208, :nd5776612206 ;
+              :intherlt :none  .
+
+:way303283033 :hasid :303283033 ;
+              :hasname :none ;
+              :isinterested :no ;
+              :hasnd :nd866407937, :nd866407938, :nd866407940, :nd866407941, :nd866407943, :nd866407945, :nd866407948, :nd866407949, :nd866407952, :nd866407954, :nd866407956, :nd866407959, :nd866407960, :nd866407962, :nd866407973, :nd866407976, :nd866407980, :nd866407982, :nd866407984, :nd866407986, :nd866407987, :nd866407988, :nd866407989, :nd866407991, :nd866407992, :nd866407996, :nd866407997, :nd866408001, :nd866408003, :nd866408005, :nd866408010, :nd866408012, :nd866408014, :nd866408018, :nd866408020, :nd866408021, :nd866408031, :nd866408034, :nd866408037, :nd866408038, :nd866408040, :nd866408043, :nd866408045 ;
+              :intherlt :none  .
+
+:way726948347 :hasid :726948347 ;
+              :hasname :none ;
+              :isinterested :no ;
+              :hasnd :nd510165518, :nd510165517, :nd510165516, :nd6695592968, :nd510165515, :nd510165514, :nd510165499, :nd510165498, :nd5748715933, :nd510165497, :nd6695592939, :nd6695592940, :nd6695592943, :nd510165495, :nd6695592942, :nd510165494, :nd6695592966, :nd6695592941, :nd510165493, :nd510165555, :nd510165554, :nd510165527, :nd510165526, :nd510165525, :nd3076387819, :nd510165524, :nd5748715209, :nd510165542, :nd510165541, :nd510165540, :nd510165539, :nd510165538 ;
+              :intherlt :none  .
+
+:way136858330 :hasid :136858330 ;
+              :hasname :none ;
+              :isinterested :yes ;
+              :hasnd :nd1501410309, :nd1501410313, :nd1501410327, :nd1501410325, :nd1501410309 ;
+              :intherlt :none  .
+
+:way726952113 :hasid :726952113 ;
+              :hasname :none ;
+              :isinterested :no ;
+              :hasnd :nd5776612222, :nd510165509, :nd510165507, :nd510165492, :nd510165506, :nd510165491, :nd510165489, :nd510165488, :nd510165505, :nd510165504, :nd510165501, :nd510165500 ;
+              :intherlt :none  .
+
+:way416154093 :hasid :416154093 ;
+              :hasname :none ;
+              :isinterested :yes ;
+              :hasnd :nd866408323, :nd4169843434, :nd4169843435, :nd4169838717, :nd4169843436, :nd4169843437, :nd866408323 ;
+              :intherlt :none  .
+
+:way303283031 :hasid :303283031 ;
+              :hasname :none ;
+              :isinterested :no ;
+              :hasnd :nd866408045, :nd1499383637, :nd5908192973, :nd866408048, :nd5908189512, :nd866408050, :nd866408052, :nd866408055, :nd866408057, :nd866408059, :nd866408060, :nd866408064, :nd866408065, :nd866408068, :nd866408069, :nd866408072, :nd866408074, :nd866408075, :nd866408076, :nd866408088, :nd866408089, :nd866408093, :nd866408095, :nd866408097, :nd866408098, :nd866408099, :nd866408100, :nd866408102, :nd866408104, :nd866408107, :nd866408109, :nd866408112, :nd866408114, :nd866408116, :nd866408119, :nd866408122, :nd866408125, :nd866408128, :nd866408129, :nd866408132, :nd866408138, :nd866408139, :nd866408141, :nd866408143, :nd866408144, :nd866408146, :nd866408148, :nd866408149, :nd866408151, :nd866408153, :nd866408154, :nd866408157, :nd866408159, :nd866408160, :nd866408161, :nd866408162, :nd866408164, :nd866408166, :nd866408167, :nd866408170, :nd866408172, :nd866408173, :nd866408183, :nd866408187, :nd866408189, :nd866408193, :nd866408197, :nd866408202, :nd866408206, :nd866408208, :nd866408210, :nd866408212, :nd866408214, :nd866408215, :nd866408218, :nd866408219, :nd866408222, :nd866408224, :nd866408228, :nd866408230, :nd866408234, :nd866408236, :nd866408239, :nd866408241, :nd866408250, :nd866408251, :nd866408252, :nd866408254, :nd866408255, :nd866408257, :nd866408258, :nd866408259, :nd866408260, :nd866408261, :nd866408262, :nd866408263, :nd866408264, :nd866408266, :nd866408269, :nd866408271, :nd866408274, :nd866408276, :nd866408281, :nd866408283, :nd866408286, :nd866408294, :nd866408297, :nd866408299, :nd866408300, :nd866408301, :nd866408302, :nd866408303, :nd866408304, :nd866408306, :nd866408308, :nd866408310, :nd866408311, :nd866408314, :nd866408315, :nd866408318, :nd866408320, :nd866408321, :nd4169843434, :nd866408323 ;
+              :intherlt :none  .
+
+:way136864642 :hasid :136864642 ;
+              :hasname :none ;
+              :isinterested :no ;
+              :hasnd :nd1501487235, :nd1501487215, :nd1501487213, :nd1501487195, :nd1501487177, :nd1501487168, :nd1501487154, :nd1501487150, :nd1501487139, :nd1501487137, :nd1501487129, :nd1501487121, :nd1501487113, :nd1501487108, :nd1501487084, :nd1501487070, :nd1501487063, :nd1501487043, :nd1501487023, :nd1501487019, :nd1501487021, :nd1501487029, :nd1501487031, :nd1501487042, :nd1501487046, :nd1501487054, :nd1501487055, :nd1501487052, :nd1501487048, :nd1501487015, :nd1501487012, :nd1501487008, :nd1501487010, :nd1501487017, :nd1501487025, :nd1501487032, :nd1501487036, :nd1501487038, :nd1501487050, :nd1501487062, :nd1501487068, :nd1501487075, :nd1501487087, :nd1501487089, :nd1501487096, :nd1501487098, :nd1501487107, :nd1501487110, :nd5743855894, :nd1501487111, :nd1501487116, :nd1501487118, :nd1501487120, :nd1501487122, :nd1501487124, :nd1501487131, :nd1501487134, :nd1501487149, :nd1501487156, :nd1501487170, :nd1501487182, :nd1501487184, :nd1501487194, :nd1501487197, :nd1501487202, :nd1501487219, :nd1501487240, :nd1501487246, :nd1501487252, :nd1501487255, :nd1501487258, :nd1501487259, :nd1501487270, :nd1501487284, :nd1501487300, :nd1501487306, :nd1501487316, :nd1501487334, :nd1501487335, :nd1501487339, :nd1501487346, :nd1501487350, :nd1501487352, :nd1501487358, :nd1501487361, :nd1501487367, :nd1501487372, :nd1501487374, :nd1501487377, :nd1501487386, :nd1501487388, :nd1501487390, :nd1501487392, :nd1501487393, :nd1501487395, :nd1501487404, :nd1501487406, :nd1501487410, :nd1501487420, :nd1501487421, :nd1501487409, :nd1501487412, :nd1501487415, :nd1501487419, :nd1501487424, :nd1501487426, :nd1501487431, :nd1501487451, :nd1501487465, :nd1501487469, :nd1501487489, :nd1501487494, :nd1501487498, :nd1501487503, :nd1501487505, :nd1501487512, :nd1501487516, :nd1501487518, :nd1501487522, :nd1501487525, :nd1501487530, :nd1501487534, :nd3620380075, :nd1501487536, :nd1501487538, :nd1501487541, :nd1501487543, :nd1501487544, :nd1501487545, :nd1501487549, :nd1501487551, :nd1501487553, :nd2661390799, :nd1501487555, :nd1501487557, :nd1501487558, :nd1501487561, :nd1501487565, :nd1501487570, :nd1501487573, :nd1501487577, :nd1501487580, :nd1501487584, :nd1501487586, :nd1501487587, :nd1501487588, :nd1501487599, :nd1501487601, :nd1501487603, :nd1501487605, :nd1501487600, :nd1501487589, :nd1501487591, :nd1501487592, :nd1501487602, :nd1501487635, :nd1501487637, :nd1501487642, :nd1501487645, :nd1501487647, :nd1501487649, :nd1501487656, :nd1501487657, :nd1501487658, :nd1501487661, :nd1501487663, :nd1501487665, :nd1501487679, :nd1501487684, :nd1501487688, :nd1501487690, :nd1501487691, :nd1501487705, :nd1501487707, :nd1501487706, :nd1501487702, :nd1501487689, :nd1501487686, :nd1501487682, :nd1501487677, :nd1501487667, :nd1501487660, :nd1501487655, :nd1501487648, :nd1501487646, :nd1501487643, :nd1501487640, :nd1501487629, :nd1501487628, :nd1501487627, :nd1501487626, :nd1501487623, :nd1501487620, :nd1501487618, :nd1501487617, :nd1501487616, :nd1501487612, :nd1501487609, :nd1501487606, :nd1501487582, :nd1501487574, :nd1501487572, :nd1501487567, :nd1501487563, :nd1501487560, :nd1501487556, :nd1501487554, :nd1501487550, :nd1501487546, :nd1501487532, :nd1501487524, :nd1501487520, :nd1501487514, :nd1501487510, :nd1501487501, :nd1501487496, :nd1501487492, :nd1501487487, :nd1501487472, :nd1501487445, :nd1501487442, :nd1501487422, :nd1501487408, :nd1501487407, :nd1501487405, :nd1501487402, :nd1501487397, :nd1501487396, :nd1501487394, :nd1501487376, :nd1501487375, :nd1501487373, :nd1501487370, :nd1501487368, :nd1501487362, :nd1501487360, :nd1501487356, :nd1501487354, :nd1501487348, :nd1501487344, :nd1501487342, :nd1501487337, :nd1501487333, :nd1501487322, :nd1501487320, :nd1501487313, :nd1501487311, :nd1501487308, :nd1501487303, :nd1501487297, :nd1501487294, :nd1501487283, :nd1501487280, :nd1501487273, :nd1501487261, :nd1501487242, :nd1501487218, :nd1501487192, :nd1501487174, :nd1501487148, :nd1501487138, :nd1501487136, :nd1501487127, :nd1501487123, :nd1501487119, :nd1501487114, :nd1501487105, :nd1501487093, :nd1501487091, :nd1501487079, :nd1501487066, :nd1501487045, :nd1501487037, :nd1501487035, :nd1501487030, :nd1501487007, :nd1501487001, :nd1501486994, :nd1501486987, :nd1501486982, :nd1501486979, :nd1501486978, :nd1501486981, :nd1501486984, :nd1501486989, :nd1501486991, :nd1501486998, :nd1501487034, :nd1501487064, :nd1501487073, :nd1501487077, :nd1501487085, :nd1501487094, :nd1501487109, :nd1501487112, :nd1501487117, :nd1501487125, :nd1501487135, :nd1501487147, :nd1501487159, :nd1501487201, :nd1501487217, :nd1501487224, :nd1501487232, :nd1501487238, :nd1501487234, :nd1501487231, :nd866408323 ;
+              :intherlt :none  .
+
+:way416153441 :hasid :416153441 ;
+              :hasname :none ;
+              :isinterested :no ;
+              :hasnd :nd866408222, :nd4169837887, :nd4169837888, :nd4169838689, :nd4169838690, :nd4169838691, :nd4169838692, :nd4169838693, :nd4169838694, :nd4169838695, :nd4169838696, :nd4169838697, :nd4169838698, :nd4169838699, :nd4169838700, :nd4169838701, :nd4169838702, :nd4169838703, :nd4169838704, :nd4169838705, :nd4169838706, :nd4169838707, :nd4169838708, :nd4169838709, :nd4169838710, :nd4169838711, :nd4169838712, :nd4169838713, :nd4169838714, :nd4169838715, :nd4169838716, :nd4169838717 ;
+              :intherlt :none  .
+
+:way41573637 :hasid :41573637 ;
+             :hasname :none ;
+             :isinterested :no ;
+             :hasnd :nd510165538, :nd510165544, :nd510165543, :nd510165531, :nd510165530, :nd510165529, :nd510165528, :nd510165522, :nd510165521, :nd510165520, :nd510165519, :nd510165413, :nd510165412, :nd510165410, :nd510165408, :nd510165406, :nd510165404, :nd510165333, :nd510165332, :nd510165339, :nd510165338, :nd510165331, :nd510165336, :nd510165330, :nd510165329 ;
+             :intherlt :none  .
+
+:way303283034 :hasid :303283034 ;
+              :hasname :none ;
+              :isinterested :no ;
+              :hasnd :nd510165538, :nd510165537, :nd510165536, :nd510165535, :nd510165534 ;
+              :intherlt :none  .
+
+:way303283032 :hasid :303283032 ;
+              :hasname :none ;
+              :isinterested :no ;
+              :hasnd :nd510165500, :nd6695592967, :nd510165518 ;
+              :intherlt :none  .
+
+:way120807135 :hasid :120807135 ;
+              :hasname :none ;
+              :isinterested :no ;
+              :hasnd :nd1353700292, :nd1353700283, :nd1353700282, :nd1353700281, :nd1353700280, :nd1353700279, :nd1353700278, :nd1353700277 ;
+              :intherlt :none  .
+
+:way136858534 :hasid :136858534 ;
+              :hasname :none ;
+              :isinterested :yes ;
+              :hasnd :nd1501410822, :nd1501410821, :nd1501410820, :nd1501410817, :nd1501410816, :nd1501410818, :nd1501410822 ;
+              :intherlt :none  .
+

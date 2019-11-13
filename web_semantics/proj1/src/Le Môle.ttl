@@ -1,0 +1,2083 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@prefix : <http://www.topografix.com/GPX/1/1> .
+@prefix osm: <https://www.openstreetmap.org/export> .
+@prefix dbpedia: <http://dbpedia.org/ontology/> .
+@prefix wikidata: <https://www.wikidata.org/wiki/> .
+@prefix wikipedia: <https://en.wikipedia.org/wiki/> .
+
+:trkLeMôle a :GPXtrack .
+
+:trkLeMôle :hasname "Le Môle"^^xsd:string .
+
+:trkLeMôle :haswpt :wpt1262, :wpt1529, :wpt1754, :wpt1825, :wpt1547, :wpt1440 .
+
+:trkLeMôle :hastrkpt :trkpt1148, :trkpt1152, :trkpt1166, :trkpt1167, :trkpt1170, :trkpt1181, :trkpt1186, :trkpt1192, :trkpt1202, :trkpt1209, :trkpt1216, :trkpt1233, :trkpt1241, :trkpt1247, :trkpt1243, :trkpt1251, :trkpt1254, :trkpt1262, :trkpt1269, :trkpt1277, :trkpt1272, :trkpt1266, :trkpt1268, :trkpt1274, :trkpt1282, :trkpt1298, :trkpt1304, :trkpt1316, :trkpt1343, :trkpt1372, :trkpt1387, :trkpt1408, :trkpt1423, :trkpt1421, :trkpt1427, :trkpt1435, :trkpt1441, :trkpt1445, :trkpt1453, :trkpt1465, :trkpt1476, :trkpt1491, :trkpt1499, :trkpt1508, :trkpt1512, :trkpt1503, :trkpt1502, :trkpt1506, :trkpt1521, :trkpt1527, :trkpt1531, :trkpt1529, :trkpt1534, :trkpt1542, :trkpt1547, :trkpt1552, :trkpt1557, :trkpt1566, :trkpt1572, :trkpt1563, :trkpt1576, :trkpt1592, :trkpt1594, :trkpt1603, :trkpt1593, :trkpt1595, :trkpt1602, :trkpt1615, :trkpt1624, :trkpt1627, :trkpt1629, :trkpt1626, :trkpt1631, :trkpt1653, :trkpt1682, :trkpt1707, :trkpt1703, :trkpt1723, :trkpt1722, :trkpt1721, :trkpt1744, :trkpt1752, :trkpt1754, :trkpt1764, :trkpt1771, :trkpt1791, :trkpt1812, :trkpt1823, :trkpt1826, :trkpt1838, :trkpt1846, :trkpt1843, :trkpt1825, :trkpt1835, :trkpt1827, :trkpt1820, :trkpt1816, :trkpt1773, :trkpt1765, :trkpt1728, :trkpt1714, :trkpt1683, :trkpt1650, :trkpt1634, :trkpt1620, :trkpt1596, :trkpt1571, :trkpt1561, :trkpt1559, :trkpt1549, :trkpt1548, :trkpt1543, :trkpt1538, :trkpt1539, :trkpt1537, :trkpt1519, :trkpt1505, :trkpt1507, :trkpt1487, :trkpt1452, :trkpt1442, :trkpt1440, :trkpt1447, :trkpt1397, :trkpt1382, :trkpt1374, :trkpt1356, :trkpt1353, :trkpt1361, :trkpt1364, :trkpt1337, :trkpt1331, :trkpt1327, :trkpt1344, :trkpt1330, :trkpt1310, :trkpt1296, :trkpt1253, :trkpt1252, :trkpt1265, :trkpt1270, :trkpt1244, :trkpt1228, :trkpt1213, :trkpt1205, :trkpt1193, :trkpt1183, :trkpt1180, :trkpt1175, :trkpt1172, :trkpt1149, :trkpt1150 .
+
+:trkLeMôle :hassurroundingnds osm:nd1601567439, osm:nd6665798106, osm:nd1601567456, osm:nd1601567446, osm:nd5982950561, osm:nd6665995069, osm:nd1601567451, osm:nd6665798104, osm:nd5982950563, osm:nd6665798108, osm:nd6665798105, osm:nd5982950559, osm:nd6665995060, osm:nd5982950556, osm:nd6665995066, osm:nd1601567459, osm:nd6665995067, osm:nd5982950572, osm:nd5982950564, osm:nd6665995057, osm:nd5982950575, osm:nd5982950573, osm:nd1601567458, osm:nd6665995058, osm:nd6665995070, osm:nd1601567438, osm:nd5982950557, osm:nd6665995062, osm:nd6665995064, osm:nd5982950579, osm:nd5982950558, osm:nd6665995068, osm:nd6665995055, osm:nd1601567449, osm:nd1601567447, osm:nd6665995072, osm:nd6665799380, osm:nd5982950555, osm:nd5982950574, osm:nd6665995065, osm:nd6665995063, osm:nd1601567454, osm:nd5982950562, osm:nd6665798107, osm:nd6665995059, osm:nd6665995056, osm:nd5982950560, osm:nd5982950565, osm:nd6665995061 .
+
+:trkLeMôle :hassurroundingways osm:way709244359, osm:way146958632, osm:way633874972, osm:way709263683, osm:way633874970, osm:way709263685 .
+
+:trkLeMôle :hassurroundingrlts osm:none .
+
+:wpt1262 :haslat "46.103485"^^xsd:float ;
+         :haslon "6.440524"^^xsd:float ;
+         :hasele "1262"^^xsd:integer ;
+         :hastime "2019-10-23T13:40:34+02:00"^^xsd:dateTime ;
+         :hasname "Intersection aller"^^xsd:string .
+
+:wpt1529 :haslat "46.100194"^^xsd:float ;
+         :haslon "6.452826"^^xsd:float ;
+         :hasele "1529"^^xsd:integer ;
+         :hastime "2019-10-23T13:43:44+02:00"^^xsd:dateTime ;
+         :hasname "La Lardère"^^xsd:string .
+
+:wpt1754 :haslat "46.106849"^^xsd:float ;
+         :haslon "6.451299"^^xsd:float ;
+         :hasele "1754"^^xsd:integer ;
+         :hastime "2019-10-23T13:46:29+02:00"^^xsd:dateTime ;
+         :hasname "Carrefour sous le Môle"^^xsd:string .
+
+:wpt1825 :haslat "46.105751"^^xsd:float ;
+         :haslon "6.457551"^^xsd:float ;
+         :hasele "1825"^^xsd:integer ;
+         :hastime "2019-10-23T13:47:19+02:00"^^xsd:dateTime ;
+         :hasname "Sommet du Môle"^^xsd:string .
+
+:wpt1547 :haslat "46.110241"^^xsd:float ;
+         :haslon "6.445273"^^xsd:float ;
+         :hasele "1547"^^xsd:integer ;
+         :hastime "2019-10-23T13:49:04+02:00"^^xsd:dateTime ;
+         :hasname "Plan Meulet"^^xsd:string .
+
+:wpt1440 :haslat "46.107772"^^xsd:float ;
+         :haslon "6.443167"^^xsd:float ;
+         :hasele "1440"^^xsd:integer ;
+         :hastime "2019-10-23T13:50:24+02:00"^^xsd:dateTime ;
+         :hasname "Intersection retour"^^xsd:string .
+
+:trkpt1148 :haslat "46.099195"^^xsd:float ;
+           :haslon "6.438214"^^xsd:float ;
+           :hasele "1148"^^xsd:integer ;
+           :hastime "2019-10-23T13:39:04+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1152 :haslat "46.099135"^^xsd:float ;
+           :haslon "6.438471"^^xsd:float ;
+           :hasele "1152"^^xsd:integer ;
+           :hastime "2019-10-23T13:39:09+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1166 :haslat "46.099232"^^xsd:float ;
+           :haslon "6.439047"^^xsd:float ;
+           :hasele "1166"^^xsd:integer ;
+           :hastime "2019-10-23T13:53:34+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1167 :haslat "46.099026"^^xsd:float ;
+           :haslon "6.439573"^^xsd:float ;
+           :hasele "1167"^^xsd:integer ;
+           :hastime "2019-10-23T13:39:19+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1170 :haslat "46.098957"^^xsd:float ;
+           :haslon "6.439959"^^xsd:float ;
+           :hasele "1170"^^xsd:integer ;
+           :hastime "2019-10-23T13:39:24+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1181 :haslat "46.099373"^^xsd:float ;
+           :haslon "6.439573"^^xsd:float ;
+           :hasele "1181"^^xsd:integer ;
+           :hastime "2019-10-23T13:39:29+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1186 :haslat "46.09977"^^xsd:float ;
+           :haslon "6.439201"^^xsd:float ;
+           :hasele "1186"^^xsd:integer ;
+           :hastime "2019-10-23T13:39:34+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1192 :haslat "46.100097"^^xsd:float ;
+           :haslon "6.439101"^^xsd:float ;
+           :hasele "1192"^^xsd:integer ;
+           :hastime "2019-10-23T13:39:39+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1202 :haslat "46.100772"^^xsd:float ;
+           :haslon "6.438954"^^xsd:float ;
+           :hasele "1202"^^xsd:integer ;
+           :hastime "2019-10-23T13:39:44+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1209 :haslat "46.101268"^^xsd:float ;
+           :haslon "6.439083"^^xsd:float ;
+           :hasele "1209"^^xsd:integer ;
+           :hastime "2019-10-23T13:39:49+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1216 :haslat "46.101704"^^xsd:float ;
+           :haslon "6.439226"^^xsd:float ;
+           :hasele "1216"^^xsd:integer ;
+           :hastime "2019-10-23T13:39:54+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1233 :haslat "46.102379"^^xsd:float ;
+           :haslon "6.439755"^^xsd:float ;
+           :hasele "1233"^^xsd:integer ;
+           :hastime "2019-10-23T13:39:59+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1241 :haslat "46.102706"^^xsd:float ;
+           :haslon "6.439998"^^xsd:float ;
+           :hasele "1241"^^xsd:integer ;
+           :hastime "2019-10-23T13:40:04+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1247 :haslat "46.103309"^^xsd:float ;
+           :haslon "6.440148"^^xsd:float ;
+           :hasele "1247"^^xsd:integer ;
+           :hastime "2019-10-23T13:52:39+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1243 :haslat "46.103567"^^xsd:float ;
+           :haslon "6.439991"^^xsd:float ;
+           :hasele "1243"^^xsd:integer ;
+           :hastime "2019-10-23T13:52:34+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1251 :haslat "46.103792"^^xsd:float ;
+           :haslon "6.440152"^^xsd:float ;
+           :hasele "1251"^^xsd:integer ;
+           :hastime "2019-10-23T13:40:19+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1254 :haslat "46.103574"^^xsd:float ;
+           :haslon "6.440281"^^xsd:float ;
+           :hasele "1254"^^xsd:integer ;
+           :hastime "2019-10-23T13:40:29+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1262 :haslat "46.103485"^^xsd:float ;
+           :haslon "6.440524"^^xsd:float ;
+           :hasele "1262"^^xsd:integer ;
+           :hastime "2019-10-23T13:40:34+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1269 :haslat "46.105342"^^xsd:float ;
+           :haslon "6.439891"^^xsd:float ;
+           :hasele "1269"^^xsd:integer ;
+           :hastime "2019-10-23T13:51:59+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1277 :haslat "46.102116"^^xsd:float ;
+           :haslon "6.440953"^^xsd:float ;
+           :hasele "1277"^^xsd:integer ;
+           :hastime "2019-10-23T13:40:49+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1272 :haslat "46.101719"^^xsd:float ;
+           :haslon "6.440767"^^xsd:float ;
+           :hasele "1272"^^xsd:integer ;
+           :hastime "2019-10-23T13:40:54+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1266 :haslat "46.104003"^^xsd:float ;
+           :haslon "6.44052"^^xsd:float ;
+           :hasele "1266"^^xsd:integer ;
+           :hastime "2019-10-23T13:52:24+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1268 :haslat "46.100916"^^xsd:float ;
+           :haslon "6.440967"^^xsd:float ;
+           :hasele "1268"^^xsd:integer ;
+           :hastime "2019-10-23T13:41:04+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1274 :haslat "46.100668"^^xsd:float ;
+           :haslon "6.441382"^^xsd:float ;
+           :hasele "1274"^^xsd:integer ;
+           :hastime "2019-10-23T13:41:09+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1282 :haslat "46.100574"^^xsd:float ;
+           :haslon "6.441869"^^xsd:float ;
+           :hasele "1282"^^xsd:integer ;
+           :hastime "2019-10-23T13:41:14+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1298 :haslat "46.100643"^^xsd:float ;
+           :haslon "6.442913"^^xsd:float ;
+           :hasele "1298"^^xsd:integer ;
+           :hastime "2019-10-23T13:41:19+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995067, osm:nd6665995068, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1304 :haslat "46.100593"^^xsd:float ;
+           :haslon "6.443728"^^xsd:float ;
+           :hasele "1304"^^xsd:integer ;
+           :hastime "2019-10-23T13:41:24+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563 ;
+           :hassurroundingways osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1316 :haslat "46.100613"^^xsd:float ;
+           :haslon "6.444629"^^xsd:float ;
+           :hasele "1316"^^xsd:integer ;
+           :hastime "2019-10-23T13:41:29+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1343 :haslat "46.100772"^^xsd:float ;
+           :haslon "6.445788"^^xsd:float ;
+           :hasele "1343"^^xsd:integer ;
+           :hastime "2019-10-23T13:41:34+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1372 :haslat "46.100772"^^xsd:float ;
+           :haslon "6.447562"^^xsd:float ;
+           :hasele "1372"^^xsd:integer ;
+           :hastime "2019-10-23T13:41:44+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1387 :haslat "46.100752"^^xsd:float ;
+           :haslon "6.44842"^^xsd:float ;
+           :hasele "1387"^^xsd:integer ;
+           :hastime "2019-10-23T13:41:49+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1408 :haslat "46.100841"^^xsd:float ;
+           :haslon "6.449479"^^xsd:float ;
+           :hasele "1408"^^xsd:integer ;
+           :hastime "2019-10-23T13:41:54+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1423 :haslat "46.100581"^^xsd:float ;
+           :haslon "6.449922"^^xsd:float ;
+           :hasele "1423"^^xsd:integer ;
+           :hastime "2019-10-23T13:42:09+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1421 :haslat "46.100819"^^xsd:float ;
+           :haslon "6.44998"^^xsd:float ;
+           :hasele "1421"^^xsd:integer ;
+           :hastime "2019-10-23T13:42:04+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1427 :haslat "46.100254"^^xsd:float ;
+           :haslon "6.449865"^^xsd:float ;
+           :hasele "1427"^^xsd:integer ;
+           :hastime "2019-10-23T13:42:14+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1435 :haslat "46.099609"^^xsd:float ;
+           :haslon "6.449693"^^xsd:float ;
+           :hasele "1435"^^xsd:integer ;
+           :hastime "2019-10-23T13:42:19+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1441 :haslat "46.099609"^^xsd:float ;
+           :haslon "6.449851"^^xsd:float ;
+           :hasele "1441"^^xsd:integer ;
+           :hastime "2019-10-23T13:42:24+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1445 :haslat "46.099926"^^xsd:float ;
+           :haslon "6.450166"^^xsd:float ;
+           :hasele "1445"^^xsd:integer ;
+           :hastime "2019-10-23T13:42:29+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1453 :haslat "46.108213"^^xsd:float ;
+           :haslon "6.443238"^^xsd:float ;
+           :hasele "1453"^^xsd:integer ;
+           :hastime "2019-10-23T13:50:29+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1465 :haslat "46.100472"^^xsd:float ;
+           :haslon "6.451052"^^xsd:float ;
+           :hasele "1465"^^xsd:integer ;
+           :hastime "2019-10-23T13:42:39+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1476 :haslat "46.100789"^^xsd:float ;
+           :haslon "6.451567"^^xsd:float ;
+           :hasele "1476"^^xsd:integer ;
+           :hastime "2019-10-23T13:42:44+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1491 :haslat "46.100998"^^xsd:float ;
+           :haslon "6.451968"^^xsd:float ;
+           :hasele "1491"^^xsd:integer ;
+           :hastime "2019-10-23T13:42:49+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1499 :haslat "46.100006"^^xsd:float ;
+           :haslon "6.45161"^^xsd:float ;
+           :hasele "1499"^^xsd:integer ;
+           :hastime "2019-10-23T13:42:54+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1508 :haslat "46.099341"^^xsd:float ;
+           :haslon "6.451482"^^xsd:float ;
+           :hasele "1508"^^xsd:integer ;
+           :hastime "2019-10-23T13:42:59+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1512 :haslat "46.099044"^^xsd:float ;
+           :haslon "6.451567"^^xsd:float ;
+           :hasele "1512"^^xsd:integer ;
+           :hastime "2019-10-23T13:43:04+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1503 :haslat "46.106572"^^xsd:float ;
+           :haslon "6.445656"^^xsd:float ;
+           :hasele "1503"^^xsd:integer ;
+           :hastime "2019-10-23T13:49:59+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1502 :haslat "46.098726"^^xsd:float ;
+           :haslon "6.451496"^^xsd:float ;
+           :hasele "1502"^^xsd:integer ;
+           :hastime "2019-10-23T13:43:14+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1506 :haslat "46.098716"^^xsd:float ;
+           :haslon "6.451653"^^xsd:float ;
+           :hasele "1506"^^xsd:integer ;
+           :hastime "2019-10-23T13:43:19+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1521 :haslat "46.099341"^^xsd:float ;
+           :haslon "6.452111"^^xsd:float ;
+           :hasele "1521"^^xsd:integer ;
+           :hastime "2019-10-23T13:43:24+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1527 :haslat "46.099708"^^xsd:float ;
+           :haslon "6.452469"^^xsd:float ;
+           :hasele "1527"^^xsd:integer ;
+           :hastime "2019-10-23T13:43:34+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1531 :haslat "46.099996"^^xsd:float ;
+           :haslon "6.452698"^^xsd:float ;
+           :hasele "1531"^^xsd:integer ;
+           :hastime "2019-10-23T13:43:39+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1529 :haslat "46.100194"^^xsd:float ;
+           :haslon "6.452826"^^xsd:float ;
+           :hasele "1529"^^xsd:integer ;
+           :hastime "2019-10-23T13:43:44+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1534 :haslat "46.100393"^^xsd:float ;
+           :haslon "6.45327"^^xsd:float ;
+           :hasele "1534"^^xsd:integer ;
+           :hastime "2019-10-23T13:43:49+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1542 :haslat "46.100978"^^xsd:float ;
+           :haslon "6.453685"^^xsd:float ;
+           :hasele "1542"^^xsd:integer ;
+           :hastime "2019-10-23T13:43:54+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1547 :haslat "46.110241"^^xsd:float ;
+           :haslon "6.445273"^^xsd:float ;
+           :hasele "1547"^^xsd:integer ;
+           :hastime "2019-10-23T13:49:04+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1552 :haslat "46.10129"^^xsd:float ;
+           :haslon "6.453899"^^xsd:float ;
+           :hasele "1552"^^xsd:integer ;
+           :hastime "2019-10-23T13:44:04+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1557 :haslat "46.101779"^^xsd:float ;
+           :haslon "6.453674"^^xsd:float ;
+           :hasele "1557"^^xsd:integer ;
+           :hastime "2019-10-23T13:44:14+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108, osm:nd6665799380 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1566 :haslat "46.102116"^^xsd:float ;
+           :haslon "6.453545"^^xsd:float ;
+           :hasele "1566"^^xsd:integer ;
+           :hastime "2019-10-23T13:44:19+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108, osm:nd6665799380 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1572 :haslat "46.102324"^^xsd:float ;
+           :haslon "6.453431"^^xsd:float ;
+           :hasele "1572"^^xsd:integer ;
+           :hastime "2019-10-23T13:44:24+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108, osm:nd6665799380 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1563 :haslat "46.102602"^^xsd:float ;
+           :haslon "6.452429"^^xsd:float ;
+           :hasele "1563"^^xsd:integer ;
+           :hastime "2019-10-23T13:44:29+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108, osm:nd6665799380 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1576 :haslat "46.103118"^^xsd:float ;
+           :haslon "6.451542"^^xsd:float ;
+           :hasele "1576"^^xsd:integer ;
+           :hastime "2019-10-23T13:44:34+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108, osm:nd6665799380 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1592 :haslat "46.103415"^^xsd:float ;
+           :haslon "6.451213"^^xsd:float ;
+           :hasele "1592"^^xsd:integer ;
+           :hastime "2019-10-23T13:44:39+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108, osm:nd6665799380 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1594 :haslat "46.103554"^^xsd:float ;
+           :haslon "6.450541"^^xsd:float ;
+           :hasele "1594"^^xsd:integer ;
+           :hastime "2019-10-23T13:44:44+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108, osm:nd6665799380 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1603 :haslat "46.10403"^^xsd:float ;
+           :haslon "6.449239"^^xsd:float ;
+           :hasele "1603"^^xsd:integer ;
+           :hastime "2019-10-23T13:44:54+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd6665798105 ;
+           :hassurroundingways osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1593 :haslat "46.103941"^^xsd:float ;
+           :haslon "6.448968"^^xsd:float ;
+           :hasele "1593"^^xsd:integer ;
+           :hastime "2019-10-23T13:44:59+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1595 :haslat "46.10409"^^xsd:float ;
+           :haslon "6.448667"^^xsd:float ;
+           :hasele "1595"^^xsd:integer ;
+           :hastime "2019-10-23T13:45:04+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1602 :haslat "46.104407"^^xsd:float ;
+           :haslon "6.448653"^^xsd:float ;
+           :hasele "1602"^^xsd:integer ;
+           :hastime "2019-10-23T13:45:09+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1615 :haslat "46.104906"^^xsd:float ;
+           :haslon "6.448853"^^xsd:float ;
+           :hasele "1615"^^xsd:integer ;
+           :hastime "2019-10-23T13:45:14+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1624 :haslat "46.105332"^^xsd:float ;
+           :haslon "6.448882"^^xsd:float ;
+           :hasele "1624"^^xsd:integer ;
+           :hastime "2019-10-23T13:45:19+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1627 :haslat "46.105411"^^xsd:float ;
+           :haslon "6.448896"^^xsd:float ;
+           :hasele "1627"^^xsd:integer ;
+           :hastime "2019-10-23T13:45:24+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1629 :haslat "46.105084"^^xsd:float ;
+           :haslon "6.449153"^^xsd:float ;
+           :hasele "1629"^^xsd:integer ;
+           :hastime "2019-10-23T13:45:29+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1626 :haslat "46.104925"^^xsd:float ;
+           :haslon "6.449182"^^xsd:float ;
+           :hasele "1626"^^xsd:integer ;
+           :hastime "2019-10-23T13:45:34+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1631 :haslat "46.104737"^^xsd:float ;
+           :haslon "6.44954"^^xsd:float ;
+           :hasele "1631"^^xsd:integer ;
+           :hastime "2019-10-23T13:45:39+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1653 :haslat "46.104787"^^xsd:float ;
+           :haslon "6.450284"^^xsd:float ;
+           :hasele "1653"^^xsd:integer ;
+           :hastime "2019-10-23T13:45:44+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108, osm:nd6665799380 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1682 :haslat "46.104856"^^xsd:float ;
+           :haslon "6.451385"^^xsd:float ;
+           :hasele "1682"^^xsd:integer ;
+           :hastime "2019-10-23T13:45:49+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108, osm:nd6665799380 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1707 :haslat "46.104856"^^xsd:float ;
+           :haslon "6.45253"^^xsd:float ;
+           :hasele "1707"^^xsd:integer ;
+           :hastime "2019-10-23T13:45:54+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108, osm:nd6665799380 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1703 :haslat "46.104737"^^xsd:float ;
+           :haslon "6.452658"^^xsd:float ;
+           :hasele "1703"^^xsd:integer ;
+           :hastime "2019-10-23T13:45:59+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108, osm:nd6665799380 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1723 :haslat "46.105153"^^xsd:float ;
+           :haslon "6.452243"^^xsd:float ;
+           :hasele "1723"^^xsd:integer ;
+           :hastime "2019-10-23T13:46:04+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108, osm:nd6665799380 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1722 :haslat "46.105481"^^xsd:float ;
+           :haslon "6.451285"^^xsd:float ;
+           :hasele "1722"^^xsd:integer ;
+           :hastime "2019-10-23T13:46:09+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd6665798107, osm:nd6665798108, osm:nd6665799380 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1721 :haslat "46.105749"^^xsd:float ;
+           :haslon "6.45077"^^xsd:float ;
+           :hasele "1721"^^xsd:integer ;
+           :hastime "2019-10-23T13:46:14+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798107, osm:nd6665798108, osm:nd6665799380 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1744 :haslat "46.106185"^^xsd:float ;
+           :haslon "6.451099"^^xsd:float ;
+           :hasele "1744"^^xsd:integer ;
+           :hastime "2019-10-23T13:46:19+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd6665799380 ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1752 :haslat "46.10678"^^xsd:float ;
+           :haslon "6.451213"^^xsd:float ;
+           :hasele "1752"^^xsd:integer ;
+           :hastime "2019-10-23T13:46:24+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd6665799380 ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1754 :haslat "46.106872"^^xsd:float ;
+           :haslon "6.451299"^^xsd:float ;
+           :hasele "1754"^^xsd:integer ;
+           :hastime "2019-10-23T13:47:59+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd6665799380 ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1764 :haslat "46.106406"^^xsd:float ;
+           :haslon "6.4515"^^xsd:float ;
+           :hasele "1764"^^xsd:integer ;
+           :hastime "2019-10-23T13:46:34+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd6665799380 ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1771 :haslat "46.106168"^^xsd:float ;
+           :haslon "6.451771"^^xsd:float ;
+           :hasele "1771"^^xsd:integer ;
+           :hastime "2019-10-23T13:46:39+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd6665799380 ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1791 :haslat "46.106178"^^xsd:float ;
+           :haslon "6.452286"^^xsd:float ;
+           :hasele "1791"^^xsd:integer ;
+           :hastime "2019-10-23T13:46:44+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd6665799380 ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1812 :haslat "46.106168"^^xsd:float ;
+           :haslon "6.453059"^^xsd:float ;
+           :hasele "1812"^^xsd:integer ;
+           :hastime "2019-10-23T13:46:49+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd6665799380 ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1823 :haslat "46.105989"^^xsd:float ;
+           :haslon "6.453888"^^xsd:float ;
+           :hasele "1823"^^xsd:integer ;
+           :hastime "2019-10-23T13:46:54+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd6665799380 ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1826 :haslat "46.10586"^^xsd:float ;
+           :haslon "6.454389"^^xsd:float ;
+           :hasele "1826"^^xsd:integer ;
+           :hastime "2019-10-23T13:46:59+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd6665799380 ;
+           :hassurroundingways osm:way633874972, osm:way633874972 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1838 :haslat "46.105949"^^xsd:float ;
+           :haslon "6.455147"^^xsd:float ;
+           :hasele "1838"^^xsd:integer ;
+           :hastime "2019-10-23T13:47:04+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd6665799380 ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1846 :haslat "46.105949"^^xsd:float ;
+           :haslon "6.456335"^^xsd:float ;
+           :hasele "1846"^^xsd:integer ;
+           :hastime "2019-10-23T13:47:09+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd6665799380 ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1843 :haslat "46.105979"^^xsd:float ;
+           :haslon "6.456778"^^xsd:float ;
+           :hasele "1843"^^xsd:integer ;
+           :hastime "2019-10-23T13:47:24+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd6665799380 ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1825 :haslat "46.105751"^^xsd:float ;
+           :haslon "6.457551"^^xsd:float ;
+           :hasele "1825"^^xsd:integer ;
+           :hastime "2019-10-23T13:47:19+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd5982950572, osm:nd5982950573, osm:nd5982950574, osm:nd5982950575, osm:nd5982950579, osm:nd6665798104, osm:nd6665798105, osm:nd6665798107, osm:nd6665798108, osm:nd6665799380 ;
+           :hassurroundingways osm:way633874972, osm:way633874972, osm:way633874972, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way633874972, osm:way709244359, osm:way709244359, osm:way709244359, osm:way709244359, osm:way633874972, osm:way709244359 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1835 :haslat "46.105959"^^xsd:float ;
+           :haslon "6.454875"^^xsd:float ;
+           :hasele "1835"^^xsd:integer ;
+           :hastime "2019-10-23T13:47:29+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd6665799380 ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1827 :haslat "46.10592"^^xsd:float ;
+           :haslon "6.454318"^^xsd:float ;
+           :hasele "1827"^^xsd:integer ;
+           :hastime "2019-10-23T13:47:34+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd6665799380 ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1820 :haslat "46.106088"^^xsd:float ;
+           :haslon "6.453502"^^xsd:float ;
+           :hasele "1820"^^xsd:integer ;
+           :hastime "2019-10-23T13:47:39+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd6665799380 ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1816 :haslat "46.106148"^^xsd:float ;
+           :haslon "6.453245"^^xsd:float ;
+           :hasele "1816"^^xsd:integer ;
+           :hastime "2019-10-23T13:47:44+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd6665799380 ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1773 :haslat "46.106168"^^xsd:float ;
+           :haslon "6.451828"^^xsd:float ;
+           :hasele "1773"^^xsd:integer ;
+           :hastime "2019-10-23T13:47:49+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd6665799380 ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1765 :haslat "46.106435"^^xsd:float ;
+           :haslon "6.451514"^^xsd:float ;
+           :hasele "1765"^^xsd:integer ;
+           :hastime "2019-10-23T13:47:54+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd6665799380 ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1728 :haslat "46.10708"^^xsd:float ;
+           :haslon "6.450799"^^xsd:float ;
+           :hasele "1728"^^xsd:integer ;
+           :hastime "2019-10-23T13:48:04+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd6665799380 ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1714 :haslat "46.107159"^^xsd:float ;
+           :haslon "6.450498"^^xsd:float ;
+           :hasele "1714"^^xsd:integer ;
+           :hastime "2019-10-23T13:48:09+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd6665799380 ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1683 :haslat "46.107467"^^xsd:float ;
+           :haslon "6.449783"^^xsd:float ;
+           :hasele "1683"^^xsd:integer ;
+           :hastime "2019-10-23T13:48:14+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1650 :haslat "46.107596"^^xsd:float ;
+           :haslon "6.44901"^^xsd:float ;
+           :hasele "1650"^^xsd:integer ;
+           :hastime "2019-10-23T13:48:19+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1634 :haslat "46.107789"^^xsd:float ;
+           :haslon "6.448721"^^xsd:float ;
+           :hasele "1634"^^xsd:integer ;
+           :hastime "2019-10-23T13:48:24+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1620 :haslat "46.107829"^^xsd:float ;
+           :haslon "6.448277"^^xsd:float ;
+           :hasele "1620"^^xsd:integer ;
+           :hastime "2019-10-23T13:48:29+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1596 :haslat "46.108285"^^xsd:float ;
+           :haslon "6.447462"^^xsd:float ;
+           :hasele "1596"^^xsd:integer ;
+           :hastime "2019-10-23T13:48:34+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1571 :haslat "46.108863"^^xsd:float ;
+           :haslon "6.446804"^^xsd:float ;
+           :hasele "1571"^^xsd:integer ;
+           :hastime "2019-10-23T13:48:39+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1561 :haslat "46.10915"^^xsd:float ;
+           :haslon "6.446289"^^xsd:float ;
+           :hasele "1561"^^xsd:integer ;
+           :hastime "2019-10-23T13:48:44+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1559 :haslat "46.109259"^^xsd:float ;
+           :haslon "6.446275"^^xsd:float ;
+           :hasele "1559"^^xsd:integer ;
+           :hastime "2019-10-23T13:48:49+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1549 :haslat "46.110063"^^xsd:float ;
+           :haslon "6.44483"^^xsd:float ;
+           :hasele "1549"^^xsd:integer ;
+           :hastime "2019-10-23T13:49:14+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1548 :haslat "46.11035"^^xsd:float ;
+           :haslon "6.445245"^^xsd:float ;
+           :hasele "1548"^^xsd:integer ;
+           :hastime "2019-10-23T13:49:09+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1543 :haslat "46.109656"^^xsd:float ;
+           :haslon "6.444858"^^xsd:float ;
+           :hasele "1543"^^xsd:integer ;
+           :hastime "2019-10-23T13:49:19+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1538 :haslat "46.108793"^^xsd:float ;
+           :haslon "6.445187"^^xsd:float ;
+           :hasele "1538"^^xsd:integer ;
+           :hastime "2019-10-23T13:49:24+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1539 :haslat "46.108337"^^xsd:float ;
+           :haslon "6.445384"^^xsd:float ;
+           :hasele "1539"^^xsd:integer ;
+           :hastime "2019-10-23T13:49:29+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1537 :haslat "46.108119"^^xsd:float ;
+           :haslon "6.445456"^^xsd:float ;
+           :hasele "1537"^^xsd:integer ;
+           :hastime "2019-10-23T13:49:34+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1519 :haslat "46.107752"^^xsd:float ;
+           :haslon "6.445127"^^xsd:float ;
+           :hasele "1519"^^xsd:integer ;
+           :hastime "2019-10-23T13:49:39+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1505 :haslat "46.107078"^^xsd:float ;
+           :haslon "6.445255"^^xsd:float ;
+           :hasele "1505"^^xsd:integer ;
+           :hastime "2019-10-23T13:49:49+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1507 :haslat "46.106621"^^xsd:float ;
+           :haslon "6.445756"^^xsd:float ;
+           :hasele "1507"^^xsd:integer ;
+           :hastime "2019-10-23T13:49:54+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1487 :haslat "46.10675"^^xsd:float ;
+           :haslon "6.444983"^^xsd:float ;
+           :hasele "1487"^^xsd:integer ;
+           :hastime "2019-10-23T13:50:04+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1452 :haslat "46.106671"^^xsd:float ;
+           :haslon "6.444011"^^xsd:float ;
+           :hasele "1452"^^xsd:integer ;
+           :hastime "2019-10-23T13:50:09+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1442 :haslat "46.107702"^^xsd:float ;
+           :haslon "6.443253"^^xsd:float ;
+           :hasele "1442"^^xsd:integer ;
+           :hastime "2019-10-23T13:50:19+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1440 :haslat "46.107772"^^xsd:float ;
+           :haslon "6.443167"^^xsd:float ;
+           :hasele "1440"^^xsd:integer ;
+           :hastime "2019-10-23T13:50:24+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1447 :haslat "46.108431"^^xsd:float ;
+           :haslon "6.442924"^^xsd:float ;
+           :hasele "1447"^^xsd:integer ;
+           :hastime "2019-10-23T13:50:34+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1397 :haslat "46.10855"^^xsd:float ;
+           :haslon "6.441121"^^xsd:float ;
+           :hasele "1397"^^xsd:integer ;
+           :hastime "2019-10-23T13:50:39+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1382 :haslat "46.10858"^^xsd:float ;
+           :haslon "6.440578"^^xsd:float ;
+           :hasele "1382"^^xsd:integer ;
+           :hastime "2019-10-23T13:50:44+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1374 :haslat "46.108669"^^xsd:float ;
+           :haslon "6.440206"^^xsd:float ;
+           :hasele "1374"^^xsd:integer ;
+           :hastime "2019-10-23T13:50:49+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1356 :haslat "46.108679"^^xsd:float ;
+           :haslon "6.439691"^^xsd:float ;
+           :hasele "1356"^^xsd:integer ;
+           :hastime "2019-10-23T13:50:54+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1353 :haslat "46.10865"^^xsd:float ;
+           :haslon "6.439648"^^xsd:float ;
+           :hasele "1353"^^xsd:integer ;
+           :hastime "2019-10-23T13:50:59+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1361 :haslat "46.108441"^^xsd:float ;
+           :haslon "6.440091"^^xsd:float ;
+           :hasele "1361"^^xsd:integer ;
+           :hastime "2019-10-23T13:51:04+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1364 :haslat "46.107985"^^xsd:float ;
+           :haslon "6.440735"^^xsd:float ;
+           :hasele "1364"^^xsd:integer ;
+           :hastime "2019-10-23T13:51:14+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1337 :haslat "46.107345"^^xsd:float ;
+           :haslon "6.44052"^^xsd:float ;
+           :hasele "1337"^^xsd:integer ;
+           :hastime "2019-10-23T13:51:34+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1331 :haslat "46.108094"^^xsd:float ;
+           :haslon "6.439591"^^xsd:float ;
+           :hasele "1331"^^xsd:integer ;
+           :hastime "2019-10-23T13:51:24+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1327 :haslat "46.107678"^^xsd:float ;
+           :haslon "6.439891"^^xsd:float ;
+           :hasele "1327"^^xsd:integer ;
+           :hastime "2019-10-23T13:51:29+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1344 :haslat "46.107276"^^xsd:float ;
+           :haslon "6.440806"^^xsd:float ;
+           :hasele "1344"^^xsd:integer ;
+           :hastime "2019-10-23T13:51:39+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1330 :haslat "46.106919"^^xsd:float ;
+           :haslon "6.440649"^^xsd:float ;
+           :hasele "1330"^^xsd:integer ;
+           :hastime "2019-10-23T13:51:44+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1310 :haslat "46.106383"^^xsd:float ;
+           :haslon "6.44042"^^xsd:float ;
+           :hasele "1310"^^xsd:integer ;
+           :hastime "2019-10-23T13:51:49+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1296 :haslat "46.105897"^^xsd:float ;
+           :haslon "6.440291"^^xsd:float ;
+           :hasele "1296"^^xsd:integer ;
+           :hastime "2019-10-23T13:51:54+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:none ;
+           :hassurroundingways osm:none ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1253 :haslat "46.103795"^^xsd:float ;
+           :haslon "6.440206"^^xsd:float ;
+           :hasele "1253"^^xsd:integer ;
+           :hastime "2019-10-23T13:52:29+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1252 :haslat "46.104479"^^xsd:float ;
+           :haslon "6.439919"^^xsd:float ;
+           :hasele "1252"^^xsd:integer ;
+           :hastime "2019-10-23T13:52:09+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd6665995055, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995069, osm:nd6665995070 ;
+           :hassurroundingways osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1265 :haslat "46.104271"^^xsd:float ;
+           :haslon "6.440392"^^xsd:float ;
+           :hasele "1265"^^xsd:integer ;
+           :hastime "2019-10-23T13:52:14+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd6665995055, osm:nd6665995056, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1270 :haslat "46.104152"^^xsd:float ;
+           :haslon "6.440592"^^xsd:float ;
+           :hasele "1270"^^xsd:integer ;
+           :hastime "2019-10-23T13:52:19+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd6665995055, osm:nd6665995056, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1244 :haslat "46.102753"^^xsd:float ;
+           :haslon "6.440091"^^xsd:float ;
+           :hasele "1244"^^xsd:integer ;
+           :hastime "2019-10-23T13:52:44+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1228 :haslat "46.102069"^^xsd:float ;
+           :haslon "6.439576"^^xsd:float ;
+           :hasele "1228"^^xsd:integer ;
+           :hastime "2019-10-23T13:52:49+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1213 :haslat "46.10156"^^xsd:float ;
+           :haslon "6.439158"^^xsd:float ;
+           :hasele "1213"^^xsd:integer ;
+           :hastime "2019-10-23T13:52:54+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1205 :haslat "46.100896"^^xsd:float ;
+           :haslon "6.439"^^xsd:float ;
+           :hasele "1205"^^xsd:integer ;
+           :hastime "2019-10-23T13:52:59+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1193 :haslat "46.100162"^^xsd:float ;
+           :haslon "6.439058"^^xsd:float ;
+           :hasele "1193"^^xsd:integer ;
+           :hastime "2019-10-23T13:53:04+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1183 :haslat "46.099676"^^xsd:float ;
+           :haslon "6.439229"^^xsd:float ;
+           :hasele "1183"^^xsd:integer ;
+           :hastime "2019-10-23T13:53:09+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1180 :haslat "46.099301"^^xsd:float ;
+           :haslon "6.439648"^^xsd:float ;
+           :hasele "1180"^^xsd:integer ;
+           :hastime "2019-10-23T13:53:14+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1175 :haslat "46.099034"^^xsd:float ;
+           :haslon "6.439962"^^xsd:float ;
+           :hasele "1175"^^xsd:integer ;
+           :hastime "2019-10-23T13:53:19+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1172 :haslat "46.099004"^^xsd:float ;
+           :haslon "6.439891"^^xsd:float ;
+           :hasele "1172"^^xsd:integer ;
+           :hastime "2019-10-23T13:53:24+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1149 :haslat "46.099133"^^xsd:float ;
+           :haslon "6.438346"^^xsd:float ;
+           :hasele "1149"^^xsd:integer ;
+           :hastime "2019-10-23T13:53:39+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+:trkpt1150 :haslat "46.099143"^^xsd:float ;
+           :haslon "6.438375"^^xsd:float ;
+           :hasele "1150"^^xsd:integer ;
+           :hastime "2019-10-23T13:53:44+02:00"^^xsd:dateTime ;
+           :hassurroundingnds osm:nd1601567438, osm:nd1601567439, osm:nd1601567446, osm:nd1601567447, osm:nd1601567449, osm:nd1601567451, osm:nd1601567454, osm:nd1601567456, osm:nd1601567458, osm:nd1601567459, osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995069, osm:nd6665995070, osm:nd6665995072 ;
+           :hassurroundingways osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way146958632, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way633874970, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263683, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263685, osm:way709263683, osm:way709263685 ;
+           :hassurroundingrlts osm:none .
+
+osm:nd1601567439 osm:haslat "46.0992850"^^xsd:float ;
+                 osm:haslon "6.4385880"^^xsd:float ;
+                 osm:hasid "1601567439"^^xsd:number ;
+                 osm:hasts "2012-01-22T19:02:32Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way146958632 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665798106 osm:haslat "46.1007296"^^xsd:float ;
+                 osm:haslon "6.4543551"^^xsd:float ;
+                 osm:hasid "6665798106"^^xsd:number ;
+                 osm:hasts "2019-07-31T13:50:32Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way709244359 ;
+                 osm:intherlt osm:none .
+
+osm:nd1601567456 osm:haslat "46.0993720"^^xsd:float ;
+                 osm:haslon "6.4384910"^^xsd:float ;
+                 osm:hasid "1601567456"^^xsd:number ;
+                 osm:hasts "2012-01-22T19:02:32Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way146958632 ;
+                 osm:intherlt osm:none .
+
+osm:nd1601567446 osm:haslat "46.0992860"^^xsd:float ;
+                 osm:haslon "6.4384510"^^xsd:float ;
+                 osm:hasid "1601567446"^^xsd:number ;
+                 osm:hasts "2012-01-22T19:02:32Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way146958632 ;
+                 osm:intherlt osm:none .
+
+osm:nd5982950561 osm:haslat "46.0988808"^^xsd:float ;
+                 osm:haslon "6.4391204"^^xsd:float ;
+                 osm:hasid "5982950561"^^xsd:number ;
+                 osm:hasts "2018-10-14T11:20:31Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way633874970 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665995069 osm:haslat "46.0994799"^^xsd:float ;
+                 osm:haslon "6.4378916"^^xsd:float ;
+                 osm:hasid "6665995069"^^xsd:number ;
+                 osm:hasts "2019-07-31T15:08:27Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way709263685 ;
+                 osm:intherlt osm:none .
+
+osm:nd1601567451 osm:haslat "46.0993480"^^xsd:float ;
+                 osm:haslon "6.4384510"^^xsd:float ;
+                 osm:hasid "1601567451"^^xsd:number ;
+                 osm:hasts "2012-01-22T19:02:32Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way146958632, osm:way146958632 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665798104 osm:haslat "46.1008055"^^xsd:float ;
+                 osm:haslon "6.4542510"^^xsd:float ;
+                 osm:hasid "6665798104"^^xsd:number ;
+                 osm:hasts "2019-07-31T13:50:32Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way633874972, osm:way709244359, osm:way709244359 ;
+                 osm:intherlt osm:none .
+
+osm:nd5982950563 osm:haslat "46.0989608"^^xsd:float ;
+                 osm:haslon "6.4388415"^^xsd:float ;
+                 osm:hasid "5982950563"^^xsd:number ;
+                 osm:hasts "2018-10-14T11:20:31Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way633874970 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665798108 osm:haslat "46.1008004"^^xsd:float ;
+                 osm:haslon "6.4543609"^^xsd:float ;
+                 osm:hasid "6665798108"^^xsd:number ;
+                 osm:hasts "2019-07-31T13:50:32Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way633874972, osm:way709244359 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665798105 osm:haslat "46.1007826"^^xsd:float ;
+                 osm:haslon "6.4542307"^^xsd:float ;
+                 osm:hasid "6665798105"^^xsd:number ;
+                 osm:hasts "2019-07-31T13:50:32Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way709244359 ;
+                 osm:intherlt osm:none .
+
+osm:nd5982950559 osm:haslat "46.0989301"^^xsd:float ;
+                 osm:haslon "6.4392223"^^xsd:float ;
+                 osm:hasid "5982950559"^^xsd:number ;
+                 osm:hasts "2018-10-14T11:20:30Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way633874970 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665995060 osm:haslat "46.0990007"^^xsd:float ;
+                 osm:haslon "6.4377673"^^xsd:float ;
+                 osm:hasid "6665995060"^^xsd:number ;
+                 osm:hasts "2019-07-31T15:08:27Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way709263683 ;
+                 osm:intherlt osm:none .
+
+osm:nd5982950556 osm:haslat "46.0990582"^^xsd:float ;
+                 osm:haslon "6.4389742"^^xsd:float ;
+                 osm:hasid "5982950556"^^xsd:number ;
+                 osm:hasts "2018-10-14T11:20:30Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way633874970 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665995066 osm:haslat "46.0997611"^^xsd:float ;
+                 osm:haslon "6.4378959"^^xsd:float ;
+                 osm:hasid "6665995066"^^xsd:number ;
+                 osm:hasts "2019-07-31T15:08:27Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way709263685 ;
+                 osm:intherlt osm:none .
+
+osm:nd1601567459 osm:haslat "46.0993830"^^xsd:float ;
+                 osm:haslon "6.4384800"^^xsd:float ;
+                 osm:hasid "1601567459"^^xsd:number ;
+                 osm:hasts "2012-01-22T19:02:32Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way146958632 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665995067 osm:haslat "46.0992955"^^xsd:float ;
+                 osm:haslon "6.4382818"^^xsd:float ;
+                 osm:hasid "6665995067"^^xsd:number ;
+                 osm:hasts "2019-07-31T15:08:27Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way709263685 ;
+                 osm:intherlt osm:none .
+
+osm:nd5982950572 osm:haslat "46.1008700"^^xsd:float ;
+                 osm:haslon "6.4542981"^^xsd:float ;
+                 osm:hasid "5982950572"^^xsd:number ;
+                 osm:hasts "2018-10-14T11:20:31Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way633874972, osm:way633874972 ;
+                 osm:intherlt osm:none .
+
+osm:nd5982950564 osm:haslat "46.0990208"^^xsd:float ;
+                 osm:haslon "6.4386454"^^xsd:float ;
+                 osm:hasid "5982950564"^^xsd:number ;
+                 osm:hasts "2018-10-14T11:20:31Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way633874970 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665995057 osm:haslat "46.0991519"^^xsd:float ;
+                 osm:haslon "6.4382448"^^xsd:float ;
+                 osm:hasid "6665995057"^^xsd:number ;
+                 osm:hasts "2019-07-31T15:08:27Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way709263683 ;
+                 osm:intherlt osm:none .
+
+osm:nd5982950575 osm:haslat "46.1008320"^^xsd:float ;
+                 osm:haslon "6.4543877"^^xsd:float ;
+                 osm:hasid "5982950575"^^xsd:number ;
+                 osm:hasts "2018-10-14T11:20:31Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way633874972 ;
+                 osm:intherlt osm:none .
+
+osm:nd5982950573 osm:haslat "46.1008088"^^xsd:float ;
+                 osm:haslon "6.4542442"^^xsd:float ;
+                 osm:hasid "5982950573"^^xsd:number ;
+                 osm:hasts "2018-10-14T11:20:31Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way633874972 ;
+                 osm:intherlt osm:none .
+
+osm:nd1601567458 osm:haslat "46.0993770"^^xsd:float ;
+                 osm:haslon "6.4385160"^^xsd:float ;
+                 osm:hasid "1601567458"^^xsd:number ;
+                 osm:hasts "2012-01-22T19:02:32Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way146958632 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665995058 osm:haslat "46.0990612"^^xsd:float ;
+                 osm:haslon "6.4381379"^^xsd:float ;
+                 osm:hasid "6665995058"^^xsd:number ;
+                 osm:hasts "2019-07-31T15:08:27Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way709263683 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665995070 osm:haslat "46.0996706"^^xsd:float ;
+                 osm:haslon "6.4375056"^^xsd:float ;
+                 osm:hasid "6665995070"^^xsd:number ;
+                 osm:hasts "2019-07-31T15:08:27Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way709263683, osm:way709263686 ;
+                 osm:intherlt osm:none .
+
+osm:nd1601567438 osm:haslat "46.0992620"^^xsd:float ;
+                 osm:haslon "6.4385310"^^xsd:float ;
+                 osm:hasid "1601567438"^^xsd:number ;
+                 osm:hasts "2012-01-22T19:02:32Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way146958632 ;
+                 osm:intherlt osm:none .
+
+osm:nd5982950557 osm:haslat "46.0990075"^^xsd:float ;
+                 osm:haslon "6.4391107"^^xsd:float ;
+                 osm:hasid "5982950557"^^xsd:number ;
+                 osm:hasts "2018-10-14T11:20:30Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way633874970 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665995062 osm:haslat "46.0993786"^^xsd:float ;
+                 osm:haslon "6.4374643"^^xsd:float ;
+                 osm:hasid "6665995062"^^xsd:number ;
+                 osm:hasts "2019-07-31T15:08:27Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way709263683 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665995064 osm:haslat "46.0997097"^^xsd:float ;
+                 osm:haslon "6.4374577"^^xsd:float ;
+                 osm:hasid "6665995064"^^xsd:number ;
+                 osm:hasts "2019-07-31T15:08:27Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way709263683 ;
+                 osm:intherlt osm:none .
+
+osm:nd5982950579 osm:haslat "46.1007561"^^xsd:float ;
+                 osm:haslon "6.4543785"^^xsd:float ;
+                 osm:hasid "5982950579"^^xsd:number ;
+                 osm:hasts "2019-07-31T13:50:32Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way633874973, osm:way709244359 ;
+                 osm:intherlt osm:none .
+
+osm:nd5982950558 osm:haslat "46.0989595"^^xsd:float ;
+                 osm:haslon "6.4391742"^^xsd:float ;
+                 osm:hasid "5982950558"^^xsd:number ;
+                 osm:hasts "2018-10-14T11:20:30Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way633874970 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665995068 osm:haslat "46.0992758"^^xsd:float ;
+                 osm:haslon "6.4382469"^^xsd:float ;
+                 osm:hasid "6665995068"^^xsd:number ;
+                 osm:hasts "2019-07-31T15:08:27Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way709263685 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665995055 osm:haslat "46.0995494"^^xsd:float ;
+                 osm:haslon "6.4376540"^^xsd:float ;
+                 osm:hasid "6665995055"^^xsd:number ;
+                 osm:hasts "2019-07-31T15:08:27Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way709263683, osm:way709263683 ;
+                 osm:intherlt osm:none .
+
+osm:nd1601567449 osm:haslat "46.0993340"^^xsd:float ;
+                 osm:haslon "6.4384150"^^xsd:float ;
+                 osm:hasid "1601567449"^^xsd:number ;
+                 osm:hasts "2012-01-22T19:02:32Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way146958632 ;
+                 osm:intherlt osm:none .
+
+osm:nd1601567447 osm:haslat "46.0993040"^^xsd:float ;
+                 osm:haslon "6.4384960"^^xsd:float ;
+                 osm:hasid "1601567447"^^xsd:number ;
+                 osm:hasts "2012-01-22T19:02:32Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way146958632 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665995072 osm:haslat "46.0993156"^^xsd:float ;
+                 osm:haslon "6.4381777"^^xsd:float ;
+                 osm:hasid "6665995072"^^xsd:number ;
+                 osm:hasts "2019-07-31T15:08:27Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way709263685, osm:way709263687 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665799380 osm:haslat "46.1066158"^^xsd:float ;
+                 osm:haslon "6.4547993"^^xsd:float ;
+                 osm:hasid "6665799380"^^xsd:number ;
+                 osm:hasts "2019-07-31T14:00:52Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:bench ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:none ;
+                 osm:intherlt osm:none .
+
+osm:nd5982950555 osm:haslat "46.0991057"^^xsd:float ;
+                 osm:haslon "6.4387089"^^xsd:float ;
+                 osm:hasid "5982950555"^^xsd:number ;
+                 osm:hasts "2019-07-31T06:29:00Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way633874970, osm:way633874970 ;
+                 osm:intherlt osm:none .
+
+osm:nd5982950574 osm:haslat "46.1007702"^^xsd:float ;
+                 osm:haslon "6.4543340"^^xsd:float ;
+                 osm:hasid "5982950574"^^xsd:number ;
+                 osm:hasts "2019-07-31T13:50:32Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way633874972, osm:way709244359 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665995065 osm:haslat "46.0996688"^^xsd:float ;
+                 osm:haslon "6.4376169"^^xsd:float ;
+                 osm:hasid "6665995065"^^xsd:number ;
+                 osm:hasts "2019-07-31T15:08:27Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way709263685, osm:way709263685 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665995063 osm:haslat "46.0995525"^^xsd:float ;
+                 osm:haslon "6.4373705"^^xsd:float ;
+                 osm:hasid "6665995063"^^xsd:number ;
+                 osm:hasts "2019-07-31T15:08:27Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way709263683 ;
+                 osm:intherlt osm:none .
+
+osm:nd1601567454 osm:haslat "46.0993650"^^xsd:float ;
+                 osm:haslon "6.4384380"^^xsd:float ;
+                 osm:hasid "1601567454"^^xsd:number ;
+                 osm:hasts "2012-01-22T19:02:32Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way146958632 ;
+                 osm:intherlt osm:none .
+
+osm:nd5982950562 osm:haslat "46.0989208"^^xsd:float ;
+                 osm:haslon "6.4390184"^^xsd:float ;
+                 osm:hasid "5982950562"^^xsd:number ;
+                 osm:hasts "2018-10-14T11:20:31Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way633874970 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665798107 osm:haslat "46.1007828"^^xsd:float ;
+                 osm:haslon "6.4544022"^^xsd:float ;
+                 osm:hasid "6665798107"^^xsd:number ;
+                 osm:hasts "2019-07-31T13:50:32Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way709244359 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665995059 osm:haslat "46.0990037"^^xsd:float ;
+                 osm:haslon "6.4380028"^^xsd:float ;
+                 osm:hasid "6665995059"^^xsd:number ;
+                 osm:hasts "2019-07-31T15:08:27Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way709263683 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665995056 osm:haslat "46.0993907"^^xsd:float ;
+                 osm:haslon "6.4378894"^^xsd:float ;
+                 osm:hasid "6665995056"^^xsd:number ;
+                 osm:hasts "2019-07-31T15:08:27Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way709263683 ;
+                 osm:intherlt osm:none .
+
+osm:nd5982950560 osm:haslat "46.0988741"^^xsd:float ;
+                 osm:haslon "6.4391896"^^xsd:float ;
+                 osm:hasid "5982950560"^^xsd:number ;
+                 osm:hasts "2018-10-14T11:20:30Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way633874970 ;
+                 osm:intherlt osm:none .
+
+osm:nd5982950565 osm:haslat "46.0990956"^^xsd:float ;
+                 osm:haslon "6.4386332"^^xsd:float ;
+                 osm:hasid "5982950565"^^xsd:number ;
+                 osm:hasts "2019-07-31T06:29:00Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way633874970, osm:way709263684 ;
+                 osm:intherlt osm:none .
+
+osm:nd6665995061 osm:haslat "46.0990007"^^xsd:float ;
+                 osm:haslon "6.4376540"^^xsd:float ;
+                 osm:hasid "6665995061"^^xsd:number ;
+                 osm:hasts "2019-07-31T15:08:27Z"^^xsd:dateTime ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:ontheway osm:way709263683 ;
+                 osm:intherlt osm:none .
+
+osm:way709244359 osm:hasid "709244359"^^xsd:number ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:none ;
+                 osm:leisure dbpedia:outdoor_seating ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:hasnd osm:nd6665798104, osm:nd6665798105, osm:nd6665798106, osm:nd5982950579, osm:nd6665798107, osm:nd6665798108, osm:nd5982950574, osm:nd6665798104 ;
+                 osm:intherlt osm:none .
+
+osm:way146958632 osm:hasid "146958632"^^xsd:number ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:restaurant ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:hasnd osm:nd1601567451, osm:nd1601567449, osm:nd1601567446, osm:nd1601567447, osm:nd1601567438, osm:nd1601567439, osm:nd1601567458, osm:nd1601567456, osm:nd1601567459, osm:nd1601567454, osm:nd1601567451 ;
+                 osm:intherlt osm:none .
+
+osm:way633874972 osm:hasid "633874972"^^xsd:number ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:bar ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:hasnd osm:nd5982950572, osm:nd5982950573, osm:nd6665798104, osm:nd5982950574, osm:nd6665798108, osm:nd5982950575, osm:nd5982950572 ;
+                 osm:intherlt osm:none .
+
+osm:way709263683 osm:hasid "709263683"^^xsd:number ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:parking ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:hasnd osm:nd6665995055, osm:nd6665995056, osm:nd6665995057, osm:nd6665995058, osm:nd6665995059, osm:nd6665995060, osm:nd6665995061, osm:nd6665995062, osm:nd6665995063, osm:nd6665995064, osm:nd6665995070, osm:nd6665995055 ;
+                 osm:intherlt osm:none .
+
+osm:way633874970 osm:hasid "633874970"^^xsd:number ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:parking ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:hasnd osm:nd5982950555, osm:nd5982950556, osm:nd5982950557, osm:nd5982950558, osm:nd5982950559, osm:nd5982950560, osm:nd5982950561, osm:nd5982950562, osm:nd5982950563, osm:nd5982950564, osm:nd5982950565, osm:nd5982950555 ;
+                 osm:intherlt osm:none .
+
+osm:way709263685 osm:hasid "709263685"^^xsd:number ;
+                 osm:hasname "none"^^xsd:string ;
+                 osm:isinterested osm:yes ;
+                 osm:tourism dbpedia:none ;
+                 osm:amenity dbpedia:parking ;
+                 osm:leisure dbpedia:none ;
+                 osm:website "none"^^xsd:string ;
+                 osm:wikidata wikidata:none ;
+                 osm:wikipedia wikipedia:none ;
+                 osm:hasnd osm:nd6665995065, osm:nd6665995066, osm:nd6665995067, osm:nd6665995068, osm:nd6665995072, osm:nd6665995069, osm:nd6665995065 ;
+                 osm:intherlt osm:none .
+
