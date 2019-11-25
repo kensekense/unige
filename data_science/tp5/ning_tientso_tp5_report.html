@@ -13115,7 +13115,7 @@ div#notebook {
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Data Science TP5</span>
@@ -13138,6 +13138,45 @@ div#notebook {
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.25</span><span class="p">,</span> <span class="mf">0.375</span><span class="p">,</span> <span class="mf">0.125</span><span class="p">,</span> <span class="mf">0.25</span><span class="p">]</span>
+<span class="n">b</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.66</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.33</span><span class="p">,</span> <span class="mf">0.6</span><span class="p">]</span>
+<span class="n">total</span> <span class="o">=</span> <span class="mf">0.0</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">a</span><span class="p">)):</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">total</span> <span class="o">+=</span> <span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">*</span> <span class="n">math</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">b</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="mi">2</span><span class="p">)</span>
+    <span class="k">except</span><span class="p">:</span>
+        <span class="n">total</span> <span class="o">+=</span> <span class="mi">0</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">total</span><span class="o">*-</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>1.0297627105304141
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13149,19 +13188,31 @@ P(w=0) = 0.5
 P(w=1) = 0.5</p>
 <p>H(U) = 0.625<em>log(0.625) + 0.375</em>log(0.375) = <b>0.9544340029249649</b></p>
 <p>H(V) = <b>0.9544340029249649</b></p>
-<p>H(W) = <b>0.5*log(0.5) + 0.5*log(0.5) = 1.0</b></p>
+<p>H(W) = 0.5<em>log(0.5) + 0.5</em>log(0.5) = <b>1.0</b></p>
 <h3 id="b.">b.<a class="anchor-link" href="#b.">&#182;</a></h3><p>P(u=0,v=0) = 0.25
 P(u=0,v=1) = 0.375
 P(u=1,v=0) = 0.125
 P(u=1,v=1) = 0.25</p>
+<p>P(u=0|v=0) = 0.25/0.375 = 0.66
+P(u=0|v=1) = 0.375/0.625 = 0.6
+P(u=1|v=0) = 0.125/0.375 = 0.33
+P(u=1|v=1) = 0.25/0.625 = 0.4</p>
 <p>P(v=0,u=0) = 0.25
 P(v=0,u=1) = 0.125
 P(v=1,u=0) = 0.375
 P(v=1,u=1) = 0.25</p>
+<p>P(v=0|u=0) = 0.25/0.625 = 0.4
+P(v=0|u=1) = 0.125/0.375 = 0.33
+P(v=1|u=0) = 0.375/0.625 = 0.6
+P(v=1|u=1) = 0.25/0.375 = 0.66</p>
 <p>P(w=0,u=0) = 0.5
 P(w=0,u=1) = 0.0
 P(w=1,u=0) = 0.125
 P(w=1,u=1) = 0.375</p>
+<p>P(w=0|u=0) = 0.5/0.625 = 0.8
+P(w=0|u=1) = 0.0
+P(w=1|u=0) = 0.125/0.625 = 0.2
+P(w=1|u=1) = 0.375/0.375 = 1.0</p>
 <p>p(u=0,w=0) = 0.5
 p(u=0,w=1) = 0.125
 p(u=1,w=0) = 0.0
@@ -13174,12 +13225,12 @@ p(u=1|v=0,w=0) = 0.0
 p(u=1|v=0,w=1) = 0.125
 p(u=1|v=1,w=0) = 0.0
 p(u=1|v=1,w=1) = 0.25</p>
-<p>H(U|V) = $\sum_{}^{} \sum_{}^{}$ p(u,v)*log(p(u,v)) = <b>1.9056390622295662</b></p>
-<p>H(V|U) = <b>1.9056390622295662</b></p>
-<p>H(W|U) = <b>1.4056390622295662</b></p>
-<h3 id="c.">c.<a class="anchor-link" href="#c.">&#182;</a></h3><p>I(U;V) = H(U) - H(U|V) = 0.9544340029249649-1.9056390622295662 = <b>0.9512050593</b></p>
-<p>I(U;W) = H(W) - H(W|U) = 1.0-1.4056390622295662 = <b>0.40563906223</b></p>
-<p>I(U;V,W) = I(U;W) + I(U;V|W) = I(U;W) + H(U|W) - H(U|V,W) = 0.40563906223 + 1.4056390622295662 - 2.25 = <b>0.43872187554</b></p>
+<p>H(U|V) = $\sum_{}^{} \sum_{}^{}$ p(u,v)*log(p(u|v)) = <b>1.0297627105304141</b></p>
+<p>H(V|U) = <b>1.0297627105304141</b></p>
+<p>H(W|U) = <b>0.4512050593046014</b></p>
+<h3 id="c.">c.<a class="anchor-link" href="#c.">&#182;</a></h3><p>I(U;V) = H(U) - H(U|V) = 0.9544340029249649-1.0297627105304141 = <b>0.0753287076</b></p>
+<p>I(U;W) = H(W) - H(W|U) = 1.0-0.4512050593046014 = <b>0.54879494069</b></p>
+<p>I(U;V,W) = I(U;W) + H(U|W) - H(U|V,W) = 0.54879494069 + 0.4512050593046014 - 1.0297627105304141 =<b>0.02976271053</b></p>
 <h3 id="d.">d.<a class="anchor-link" href="#d.">&#182;</a></h3><p>H(U,V,W) = <b>0.0</b></p>
 
 </div>
