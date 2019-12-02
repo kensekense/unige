@@ -43,4 +43,3 @@ clarkeDEinv=sum_mins/sum_h2
 invCL=math.sqrt(clarkeDE*(1-clarkeDEinv))
 
 print(sys.argv[2],sys.argv[3],"clarkeDE:",clarkeDE,"invCL:",invCL)
-
