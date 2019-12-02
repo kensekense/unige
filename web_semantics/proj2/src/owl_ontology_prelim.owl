@@ -1,0 +1,397 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#"
+     xml:base="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Area -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Area">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Began -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Began">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#CategoryOfProject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#CategoryOfProject">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Description -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Description">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Discipline -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Discipline">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#EndYear -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#EndYear">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#EnvironmentalDomain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#EnvironmentalDomain">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#EnvironmentalField -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#EnvironmentalField">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#GeographicCoverage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#GeographicCoverage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#HasContact -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#HasContact">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#HasMember -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#HasMember">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#HasWebsite -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#HasWebsite">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Institution -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Institution">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#LeadOrganization -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#LeadOrganization">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Name -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#ProjectName -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#ProjectName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#RelatedToSDG -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#RelatedToSDG">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Role -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Role">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#SponsoringOrg -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#SponsoringOrg">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#StillActive -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#StillActive">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Title -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Title">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#isCalled -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#isCalled">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#BiodiversityProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#BiodiversityProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#CitiesProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#CitiesProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#SustainableProject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#ClimateChangeProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#ClimateChangeProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#ConsumptionProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#ConsumptionProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#SustainableProject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Country"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#EducationProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#EducationProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#EnergyProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#EnergyProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#FoodProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#FoodProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#GenderProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#GenderProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#GlobalProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#GlobalProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#SustainableProject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#GrowthProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#GrowthProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#SustainableProject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#HealthProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#HealthProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#InequalityProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#InequalityProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#JusticeProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#JusticeProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#MarineProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#MarineProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#PovertyProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#PovertyProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Project -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Project"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#ResilientProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#ResilientProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#SDG -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#SDG"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#SustainableProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#SustainableProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#TeamMember -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#TeamMember">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#WaterProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#WaterProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#World -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#World">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/owl_ontology_prelim#Country"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
