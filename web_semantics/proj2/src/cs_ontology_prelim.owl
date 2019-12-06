@@ -51,12 +51,44 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#alignedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#alignedTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectParameter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalGoalParameter"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#contributes -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#contributes">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Campaign"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Output"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Dataset"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalGoal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#describes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#describes">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectRecord"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#explains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#explains">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#HowToParticipate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ParticipationTask"/>
     </owl:ObjectProperty>
     
 
@@ -71,6 +103,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasAccessRights -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasAccessRights">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Dataset"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#AccessRights"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasActivity -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasActivity">
@@ -81,11 +123,32 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasAffiliation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasAffiliation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasAge -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasAge">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Age"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasAgent -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasAgent">
         <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasAssociation"/>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Association"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Task"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Agent"/>
     </owl:ObjectProperty>
@@ -98,6 +161,18 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Aim"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasAreaOfInterest -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasAreaOfInterest">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Campaign"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GeographicAreaOfInterest"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#SpatialAreaOfInterest"/>
     </owl:ObjectProperty>
     
 
@@ -116,8 +191,40 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasAssociation">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Activity"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Task"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Agent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Association"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasContact -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasContact">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Agent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactPoint"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasContactDetails -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasContactDetails">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#MeansOfContact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactDetails"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasContactPoint -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasContactPoint">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactPoint"/>
     </owl:ObjectProperty>
     
 
@@ -132,12 +239,133 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasCreationDate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasCreationDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#RecordTemporalExtent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateCreated"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasDataCollectionMethod -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasDataCollectionMethod">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Dataset"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DataCollectionMethod"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasDatasetName -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasDatasetName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Dataset"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DatasetName"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasDateDistributed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasDateDistributed">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Distribution"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateDistributed"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasDateModified -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasDateModified">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Dataset"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateModified"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasDateSubmitted -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasDateSubmitted">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Submission"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateSubmitted"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasDescription -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasDescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingProgram"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Description"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasDifficulty -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasDifficulty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ParticipationTask"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Difficulty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasDistribution -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasDistribution">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Dataset"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Distribution"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasDownloadURL -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasDownloadURL">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Distribution"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DownloadURL"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasDuration -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasDuration">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TemporalExtent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Duration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasEncodingLanguage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasEncodingLanguage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Dataset"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#EncodingLanguage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasEndDate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasEndDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TemporalExtent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#EndDate"/>
     </owl:ObjectProperty>
     
 
@@ -162,12 +390,87 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasExternalIdentifier -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasExternalIdentifier">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectRecord"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalID"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasFundingProgram -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasFundingProgram">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Infrastructure"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingProgram"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#InfrastructureFundingProgram"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectFundingProgram"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasFundingSource -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasFundingSource">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingProgram"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingSource"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasGender -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasGender">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Gender"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasGeographicCoverage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasGeographicCoverage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Dataset"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GeographicCoverage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasGeometry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasGeometry">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#SpatialExtent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Geometry"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasID -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Dataset"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GUID"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasIdentifier -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasIdentifier">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingProgram"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectRecord"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GUID"/>
     </owl:ObjectProperty>
     
 
@@ -192,6 +495,36 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasLicense -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasLicense">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Distribution"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#License"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasMeansOfContact -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasMeansOfContact">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactPoint"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#MeansOfContact"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasMember -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasMember">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GroupOfAgents"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Agent"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasMotivation -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasMotivation">
@@ -202,12 +535,58 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasName -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Agent"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingProgram"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingSource"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#SpatialExtent"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tag"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TemporalExtent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Name"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasNaturalLanguage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasNaturalLanguage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectRecord"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Language"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasObjective -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasObjective">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Aim"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Objective"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasOrigin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasOrigin">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectRecord"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Origin"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasOutcome -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasOutcome">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Outcome"/>
     </owl:ObjectProperty>
     
 
@@ -228,6 +607,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasParticipationTask">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectActivity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ParticipationTask"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Task"/>
     </owl:ObjectProperty>
     
@@ -253,6 +633,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasRightsHolder -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasRightsHolder">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#License"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Association"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasRole -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasRole">
@@ -273,11 +663,92 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasSpatialAreaOfInterest -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasSpatialAreaOfInterest">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#SpatialAreaOfInterest"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasSpatialExtent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasSpatialExtent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Extent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#SpatialExtent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasStartDate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasStartDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TemporalExtent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#StartDate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasStatus -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasStatus">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Status"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasSubmission -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasSubmission">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Dataset"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Submission"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasTag -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasTag">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tag"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasTagType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasTagType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tag"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TagType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasTemporalCoverage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasTemporalCoverage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Dataset"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TemporalCoverage"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasTemporalExtent -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasTemporalExtent">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Association"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Extent"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TemporalExtent"/>
     </owl:ObjectProperty>
     
@@ -293,12 +764,54 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasUpdateFrequency -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasUpdateFrequency">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Dataset"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#UpdateFrequency"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasWebPage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasWebPage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#WebPage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasYearOfBirth -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#hasYearOfBirth">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#YearOfBirth"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#isPartOf -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#isPartOf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Observation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectParameter"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Dataset"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Observation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#isPrimarySourceFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#isPrimarySourceFor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Submission"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Distribution"/>
     </owl:ObjectProperty>
     
 
@@ -343,6 +856,38 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#requiresEquipment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#requiresEquipment">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ParticipationTask"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Equipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#requiresSkills -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#requiresSkills">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ParticipationTask"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#RequiredSkills"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#stores -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#stores">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Repository"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Dataset"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Distribution"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Submission"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#usesInfrastructure -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#usesInfrastructure">
@@ -363,6 +908,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#wasLastUpdated -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#wasLastUpdated">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#RecordTemporalExtent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateUpdated"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -374,11 +929,23 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#AccessRights -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#AccessRights"/>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Activity -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Activity">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Age -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Age"/>
     
 
 
@@ -406,9 +973,45 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Campaign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Campaign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectActivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactDetails -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactDetails"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactPoint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactPoint"/>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DataCollectionMethod -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DataCollectionMethod"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DataGatheringCampaign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DataGatheringCampaign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Campaign"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DataValidtionCampaign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DataValidtionCampaign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Campaign"/>
+    </owl:Class>
     
 
 
@@ -417,6 +1020,116 @@
     <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Dataset">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Output"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DatasetDescription -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DatasetDescription"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DatasetName -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DatasetName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DatasetStatus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DatasetStatus"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DatasetURL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DatasetURL"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateCreated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateCreated"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateDistributed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateDistributed"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateModified -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateModified"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateSubmitted -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateSubmitted"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateUpdated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateUpdated"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Description -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Description"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Difficulty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Difficulty"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Distribution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Distribution"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DownloadURL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DownloadURL"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Duration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Duration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Email -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Email">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#MeansOfContact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#EncodingLanguage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#EncodingLanguage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#EndDate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#EndDate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Equipment"/>
     
 
 
@@ -438,9 +1151,75 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalGoalParameter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalGoalParameter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Parameter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalID -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalID"/>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingProgram -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingProgram"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingSource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingSource"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GUID -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GUID"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Gender -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Gender"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GeographicAreaOfInterest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GeographicAreaOfInterest"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GeographicCoverage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GeographicCoverage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GeographicExtent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GeographicExtent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#SpatialExtent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Geometry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Geometry"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GroupOfAgents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GroupOfAgents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Agent"/>
+    </owl:Class>
     
 
 
@@ -452,9 +1231,23 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#HowToParticipate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#HowToParticipate"/>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Infrastructure -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Infrastructure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#InfrastructureFundingProgram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#InfrastructureFundingProgram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingProgram"/>
+    </owl:Class>
     
 
 
@@ -470,9 +1263,33 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Language"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#License -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#License"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#MeansOfContact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#MeansOfContact"/>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Motivation -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Motivation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Name"/>
     
 
 
@@ -488,6 +1305,33 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Organization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#OrganizationCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#OrganizationCategory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#OrganizationCategory"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Origin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Origin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Outcome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Outcome"/>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Output -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Output"/>
@@ -497,6 +1341,18 @@
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#OutputItem -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#OutputItem"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Parameter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Parameter"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ParticipantAge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ParticipantAge"/>
     
 
 
@@ -516,6 +1372,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Phone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Phone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#MeansOfContact"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Privacy_Protection_Policy -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Privacy_Protection_Policy"/>
@@ -530,13 +1394,40 @@
 
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Activity"/>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectActivity -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectActivity"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectActivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectFundingProgram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectFundingProgram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingProgram"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectParameter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectParameter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Outcome"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Parameter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectRecord -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectRecord"/>
     
 
 
@@ -548,9 +1439,29 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#RecordTemporalExtent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#RecordTemporalExtent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TemporalExtent"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Recruitment_Method -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Recruitment_Method"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Repository -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Repository"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#RequiredSkills -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#RequiredSkills"/>
     
 
 
@@ -582,6 +1493,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#SpatialAreaOfInterest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#SpatialAreaOfInterest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Extent"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#SpatialExtent -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#SpatialExtent">
@@ -590,9 +1509,45 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#StartDate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#StartDate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Status -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Status"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Submission -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Submission"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tag -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tag"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TagType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TagType"/>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Task -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Task"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TemporalCoverage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TemporalCoverage"/>
     
 
 
@@ -616,6 +1571,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#UpdateFrequency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#UpdateFrequency"/>
+    
+
+
     <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Volunteer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Volunteer">
@@ -630,6 +1591,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#WebPage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#WebPage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#YearOfBirth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#YearOfBirth"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -638,6 +1611,415 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#AccessRights"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Activity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Age"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Agent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Aim"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#AssociatedPublications"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Association"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactDetails"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactPoint"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DataCollectionMethod"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Dataset"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DatasetDescription"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DatasetName"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DatasetStatus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DatasetURL"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateCreated"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateDistributed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateModified"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateSubmitted"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateUpdated"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Description"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Difficulty"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Distribution"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DownloadURL"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Duration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#EncodingLanguage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#EndDate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Equipment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Execution_Plan"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Extent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalGoal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingProgram"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingSource"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GUID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Gender"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GeographicAreaOfInterest"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GeographicCoverage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Geometry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#HowToParticipate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Infrastructure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#IntendedOutcome"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#KnowledgeItem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Language"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#License"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#MeansOfContact"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Motivation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Name"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Objective"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Observation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#OrganizationCategory"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Origin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Outcome"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Output"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#OutputItem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Parameter"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ParticipantAge"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Privacy_Protection_Policy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Privacy_Protection_Technique"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectRecord"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Recruitment_Method"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Repository"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#RequiredSkills"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Role"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Skill"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#StartDate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Status"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Submission"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tag"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TagType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Task"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TemporalCoverage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tool"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Training"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#UpdateFrequency"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Volunteer_Acknowledgement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#WebPage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#YearOfBirth"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Activity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Age"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Agent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Aim"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#AssociatedPublications"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Association"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Campaign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactDetails"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactPoint"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DataCollectionMethod"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DataGatheringCampaign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DataValidtionCampaign"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Dataset"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateCreated"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateUpdated"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Description"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Difficulty"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Duration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#EndDate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Equipment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Execution_Plan"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Extent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalGoal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingProgram"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingSource"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GUID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Gender"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GeographicAreaOfInterest"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Geometry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Hardware"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#HowToParticipate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Infrastructure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#IntendedOutcome"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#KnowledgeItem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Language"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#MeansOfContact"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Motivation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Name"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Objective"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Observation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#OrganizationCategory"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Origin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Outcome"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Output"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#OutputItem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ParticipantAge"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ParticipationTask"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Person"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Privacy_Protection_Policy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Privacy_Protection_Technique"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectActivity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectRecord"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Recruitment_Method"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#RequiredSkills"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Role"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Skill"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Software"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#StartDate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Status"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tag"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TagType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Task"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TemporalExtent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tool"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Training"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Volunteer_Acknowledgement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#WebPage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#YearOfBirth"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Activity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Age"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Agent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Aim"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#AssociatedPublications"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Association"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactDetails"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactPoint"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DataCollectionMethod"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateCreated"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateUpdated"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Description"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Difficulty"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Duration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#EndDate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Equipment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Execution_Plan"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Extent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalGoal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalGoalParameter"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingProgram"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingSource"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GUID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Gender"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GeographicAreaOfInterest"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Geometry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#HowToParticipate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Infrastructure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#IntendedOutcome"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#KnowledgeItem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Language"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#MeansOfContact"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Motivation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Name"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Objective"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Observation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#OrganizationCategory"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Origin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Outcome"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Output"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#OutputItem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Parameter"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ParticipantAge"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Privacy_Protection_Policy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Privacy_Protection_Technique"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectParameter"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectRecord"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Recruitment_Method"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#RequiredSkills"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Role"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#SDG"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Skill"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#StartDate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Status"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tag"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TagType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Task"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tool"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Training"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Volunteer_Acknowledgement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#WebPage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#YearOfBirth"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Activity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Agent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Aim"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#AssociatedPublications"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Association"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactDetails"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactPoint"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DataCollectionMethod"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateCreated"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateUpdated"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Description"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Duration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Email"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#EndDate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Execution_Plan"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Extent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalGoal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingProgram"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GUID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GroupOfAgents"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Infrastructure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#IntendedOutcome"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#KnowledgeItem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Language"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#MeansOfContact"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Motivation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Name"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Objective"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Observation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Organization"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#OrganizationCategory"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Origin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Outcome"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Output"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#OutputItem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Person"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Phone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Privacy_Protection_Policy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Privacy_Protection_Technique"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectActivity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectRecord"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Recruitment_Method"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Role"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Skill"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#SpatialAreaOfInterest"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#StartDate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Status"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tag"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TagType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Task"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TemporalExtent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tool"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Training"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Volunteer_Acknowledgement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#WebPage"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Activity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Agent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Aim"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#AssociatedPublications"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Association"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactDetails"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactPoint"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DataCollectionMethod"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateCreated"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateUpdated"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Description"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Duration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#EndDate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Execution_Plan"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Extent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalGoal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingProgram"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingSource"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GUID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GeographicExtent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Geometry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Infrastructure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#IntendedOutcome"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#KnowledgeItem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Language"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#MeansOfContact"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Motivation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Name"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Objective"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Observation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#OrganizationCategory"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Origin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Outcome"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Output"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#OutputItem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Privacy_Protection_Policy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Privacy_Protection_Technique"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectActivity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectRecord"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Recruitment_Method"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Role"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Skill"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#SpatialAreaOfInterest"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#SpatialExtent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#StartDate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Status"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tag"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TagType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Task"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tool"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Training"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Volunteer_Acknowledgement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#WebPage"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Activity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Agent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Aim"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#AssociatedPublications"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Association"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactDetails"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactPoint"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DataCollectionMethod"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateCreated"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateUpdated"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Description"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Duration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#EndDate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Execution_Plan"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Extent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalGoal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingProgram"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingSource"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GUID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Infrastructure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#InfrastructureFundingProgram"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#IntendedOutcome"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#KnowledgeItem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Language"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#MeansOfContact"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Motivation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Name"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Objective"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Observation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#OrganizationCategory"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Origin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Outcome"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Output"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#OutputItem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Privacy_Protection_Policy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Privacy_Protection_Technique"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectActivity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectFundingProgram"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectRecord"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Recruitment_Method"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Role"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Skill"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#SpatialAreaOfInterest"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#StartDate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Status"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tag"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TagType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Task"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tool"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Training"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Volunteer_Acknowledgement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#WebPage"/>
+        </owl:members>
+    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
@@ -677,6 +2059,106 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tool"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Training"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Volunteer_Acknowledgement"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Agent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Aim"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#AssociatedPublications"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Association"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactPoint"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DataCollectionMethod"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateCreated"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DateUpdated"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Description"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Duration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#EndDate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Execution_Plan"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Extent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalGoal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingProgram"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GUID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Infrastructure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#IntendedOutcome"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#KnowledgeItem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Language"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Motivation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Name"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Objective"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Observation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Origin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Outcome"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Output"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#OutputItem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Privacy_Protection_Policy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Privacy_Protection_Technique"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectActivity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectRecord"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#RecordTemporalExtent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Recruitment_Method"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Role"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Skill"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#SpatialAreaOfInterest"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#StartDate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Status"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tag"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TagType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Task"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TemporalExtent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tool"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Training"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Volunteer_Acknowledgement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#WebPage"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Agent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Aim"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#AssociatedPublications"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Association"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ContactPoint"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#DataCollectionMethod"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Description"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Duration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#EndDate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Execution_Plan"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Extent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ExternalGoal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#FundingProgram"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#GUID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Infrastructure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#IntendedOutcome"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#KnowledgeItem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Motivation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Name"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Objective"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Observation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Outcome"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Output"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#OutputItem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Privacy_Protection_Policy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Privacy_Protection_Technique"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Project"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#ProjectActivity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Recruitment_Method"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Role"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Skill"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#SpatialAreaOfInterest"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#StartDate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Status"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tag"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#TagType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Task"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Tool"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Training"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#Volunteer_Acknowledgement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liveo/ontologies/2019/11/cs_ontology#WebPage"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
