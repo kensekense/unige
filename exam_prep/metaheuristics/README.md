@@ -1,5 +1,7 @@
 # Metaheuristics for Optimization Exam Preparation
 
+<b> Time Estimation: 72 Hours </b>
+
 ### Format for the Exam
 1. Oral Exam
 2. Allowed Preparation Time

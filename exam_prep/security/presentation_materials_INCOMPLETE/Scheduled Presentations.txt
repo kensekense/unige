@@ -1,0 +1,39 @@
+﻿
+October 16 :
+- Neïlo Perrin-Ganier
+Topic : Working in a CSIRT (Computer Security Incident Response Team)
+
+
+October 23 (Full) :
+- Sebastien Chassot
+Topic : True random number generator based on metastability in FGPA 
+- Kevin Adea & Abdallah Itani & Tien-Tso Ning
+Topic : Password Managers
+- Nikolaos Kokkinis Ntrenis & Yi Zhang
+Topic : Bitcoin
+
+
+October 30 (Full) :
+- Marvin Fourastie & Patrick Sardinha & Adrien Razurel
+Topic : Biometric Authentication
+- Jonathan Lo & Tommaso Peletta
+Topic : Car Hacking
+- Guy-Raphael Stauffer & David Alexander & Gibran Chevalley
+Topic : Watermarking
+
+
+November 6 (Full) :
+- Laryssa Nkoumondo & Beni Broohm 
+Topic : SQL Injection
+- Mouad Kondah
+Topic : Bypassing malware detectors using GAN (Generative Adversarial Networks)
+- Attila Nacsa & Pavlos Tserevelakis
+Topic : Buffer Overflow Attacks
+
+
+November 13 :
+- Sidharth Kaliappan
+Topic : Biometric Encryption
+- Quentin Rivollat
+Topic : Online Voting
+
