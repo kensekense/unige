@@ -1,5 +1,6 @@
 # Metaheuristics for Optimization TP6
 Ning, Tientso
+
 05 December, 2019
 
 
@@ -30,13 +31,38 @@ First, from the image, it is clear that the function to minimize is very difficu
 ![3D Visualization of Function to be Minimized](./3dvisualization.png)
 
 ## Evaluating Probabilities of Mutation and Crossover
-We tested two different probabilities of mutation Pm: 0.01 and 0.1, with and without crossover.
+We tested two different probabilities of mutation Pm: 0.01 and 0.1, with and without crossover. Notice that with Crossover, the optimal results are a lot more consistently achieved (lower standard deviation). More generations are also needed to reach the optimal value without Crossover compared to with Crossover on average.
 
-## Average Number of Generations
-We first find the average value of the optimized value.
-Then we obtained the average number of generations in order to find the optimized value.
+Pm | Crossover | Fitness Value (Average) | Standard Deviation | Generations Needed |
+---| --- | --- | --- | --- |
+0.01 | Yes | -1204.23728995693 | 55.58222861266148 | 4 |
+0.01 | No | -1223.789902736334 | 80.09378111521951 | 7 |
+0.1 | Yes | -1206.1751236258588 | 67.08231777585186 | 4 |
+0.1 | No | -1239.4388767060482 | 69.86392291555003 | 7 |
+
+(Table 1: Fitness Values with differing Pm and Crossover)
 
 ## Success Rate and Cumulative Empirical Probability
+The success rate of the algorithm is the number of executions where the algorithm found an optimal solution divided by the total number of executions. From the results, we can see that the algorithm was able to achieve the optimal results after an increased number of fitness evaluations. We can also see that the results (although not optimal) in the first few trials are mostly within 1% of the optimal solution, showing that our algorithm gets close to the optimal even with lower fitness evaluation counts (iterations).
+
+Fitness Evaluations | Success Rate |
+--- | --- |
+1000 | 0.2 |
+10000 | 0.8 |
+100000 | 1.0 |
+
+(Table 2: The success rate of the algorithm)
+
+Fitness Evaluations | Solution Quality | Success Rate |
+--- | --- | --- |
+1000 | 0.1 | 0.9
+10000 | 0.1 | 1.0
+100000 | 0.1 | 1.0
+1000 | 0.25 | 1.0
+10000 | 0.25 | 1.0
+100000 | 0.25 | 1.0
+
+(Table 3: The success rate of the algorithm achieving 1.0% and 2.5% Solution Quality)
 
 # Conclusion
 Our algorithm was able to reasonably optimize a very difficult to optimize function, by encoding the problem in a way to simulate a population of individuals evolving over time, utilizing the Genetic Algorithm approach.
