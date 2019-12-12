@@ -2,15 +2,16 @@
 
 <b> Time Estimation: 72 Hours </b>
 
+(Confirmed by Professor Chopard)
 ### Format for the Exam
 1. Oral Exam
-2. Allowed Preparation Time
-3. 20+ minutes to present the chapter selected
+2. Allowed Preparation Time 20 minutes, <b> no notes allowed </b>
+3. 20 minutes to present the chapter selected
 
 ### Considerations
 1. Should do single page overviews for each topic for subpoint 2 above
 2. Should do recordings on presentation for each chapter
-3. Consider the chapters not directly related to the TP
+3. Consider the chapters not directly related to the TP (chap 10)
 
 ## Taboo Search
 (TP2)

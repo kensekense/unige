@@ -4,6 +4,8 @@
 
 ### Format for Exam
 1. Written Exam
+2. 4 hours allotted
+3. no notes
 
 ### Considerations
 1. Should expect the questions to be similar in nature to TP5
