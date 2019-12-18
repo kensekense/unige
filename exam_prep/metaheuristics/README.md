@@ -39,11 +39,13 @@
 (TP7)
 (Chapter 9)
 
+## Phase Transitions
+(Chapter 10)
+
 ## NK Hill-Climbing and Search Space Considerations
 (TP1)
 (Chapter 2)
 
 ## Other Material
-(Chapter 10)
 (Chapter 11)
 (Chapter 12)
