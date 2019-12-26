@@ -26,3 +26,4 @@
 
 5. Detection Theory
 - same as above
+- lots of cool applications here
