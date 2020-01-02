@@ -37,7 +37,7 @@
 
 
 ## REVISIT LIST:
-- <b>viterbi implementation</b> (check the code and solution, just for the knowledge)
-- <b>cyk implementation</b> (check the code and solution)
+- ~~<b>viterbi implementation</b> (check the code and solution, just for the knowledge)~~
+- ~~ <b>cyk implementation</b> (check the code and solution) ~~
 - <b>parse tree generating</b> (need to know how to answer the 3rd question from TP5 with generating the parse tree from the grammar, is it possible by hand, and what is the process if so?)
 - <b>SVD deep dive</b> (we need it in context of semantic space, but also benefit from the mathematics and completeness)
