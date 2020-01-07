@@ -62,5 +62,5 @@
 - authentication schemes
 
 
-## Presentations
-Check materials provided
+## ~~ Presentations ~~
+~~ Check materials provided ~~

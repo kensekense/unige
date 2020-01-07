@@ -31,7 +31,7 @@
 - find any and all exercises for calculations, but I doubt there will be many to calculate by hand
 - need to spend decent amount of time here (90-150 minutes)
 
-5. Etc information
+~~ 5. Etc information ~~
 - anything that we can find that we can expect to be on the exam in terms of exercises or calculation should be evaluated at a later date
 - estimated (60 minutes)
 
